@@ -1,4 +1,8 @@
-const THEME_STORAGE_KEY = 'bluehaven-theme';
+const themeConfig = window.themeToggleConfig ?? window.distributorConfig?.theme ?? {};
+const THEME_STORAGE_KEY = themeConfig.storageKey || 'bluehaven-theme';
+const TOGGLE_SELECTOR = themeConfig.toggleSelector || '[data-theme-toggle]';
+const LABEL_SELECTOR = themeConfig.labelSelector || themeConfig.textSelector || '[data-theme-toggle-text]';
+const THEME_ENABLED = themeConfig.enabled !== false;
 
 const applyThemePreference = (theme, toggles, options = {}) => {
   const { persist = true } = options;
@@ -19,7 +23,7 @@ const applyThemePreference = (theme, toggles, options = {}) => {
   const isLight = normalizedTheme === 'light';
 
   toggleElements.forEach((toggle) => {
-    const label = toggle.querySelector('[data-theme-toggle-text]');
+    const label = LABEL_SELECTOR ? toggle.querySelector(LABEL_SELECTOR) : null;
     toggle.setAttribute('aria-pressed', isLight.toString());
     toggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
     if (label) {
@@ -29,7 +33,8 @@ const applyThemePreference = (theme, toggles, options = {}) => {
 };
 
 const initThemeToggle = () => {
-  const toggles = Array.from(document.querySelectorAll('[data-theme-toggle]'));
+  if (!THEME_ENABLED) return;
+  const toggles = Array.from(document.querySelectorAll(TOGGLE_SELECTOR));
   if (!toggles.length) return;
 
   const readStoredTheme = () => {

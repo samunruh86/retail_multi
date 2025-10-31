@@ -16,6 +16,7 @@ const resetButtons = Array.from(document.querySelectorAll('[data-reset]'));
 const state = {
   categories: [],
   activeMain: null,
+  expandedMain: null,
   productsCache: new Map(),
   metaCache: new Map(),
   allProducts: [],
@@ -40,6 +41,8 @@ const formatCurrency = (value) => {
   }).format(value);
 };
 
+const integerFormatter = new Intl.NumberFormat('en-US');
+
 const cssEscape = (value) => {
   if (window.CSS && typeof window.CSS.escape === 'function') {
     return window.CSS.escape(value);
@@ -53,6 +56,7 @@ const loadCategories = async () => {
   const data = await response.json();
   state.categories = data;
   state.activeMain = data[0]?.cat_main_id ?? null;
+  state.expandedMain = state.activeMain;
   renderMainCategories();
   if (state.activeMain) {
     await loadProductsForCategory(state.activeMain);
@@ -65,20 +69,37 @@ const renderMainCategories = () => {
   state.categories.forEach((category) => {
     const wrapper = document.createElement('div');
     wrapper.className = 'catalog-category-main';
-    if (category.cat_main_id === state.activeMain) {
-      wrapper.classList.add('is-active');
-    }
+    const isActive = category.cat_main_id === state.activeMain;
+    const isExpanded = category.cat_main_id === state.expandedMain;
+    if (isActive) wrapper.classList.add('is-active');
+    if (isExpanded) wrapper.classList.add('is-expanded');
 
     const button = document.createElement('button');
     button.type = 'button';
+    button.className = 'catalog-category-main__trigger';
     button.dataset.catMain = category.cat_main_id;
+    const panelId = `catalog-panel-${category.cat_main_id}`;
+    const triggerId = `catalog-trigger-${category.cat_main_id}`;
+    button.id = triggerId;
+    button.setAttribute('aria-controls', panelId);
+    button.setAttribute('aria-expanded', String(isExpanded));
     button.innerHTML = `
-      <span>${category.category_main}</span>
-      <span>${category.products}</span>
+      <span class="catalog-category-main__label">
+        <span class="catalog-category-main__name">${category.category_main}</span>
+      </span>
+      <span class="catalog-category-main__meta">
+        <span class="catalog-category-main__count">${category.products}</span>
+        <span class="catalog-category-main__chevron" aria-hidden="true"></span>
+      </span>
     `;
     button.addEventListener('click', async () => {
-      if (state.activeMain === category.cat_main_id) return;
+      if (state.activeMain === category.cat_main_id) {
+        state.expandedMain = state.expandedMain === category.cat_main_id ? null : category.cat_main_id;
+        renderMainCategories();
+        return;
+      }
       state.activeMain = category.cat_main_id;
+      state.expandedMain = category.cat_main_id;
       state.filters.subs.clear();
       state.filters.brands.clear();
       state.filters.rating = null;
@@ -91,6 +112,10 @@ const renderMainCategories = () => {
 
     const subList = document.createElement('div');
     subList.className = 'catalog-subcategory-list';
+    subList.id = panelId;
+    subList.setAttribute('role', 'region');
+    subList.setAttribute('aria-labelledby', triggerId);
+    subList.setAttribute('aria-hidden', String(!isExpanded));
     category.subs.forEach((sub) => {
       const label = document.createElement('label');
       label.className = 'catalog-checkbox';
@@ -104,6 +129,7 @@ const renderMainCategories = () => {
         <span class="catalog-checkbox__count">${sub.products}</span>
       `;
       const input = label.querySelector('input');
+      input.checked = state.filters.subs.has(sub.cat_sub_id);
       input.addEventListener('change', () => {
         if (input.checked) {
           state.filters.subs.add(sub.cat_sub_id);
@@ -320,14 +346,14 @@ const renderResultCount = (shown) => {
   const meta = state.metaCache.get(state.activeMain);
   const categoryName = meta?.category_main || 'All Products';
   const querySummary = (() => {
-    if (!state.filters.subs.size) return `'${categoryName}'`;
+    if (!state.filters.subs.size) return categoryName;
     const subNames = meta?.subs
       ?.filter((sub) => state.filters.subs.has(sub.cat_sub_id))
       .map((sub) => sub.category_sub);
-    return subNames?.length ? subNames.join(', ') : `'${categoryName}'`;
+    return subNames?.length ? subNames.join(', ') : categoryName;
   })();
 
-  resultCountEl.innerHTML = `Showing <strong>${shown}</strong> results from total <strong>${state.totalProducts}</strong> for <strong>${querySummary}</strong>`;
+  resultCountEl.innerHTML = `<strong>${state.totalProducts}</strong> products · Showing <strong>${shown}</strong> for <strong>${querySummary}</strong>`;
 };
 
 const renderAppliedFilters = () => {
@@ -415,16 +441,36 @@ const renderProducts = () => {
       pageProducts.forEach((product) => {
         const card = document.createElement('article');
         card.className = 'catalog-product-card';
+        const badgeLabel = (() => {
+          if (typeof product.volume === 'number' && product.volume >= 1200) return 'Top Seller';
+          if (typeof product.reviews === 'number' && product.reviews >= 1000) return 'Popular';
+          if (typeof product.rating === 'number' && product.rating >= 4.7) return 'Best Rated';
+          return '';
+        })();
+        const hasReviews = typeof product.reviews === 'number' && product.reviews > 0;
+        const reviewsLabel = hasReviews
+          ? `${integerFormatter.format(product.reviews)} review${product.reviews === 1 ? '' : 's'}`
+          : 'No reviews yet';
+        const ratingValue = typeof product.rating === 'number' ? product.rating.toFixed(1) : '–';
+        const ratingAria = typeof product.rating === 'number' ? `Rated ${ratingValue} out of 5 stars` : 'No rating available';
         card.innerHTML = `
-          <img src="${product.image}" alt="${product.title}" loading="lazy">
-          <div class="catalog-product-card__brand">${product.brand ?? 'Unknown brand'}</div>
-          <h3 class="catalog-product-card__title">${product.title}</h3>
-          <div class="catalog-product-card__meta">
-            <span class="catalog-product-card__price">${formatCurrency(product.price ?? 0)}</span>
-            <span class="catalog-product-card__rating">
-              ${product.rating ? `${product.rating.toFixed(1)}★` : '–'}
-              <span>(${product.reviews ?? 0})</span>
-            </span>
+          <div class="catalog-product-card__media">
+            <img src="${product.image}" alt="${product.title}" loading="lazy">
+            ${badgeLabel ? `<span class="catalog-product-card__badge">${badgeLabel}</span>` : ''}
+          </div>
+          <div class="catalog-product-card__details">
+            <div class="catalog-product-card__brand-row">
+              <span class="catalog-product-card__brand">${product.brand ?? 'Unknown brand'}</span>
+              <span class="catalog-product-card__reviews">${reviewsLabel}</span>
+            </div>
+            <h3 class="catalog-product-card__title">${product.title}</h3>
+            <div class="catalog-product-card__footer">
+              <span class="catalog-product-card__price">${formatCurrency(product.price ?? 0)}</span>
+              <span class="catalog-product-card__rating" aria-label="${ratingAria}">
+                <span class="catalog-product-card__star" aria-hidden="true">★</span>
+                <span class="catalog-product-card__rating-value">${ratingValue}</span>
+              </span>
+            </div>
           </div>
         `;
         productsGridEl.appendChild(card);

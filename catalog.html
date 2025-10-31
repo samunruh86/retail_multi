@@ -7,10 +7,11 @@
     <link rel="icon" href="assets/media/favicon.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/catalog.css">
+    <script src="theme.config.js" defer></script>
     <script src="assets/main.js" defer></script>
     <script src="assets/catalog.js" defer></script>
   </head>
-  <body class="body theme-light catalog-body">
+  <body class="body theme-dark catalog-body">
     <div data-animation="default" class="navbar_component navbar w-nav" data-easing2="ease-out" data-easing="ease-in-out" data-collapse="medium" role="banner" data-duration="700">
       <section class="container_medium">
         <div class="mobile-nav_component">
@@ -27,7 +28,7 @@
               <a href="index.html#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Let's Connect</a>
             </div>
             <div class="mobile-theme-toggle">
-              <button type="button" class="theme-toggle theme-toggle--mobile" data-theme-toggle aria-pressed="true" aria-label="Switch to dark mode">
+              <button type="button" class="theme-toggle theme-toggle--mobile" aria-pressed="true" aria-label="Switch to dark mode">
                 <span class="theme-toggle__indicator" aria-hidden="true">
                   <span class="theme-toggle__thumb"></span>
                 </span>
@@ -68,7 +69,7 @@
           </div>
         </div>
         <div class="nav_theme w-embed">
-          <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="true" aria-label="Switch to dark mode">
+          <button type="button" class="theme-toggle" aria-pressed="true" aria-label="Switch to dark mode">
             <span class="theme-toggle__indicator" aria-hidden="true">
               <span class="theme-toggle__thumb"></span>
             </span>
@@ -81,7 +82,7 @@
 
     <main class="catalog-page">
       <header class="catalog-hero">
-        <div class="catalog-shell">
+        <div class="catalog-hero-shell">
           <div class="catalog-hero-content">
             <div class="sub_header teal">Product Catalog</div>
             <h1 class="heading-25">Explore <strong>Curated Inventory</strong> Across Our Marketplace Network</h1>
@@ -141,28 +142,30 @@
         </aside>
 
         <div class="catalog-main">
-          <div class="catalog-sort-bar">
-            <div class="catalog-sort-bar__meta">
-              <span class="catalog-result-count" data-result-count>Loading products…</span>
-            </div>
-            <div class="catalog-sort-bar__controls">
-              <div class="catalog-applied-filters" data-applied-filters></div>
-              <div class="catalog-sort-select">
-                <label for="catalog-sort">Sort by</label>
-                <select id="catalog-sort" data-sort-select>
-                  <option value="popularity">Popularity</option>
-                  <option value="price-asc">Price: Low to High</option>
-                  <option value="price-desc">Price: High to Low</option>
-                  <option value="rating-desc">Rating: High to Low</option>
-                  <option value="reviews-desc">Reviews: High to Low</option>
-                </select>
+          <div class="catalog-main-surface">
+            <div class="catalog-sort-bar">
+              <div class="catalog-sort-bar__meta">
+                <span class="catalog-result-count" data-result-count>Loading products…</span>
+              </div>
+              <div class="catalog-sort-bar__controls">
+                <div class="catalog-applied-filters" data-applied-filters></div>
+                <div class="catalog-sort-select">
+                  <label for="catalog-sort">Sort by</label>
+                  <select id="catalog-sort" data-sort-select>
+                    <option value="popularity">Popularity</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Rating: High to Low</option>
+                    <option value="reviews-desc">Reviews: High to Low</option>
+                  </select>
+                </div>
               </div>
             </div>
+
+            <div class="catalog-products-grid" data-products-grid></div>
+
+            <div class="catalog-pagination" data-pagination></div>
           </div>
-
-          <div class="catalog-products-grid" data-products-grid></div>
-
-          <div class="catalog-pagination" data-pagination></div>
         </div>
       </section>
     </main>
