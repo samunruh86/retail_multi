@@ -2,7 +2,7 @@
     "meta": {
         "category_main": "Electronics",
         "cat_main_id": "main_9ca91",
-        "products": 574,
+        "products": 586,
         "relevancy": 25,
         "subs": [
             {
@@ -10,28 +10,28 @@
                 "category_sub": "Laptop Chargers & Adapters",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_c005f",
-                "products": 72
+                "products": 75
             },
             {
                 "category_main": "Electronics",
                 "category_sub": "Earbud & In-Ear Headphones",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_c4712",
-                "products": 44
+                "products": 42
             },
             {
                 "category_main": "Electronics",
                 "category_sub": "Portable Bluetooth Speakers",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_78821",
-                "products": 28
+                "products": 29
             },
             {
                 "category_main": "Electronics",
                 "category_sub": "Over-Ear Headphones",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_1cb66",
-                "products": 23
+                "products": 24
             },
             {
                 "category_main": "Electronics",
@@ -59,38 +59,25 @@
                 "category_sub": "Car On-Dash Mounted Cameras",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_70c1e",
-                "products": 13
-            },
-            {
-                "category_main": "Electronics",
-                "category_sub": "On-Ear Headphones",
-                "cat_main_id": "main_9ca91",
-                "cat_sub_id": "sub_962ef",
-                "products": 12
+                "products": 15
             },
             {
                 "category_main": "Electronics",
                 "category_sub": "Open-Ear Headphones",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_feacf",
-                "products": 12
+                "products": 14
+            },
+            {
+                "category_main": "Electronics",
+                "category_sub": "On-Ear Headphones",
+                "cat_main_id": "main_9ca91",
+                "cat_sub_id": "sub_962ef",
+                "products": 11
             }
         ]
     },
     "products": [
-        {
-            "upc": "792933713057",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_c005f",
-            "brand_id": "9bf6d569",
-            "brand": "SZ96W",
-            "title": "Mac Book Air Charger, 45W Magnetic Mag2 T-Tip Laptop Charger Suitable for Mac Book Air 11 inch and 13 inch After Mid 2012(Applicable to 2012-2017)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31X8SpmO6WL.jpg",
-            "price": 18.99,
-            "reviews": 843,
-            "rating": 4.6,
-            "volume": 4500
-        },
         {
             "upc": "789844589154",
             "cat_main_id": "main_9ca91",
@@ -103,19 +90,6 @@
             "reviews": 2403,
             "rating": 4.2,
             "volume": 3770
-        },
-        {
-            "upc": "748691759769",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_c4712",
-            "brand_id": "a0564436",
-            "brand": "FCV",
-            "title": "Wired Earphones for iPhone Earbuds with Lightning Connector Plug&Play Built-in Microphone & Remote Control Headsets Compatible with iPhone 14/13/12/11/XR/XS/X/8/SE/Pro/Pro Max Ear Buds Corded Headsets",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/318fx7UbqVL.jpg",
-            "price": 14.21,
-            "reviews": 277,
-            "rating": 4.0,
-            "volume": 5181
         },
         {
             "upc": "794094161005",
@@ -157,30 +131,17 @@
             "volume": 2749
         },
         {
-            "upc": "850005589105",
+            "upc": "850005589655",
             "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_962ef",
+            "cat_sub_id": "sub_1cb66",
             "brand_id": "eaadf51c",
             "brand": "ARTIX",
-            "title": "ARTIX CL750 Wired Headphones with Mic & Volume Control \u2014 Noise Isolating On-Ear Headphones for Computer and Laptop Wired, Plug in Corded Headphone Over Ear with Wire (Foldable, Aux Jack 3.5mm)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41HJWFzF28L.jpg",
-            "price": 30.23,
+            "title": "ARTIX CL750 On-Ear Headphones Wired with Mic and Volume Control \u2014 Noise Isolating Corded Over Ear Headphones with Microphone for Laptop and Computer, Plug in Headset with Cord (Aux Jack 3.5mm)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41rnJd+fAyL.jpg",
+            "price": 35.51,
             "reviews": 3218,
             "rating": 4.3,
-            "volume": 2131
-        },
-        {
-            "upc": "709450599699",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_c4712",
-            "brand_id": "aa58a7ee",
-            "brand": "KTGEE",
-            "title": "KTGEE Wireless Earbuds Bluetooth 5.3 Headphones, 40Hrs Playback Stereo Ear Buds with LED Display Charging Case IPX7 Waterproof in-Ear Earphones with Mic for Phone Tablet Laptop Sports, White",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/317uRzfw6PL.jpg",
-            "price": 16.3,
-            "reviews": 1494,
-            "rating": 4.4,
-            "volume": 12497
+            "volume": 303
         },
         {
             "upc": "738956159250",
@@ -246,19 +207,6 @@
             "reviews": 1194,
             "rating": 4.7,
             "volume": 1847
-        },
-        {
-            "upc": "789844895781",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_c4712",
-            "brand_id": "45bae435",
-            "brand": "LWZCAM",
-            "title": "Wired Earbuds with Microphone 5 Pack, in-Ear Headphones with Heavy Bass, High Sound Quality Earphones Compatible with iPad, Laptop, MP3, Android Smartphones, Fits All 3.5mm Jack Device",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51mEIvqi2fL.jpg",
-            "price": 12.27,
-            "reviews": 1565,
-            "rating": 4.1,
-            "volume": 4071
         },
         {
             "upc": "774491466149",
@@ -573,17 +521,17 @@
             "volume": 575
         },
         {
-            "upc": "850034802640",
+            "upc": "850034802633",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_1cb66",
             "brand_id": "2fd2640b",
             "brand": "CozyPhones",
-            "title": "Toddler Headphones Wireless, Kids Bluetooth Earphones, Safe Volume - Wired School Headphones for Kids with 3.5 MM Jack and Travel Bag - Toddler Airplane Accessories for Boys & Girls - Panda",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51qXqjQtlCL.jpg",
-            "price": 26.89,
+            "title": "Toddler Headphones Wireless, Kids Bluetooth Earphones, Safe Volume - Wired School Headphones for Kids with 3.5 MM Jack and Travel Bag - Toddler Airplane Accessories for Boys & Girls - Pink Unicorn",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51s8byLSdIL.jpg",
+            "price": 27.39,
             "reviews": 184,
             "rating": 4.1,
-            "volume": 205
+            "volume": 320
         },
         {
             "upc": "751565161360",
@@ -768,17 +716,17 @@
             "volume": 588
         },
         {
-            "upc": "767461319194",
+            "upc": "652805962146",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_c005f",
             "brand_id": "c5da593b",
             "brand": "YOXYDIF",
-            "title": "YOXYDIF 65W 45 Watt AC Adapter Compatible with Dell Laptop Charger USB C Computer Latitude 5420 7420 5540 5440 3540 7440 5450 5430 5520 5530 7430 E5430 E5440,XPS 13 Type C Power Cord",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31TcS3GVpPL.jpg",
-            "price": 21.88,
+            "title": "YOXYDIF 130W AC Adapter Compatible with Dell Laptop Computer Charger USB C for XPS 15 17 9500 9520 9570 9575 9730 9530 Precision 5550 5560 3560 3570 3571 2in1 Latitude Type C Power Cord",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41shmNkTFhL.jpg",
+            "price": 27.88,
             "reviews": 473,
             "rating": 4.1,
-            "volume": 208
+            "volume": 405
         },
         {
             "upc": "013292005905",
@@ -1249,17 +1197,17 @@
             "volume": 235
         },
         {
-            "upc": "709870704932",
+            "upc": "709870704925",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_962ef",
             "brand_id": "f751fd46",
             "brand": "LilGadgets",
-            "title": "LilGadgets Connect+ Foldable Kids Headphones for School - On-Ear Wired Headphones with Mic - Volume Limited, Noise Reduction & SoftTouch Padding - SharePort Technology for Multiple Kids - Pink",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41pRPIh0JkL.jpg",
-            "price": 21.08,
+            "title": "LilGadgets Connect+ Foldable Kids Headphones for School - On-Ear Wired Headphones with Mic - Volume Limited, Noise Reduction & SoftTouch Padding - SharePort Technology for Multiple Kids - Black",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41J-hRzg10L.jpg",
+            "price": 21.06,
             "reviews": 6371,
             "rating": 4.4,
-            "volume": 316
+            "volume": 207
         },
         {
             "upc": "192589530242",
@@ -1301,19 +1249,6 @@
             "volume": 181
         },
         {
-            "upc": "766623177481",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_962ef",
-            "brand_id": "6750aea3",
-            "brand": "MANHATTAN",
-            "title": "Manhattan On-Ear Wired Stereo Headphone - Long 6ft Cable, Single 3.5mm Plug, Lightweight, Adjustable Headband\u2013for Walkman, CD Player, Computer -177481",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/316u1ayzt0L.jpg",
-            "price": 12.04,
-            "reviews": 1608,
-            "rating": 4.0,
-            "volume": 244
-        },
-        {
             "upc": "780460142358",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_c4712",
@@ -1325,6 +1260,19 @@
             "reviews": 147,
             "rating": 4.0,
             "volume": 187
+        },
+        {
+            "upc": "766623177481",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_962ef",
+            "brand_id": "6750aea3",
+            "brand": "MANHATTAN",
+            "title": "Manhattan On-Ear Wired Stereo Headphone - Long 6ft Cable, Single 3.5mm Plug, Lightweight, Adjustable Headband\u2013for Walkman, CD Player, Computer -177481",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/316u1ayzt0L.jpg",
+            "price": 12.04,
+            "reviews": 1608,
+            "rating": 4.0,
+            "volume": 244
         },
         {
             "upc": "852837007642",
@@ -1639,17 +1587,17 @@
             "volume": 246
         },
         {
-            "upc": "631924696354",
+            "upc": "678067405603",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_78821",
             "brand_id": "54dc2bfa",
             "brand": "EBODA",
-            "title": "EBODA Shower Bluetooth Speaker, IPX7 Waterproof Portable Floating Speakers with Loud HD Sound, True Wireless Stereo Speaker with LED Light, 24H Play for Shower Pool Beach, Gifts for Men, Women - Gray",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51RcgN-bcRL.jpg",
-            "price": 26.23,
+            "title": "EBODA Waterproof Bluetooth Shower Speaker, IPX7 Floating Portable Wireless Small Speakers, 24H Playtime with RGB Light for Kayak, Beach, Pool Accessories, Gifts for unisex -Sky Blue",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51Hz2-Z6HaL.jpg",
+            "price": 26.62,
             "reviews": 3199,
             "rating": 4.5,
-            "volume": 108
+            "volume": 105
         },
         {
             "upc": "850050549109",
@@ -1678,17 +1626,17 @@
             "volume": 244
         },
         {
-            "upc": "719281868802",
+            "upc": "719281868741",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_c4712",
             "brand_id": "57726b3d",
             "brand": "TREBLAB",
-            "title": "TREBLAB X3 Pro - Workout True Wireless Earbuds, Comfortable Earhooks, Bluetooth 5.3, Punchy Bass, Noise Isolation, 145H Playtime, IPX5 Waterproof, Sweatproof, 2 Mics for Calls, Sport Bluetooth Earbuds",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41DBZoqT6YL.jpg",
-            "price": 64.86,
+            "title": "TREBLAB X3 Pro - Ultra Comfortable Earhooks, Pure-HD Sound, Punchy Bass, 145H Battery, Waterproof & Sweatproof Bluetooth Earbuds, Mics for Calls, True Wireless Ear Buds for Sports Workout Running",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41eF7oGoTAL.jpg",
+            "price": 64.83,
             "reviews": 1430,
             "rating": 4.1,
-            "volume": 520
+            "volume": 117
         },
         {
             "upc": "680585160964",
@@ -2224,17 +2172,17 @@
             "volume": 193
         },
         {
-            "upc": "768490517216",
+            "upc": "768490517032",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_fbe9e",
             "brand_id": "9880a949",
             "brand": "Monowul",
-            "title": "Smart Watch for Kids, 1.85\" Fitness Tracker with Heart Rate, Sleep Monitor, IP68 Waterproof Smartwatches with Video Music, Pedometer, Game, NO APP/Phone, Gift for Boys Girls. (Classic, Blue)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41Ab+rYIXwL.jpg",
-            "price": 28.69,
+            "title": "Smart Watch for Kids, 1.85\" Fitness Tracker with Heart Rate, Sleep Monitor, IP68 Waterproof Smartwatches with Video Music, Pedometer, Game, NO APP/Phone, Gift for Boys Girls. (Classic, Pink)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41u7CwgPKnL.jpg",
+            "price": 28.56,
             "reviews": 114,
             "rating": 4.5,
-            "volume": 104
+            "volume": 518
         },
         {
             "upc": "708214218647",
@@ -3082,14 +3030,14 @@
             "volume": 154
         },
         {
-            "upc": "756166903043",
+            "upc": "762736139880",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_fbe9e",
             "brand_id": "5698a980",
             "brand": "Choiknbo",
-            "title": "Choiknbo Smart Watch for Women Fitness Tracker Watch for Android/iOS Phones, Activity Trackers and Smartwatches with Heart Rate/Sleep Monitor, Step Counter, Waterproof Smart Watches",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41aS9Q47LWL.jpg",
-            "price": 20.29,
+            "title": "Choiknbo Smart Fitness Tracker Watch with Heart Rate Monitor, Activity Tracker with Pedometer, Sleep Monitor, Calories & Step Counter, Waterproof Smart Watch for Women Men Fitness Watch for Sports",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41GsreWLR2L.jpg",
+            "price": 20.24,
             "reviews": 724,
             "rating": 4.1,
             "volume": 124
@@ -3186,6 +3134,32 @@
             "volume": 144
         },
         {
+            "upc": "705888160876",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_c005f",
+            "brand_id": "304fd22b",
+            "brand": "Deuanr",
+            "title": "65W Laptop Charger Fit for Dell Latitude 5290 5400 5490 5590 7290 7480 7490 E5440 E5470 E6540 E7440 E7450 E7250 E6440 E6430 LA65NM130 19.5V 3.34A 7.4 * 5.0mm Tip AC Adapter Power Cord",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41dMlrQ2dQL.jpg",
+            "price": 21.99,
+            "reviews": 19,
+            "rating": 4.7,
+            "volume": 142
+        },
+        {
+            "upc": "786443420567",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_feacf",
+            "brand_id": "7df50b6e",
+            "brand": "sunshot",
+            "title": "Ows Hanging Earphones 5.4 Bluetooth , Air Conduction Wireless Bluetooth Earphone, Bluetooth BT 5.4 Low Latency, Open Ear Headphones IPX5 Waterproof and Noise Reducing Touch Sports Earphones Purple",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/3114+YIkuLL.jpg",
+            "price": 22.71,
+            "reviews": 49,
+            "rating": 4.2,
+            "volume": 141
+        },
+        {
             "upc": "730763920443",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_962ef",
@@ -3197,6 +3171,32 @@
             "reviews": 181,
             "rating": 4.3,
             "volume": 140
+        },
+        {
+            "upc": "760689501440",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_70c1e",
+            "brand_id": "653fa34a",
+            "brand": "USHJNV",
+            "title": "USHJNV 4K+2K Car Dash Cam Front and Rear, 2 Channel Dual Dash Camera 64G Card, Advanced Star-Level Night Vision,24H Parking Mode,Loop Recording,G-Sensors,3.16\" Screen, 5GHz WiFi & APP Control",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41kKYdcKvcL.jpg",
+            "price": 40.92,
+            "reviews": 54,
+            "rating": 4.2,
+            "volume": 138
+        },
+        {
+            "upc": "606794957355",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_c005f",
+            "brand_id": "59ab1af3",
+            "brand": "Nicpower",
+            "title": "65W 45W Charger Fit for Lenovo Thinkbook 14 14s 16 15 13x 13s Plus G1 G2 G3 G4 G4+ G6 G7 Laptop, UL Certified Safety, USB C Power Supply Adapter",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31Jw26HIqYS.jpg",
+            "price": 21.82,
+            "reviews": 541,
+            "rating": 4.4,
+            "volume": 137
         },
         {
             "upc": "045235101184",
@@ -3212,17 +3212,30 @@
             "volume": 215
         },
         {
-            "upc": "606794957355",
+            "upc": "850048115330",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_70c1e",
+            "brand_id": "dccf8d3d",
+            "brand": "dutis",
+            "title": "Dash Cam Front and Rear Inside, 3-Channel 2.5K FHD Dash Camera for Cars with 2\" Screen, Wireless Dashcam with 5GHz WiFi, 64GB Card, Car Camera Front and Back, Auto IR Night Vision, HDR, G-Sensor",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51vjnx-Sq+L.jpg",
+            "price": 73.02,
+            "reviews": 35,
+            "rating": 4.6,
+            "volume": 133
+        },
+        {
+            "upc": "705888161033",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_c005f",
-            "brand_id": "59ab1af3",
-            "brand": "Nicpower",
-            "title": "65W 45W Charger Fit for Lenovo Thinkbook 14 14s 16 15 13x 13s Plus G1 G2 G3 G4 G4+ G6 G7 Laptop, UL Certified Safety, USB C Power Supply Adapter",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31Jw26HIqYS.jpg",
-            "price": 21.82,
-            "reviews": 541,
+            "brand_id": "304fd22b",
+            "brand": "Deuanr",
+            "title": "45W Round Tip Laptop Charger Fit for Dell Inspiron 13 14 15 3000 5000 7000 Series 15-3552 3555 3558 3565 3567 5551 5552 5555 5558 5559 DA45NM140 LA45NM140 19.5V 2.31A AC Adapter Power Cord",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51TF0gCDStL.jpg",
+            "price": 19.59,
+            "reviews": 33,
             "rating": 4.4,
-            "volume": 135
+            "volume": 131
         },
         {
             "upc": "744348422482",
@@ -3236,6 +3249,32 @@
             "reviews": 2295,
             "rating": 4.4,
             "volume": 129
+        },
+        {
+            "upc": "705888448288",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_c005f",
+            "brand_id": "0416264d",
+            "brand": "Smsutu",
+            "title": "65W Charger Compatible with Microsoft Surface Pro 9 8 7+ 7 6 5 4 3 X Surface Laptop 5 4 3 2 1 Fit for Model 1706 1950 1943 1876 1800 1958 1866 1873 1724 1963 1796 1769 Laptop Adapter Power",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31ynolHV7mL.jpg",
+            "price": 23.33,
+            "reviews": 86,
+            "rating": 4.4,
+            "volume": 125
+        },
+        {
+            "upc": "705888160852",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_c005f",
+            "brand_id": "304fd22b",
+            "brand": "Deuanr",
+            "title": "65W Laptop Charger Fit for Dell inspiron 13 14 15 17 3000 5000 7000 Series 3565 3567 3576 5558 5755 7212 7506 2in1 5555 5559 0G6J41 0MGJN9 19.5V 3.34A Tip 4.5mm Power Adapter (65W)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/518-gqDn20L.jpg",
+            "price": 19.93,
+            "reviews": 21,
+            "rating": 4.4,
+            "volume": 121
         },
         {
             "upc": "850054661012",
@@ -3264,6 +3303,19 @@
             "volume": 110
         },
         {
+            "upc": "666791047626",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_78821",
+            "brand_id": "0809ddef",
+            "brand": "Fopudy",
+            "title": "Gifts for Dad Boyfriend,Cell Phone Stand with Wireless Bluetooth Speaker,HD Surround Sound Bluetooth Speaker for Home Kitchen and Outdoors Compatible with Mobile Phone, Gifts for Men Women(Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41Y2ARxLDVL.jpg",
+            "price": 19.99,
+            "reviews": 16,
+            "rating": 5.0,
+            "volume": 115
+        },
+        {
             "upc": "643459638532",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_aaa6f",
@@ -3277,17 +3329,43 @@
             "volume": 112
         },
         {
-            "upc": "643459645486",
+            "upc": "768365476457",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_feacf",
+            "brand_id": "f79503c3",
+            "brand": "Hostena",
+            "title": "Swimming Headphones IP68 Waterproof, Open Ear Bone Conduction Headphones Bluetooth 5.4 with 32GB MP3 Player, Secure Comfort Underwater Swim Earbuds for Jogging Cycling Fitness-SurfAudio(Jet-black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41E3eSuJTFL.jpg",
+            "price": 70.82,
+            "reviews": 25,
+            "rating": 4.0,
+            "volume": 202
+        },
+        {
+            "upc": "602581568100",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_c4712",
+            "brand_id": "176ae987",
+            "brand": "ZZU",
+            "title": "ZZU Wireless Earbuds, Bluetooth Ear Buds with Big Bass Stereo Sound, 48 Hours Playtime, Lightweight in-Ear Fit Earphones, IPX7, Hands-Free Calls with AI for iPhone, Android, Pad, Sports, Workout",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41PEsufnv2L.jpg",
+            "price": 31.26,
+            "reviews": 42,
+            "rating": 4.4,
+            "volume": 105
+        },
+        {
+            "upc": "643459645523",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_aaa6f",
             "brand_id": "163ac510",
             "brand": "DMKAOLLK",
-            "title": "68Wh 3HWPP Replacement Battery for Dell Latitude 5410 5510 5501 5401 5411 5511 Precision 3541 3551,Inspiron 7706 2-in-1, Inspiron 17 7500 7506 2-in-1 Black 03HWPP 10X1J N2NLL 1VY7F 451-BCMN 15.2V",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41uwiHc4-UL.jpg",
-            "price": 32.89,
+            "title": "53Wh H5CKD 15V Battery Replacement for Dell Inspiron 5400 5406 7405 7300 7306 7500 7506 2-in-1 Silver 5300 5301 5401 5402 5408 5409 5501 5502 5508 5509 Series Latitude 3410 3510 Vostro 5300 5301 7T8CD",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31nREtm5CNL.jpg",
+            "price": 34.19,
             "reviews": 364,
             "rating": 4.5,
-            "volume": 208
+            "volume": 210
         },
         {
             "upc": "794094160923",
@@ -3329,17 +3407,17 @@
             "volume": 515
         },
         {
-            "upc": "850005589020",
+            "upc": "850005589464",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_c4712",
             "brand_id": "a4300bc4",
             "brand": "Symphonized",
-            "title": "Symphonized iPhone Earphones Wired Deep Bass Sound, 3D Sound, Microphone Volume Control, 90% Noise Cancelling, Bubinga Wooden with Lightning (Apple MFI Certified), iPhone SE to 14 Earbuds (Black)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41s0NSmCviL.jpg",
-            "price": 47.18,
+            "title": "Symphonized Premium Wooden iPhone Earphones Wired (USB C) Deep Bass Sound, 3D Sound, Microphone Volume Control, 90% Noise Cancelling for Type C Devices. Earphones for iPhone 15 to 17 & Android (Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41aDz1z5TLL.jpg",
+            "price": 39.95,
             "reviews": 1634,
             "rating": 4.0,
-            "volume": 202
+            "volume": 316
         },
         {
             "upc": "850061365194",
@@ -3459,32 +3537,6 @@
             "volume": 1186
         },
         {
-            "upc": "612592582248",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "01c9fd7a",
-            "brand": "MEGATEK",
-            "title": "MEGATEK Region-Free HDMI DVD Player for TV, Compact CD/DVD Player for Smart TV, USB Port, Plays All Region DVDs & Multi Formats, Metal Housing, HDMI/RCA Cables & Remote Included",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41Qm+iBSREL.jpg",
-            "price": 39.99,
-            "reviews": 1881,
-            "rating": 4.4,
-            "volume": 6685
-        },
-        {
-            "upc": "702367220892",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "c191873e",
-            "brand": "Ingnok",
-            "title": "Ingnok Portable Monitor, Ultra Slim 15.6 Inch FHD IPS Laptop Screen Extender with Adjustable Stand, USB C Compatible, Ideal for Travel and Office",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51RZdOXVlGL.jpg",
-            "price": 74.69,
-            "reviews": 994,
-            "rating": 4.5,
-            "volume": 4363
-        },
-        {
             "upc": "779324864819",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -3589,17 +3641,17 @@
             "volume": 176
         },
         {
-            "upc": "702602192878",
+            "upc": "702602192854",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "fff0dd6c",
             "brand": "Lecnippy",
-            "title": "Digital Camera,Autofocus 4K Vlogging Camera for Photography with 32GB Card,48MP Portable Compact Point and Shoot Digital Camera for Teens Adult Beginner with 16X Zoom,Anti-Shake,2 Batteries(Pink)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51k8aXKGAlL.jpg",
-            "price": 62.47,
+            "title": "Digital Camera,Autofocus 4K Vlogging Camera for Photography with 32GB Card,48MP Portable Compact Point and Shoot Digital Camera for Teens Adult Beginner with 16X Zoom,Anti-Shake,2 Batteries(Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51QnKvbXtoL.jpg",
+            "price": 62.44,
             "reviews": 1003,
             "rating": 4.4,
-            "volume": 520
+            "volume": 1242
         },
         {
             "upc": "049500265274",
@@ -3691,19 +3743,6 @@
             "reviews": 175,
             "rating": 4.0,
             "volume": 2106
-        },
-        {
-            "upc": "850020240159",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "e5c2cc3f",
-            "brand": "Alestor",
-            "title": "Power Strip, ALESTOR Surge Protector with 12 Outlets and 4 USB Ports, 6 Feet Extension Cord (1875W/15A), 2700 Joules, ETL Listed, Black",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41PsJYHqW7L.jpg",
-            "price": 19.34,
-            "reviews": 3529,
-            "rating": 4.8,
-            "volume": 10357
         },
         {
             "upc": "749185499772",
@@ -3836,17 +3875,17 @@
             "volume": 1367
         },
         {
-            "upc": "679263979264",
+            "upc": "679263979257",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "1af5d780",
             "brand": "Chouky",
-            "title": "2 Pack Large Cable Management Box \u2013 Wooden Style Cord Organizer and Cover for TV Wires, Computer, Router, USB Hub and Under Desk Power Strip \u2013 Safe ABS Material and Baby-Pets Proof Lock (White)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41e-tIMrWuL.jpg",
-            "price": 28.98,
+            "title": "2 Pack Large Cable Management Box \u2013 Wooden Style Cord Organizer Box and Cover for TV Wires, Computer, Router, USB Hub and Under Desk Power Strip \u2013 Safe ABS Material and Baby-Pets Proof Lock (Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41wtt3XKEKL.jpg",
+            "price": 32.61,
             "reviews": 625,
             "rating": 4.5,
-            "volume": 1027
+            "volume": 330
         },
         {
             "upc": "850007667870",
@@ -4447,17 +4486,17 @@
             "volume": 1194
         },
         {
-            "upc": "086291344740",
+            "upc": "086291344726",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "aa0f5a3d",
             "brand": "GoodFixer",
-            "title": "[NO LCD] for iPad 7/8 (7th 8th Gen) Screen Replacement Digitizer Touch Glass 10.2\", for 7th 8th Generation A2197 A2198 A2200 A2270 A2428 A2429 A2430, Full Repair Kit+Home Button[TouchID NO Work]",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41g7dT6GyML.jpg",
+            "title": "[NO LCD] for iPad 7/8 (7th 8th Gen) Screen Replacement Digitizer Glass Repair Kit A2197 A2198 A2200 A2270 A2428 A2429 A2430, for iPad 7th 8th Generation 10.2\" Touchscreen Front Panel,+Home Button[TouchID NO Work]",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41y74aNaj2L.jpg",
             "price": 23.97,
             "reviews": 1274,
             "rating": 4.1,
-            "volume": 517
+            "volume": 113
         },
         {
             "upc": "810186881085",
@@ -4783,19 +4822,6 @@
             "reviews": 63,
             "rating": 4.2,
             "volume": 379
-        },
-        {
-            "upc": "797409264064",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "c202dc7c",
-            "brand": "BFADEHA",
-            "title": "BFADEHA 2025 [Apple MFi Certified] (iOS Only) Bluetooth Tracker Smart Finder for Apple Find My iPhone Card Wallet GPS Tracker, 5-10 Years Battery, Keys Finder and Item Locator for Keys, Bags, Passport",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/416vz-sJqcL.jpg",
-            "price": 18.41,
-            "reviews": 2453,
-            "rating": 4.5,
-            "volume": 10831
         },
         {
             "upc": "744348192606",
@@ -5461,17 +5487,17 @@
             "volume": 235
         },
         {
-            "upc": "745558450517",
+            "upc": "745558450593",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "ceb9c379",
             "brand": "Hootie",
-            "title": "Hootie Personal Safety Alarm, Personal Alarms for Women, Men, & Kids Personal Alarm - Keychain Alarm, Self Defense Alarm, Security Alarm Keychain 130dB Self Defense Siren & Strobe Light - Lavender",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31W8lRCsefL.jpg",
-            "price": 34.53,
+            "title": "Hootie Personal Safety Alarm for Women, Men, & Kids - Keychain Alarm, Self Defense Strobe & Siren, Security Siren Keychain with 130dB Self Defense Siren & Strobe Light - White",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31JnkHjtHGL.jpg",
+            "price": 34.39,
             "reviews": 444,
             "rating": 4.5,
-            "volume": 213
+            "volume": 423
         },
         {
             "upc": "774829691359",
@@ -6397,19 +6423,6 @@
             "volume": 191
         },
         {
-            "upc": "797435796454",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "2bf516c8",
-            "brand": "Ilford",
-            "title": "Ilford HP-5 Plus 400 35mm Black and White Professional Film, ISO 400, 24 Exposures, 3-Pack",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/410DztQ3YDL.jpg",
-            "price": 30.31,
-            "reviews": 158,
-            "rating": 4.7,
-            "volume": 190
-        },
-        {
             "upc": "658361202399",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -6421,6 +6434,19 @@
             "reviews": 57,
             "rating": 4.7,
             "volume": 508
+        },
+        {
+            "upc": "797435796454",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "2bf516c8",
+            "brand": "Ilford",
+            "title": "Ilford HP-5 Plus 400 35mm Black and White Professional Film, ISO 400, 24 Exposures, 3-Pack",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/410DztQ3YDL.jpg",
+            "price": 30.31,
+            "reviews": 158,
+            "rating": 4.7,
+            "volume": 190
         },
         {
             "upc": "652726562296",
@@ -6982,19 +7008,6 @@
             "volume": 156
         },
         {
-            "upc": "691835877228",
-            "cat_main_id": "main_9ca91",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "ebcc8051",
-            "brand": "Retrospekt",
-            "title": "Replacement Felt Pressure Pads for Cassette Tape Repair (30 Pieces)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41UcLqQi9CL.jpg",
-            "price": 12.0,
-            "reviews": 19,
-            "rating": 4.5,
-            "volume": 155
-        },
-        {
             "upc": "720153414232",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -7004,6 +7017,19 @@
             "image": "https://images-na.ssl-images-amazon.com/images/I/518D4zp7KzL.jpg",
             "price": 22.39,
             "reviews": 80,
+            "rating": 4.5,
+            "volume": 155
+        },
+        {
+            "upc": "691835877228",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "ebcc8051",
+            "brand": "Retrospekt",
+            "title": "Replacement Felt Pressure Pads for Cassette Tape Repair (30 Pieces)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41UcLqQi9CL.jpg",
+            "price": 12.0,
+            "reviews": 19,
             "rating": 4.5,
             "volume": 155
         },
@@ -7112,6 +7138,32 @@
             "volume": 147
         },
         {
+            "upc": "721678638097",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "bc8eda2c",
+            "brand": "PFNRTH",
+            "title": "PFNRTH Starlink Gen 3 Mount for Long Eaves,Adjustable Length(Up to 26 Inches),Heavy-Duty Aluminum Starlink Wall Mounting Kit,Compatible with V3 Starlink Standard Dish",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31qVI6+ZMNL.jpg",
+            "price": 49.99,
+            "reviews": 14,
+            "rating": 4.5,
+            "volume": 146
+        },
+        {
+            "upc": "787874022115",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "575b23d2",
+            "brand": "imbesel",
+            "title": "Adjustable Antenna Mounting Pole \u2013 Universal J-Pipe Mount for Antennas & Weather Stations with Mounting Bracket \u2013 Solid Structure, Weatherproof, Easy Installation (1\" Diameter, 32 3/4\" Arm Length)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/21l7MaOXzrL.jpg",
+            "price": 27.99,
+            "reviews": 52,
+            "rating": 4.4,
+            "volume": 144
+        },
+        {
             "upc": "194852391819",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -7125,17 +7177,17 @@
             "volume": 112
         },
         {
-            "upc": "689354903948",
+            "upc": "810079614134",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "580a37dd",
             "brand": "REBUILD SKILLS",
-            "title": "UL Approved 6ft Universal Power Cord (5 Pack) - IEC C13 to NEMA 5-15P Computer Monitor Cable for IT Departments, Data Centers & Bulk Purchasing - 18AWG 10A 125V",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/419judONTzL.jpg",
-            "price": 28.95,
+            "title": "UL Approved 10ft Universal Power Cord (5 Pack) - IEC C13 to NEMA 5-15P Computer Monitor Cable for IT Departments, Data Centers & Bulk Purchasing - 18AWG 10A 125V",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/416mRSBDOfL.jpg",
+            "price": 39.95,
             "reviews": 42,
             "rating": 4.8,
-            "volume": 211
+            "volume": 119
         },
         {
             "upc": "700371358709",
@@ -7151,6 +7203,19 @@
             "volume": 120
         },
         {
+            "upc": "778107803601",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "55fb2839",
+            "brand": "AICODE",
+            "title": "Multi Plug Outlet Extender,AICODE 6 Outlet Surge Outlet Protector with 3 USB Charger(3.2A Total),Wall Outlet Plug Electrical Outlet with 6 Ambient RGB Light , Plug Extender for Home,Office,Dorm,Hotel",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41BoCqhZxuL.jpg",
+            "price": 16.59,
+            "reviews": 164,
+            "rating": 4.7,
+            "volume": 139
+        },
+        {
             "upc": "712109874207",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -7162,6 +7227,19 @@
             "reviews": 425,
             "rating": 4.2,
             "volume": 138
+        },
+        {
+            "upc": "850070845755",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "93febcad",
+            "brand": "GEOYEAO",
+            "title": "2.0 CH Dolby Digital Sound Bar - Bluetooth Home Theater Speaker with HDMI ARC, Optical, Aux for Smart TV, Gaming, PC & Projector, Compact Speaker Bar with 3D Surround Sound Home Theater Soundbar",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31iwdXg3QhL.jpg",
+            "price": 39.99,
+            "reviews": 82,
+            "rating": 4.2,
+            "volume": 137
         },
         {
             "upc": "748899142387",
@@ -7177,6 +7255,45 @@
             "volume": 326
         },
         {
+            "upc": "746559500393",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "8d074e01",
+            "brand": "bodymaster",
+            "title": "HOTT Portable CD Player,Retro Bluetooth 5.3 CD Players for Home,Music Player with HiFi Speaker,4000mAh Recheageable/Remote Contro/RGB Night Light/Sleep Timer/U Disk/Micro SD/AUX Desktop CD Players",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/4115d1E6wKL.jpg",
+            "price": 83.08,
+            "reviews": 55,
+            "rating": 4.4,
+            "volume": 136
+        },
+        {
+            "upc": "788510985771",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "b3303b36",
+            "brand": "Love your yy",
+            "title": "Love Your 10FT 3.5mm TRRS to 3 RCA Stereo Audio Video AUX Cable, Camcorder AV Video Output Cable 1/8\" to 3 RCA Cord",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41jWuFIHPvL.jpg",
+            "price": 12.99,
+            "reviews": 17,
+            "rating": 4.4,
+            "volume": 133
+        },
+        {
+            "upc": "850066337035",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "486bd12e",
+            "brand": "TTQ",
+            "title": "Wireless HDMI Transmitter and Receiver, TTQ Wireless HDMI Extender 4K Supported, Metal Housing, LED Display, 100FT Range, 2.4G&5G, for PC/Laptop/Camera/HDTV/Projector/TV Box",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41+viWxXWxL.jpg",
+            "price": 64.45,
+            "reviews": 39,
+            "rating": 4.5,
+            "volume": 133
+        },
+        {
             "upc": "727508266508",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -7188,6 +7305,19 @@
             "reviews": 397,
             "rating": 4.3,
             "volume": 520
+        },
+        {
+            "upc": "798156388010",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "1c7d634d",
+            "brand": "Rongta",
+            "title": "Rongta Portable Printers Wireless for Travel, 300DPI WiFi & Bluetooth Mobile Thermal Inkless Printer for School/Office/Home Use, Compatible with Android,iOS & Laptop (Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41H8WZ7LKNL.jpg",
+            "price": 58.81,
+            "reviews": 10,
+            "rating": 4.3,
+            "volume": 128
         },
         {
             "upc": "764589144288",
@@ -7229,6 +7359,19 @@
             "volume": 313
         },
         {
+            "upc": "701814196520",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "2bc46cc9",
+            "brand": "Antank",
+            "title": "Antank 6-in-1 Docking Station for Steam Deck/ROG Ally, Steam Deck Dock with HDMI 2.0 4K@60Hz Gigabit, 1000Mbps Ethernet, 100W PD Fast Charging and 3 USB-A 3.0 USB-C Port for Valve Steam Deck OLED",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41C-9EaCRuL.jpg",
+            "price": 21.29,
+            "reviews": 43,
+            "rating": 4.4,
+            "volume": 120
+        },
+        {
             "upc": "850005790082",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
@@ -7240,6 +7383,19 @@
             "reviews": 457,
             "rating": 4.3,
             "volume": 406
+        },
+        {
+            "upc": "614166364830",
+            "cat_main_id": "main_9ca91",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "de056d42",
+            "brand": "WAWXH1314",
+            "title": "WAWXH1314 Elevated Stand for Echo Hub, Rotatable Tilt Table Holder for Alexa Hub, Aluminum Stand Holder, No Need Mounting",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41RAV-QgfjL.jpg",
+            "price": 32.99,
+            "reviews": 48,
+            "rating": 4.6,
+            "volume": 110
         },
         {
             "upc": "670924939801",
@@ -7268,17 +7424,17 @@
             "volume": 205
         },
         {
-            "upc": "737494137454",
+            "upc": "737494137416",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "3dbac002",
             "brand": "Betterlink",
-            "title": "1/2 Mile Long Range Solar Wireless Driveway Alarm System IP65 Weatherproof Outdoor Motion Detectors&Sensor 120dB Siren Sound Light Security Alert System Monitor&Protect Outdoor/Indoor Property(1R2S)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/417H-Oukm9L.jpg",
-            "price": 59.99,
+            "title": "1/2 Mile Long Range Solar Wireless Driveway Alarm System IP65 Weatherproof Outdoor Motion Detectors&Sensor 120dB Siren Sound Light Security Alert System Monitor&Protect Outdoor/Indoor Property(1R1S)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41h+r5m4mCL.jpg",
+            "price": 39.98,
             "reviews": 422,
             "rating": 4.6,
-            "volume": 118
+            "volume": 203
         },
         {
             "upc": "797999820886",
@@ -7333,17 +7489,17 @@
             "volume": 112
         },
         {
-            "upc": "736483187791",
+            "upc": "014679238589",
             "cat_main_id": "main_9ca91",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "2494bc88",
-            "brand": "Anyuse",
-            "title": "Anyuse Portable Monitor 15.6 Inch 1080P USB-C HDMI Ultra-Slim Travel Monitor with Kickstand, for Laptop, PC, Mac Phone, PS, Xbox, Swich IPS Ultra-Thin Zero Frame Gaming",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51hVTfsBxqL.jpg",
-            "price": 67.38,
-            "reviews": 345,
-            "rating": 4.4,
-            "volume": 4075
+            "brand_id": "616747e3",
+            "brand": "SKYELVES",
+            "title": "Wireless HDMI Transmitter and Receiver 100FT, 4K Decode 1080P@60Hz HD Output Wireless HDMI Extender, 2.4G&5G Plug&Play Low Latency for Streaming Video/Audio to Monitor from Laptop/PC/TV Box/Projector",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/410zF9CM3mL.jpg",
+            "price": 34.76,
+            "reviews": 12,
+            "rating": 4.3,
+            "volume": 106
         },
         {
             "upc": "736483187890",

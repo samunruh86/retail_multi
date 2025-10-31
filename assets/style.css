@@ -1249,6 +1249,11 @@ label {
   line-height: 1.35;
   padding-top: 0.2rem;
 }
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
 .section_global_footer .footer-col.last p {
   margin-top: 0;
   margin-bottom: 0.25rem;
@@ -4323,4 +4328,11 @@ body .nav_dropdown.w--open {
 
 .contact-page .section_global_cta {
   margin: 0;
+}
+
+.brands-page,
+.retailers-page {
+  padding-top: clamp(5.5rem, 9vw, 7.2rem);
+  padding-bottom: clamp(4rem, 9vw, 6rem);
+  display: block;
 }

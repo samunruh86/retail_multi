@@ -2,36 +2,23 @@
     "meta": {
         "category_main": "Music",
         "cat_main_id": "main_18d67",
-        "products": 205,
+        "products": 202,
         "relevancy": 10,
         "subs": []
     },
     "products": [
         {
-            "upc": "762949857038",
-            "cat_main_id": "main_18d67",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "0507e491",
-            "brand": "Dashsafe",
-            "title": "Fog Machine, Halloween Smoke Machine with Disco Ball Lights, 600W and 3000CFM with 13-Color LED Effects, Wired And Wireless Remote Controls, Ideal for Indoor, Outdoor, Wedding, Parties, and DJ Stage",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41s1ECPqtFL.jpg",
-            "price": 57.97,
-            "reviews": 261,
-            "rating": 4.5,
-            "volume": 11249
-        },
-        {
-            "upc": "645249270076",
+            "upc": "645249270045",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "57e48df6",
             "brand": "BONAOK",
-            "title": "BONAOK Wireless Bluetooth Karaoke Microphone, 3-in-1 Portable Handheld Mic Speaker Machine for All Smartphones, Gifts to Girls Boys Kids Adults All Age Q37(Black Gold)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31ZwyI4PToL.jpg",
-            "price": 21.99,
+            "title": "BONAOK Wireless Bluetooth Karaoke Microphone,3-in-1 Portable Handheld Karaoke Mic Speaker Machine Home Party Birthday for All Smartphones PC(Q37 Rose Gold)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31V1QKfBHZL.jpg",
+            "price": 20.7,
             "reviews": 9083,
             "rating": 4.4,
-            "volume": 399
+            "volume": 2386
         },
         {
             "upc": "638183948385",
@@ -47,30 +34,17 @@
             "volume": 699
         },
         {
-            "upc": "645249270212",
+            "upc": "767550652379",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "57e48df6",
             "brand": "BONAOK",
-            "title": "BONAOK Karaoke Microphone for Kids & Adults - Bluetooth Microphones Singing Mic with Disco Lights, Echo Effect, Built-in Speaker Portable Karaoke Player for Party Travel Gifts Q78(Space Gary)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41wVE9KK7CL.jpg",
-            "price": 21.72,
+            "title": "BONAOK Karaoke Microphone for Kids & Adults - Bluetooth Microphones Singing Mic with Disco Lights, Echo Effect, Built-in Speaker Portable Karaoke Player for Party Travel Gifts Q78(Black)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41WLNDCiNTL.jpg",
+            "price": 20.21,
             "reviews": 2180,
             "rating": 4.5,
-            "volume": 249
-        },
-        {
-            "upc": "682838975523",
-            "cat_main_id": "main_18d67",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "c38f933e",
-            "brand": "GLEAM",
-            "title": "GLEAM Sheet Music Stand - Full Metal with Carrying Bag, Phone Holder, Sheet Music Folder and Clip, 5 in 1 Desktop Book Stand",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41lX0OWiOIL.jpg",
-            "price": 25.95,
-            "reviews": 3085,
-            "rating": 4.6,
-            "volume": 5001
+            "volume": 1467
         },
         {
             "upc": "788492658526",
@@ -110,19 +84,6 @@
             "reviews": 832,
             "rating": 4.8,
             "volume": 139
-        },
-        {
-            "upc": "839226025982",
-            "cat_main_id": "main_18d67",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "ec672a5e",
-            "brand": "Froggys Fog",
-            "title": "Froggy's Fog Halloween and Party Fog Fluid, High Output Long-Lasting Fog Juice for 400-1500 Watt Water-Based Fog Machines, Great for Pro and Home Haunters, Theatrical Effects, DJs, and More, 1 Gallon",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/3116H5EPCuL.jpg",
-            "price": 24.99,
-            "reviews": 601,
-            "rating": 4.6,
-            "volume": 5263
         },
         {
             "upc": "650106057103",
@@ -307,17 +268,17 @@
             "volume": 127
         },
         {
-            "upc": "603895700019",
+            "upc": "859653006293",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "7d1911e6",
             "brand": "KLIQ Music Gear",
-            "title": "KLIQ MetroPitch 3-in-1 Metronome Tuner for All Instruments, Digital Guitar, Violin, Ukulele, Bass & Chromatic Tuner with Tone Generator, Compact Metronome with Jog Dial, Black",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41TM8GzkYBL.jpg",
+            "title": "KLIQ MetroPitch - Metronome Tuner for All Instruments - with Guitar, Bass, Violin, Ukulele, and Chromatic Tuning Modes (MetroPitch, Gold)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41XS38HxulL.jpg",
             "price": 28.99,
             "reviews": 1587,
             "rating": 4.4,
-            "volume": 419
+            "volume": 124
         },
         {
             "upc": "718893959618",
@@ -333,14 +294,14 @@
             "volume": 133
         },
         {
-            "upc": "606157192041",
+            "upc": "606157192010",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "ff21967e",
             "brand": "Everjoys",
-            "title": "Everjoys Soprano Ukulele Beginner Pack-21 Inch w/Free Online Lesson Gig Bag Digital Tuner Pick Polishing Cloth All in One Kit",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41a9XamOQVL.jpg",
-            "price": 39.04,
+            "title": "Everjoys Soprano Ukulele Beginner Pack-21 Inch w/Free Online Lesson Gig Bag Digital Tuner Pick All in One Kit",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41t-Mh9qf-L.jpg",
+            "price": 39.15,
             "reviews": 2130,
             "rating": 4.4,
             "volume": 122
@@ -398,14 +359,14 @@
             "volume": 788
         },
         {
-            "upc": "609408051517",
+            "upc": "609408046223",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "2dc7eea6",
             "brand": "Schaller",
-            "title": "Schaller S Locks Guitar Strap Locks and Buttons (Pair) Gold",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51ThfPw8WQL.jpg",
-            "price": 37.99,
+            "title": "Schaller S Locks Guitar Strap Locks and Buttons (Pair) Chrome",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41CW8KtYcFL.jpg",
+            "price": 32.63,
             "reviews": 410,
             "rating": 4.7,
             "volume": 199
@@ -723,17 +684,17 @@
             "volume": 394
         },
         {
-            "upc": "840014768011",
+            "upc": "840014767984",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
             "brand_id": "be141fc4",
             "brand": "StewMac",
-            "title": "StewMac Rough Fret Smooth + Shine Set, Guitar Fret End Dressing And Polishing Kit for Guitar Maintenance (5087)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/418DsYdfqTL.jpg",
-            "price": 61.7,
+            "title": "StewMac Fret End Dressing File - Professional Luthier Guitar Repair Tool - Fix Sharp Frets & Fret Sprout Fast - For Rounding, Shaping, and Smoothing Frets (1175)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31pct65hkeL.jpg",
+            "price": 26.59,
             "reviews": 465,
             "rating": 4.8,
-            "volume": 160
+            "volume": 249
         },
         {
             "upc": "750408416421",
@@ -905,19 +866,6 @@
             "volume": 324
         },
         {
-            "upc": "850022370120",
-            "cat_main_id": "main_18d67",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "f42828ab",
-            "brand": "MusicNomad",
-            "title": "MusicNomad Precision String Action Gauge Ruler for String Height- Metric, SAE, 64ths (MN602)",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41VD2iRBC1L.jpg",
-            "price": 17.97,
-            "reviews": 198,
-            "rating": 4.8,
-            "volume": 243
-        },
-        {
             "upc": "854289008512",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
@@ -929,6 +877,19 @@
             "reviews": 338,
             "rating": 4.6,
             "volume": 193
+        },
+        {
+            "upc": "850022370120",
+            "cat_main_id": "main_18d67",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "f42828ab",
+            "brand": "MusicNomad",
+            "title": "MusicNomad Precision String Action Gauge Ruler for String Height- Metric, SAE, 64ths (MN602)",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41VD2iRBC1L.jpg",
+            "price": 17.97,
+            "reviews": 198,
+            "rating": 4.8,
+            "volume": 243
         },
         {
             "upc": "705333483000",
@@ -2309,19 +2270,6 @@
             "volume": 139
         },
         {
-            "upc": "019954990787",
-            "cat_main_id": "main_18d67",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "f7aae5f1",
-            "brand": "Planet Waves",
-            "title": "D'Addario Ukulele Pro Capo - For Soprano, Concert, Tenor, Baritone Ukuleles - 4 String Ukulele Capo - Micrometer Tension Adjustment for Buzz-Free, In-Tune Performance - Black",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31gV+9pQd6L.jpg",
-            "price": 17.99,
-            "reviews": 532,
-            "rating": 4.7,
-            "volume": 139
-        },
-        {
             "upc": "642892817986",
             "cat_main_id": "main_18d67",
             "cat_sub_id": "sub_d41d8",
@@ -2332,6 +2280,19 @@
             "price": 19.95,
             "reviews": 239,
             "rating": 4.8,
+            "volume": 139
+        },
+        {
+            "upc": "019954990787",
+            "cat_main_id": "main_18d67",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "f7aae5f1",
+            "brand": "Planet Waves",
+            "title": "D'Addario Ukulele Pro Capo - For Soprano, Concert, Tenor, Baritone Ukuleles - 4 String Ukulele Capo - Micrometer Tension Adjustment for Buzz-Free, In-Tune Performance - Black",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31gV+9pQd6L.jpg",
+            "price": 17.99,
+            "reviews": 532,
+            "rating": 4.7,
             "volume": 139
         },
         {

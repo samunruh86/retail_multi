@@ -41,7 +41,17 @@ body.catalog-body {
 .catalog-container {
   width: 100%;
   margin: 0 auto;
-  padding: 0px 50px;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalog-body .container_medium {
+    max-width: 100%;
+  }
+
+  .catalog-container {
+    max-width: 100%;
+  }
 }
 
 
@@ -769,35 +779,18 @@ body.catalog-body {
   }
 }
 
-.catalog-sort-bar__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1rem;
-  align-items: center;
-  color: rgba(15, 29, 58, 0.68);
-  font-size: 0.9rem;
-}
-
-.catalog-sort-bar__meta strong {
-  color: var(--color--primary);
-}
-
-.catalog-sort-bar__meta {
-  margin-bottom: 0.35rem;
-}
-
 .catalog-sort-bar__actions {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: clamp(0.6rem, 1.6vw, 1rem);
-  margin-top: clamp(0.45rem, 1.2vw, 0.8rem);
 }
 
 .catalog-sort-bar__actions .catalog-pill-row--sub {
   flex: 1 1 auto;
   min-width: min(320px, 100%);
+  max-width: 100%;
 }
 
 .catalog-sort-bar__actions .catalog-sort-select {
@@ -820,12 +813,13 @@ body.catalog-body {
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: clamp(0.55rem, 1.6vw, 0.9rem);
+  align-items: center;
 }
 
-.catalog-pill-description {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: rgba(15, 29, 58, 0.6);
+.catalog-applied-filters__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
 }
 
 .catalog-chip {
@@ -955,36 +949,197 @@ body.catalog-body {
   margin: 0;
 }
 
-.catalog-product-card__meta {
+.catalog-product-card__actions {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
   margin-top: auto;
 }
 
-.catalog-product-card__rating {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: rgba(15, 29, 58, 0.7);
+.catalog-product-card__cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem .5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(37, 99, 235, 0.18);
+    background: rgba(37, 99, 235, 0.08);
+    color: var(--color--accent);
+    font-weight: 600;
+    font-size: 0.70rem;
+    cursor: pointer;
+    transition: background var(--catalog-transition), border-color var(--catalog-transition), color var(--catalog-transition);
 }
 
-.catalog-product-card__star {
-  display: inline-flex;
+.catalog-product-card__cta:hover,
+.catalog-product-card__cta:focus-visible {
+  background: rgba(37, 99, 235, 0.16);
+  border-color: rgba(37, 99, 235, 0.4);
+  color: #0b1f44;
+  outline: none;
+}
+
+.catalog-product-card__cta-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.catalog-product-card__cta-icon--locked {
+  background-image: url('media/icon-lock-yes.svg');
+  opacity: 1;
+}
+
+.catalog-product-card__cta-icon--unlocked {
+  background-image: url('media/icon-lock-no.svg');
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.catalog-product-card__cta:hover .catalog-product-card__cta-icon--locked,
+.catalog-product-card__cta:focus-visible .catalog-product-card__cta-icon--locked {
+  opacity: 0;
+}
+
+.catalog-product-card__cta:hover .catalog-product-card__cta-icon--unlocked,
+.catalog-product-card__cta:focus-visible .catalog-product-card__cta-icon--unlocked {
+  opacity: 1;
+}
+
+.catalog-product-card__cta-label {
+  pointer-events: none;
+}
+
+.catalog-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 999px;
-  background: rgba(37, 99, 235, 0.16);
-  color: var(--color--accent);
-  font-size: 0.68rem;
+  padding: 1.5rem;
+  z-index: 1200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
-.catalog-product-card__rating-value {
-  font-size: 0.9rem;
+.catalog-modal[hidden] {
+  display: none;
+}
+
+.catalog-modal.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.catalog-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 11, 27, 0.82);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.catalog-modal.is-active .catalog-modal__backdrop {
+  opacity: 1;
+}
+
+.catalog-modal__dialog {
+  position: relative;
+  background: #ffffff;
+  color: #0f1d3a;
+  border-radius: 20px;
+  padding: clamp(1.8rem, 3vw, 2.4rem);
+  max-width: min(520px, 92vw);
+  width: 100%;
+  box-shadow: 0 36px 80px rgba(5, 9, 20, 0.32);
+  transform: translateY(20px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.catalog-modal.is-active .catalog-modal__dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.catalog-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: rgba(15, 29, 58, 0.08);
+  color: #0f1d3a;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.catalog-modal__close:hover,
+.catalog-modal__close:focus-visible {
+  background: rgba(37, 99, 235, 0.16);
+  transform: rotate(90deg);
+  outline: none;
+}
+
+.catalog-modal__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.catalog-modal__image {
+  width: min(240px, 60vw);
+  height: min(240px, 60vw);
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(15, 29, 58, 0.18);
+}
+
+.catalog-modal__image.is-hidden {
+  display: none;
+}
+
+.catalog-modal__title {
+  font-size: clamp(1.2rem, 2.6vw, 1.6rem);
+  font-weight: 700;
+  color: #0f1d3a;
+  margin: 0;
+}
+
+.catalog-modal__description {
+  font-size: 0.95rem;
+  color: rgba(15, 29, 58, 0.72);
+  margin: 0;
+}
+
+.catalog-modal__cta {
+  width: auto;
+  min-width: 200px;
+  text-align: center;
+}
+
+body.catalog-modal-open {
+  overflow: hidden;
+}
+
+.catalog-modal-open .catalog-modal__dialog {
+  overscroll-behavior: contain;
 }
 
 .catalog-pagination {
@@ -1073,6 +1228,7 @@ body.catalog-body {
 
   .catalog-sort-bar__actions .catalog-pill-row--sub {
     min-width: 0;
+    max-width: 100%;
   }
 
   .catalog-sort-bar__actions .catalog-sort-select {
@@ -1082,6 +1238,12 @@ body.catalog-body {
 
   .catalog-products-grid {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (min-width: 1025px) {
+  .catalog-sort-bar__actions .catalog-pill-row--sub {
+    max-width: calc(100% - 220px);
   }
 }
 

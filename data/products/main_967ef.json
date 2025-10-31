@@ -242,19 +242,6 @@
             "volume": 588
         },
         {
-            "upc": "607602458743",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "81129a3b",
-            "brand": "Rzkipdy",
-            "title": "PS5 Controller Charger - Charge 2 Controllers to 90% in 50 Mins - No Annoying Lights - Click in Design Dual Fast Charging Stand Dock Station Holder Accessories for PlayStation DualSense Controller",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41lvlMMfpBL.jpg",
-            "price": 20.01,
-            "reviews": 94,
-            "rating": 4.9,
-            "volume": 565
-        },
-        {
             "upc": "673658101186",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -266,6 +253,19 @@
             "reviews": 89,
             "rating": 4.7,
             "volume": 2066
+        },
+        {
+            "upc": "607602458743",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "81129a3b",
+            "brand": "Rzkipdy",
+            "title": "PS5 Controller Charger - Charge 2 Controllers to 90% in 50 Mins - No Annoying Lights - Click in Design Dual Fast Charging Stand Dock Station Holder Accessories for PlayStation DualSense Controller",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41lvlMMfpBL.jpg",
+            "price": 20.01,
+            "reviews": 94,
+            "rating": 4.9,
+            "volume": 565
         },
         {
             "upc": "810186880026",
@@ -1633,19 +1633,6 @@
             "volume": 233
         },
         {
-            "upc": "093155118690",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "fdb6a566",
-            "brand": "Bethesda",
-            "title": "The Elder Scrolls IV: Oblivion - Playstation 3 Game of the Year Edition",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/61y2K0uLswL.jpg",
-            "price": 21.75,
-            "reviews": 1301,
-            "rating": 4.6,
-            "volume": 103
-        },
-        {
             "upc": "654391785505",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -1657,6 +1644,19 @@
             "reviews": 257,
             "rating": 4.3,
             "volume": 232
+        },
+        {
+            "upc": "093155118690",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "fdb6a566",
+            "brand": "Bethesda",
+            "title": "The Elder Scrolls IV: Oblivion - Playstation 3 Game of the Year Edition",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/61y2K0uLswL.jpg",
+            "price": 21.75,
+            "reviews": 1301,
+            "rating": 4.6,
+            "volume": 103
         },
         {
             "upc": "852103006096",

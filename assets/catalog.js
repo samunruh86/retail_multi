@@ -1,4 +1,4 @@
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 30;
 const categoryListEl = document.querySelector('[data-category-list]');
 const subcategoryListEl = document.querySelector('[data-subcategory-list]');
 const resultCountEl = document.querySelector('[data-result-count]');
@@ -6,6 +6,30 @@ const productsGridEl = document.querySelector('[data-products-grid]');
 const paginationEl = document.querySelector('[data-pagination]');
 const appliedFiltersEl = document.querySelector('[data-applied-filters]');
 const sortSelectEl = document.querySelector('[data-sort-select]');
+const modalEl = document.querySelector('[data-catalog-modal]');
+const modalBackdropEl = modalEl?.querySelector('[data-modal-backdrop]');
+const modalCloseButtons = modalEl ? [...modalEl.querySelectorAll('[data-modal-close]')] : [];
+const modalImageEl = modalEl?.querySelector('[data-modal-image]');
+const modalTitleEl = modalEl?.querySelector('[data-modal-title]');
+
+const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (match) => {
+  switch (match) {
+    case '&':
+      return '&amp;';
+    case '<':
+      return '&lt;';
+    case '>':
+      return '&gt;';
+    case '"':
+      return '&quot;';
+    case "'":
+      return '&#39;';
+    default:
+      return match;
+  }
+});
+
+const escapeAttribute = escapeHTML;
 
 const state = {
   categories: [],
@@ -15,10 +39,57 @@ const state = {
   metaCache: new Map(),
   allProducts: [],
   filteredProducts: [],
-  totalProducts: 0,
   sort: 'popularity',
   page: 1,
 };
+
+const openModal = (product) => {
+  if (!modalEl) return;
+  const { image, title } = product;
+  if (modalImageEl) {
+    if (image) {
+      modalImageEl.src = image;
+      modalImageEl.alt = title ? `Product image for ${title}` : 'Selected product image';
+      modalImageEl.classList.remove('is-hidden');
+    } else {
+      modalImageEl.removeAttribute('src');
+      modalImageEl.alt = '';
+      modalImageEl.classList.add('is-hidden');
+    }
+  }
+  if (modalTitleEl) {
+    modalTitleEl.textContent = title || 'Unlock wholesale pricing';
+  }
+  modalEl.classList.add('is-active');
+  modalEl.removeAttribute('hidden');
+  document.body.classList.add('catalog-modal-open');
+  const closeBtn = modalEl.querySelector('.catalog-modal__close');
+  if (closeBtn) {
+    closeBtn.focus({ preventScroll: true });
+  }
+};
+
+const closeModal = () => {
+  if (!modalEl) return;
+  modalEl.classList.remove('is-active');
+  document.body.classList.remove('catalog-modal-open');
+  window.setTimeout(() => {
+    if (!modalEl.classList.contains('is-active')) {
+      modalEl.setAttribute('hidden', '');
+    }
+  }, 250);
+};
+
+modalBackdropEl?.addEventListener('click', closeModal);
+modalCloseButtons.forEach((button) => {
+  button.addEventListener('click', closeModal);
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    closeModal();
+  }
+});
 
 const handleLoadError = (error) => {
   if (resultCountEl) {
@@ -129,40 +200,17 @@ const renderResultCount = (shown) => {
 
   if (state.activeSub) {
     const subMeta = getActiveSubcategoryMeta();
-    const subTotal = subMeta?.products ?? shown;
     const subName = subMeta?.category_sub || 'Selected subcategory';
-    resultCountEl.innerHTML = `<strong>${subTotal}</strong> products · Showing <strong>${shown}</strong> in <strong>${subName}</strong>`;
+    resultCountEl.innerHTML = `Showing <strong>${shown}</strong> in <strong>${subName}</strong>`;
     return;
   }
 
-  resultCountEl.innerHTML = `<strong>${state.totalProducts}</strong> products · Showing <strong>${shown}</strong> in <strong>${categoryName}</strong>`;
+  resultCountEl.innerHTML = `Showing <strong>${shown}</strong> in <strong>${categoryName}</strong>`;
 };
 
 const renderAppliedFilters = () => {
   if (!appliedFiltersEl) return;
   appliedFiltersEl.innerHTML = '';
-
-  if (!state.activeMain) {
-    appliedFiltersEl.textContent = 'Select a category to start browsing.';
-    return;
-  }
-
-  const categoryMeta = getActiveCategoryMeta();
-  const categoryName = categoryMeta?.category_main || 'Selected category';
-
-  if (state.activeSub) {
-    const subMeta = getActiveSubcategoryMeta();
-    const node = document.createElement('span');
-    node.className = 'catalog-pill-description';
-    node.textContent = `Viewing ${subMeta?.category_sub || 'selected subcategory'} in ${categoryName}.`;
-    appliedFiltersEl.appendChild(node);
-    return;
-  }
-
-  const node = document.createElement('span');
-  node.className = 'catalog-pill-description';
-  node.textContent = `Viewing all products in ${categoryName}.`;
-  appliedFiltersEl.appendChild(node);
 };
 
 const renderProducts = () => {
@@ -205,21 +253,28 @@ const renderProducts = () => {
           if (typeof product.rating === 'number' && product.rating >= 4.7) return 'Best Rated';
           return '';
         })();
-        const ratingValue = typeof product.rating === 'number' ? product.rating.toFixed(1) : '–';
-        const ratingAria = typeof product.rating === 'number' ? `Rated ${ratingValue} out of 5 stars` : 'No rating available';
+        const productTitle = escapeHTML(product.title || 'Untitled product');
+        const productBrand = escapeHTML(product.brand ?? 'Unknown brand');
+        const productImage = escapeAttribute(product.image || '');
         card.innerHTML = `
           <div class="catalog-product-card__media">
-            <img src="${product.image}" alt="${product.title}" loading="lazy">
+            <img src="${productImage}" alt="${productTitle}" loading="lazy">
             ${badgeLabel ? `<span class="catalog-product-card__badge">${badgeLabel}</span>` : ''}
           </div>
           <div class="catalog-product-card__details">
-            <span class="catalog-product-card__brand">${product.brand ?? 'Unknown brand'}</span>
-            <h3 class="catalog-product-card__title" title="${product.title}">${product.title}</h3>
-            <div class="catalog-product-card__meta">
-              <span class="catalog-product-card__rating" aria-label="${ratingAria}">
-                <span class="catalog-product-card__star" aria-hidden="true">★</span>
-                <span class="catalog-product-card__rating-value">${ratingValue}</span>
-              </span>
+            <span class="catalog-product-card__brand">${productBrand}</span>
+            <h3 class="catalog-product-card__title" title="${escapeAttribute(product.title || 'Product title')}">${productTitle}</h3>
+            <div class="catalog-product-card__actions">
+              <button
+                type="button"
+                class="catalog-product-card__cta"
+                data-product-image="${productImage}"
+                data-product-title="${escapeAttribute(product.title || '')}"
+              >
+                <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--locked" aria-hidden="true"></span>
+                <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--unlocked" aria-hidden="true"></span>
+                <span class="catalog-product-card__cta-label">Unlock Wholesale Price</span>
+              </button>
             </div>
           </div>
         `;
@@ -231,6 +286,17 @@ const renderProducts = () => {
     });
   });
 };
+
+productsGridEl?.addEventListener('click', (event) => {
+  const trigger = event.target.closest('.catalog-product-card__cta');
+  if (!trigger) return;
+  const image = trigger.dataset.productImage || '';
+  const title = trigger.dataset.productTitle || '';
+  openModal({
+    image,
+    title,
+  });
+});
 
 const renderPagination = () => {
   if (!paginationEl) return;
@@ -304,7 +370,6 @@ const loadProductsForCategory = async (catMainId) => {
     const cached = state.productsCache.get(catMainId);
     const meta = state.metaCache.get(catMainId);
     state.allProducts = cached.products || [];
-    state.totalProducts = meta?.products ?? state.allProducts.length;
     renderSubcategories();
     applyFilters();
     return;
@@ -328,7 +393,6 @@ const loadProductsForCategory = async (catMainId) => {
   }
 
   state.allProducts = data.products || [];
-  state.totalProducts = data.meta?.products ?? state.allProducts.length;
   renderSubcategories();
   applyFilters();
 };
@@ -370,4 +434,3 @@ if (document.readyState === 'loading') {
 } else {
   initCatalog();
 }
-

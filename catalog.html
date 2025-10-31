@@ -18,12 +18,9 @@
             <a href="index.html" class="nav_brand nav_brand_mobile w-nav-brand" aria-label="home">
               <img loading="lazy" alt="Retail Stride" src="assets/media/logo.svg" class="nav_logo mobile_logo">
             </a>
-            <a href="index.html#services" class="mobile-nav_link">Services</a>
-            <a href="index.html#marketplaces" class="mobile-nav_link mt-20">Coverage</a>
-            <a href="index.html#how-we-work" class="mobile-nav_link">How We Work</a>
-            <a href="index.html#about" class="mobile-nav_link">About Us</a>
+            <a href="brands.html" class="mobile-nav_link">Brands</a>
+            <a href="retailers.html" class="mobile-nav_link">Retailers</a>
             <a href="catalog.html" class="mobile-nav_link w--current" aria-current="page">Catalog</a>
-            <a href="contact.html" class="mobile-nav_link">Contact</a>
             <div class="button-grup gap-tiny">
               <a href="contact.html#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Let's Connect</a>
             </div>
@@ -34,12 +31,9 @@
             <img loading="lazy" alt="Retail Stride" src="assets/media/logo.svg" class="nav_logo">
           </a>
           <nav role="navigation" class="nav_menu w-nav-menu">
-            <a href="index.html#services" class="nav_link w-nav-link">Services</a>
-            <a href="index.html#marketplaces" class="nav_link w-nav-link">Coverage</a>
-            <a href="index.html#how-we-work" class="nav_link w-nav-link">How We Work</a>
-            <a href="index.html#about" class="nav_link w-nav-link">About</a>
+            <a href="brands.html" class="nav_link w-nav-link">Brands</a>
+            <a href="retailers.html" class="nav_link w-nav-link">Retailers</a>
             <a href="catalog.html" class="nav_link w-nav-link w--current" aria-current="page">Catalog</a>
-            <a href="contact.html" class="nav_link w-nav-link">Contact</a>
           </nav>
           <div class="nav_cta">
             <div class="button-grup gap-tiny">
@@ -74,14 +68,10 @@
             </div>
             <div class="catalog-main-surface">
               <div class="catalog-sort-bar">
-                <div class="catalog-sort-bar__meta">
-                  <span class="catalog-result-count" data-result-count>Loading products…</span>
-                </div>
                 <div class="catalog-sort-bar__actions">
                   <div class="catalog-pill-row catalog-pill-row--sub" data-subcategory-list></div>
                   <div class="catalog-sort-select">
-                    <label for="catalog-sort">Sort by</label>
-                    <select id="catalog-sort" data-sort-select>
+                    <select id="catalog-sort" data-sort-select aria-label="Sort by">
                       <option value="popularity">Popularity</option>
                       <option value="price-asc">Price: Low to High</option>
                       <option value="price-desc">Price: High to Low</option>
@@ -90,7 +80,10 @@
                     </select>
                   </div>
                 </div>
-                <div class="catalog-applied-filters" data-applied-filters></div>
+                <div class="catalog-applied-filters">
+                  <span class="catalog-result-count" data-result-count>Loading products…</span>
+                  <div class="catalog-applied-filters__list" data-applied-filters></div>
+                </div>
               </div>
               <div class="catalog-products-grid" data-products-grid></div>
               <div class="catalog-pagination" data-pagination></div>
@@ -113,8 +106,13 @@
               </div>
             </div>
             <div class="col footer-col last">
-              <p><strong>Authorized US distribution partner</strong></p>
-              <div class="footer_address">11016 Quivira Rd, Overland Park, KS 66210</div>
+              <p><strong>Explore</strong></p>
+              <div class="footer_links">
+                <a href="contact.html" class="footer2_link">Contact</a>
+                <a href="brands.html" class="footer2_link">Brands</a>
+                <a href="retailers.html" class="footer2_link">Retailers</a>
+                <a href="catalog.html" class="footer2_link">Catalog</a>
+              </div>
             </div>
           </div>
           <div class="w-layout-blockcontainer mobile_extra mobile-only w-container">
@@ -126,5 +124,18 @@
         </div>
       </div>
     </footer>
+
+    <div class="catalog-modal" data-catalog-modal hidden>
+      <div class="catalog-modal__backdrop" data-modal-backdrop data-modal-close aria-hidden="true"></div>
+      <div class="catalog-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="catalog-modal-title">
+        <button type="button" class="catalog-modal__close" data-modal-close aria-label="Close dialog">×</button>
+        <div class="catalog-modal__content">
+          <img src="" alt="" loading="lazy" class="catalog-modal__image" data-modal-image>
+          <h3 id="catalog-modal-title" class="catalog-modal__title" data-modal-title>Unlock wholesale pricing</h3>
+          <p class="catalog-modal__description">Sign up to view live wholesale pricing and request access.</p>
+          <a href="contact.html#cta" class="catalog-modal__cta btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
