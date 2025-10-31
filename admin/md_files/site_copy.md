@@ -1,7 +1,7 @@
 ## **Metadata**
-- Page Title: "Blue Haven Brands – Marketplace Strategy & Brand Partnership"
-- Meta Description: "At Blue Haven Brands, we help brands simplify their eCommerce presence, protect pricing integrity, and grow through smart marketplace strategies."
-- Social Share Title: "Blue Haven Brands – Marketplace Strategy & Brand Partnership"
+- Page Title: "Retail Stride – Marketplace Strategy & Brand Partnership"
+- Meta Description: "At Retail Stride, we help brands simplify their eCommerce presence, protect pricing integrity, and grow through smart marketplace strategies."
+- Social Share Title: "Retail Stride – Marketplace Strategy & Brand Partnership"
 - Social Share Description: "We help brands take back control of their listings, streamline operations, and unlock growth through trusted marketplace partnerships."
 
 ---
@@ -30,7 +30,7 @@
 ## **Our Solution Section**
 - Section Label: "Our Solution"
 - Headline: “What’s Holding Your Brand Back?”
-- Supporting Copy: “Selling online shouldn’t feel chaotic. Whether you’re fighting price erosion, struggling to manage listings, or need a more reliable fulfillment partner—Blue Haven Brands helps you take control, protect your margins, and build a stronger brand across every channel.”
+- Supporting Copy: “Selling online shouldn’t feel chaotic. Whether you’re fighting price erosion, struggling to manage listings, or need a more reliable fulfillment partner—Retail Stride helps you take control, protect your margins, and build a stronger brand across every channel.”
 - Primary CTA Button: "Explore Our Solutions"
 - “I’m struggling to control my Amazon pricing.” — “We help brands set and maintain consistent pricing through MAP support, reseller cleanup, and hands-on marketplace monitoring.”
 - “I can’t keep up with marketplace management.” — “From listings and inventory to ads and analytics, we handle the moving parts so you can focus on the big picture.”
@@ -63,7 +63,7 @@
 ## **How We Work**
 - Section Label: "HOW WE WORK"
 - Section Headline: “Turning Marketplace Challenges Into Growth Opportunities”
-- Supporting Copy: “At Blue Haven Brands, we believe partnership beats guesswork. We work closely with each brand to simplify operations, protect pricing, and drive sustainable marketplace success—one practical step at a time.”
+- Supporting Copy: “At Retail Stride, we believe partnership beats guesswork. We work closely with each brand to simplify operations, protect pricing, and drive sustainable marketplace success—one practical step at a time.”
 
 ### **1. Strategy & Consulting**
 - **Headline:** “Clarity Before Growth.”
@@ -104,7 +104,7 @@
 - Answer: “Not right away. We help you evaluate your current setup and gradually transition toward a more controlled, performance-based reseller model that protects both sales and relationships.”
 - Question: "How do you help maintain pricing control?"
 - Answer: “We use MAP monitoring, marketplace audits, and proactive reseller management to ensure your pricing stays consistent and your brand value stays protected.”
-- Question: "What makes Blue Haven Brands different from an agency?"
+- Question: "What makes Retail Stride different from an agency?"
 - Answer: “We’re not a typical agency. We partner with brands as both strategic consultants and active marketplace operators—investing our time and resources into mutual success.”
 - Question: "Do you handle fulfillment or prep services?"
 - Answer: “Yes. We can coordinate labeling, bundling, and inbound prep through trusted logistics partners to make your FBA or D2C process seamless.”
@@ -127,6 +127,6 @@
 ---
 
 ## **Footer**
-- Copyright: "© 2025 Blue Haven Brands. All rights reserved."
+- Copyright: "© 2025 Retail Stride. All rights reserved."
 - Subhead: "Autorized US distribution partner"
 - Address: "11016 Quivira Rd, Overland Park, KS 66210"
