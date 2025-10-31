@@ -23,8 +23,9 @@
             <a href="index.html#how-we-work" class="mobile-nav_link">How We Work</a>
             <a href="index.html#about" class="mobile-nav_link">About Us</a>
             <a href="catalog.html" class="mobile-nav_link w--current" aria-current="page">Catalog</a>
+            <a href="contact.html" class="mobile-nav_link">Contact</a>
             <div class="button-grup gap-tiny">
-              <a href="index.html#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Let's Connect</a>
+              <a href="contact.html#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Let's Connect</a>
             </div>
           </div>
         </div>
@@ -38,16 +39,17 @@
             <a href="index.html#how-we-work" class="nav_link w-nav-link">How We Work</a>
             <a href="index.html#about" class="nav_link w-nav-link">About</a>
             <a href="catalog.html" class="nav_link w-nav-link w--current" aria-current="page">Catalog</a>
+            <a href="contact.html" class="nav_link w-nav-link">Contact</a>
           </nav>
           <div class="nav_cta">
             <div class="button-grup gap-tiny">
-              <a href="index.html#cta" class="btn phone-inverted btn_icon btn_reverse w-button">Let's Connect</a>
+              <a href="contact.html#cta" class="btn phone-inverted btn_icon btn_reverse w-button">Let's Connect</a>
             </div>
           </div>
           <div class="mobile-div">
             <div class="nav_cta mobile-only">
               <div class="button-grup gap-tiny">
-                <a href="index.html#cta" class="nav-btn w-button">Let's Connect</a>
+                <a href="contact.html#cta" class="nav-btn w-button">Let's Connect</a>
               </div>
             </div>
             <div class="navbar1_menu-button w-nav-button" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
@@ -65,89 +67,34 @@
 
     <main class="catalog-page">
       <section class="catalog-shell" id="catalog-experience">
-        <aside class="catalog-filters" aria-label="Filter products">
-          <div class="catalog-filters__section" data-section="category">
-            <div class="catalog-collapse is-open" data-collapse="category">
-              <div class="catalog-collapse__header">
-                <button
-                  class="catalog-collapse__toggle"
-                  type="button"
-                  data-collapse-trigger="category"
-                  aria-expanded="true"
-                  aria-controls="catalog-category-panel"
-                  aria-label="Toggle category filters">
-                  <span class="catalog-collapse__title">Category</span>
-                  <span class="catalog-collapse__icon" aria-hidden="true"></span>
-                </button>
-              </div>
-              <div
-                class="catalog-collapse__content"
-                data-collapse-content="category"
-                id="catalog-category-panel">
-                <div class="catalog-category-list" data-category-list></div>
-              </div>
+        <div class="catalog-container">
+          <div class="catalog-main">
+            <div class="catalog-main-pills">
+              <div class="catalog-pill-row catalog-pill-row--main" data-category-list></div>
             </div>
-          </div>
-
-          <div class="catalog-filters__section" data-section="price">
-            <div class="catalog-filters__section-header">
-              <span>Price</span>
-            </div>
-            <div class="catalog-range-sliders">
-              <input type="range" min="0" max="1000" step="1" value="0" data-price-min>
-              <input type="range" min="0" max="1000" step="1" value="1000" data-price-max>
-            </div>
-            <div class="catalog-price-inputs">
-              <div class="catalog-price-input">
-                <label for="price-min">Min</label>
-                <input id="price-min" type="number" data-price-min-input>
-              </div>
-              <div class="catalog-price-input">
-                <label for="price-max">Max</label>
-                <input id="price-max" type="number" data-price-max-input>
-              </div>
-            </div>
-          </div>
-
-          <div class="catalog-filters__section" data-section="rating">
-            <div class="catalog-filters__section-header">
-              <span>Rating</span>
-            </div>
-            <div class="catalog-rating-options" data-rating-list></div>
-          </div>
-
-          <div class="catalog-filters__section" data-section="brand">
-            <div class="catalog-filters__section-header">
-              <span>Brands</span>
-            </div>
-            <div class="catalog-brand-list" data-brand-list></div>
-          </div>
-        </aside>
-
-        <div class="catalog-main">
-          <div class="catalog-main-surface">
-            <div class="catalog-sort-bar">
-              <div class="catalog-sort-bar__meta">
-                <span class="catalog-result-count" data-result-count>Loading products…</span>
-              </div>
-              <div class="catalog-sort-bar__controls">
-                <div class="catalog-applied-filters" data-applied-filters></div>
-                <div class="catalog-sort-select">
-                  <label for="catalog-sort">Sort by</label>
-                  <select id="catalog-sort" data-sort-select>
-                    <option value="popularity">Popularity</option>
-                    <option value="price-asc">Price: Low to High</option>
-                    <option value="price-desc">Price: High to Low</option>
-                    <option value="rating-desc">Rating: High to Low</option>
-                    <option value="reviews-desc">Reviews: High to Low</option>
-                  </select>
+            <div class="catalog-main-surface">
+              <div class="catalog-sort-bar">
+                <div class="catalog-sort-bar__meta">
+                  <span class="catalog-result-count" data-result-count>Loading products…</span>
                 </div>
+                <div class="catalog-sort-bar__actions">
+                  <div class="catalog-pill-row catalog-pill-row--sub" data-subcategory-list></div>
+                  <div class="catalog-sort-select">
+                    <label for="catalog-sort">Sort by</label>
+                    <select id="catalog-sort" data-sort-select>
+                      <option value="popularity">Popularity</option>
+                      <option value="price-asc">Price: Low to High</option>
+                      <option value="price-desc">Price: High to Low</option>
+                      <option value="rating-desc">Rating: High to Low</option>
+                      <option value="reviews-desc">Reviews: High to Low</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="catalog-applied-filters" data-applied-filters></div>
               </div>
+              <div class="catalog-products-grid" data-products-grid></div>
+              <div class="catalog-pagination" data-pagination></div>
             </div>
-
-            <div class="catalog-products-grid" data-products-grid></div>
-
-            <div class="catalog-pagination" data-pagination></div>
           </div>
         </div>
       </section>
