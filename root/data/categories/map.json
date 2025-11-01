@@ -2,29 +2,43 @@
     {
         "category_main": "Sports",
         "cat_main_id": "main_08849",
-        "products": 1172,
+        "products": 1194,
         "relevancy": 90,
         "subs": [
+            {
+                "category_main": "Sports",
+                "category_sub": "Gunsmithing Tools",
+                "cat_main_id": "main_08849",
+                "cat_sub_id": "sub_e1b74",
+                "products": 26
+            },
             {
                 "category_main": "Sports",
                 "category_sub": "Water Bottles",
                 "cat_main_id": "main_08849",
                 "cat_sub_id": "sub_da12c",
-                "products": 24
+                "products": 26
+            },
+            {
+                "category_main": "Sports",
+                "category_sub": "Archery Broadheads",
+                "cat_main_id": "main_08849",
+                "cat_sub_id": "sub_80dd5",
+                "products": 23
             },
             {
                 "category_main": "Sports",
                 "category_sub": "Gun Holsters",
                 "cat_main_id": "main_08849",
                 "cat_sub_id": "sub_65349",
-                "products": 21
+                "products": 23
             },
             {
                 "category_main": "Sports",
-                "category_sub": "Gunsmithing Tools",
+                "category_sub": "Resistance Bands",
                 "cat_main_id": "main_08849",
-                "cat_sub_id": "sub_e1b74",
-                "products": 19
+                "cat_sub_id": "sub_c4601",
+                "products": 21
             },
             {
                 "category_main": "Sports",
@@ -35,38 +49,17 @@
             },
             {
                 "category_main": "Sports",
-                "category_sub": "Resistance Bands",
-                "cat_main_id": "main_08849",
-                "cat_sub_id": "sub_c4601",
-                "products": 18
-            },
-            {
-                "category_main": "Sports",
-                "category_sub": "Archery Broadheads",
-                "cat_main_id": "main_08849",
-                "cat_sub_id": "sub_80dd5",
-                "products": 17
-            },
-            {
-                "category_main": "Sports",
                 "category_sub": "Camping Freeze-Dried Food",
                 "cat_main_id": "main_08849",
                 "cat_sub_id": "sub_fead7",
-                "products": 15
+                "products": 16
             },
             {
                 "category_main": "Sports",
                 "category_sub": "Gun Lubrication",
                 "cat_main_id": "main_08849",
                 "cat_sub_id": "sub_d8c7c",
-                "products": 14
-            },
-            {
-                "category_main": "Sports",
-                "category_sub": "Sunglasses",
-                "cat_main_id": "main_08849",
-                "cat_sub_id": "sub_2cc46",
-                "products": 13
+                "products": 15
             },
             {
                 "category_main": "Sports",
@@ -74,27 +67,41 @@
                 "cat_main_id": "main_08849",
                 "cat_sub_id": "sub_d1bc3",
                 "products": 13
+            },
+            {
+                "category_main": "Sports",
+                "category_sub": "Sunglasses",
+                "cat_main_id": "main_08849",
+                "cat_sub_id": "sub_2cc46",
+                "products": 13
             }
         ]
     },
     {
         "category_main": "Home",
         "cat_main_id": "main_106a6",
-        "products": 992,
+        "products": 1226,
         "relevancy": 85,
         "subs": [
-            {
-                "category_main": "Home",
-                "category_sub": "Jar Candles",
-                "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_2a96a",
-                "products": 29
-            },
             {
                 "category_main": "Home",
                 "category_sub": "Air Purifier Filters",
                 "cat_main_id": "main_106a6",
                 "cat_sub_id": "sub_1e774",
+                "products": 43
+            },
+            {
+                "category_main": "Home",
+                "category_sub": "Jar Candles",
+                "cat_main_id": "main_106a6",
+                "cat_sub_id": "sub_2a96a",
+                "products": 35
+            },
+            {
+                "category_main": "Home",
+                "category_sub": "Bed Pillows",
+                "cat_main_id": "main_106a6",
+                "cat_sub_id": "sub_46c19",
                 "products": 26
             },
             {
@@ -106,9 +113,9 @@
             },
             {
                 "category_main": "Home",
-                "category_sub": "Bed Pillows",
+                "category_sub": "Replacement Upright Vacuum Filters",
                 "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_46c19",
+                "cat_sub_id": "sub_fe942",
                 "products": 24
             },
             {
@@ -116,6 +123,27 @@
                 "category_sub": "Table Fans",
                 "cat_main_id": "main_106a6",
                 "cat_sub_id": "sub_b72c8",
+                "products": 18
+            },
+            {
+                "category_main": "Home",
+                "category_sub": "Disposable Coffee Filters",
+                "cat_main_id": "main_106a6",
+                "cat_sub_id": "sub_b615c",
+                "products": 18
+            },
+            {
+                "category_main": "Home",
+                "category_sub": "Home Fragrance Accessories",
+                "cat_main_id": "main_106a6",
+                "cat_sub_id": "sub_1b7b9",
+                "products": 17
+            },
+            {
+                "category_main": "Home",
+                "category_sub": "Vases",
+                "cat_main_id": "main_106a6",
+                "cat_sub_id": "sub_a9dbe",
                 "products": 16
             },
             {
@@ -123,42 +151,14 @@
                 "category_sub": "Neck & Cervical Pillows",
                 "cat_main_id": "main_106a6",
                 "cat_sub_id": "sub_49b10",
-                "products": 15
-            },
-            {
-                "category_main": "Home",
-                "category_sub": "Vases",
-                "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_a9dbe",
-                "products": 14
-            },
-            {
-                "category_main": "Home",
-                "category_sub": "Disposable Coffee Filters",
-                "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_b615c",
-                "products": 14
-            },
-            {
-                "category_main": "Home",
-                "category_sub": "Electric Kettles",
-                "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_def11",
-                "products": 13
-            },
-            {
-                "category_main": "Home",
-                "category_sub": "Replacement Upright Vacuum Filters",
-                "cat_main_id": "main_106a6",
-                "cat_sub_id": "sub_fe942",
-                "products": 13
+                "products": 16
             }
         ]
     },
     {
         "category_main": "Tools",
         "cat_main_id": "main_4a931",
-        "products": 1236,
+        "products": 1283,
         "relevancy": 84,
         "subs": [
             {
@@ -166,20 +166,27 @@
                 "category_sub": "Handheld Flashlights",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_53ae1",
-                "products": 46
+                "products": 54
             },
             {
                 "category_main": "Tools",
                 "category_sub": "In-Refrigerator Water Filters",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_0ac2a",
-                "products": 31
+                "products": 35
             },
             {
                 "category_main": "Tools",
                 "category_sub": "Cordless Tool Battery Packs",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_7d80f",
+                "products": 33
+            },
+            {
+                "category_main": "Tools",
+                "category_sub": "Outdoor String Lights",
+                "cat_main_id": "main_4a931",
+                "cat_sub_id": "sub_8896b",
                 "products": 24
             },
             {
@@ -187,6 +194,27 @@
                 "category_sub": "Hardware Sealers",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_82423",
+                "products": 24
+            },
+            {
+                "category_main": "Tools",
+                "category_sub": "Table Lamps",
+                "cat_main_id": "main_4a931",
+                "cat_sub_id": "sub_8e217",
+                "products": 23
+            },
+            {
+                "category_main": "Tools",
+                "category_sub": "Night-Lights",
+                "cat_main_id": "main_4a931",
+                "cat_sub_id": "sub_066e0",
+                "products": 23
+            },
+            {
+                "category_main": "Tools",
+                "category_sub": "Furnace Filters",
+                "cat_main_id": "main_4a931",
+                "cat_sub_id": "sub_a83e0",
                 "products": 23
             },
             {
@@ -194,49 +222,21 @@
                 "category_sub": "Sharpening Stones",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_87281",
-                "products": 21
-            },
-            {
-                "category_main": "Tools",
-                "category_sub": "Outdoor String Lights",
-                "cat_main_id": "main_4a931",
-                "cat_sub_id": "sub_8896b",
-                "products": 21
-            },
-            {
-                "category_main": "Tools",
-                "category_sub": "Table Lamps",
-                "cat_main_id": "main_4a931",
-                "cat_sub_id": "sub_8e217",
-                "products": 20
+                "products": 22
             },
             {
                 "category_main": "Tools",
                 "category_sub": "Wall Stickers & Murals",
                 "cat_main_id": "main_4a931",
                 "cat_sub_id": "sub_c180d",
-                "products": 18
-            },
-            {
-                "category_main": "Tools",
-                "category_sub": "Flameless Candles",
-                "cat_main_id": "main_4a931",
-                "cat_sub_id": "sub_16cbb",
-                "products": 16
-            },
-            {
-                "category_main": "Tools",
-                "category_sub": "Night-Lights",
-                "cat_main_id": "main_4a931",
-                "cat_sub_id": "sub_066e0",
-                "products": 16
+                "products": 22
             }
         ]
     },
     {
         "category_main": "Auto",
         "cat_main_id": "main_9df22",
-        "products": 987,
+        "products": 1043,
         "relevancy": 55,
         "subs": [
             {
@@ -244,7 +244,7 @@
                 "category_sub": "Wheel & Tire Air Compressors & Inflators",
                 "cat_main_id": "main_9df22",
                 "cat_sub_id": "sub_bb05f",
-                "products": 26
+                "products": 27
             },
             {
                 "category_main": "Auto",
@@ -258,7 +258,7 @@
                 "category_sub": "Leather Care Products",
                 "cat_main_id": "main_9df22",
                 "cat_sub_id": "sub_0e114",
-                "products": 19
+                "products": 20
             },
             {
                 "category_main": "Auto",
@@ -272,7 +272,7 @@
                 "category_sub": "Tire Repair Tools",
                 "cat_main_id": "main_9df22",
                 "cat_sub_id": "sub_16bee",
-                "products": 14
+                "products": 15
             },
             {
                 "category_main": "Auto",
@@ -283,10 +283,10 @@
             },
             {
                 "category_main": "Auto",
-                "category_sub": "License Plate Frames",
+                "category_sub": "Automotive Replacement Fuel Filters",
                 "cat_main_id": "main_9df22",
-                "cat_sub_id": "sub_e8793",
-                "products": 12
+                "cat_sub_id": "sub_96547",
+                "products": 13
             },
             {
                 "category_main": "Auto",
@@ -297,26 +297,33 @@
             },
             {
                 "category_main": "Auto",
-                "category_sub": "Automotive Seat Back Organizers",
+                "category_sub": "License Plate Frames",
                 "cat_main_id": "main_9df22",
-                "cat_sub_id": "sub_a2f4d",
-                "products": 10
+                "cat_sub_id": "sub_e8793",
+                "products": 12
             },
             {
                 "category_main": "Auto",
                 "category_sub": "Automotive Headlight Assemblies",
                 "cat_main_id": "main_9df22",
                 "cat_sub_id": "sub_b5472",
-                "products": 10
+                "products": 11
             }
         ]
     },
     {
         "category_main": "Clothing",
         "cat_main_id": "main_50cf1",
-        "products": 619,
+        "products": 726,
         "relevancy": 55,
         "subs": [
+            {
+                "category_main": "Clothing",
+                "category_sub": "Men's Costumes",
+                "cat_main_id": "main_50cf1",
+                "cat_sub_id": "sub_b0241",
+                "products": 16
+            },
             {
                 "category_main": "Clothing",
                 "category_sub": "Women's Crossbody Handbags",
@@ -326,9 +333,30 @@
             },
             {
                 "category_main": "Clothing",
+                "category_sub": "Women's Costumes",
+                "cat_main_id": "main_50cf1",
+                "cat_sub_id": "sub_bbb93",
+                "products": 14
+            },
+            {
+                "category_main": "Clothing",
                 "category_sub": "Men's Sunglasses",
                 "cat_main_id": "main_50cf1",
                 "cat_sub_id": "sub_3dd3d",
+                "products": 14
+            },
+            {
+                "category_main": "Clothing",
+                "category_sub": "Women's Costume Wigs",
+                "cat_main_id": "main_50cf1",
+                "cat_sub_id": "sub_24ecc",
+                "products": 14
+            },
+            {
+                "category_main": "Clothing",
+                "category_sub": "Costume Weapons & Armor",
+                "cat_main_id": "main_50cf1",
+                "cat_sub_id": "sub_d7fc3",
                 "products": 12
             },
             {
@@ -354,9 +382,9 @@
             },
             {
                 "category_main": "Clothing",
-                "category_sub": "Men's Costumes",
+                "category_sub": "Men's Costume Masks",
                 "cat_main_id": "main_50cf1",
-                "cat_sub_id": "sub_b0241",
+                "cat_sub_id": "sub_3ab42",
                 "products": 10
             }
         ]
@@ -364,7 +392,7 @@
     {
         "category_main": "Toys",
         "cat_main_id": "main_efacc",
-        "products": 1403,
+        "products": 1502,
         "relevancy": 45,
         "subs": [
             {
@@ -372,77 +400,77 @@
                 "category_sub": "Board Games",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_6aea6",
-                "products": 84
+                "products": 99
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Stuffed Animals & Teddy Bears",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_7a638",
-                "products": 71
+                "products": 80
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Dedicated Deck Card Games",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_5197e",
-                "products": 58
+                "products": 67
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Action Figures",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_58f41",
-                "products": 32
-            },
-            {
-                "category_main": "Toys",
-                "category_sub": "Plush Figure Toys",
-                "cat_main_id": "main_efacc",
-                "cat_sub_id": "sub_0e576",
-                "products": 29
+                "products": 45
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Toy Building Sets",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_8f7b0",
-                "products": 28
+                "products": 44
+            },
+            {
+                "category_main": "Toys",
+                "category_sub": "Plush Figure Toys",
+                "cat_main_id": "main_efacc",
+                "cat_sub_id": "sub_0e576",
+                "products": 38
+            },
+            {
+                "category_main": "Toys",
+                "category_sub": "Educational Science Kits",
+                "cat_main_id": "main_efacc",
+                "cat_sub_id": "sub_6ec23",
+                "products": 34
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Play Figure Playsets",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_00a29",
-                "products": 27
-            },
-            {
-                "category_main": "Toys",
-                "category_sub": "Toy Magnetic Building Sets",
-                "cat_main_id": "main_efacc",
-                "cat_sub_id": "sub_3a30d",
-                "products": 27
-            },
-            {
-                "category_main": "Toys",
-                "category_sub": "Kids' Multi-Item Party Favor Packs",
-                "cat_main_id": "main_efacc",
-                "cat_sub_id": "sub_4f7f1",
-                "products": 26
+                "products": 33
             },
             {
                 "category_main": "Toys",
                 "category_sub": "Educational Flash Cards",
                 "cat_main_id": "main_efacc",
                 "cat_sub_id": "sub_3dbb4",
-                "products": 26
+                "products": 31
+            },
+            {
+                "category_main": "Toys",
+                "category_sub": "Dolls",
+                "cat_main_id": "main_efacc",
+                "cat_sub_id": "sub_26c98",
+                "products": 31
             }
         ]
     },
     {
         "category_main": "Health",
         "cat_main_id": "main_555bf",
-        "products": 1689,
+        "products": 1866,
         "relevancy": 34,
         "subs": [
             {
@@ -450,155 +478,155 @@
                 "category_sub": "Blended Vitamin & Mineral Supplements",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_519bf",
-                "products": 239
-            },
-            {
-                "category_main": "Health",
-                "category_sub": "Multivitamins",
-                "cat_main_id": "main_555bf",
-                "cat_sub_id": "sub_56565",
-                "products": 78
+                "products": 262
             },
             {
                 "category_main": "Health",
                 "category_sub": "All-Purpose Household Cleaners",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_b876d",
-                "products": 70
+                "products": 96
+            },
+            {
+                "category_main": "Health",
+                "category_sub": "Multivitamins",
+                "cat_main_id": "main_555bf",
+                "cat_sub_id": "sub_56565",
+                "products": 94
             },
             {
                 "category_main": "Health",
                 "category_sub": "Magnesium Mineral Supplements",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_ab4b4",
-                "products": 59
+                "products": 91
             },
             {
                 "category_main": "Health",
                 "category_sub": "Collagen Supplements",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_c560e",
-                "products": 56
+                "products": 76
             },
             {
                 "category_main": "Health",
                 "category_sub": "Detox & Cleanse Weight Loss Products",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_3a973",
-                "products": 54
-            },
-            {
-                "category_main": "Health",
-                "category_sub": "Sports Nutrition Electrolyte Replacement Drinks",
-                "cat_main_id": "main_555bf",
-                "cat_sub_id": "sub_bba8e",
-                "products": 36
-            },
-            {
-                "category_main": "Health",
-                "category_sub": "Mushrooms Herbal Supplements",
-                "cat_main_id": "main_555bf",
-                "cat_sub_id": "sub_70d91",
-                "products": 33
+                "products": 66
             },
             {
                 "category_main": "Health",
                 "category_sub": "Vitamin D Supplements",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_6d652",
-                "products": 32
+                "products": 46
             },
             {
                 "category_main": "Health",
                 "category_sub": "Herbal & Nutritional Sleep Supplements",
                 "cat_main_id": "main_555bf",
                 "cat_sub_id": "sub_ede4b",
-                "products": 32
+                "products": 46
+            },
+            {
+                "category_main": "Health",
+                "category_sub": "Trash Bags",
+                "cat_main_id": "main_555bf",
+                "cat_sub_id": "sub_e041c",
+                "products": 46
+            },
+            {
+                "category_main": "Health",
+                "category_sub": "Mushrooms Herbal Supplements",
+                "cat_main_id": "main_555bf",
+                "cat_sub_id": "sub_70d91",
+                "products": 43
             }
         ]
     },
     {
         "category_main": "Beauty",
         "cat_main_id": "main_bd273",
-        "products": 1558,
+        "products": 1780,
         "relevancy": 30,
         "subs": [
-            {
-                "category_main": "Beauty",
-                "category_sub": "Face Moisturizers",
-                "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_c026b",
-                "products": 86
-            },
             {
                 "category_main": "Beauty",
                 "category_sub": "Hair Shampoo",
                 "cat_main_id": "main_bd273",
                 "cat_sub_id": "sub_c4ae3",
-                "products": 75
+                "products": 113
             },
             {
                 "category_main": "Beauty",
-                "category_sub": "Bath Soaps",
+                "category_sub": "Face Moisturizers",
                 "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_3e393",
-                "products": 56
+                "cat_sub_id": "sub_c026b",
+                "products": 107
             },
             {
                 "category_main": "Beauty",
                 "category_sub": "Hair Conditioner",
                 "cat_main_id": "main_bd273",
                 "cat_sub_id": "sub_c8522",
-                "products": 52
+                "products": 95
             },
             {
                 "category_main": "Beauty",
-                "category_sub": "Women's Eau de Parfum",
+                "category_sub": "Bath Soaps",
                 "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_9f50e",
-                "products": 52
-            },
-            {
-                "category_main": "Beauty",
-                "category_sub": "Body Creams",
-                "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_b9c97",
-                "products": 51
+                "cat_sub_id": "sub_3e393",
+                "products": 79
             },
             {
                 "category_main": "Beauty",
                 "category_sub": "Facial Serums",
                 "cat_main_id": "main_bd273",
                 "cat_sub_id": "sub_eaee8",
-                "products": 50
+                "products": 70
+            },
+            {
+                "category_main": "Beauty",
+                "category_sub": "Hair Styling Gels",
+                "cat_main_id": "main_bd273",
+                "cat_sub_id": "sub_ea456",
+                "products": 65
+            },
+            {
+                "category_main": "Beauty",
+                "category_sub": "Women's Eau de Parfum",
+                "cat_main_id": "main_bd273",
+                "cat_sub_id": "sub_9f50e",
+                "products": 64
             },
             {
                 "category_main": "Beauty",
                 "category_sub": "Body Lotions",
                 "cat_main_id": "main_bd273",
                 "cat_sub_id": "sub_a7ee4",
-                "products": 48
+                "products": 63
             },
             {
                 "category_main": "Beauty",
-                "category_sub": "Bath & Shower Gels",
+                "category_sub": "Facial Cleansing Washes",
                 "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_b7fa2",
-                "products": 44
+                "cat_sub_id": "sub_3a3bc",
+                "products": 63
             },
             {
                 "category_main": "Beauty",
-                "category_sub": "Shampoo & Conditioner Sets",
+                "category_sub": "Body Creams",
                 "cat_main_id": "main_bd273",
-                "cat_sub_id": "sub_883d4",
-                "products": 44
+                "cat_sub_id": "sub_b9c97",
+                "products": 61
             }
         ]
     },
     {
         "category_main": "Electronics",
         "cat_main_id": "main_9ca91",
-        "products": 586,
+        "products": 748,
         "relevancy": 25,
         "subs": [
             {
@@ -627,7 +655,7 @@
                 "category_sub": "Over-Ear Headphones",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_1cb66",
-                "products": 24
+                "products": 23
             },
             {
                 "category_main": "Electronics",
@@ -662,21 +690,21 @@
                 "category_sub": "Open-Ear Headphones",
                 "cat_main_id": "main_9ca91",
                 "cat_sub_id": "sub_feacf",
-                "products": 14
+                "products": 15
             },
             {
                 "category_main": "Electronics",
-                "category_sub": "On-Ear Headphones",
+                "category_sub": "Hats",
                 "cat_main_id": "main_9ca91",
-                "cat_sub_id": "sub_962ef",
-                "products": 11
+                "cat_sub_id": "sub_f4eff",
+                "products": 12
             }
         ]
     },
     {
         "category_main": "Crafts",
         "cat_main_id": "main_841d8",
-        "products": 711,
+        "products": 719,
         "relevancy": 25,
         "subs": [
             {
@@ -702,9 +730,9 @@
             },
             {
                 "category_main": "Crafts",
-                "category_sub": "Pottery & Modeling Clays",
+                "category_sub": "Drawing Markers",
                 "cat_main_id": "main_841d8",
-                "cat_sub_id": "sub_e871e",
+                "cat_sub_id": "sub_6fc73",
                 "products": 12
             },
             {
@@ -716,9 +744,9 @@
             },
             {
                 "category_main": "Crafts",
-                "category_sub": "Drawing Markers",
+                "category_sub": "Pottery & Modeling Clays",
                 "cat_main_id": "main_841d8",
-                "cat_sub_id": "sub_6fc73",
+                "cat_sub_id": "sub_e871e",
                 "products": 12
             },
             {
@@ -730,9 +758,16 @@
             },
             {
                 "category_main": "Crafts",
-                "category_sub": "Candle Making Wax",
+                "category_sub": "Unfinished Wood",
                 "cat_main_id": "main_841d8",
-                "cat_sub_id": "sub_ae79d",
+                "cat_sub_id": "sub_694ba",
+                "products": 11
+            },
+            {
+                "category_main": "Crafts",
+                "category_sub": "Craft & Hobby Fabric",
+                "cat_main_id": "main_841d8",
+                "cat_sub_id": "sub_99706",
                 "products": 10
             },
             {
@@ -741,20 +776,13 @@
                 "cat_main_id": "main_841d8",
                 "cat_sub_id": "sub_2cd1c",
                 "products": 10
-            },
-            {
-                "category_main": "Crafts",
-                "category_sub": "Unfinished Wood",
-                "cat_main_id": "main_841d8",
-                "cat_sub_id": "sub_694ba",
-                "products": 10
             }
         ]
     },
     {
         "category_main": "Industrial",
         "cat_main_id": "main_eb2a2",
-        "products": 948,
+        "products": 950,
         "relevancy": 23,
         "subs": [
             {
@@ -776,7 +804,7 @@
                 "category_sub": "Commercial All-Purpose Cleaners",
                 "cat_main_id": "main_eb2a2",
                 "cat_sub_id": "sub_ea4fd",
-                "products": 25
+                "products": 26
             },
             {
                 "category_main": "Industrial",
@@ -801,16 +829,16 @@
             },
             {
                 "category_main": "Industrial",
-                "category_sub": "Contact Cements",
+                "category_sub": "Incandescent Bulbs",
                 "cat_main_id": "main_eb2a2",
-                "cat_sub_id": "sub_eaca8",
+                "cat_sub_id": "sub_01d3f",
                 "products": 12
             },
             {
                 "category_main": "Industrial",
-                "category_sub": "Incandescent Bulbs",
+                "category_sub": "Contact Cements",
                 "cat_main_id": "main_eb2a2",
-                "cat_sub_id": "sub_01d3f",
+                "cat_sub_id": "sub_eaca8",
                 "products": 12
             },
             {
@@ -832,7 +860,7 @@
     {
         "category_main": "Garden",
         "cat_main_id": "main_e2704",
-        "products": 1322,
+        "products": 1330,
         "relevancy": 17,
         "subs": [
             {
@@ -840,14 +868,14 @@
                 "category_sub": "Garden Fertilizers",
                 "cat_main_id": "main_e2704",
                 "cat_sub_id": "sub_55964",
-                "products": 84
+                "products": 88
             },
             {
                 "category_main": "Garden",
                 "category_sub": "Garden Soil",
                 "cat_main_id": "main_e2704",
                 "cat_sub_id": "sub_11d65",
-                "products": 43
+                "products": 44
             },
             {
                 "category_main": "Garden",
@@ -858,10 +886,10 @@
             },
             {
                 "category_main": "Garden",
-                "category_sub": "Outdoor Flags & Banners",
+                "category_sub": "Insect & Pest Repellent Sprays",
                 "cat_main_id": "main_e2704",
-                "cat_sub_id": "sub_b4866",
-                "products": 26
+                "cat_sub_id": "sub_5ecd9",
+                "products": 27
             },
             {
                 "category_main": "Garden",
@@ -872,9 +900,9 @@
             },
             {
                 "category_main": "Garden",
-                "category_sub": "Insect & Pest Repellent Sprays",
+                "category_sub": "Outdoor Flags & Banners",
                 "cat_main_id": "main_e2704",
-                "cat_sub_id": "sub_5ecd9",
+                "cat_sub_id": "sub_b4866",
                 "products": 26
             },
             {
@@ -886,13 +914,6 @@
             },
             {
                 "category_main": "Garden",
-                "category_sub": "Bug Zappers",
-                "cat_main_id": "main_e2704",
-                "cat_sub_id": "sub_d5bda",
-                "products": 21
-            },
-            {
-                "category_main": "Garden",
                 "category_sub": "Garden Hoses",
                 "cat_main_id": "main_e2704",
                 "cat_sub_id": "sub_aec43",
@@ -900,17 +921,24 @@
             },
             {
                 "category_main": "Garden",
+                "category_sub": "Bug Zappers",
+                "cat_main_id": "main_e2704",
+                "cat_sub_id": "sub_d5bda",
+                "products": 21
+            },
+            {
+                "category_main": "Garden",
                 "category_sub": "Pool & Spa Replacement Parts",
                 "cat_main_id": "main_e2704",
                 "cat_sub_id": "sub_d321d",
-                "products": 18
+                "products": 20
             }
         ]
     },
     {
         "category_main": "Office",
         "cat_main_id": "main_e72f4",
-        "products": 774,
+        "products": 854,
         "relevancy": 13,
         "subs": [
             {
@@ -918,7 +946,7 @@
                 "category_sub": "Inkjet Printer Ink Cartridges",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_b1702",
-                "products": 62
+                "products": 63
             },
             {
                 "category_main": "Office",
@@ -932,42 +960,42 @@
                 "category_sub": "Printer Toner Cartridges",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_9421d",
-                "products": 25
+                "products": 29
             },
             {
                 "category_main": "Office",
                 "category_sub": "Early Childhood Education Materials",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_ad334",
-                "products": 17
+                "products": 20
             },
             {
                 "category_main": "Office",
                 "category_sub": "Dry Erase Boards",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_160bc",
-                "products": 16
+                "products": 17
             },
             {
                 "category_main": "Office",
                 "category_sub": "Back Cushions & Seat Cushions",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_72a27",
-                "products": 14
+                "products": 16
             },
             {
                 "category_main": "Office",
                 "category_sub": "Hardcover Executive Notebooks",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_5da79",
-                "products": 14
+                "products": 15
             },
             {
                 "category_main": "Office",
                 "category_sub": "Receipt Paper & Thermal Receipt Paper",
                 "cat_main_id": "main_e72f4",
                 "cat_sub_id": "sub_77d37",
-                "products": 13
+                "products": 14
             },
             {
                 "category_main": "Office",
@@ -995,7 +1023,7 @@
     {
         "category_main": "Grocery",
         "cat_main_id": "main_130fd",
-        "products": 1450,
+        "products": 1476,
         "relevancy": 10,
         "subs": [
             {
@@ -1003,21 +1031,21 @@
                 "category_sub": "Herbal Tea",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_1dcdf",
-                "products": 70
+                "products": 71
             },
             {
                 "category_main": "Grocery",
                 "category_sub": "Hard Candy",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_a7d26",
-                "products": 61
+                "products": 62
             },
             {
                 "category_main": "Grocery",
                 "category_sub": "Ground Coffee",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_62e2f",
-                "products": 54
+                "products": 57
             },
             {
                 "category_main": "Grocery",
@@ -1031,42 +1059,42 @@
                 "category_sub": "Hot Sauce",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_41971",
-                "products": 40
-            },
-            {
-                "category_main": "Grocery",
-                "category_sub": "Jerky",
-                "cat_main_id": "main_130fd",
-                "cat_sub_id": "sub_29c00",
-                "products": 38
+                "products": 44
             },
             {
                 "category_main": "Grocery",
                 "category_sub": "Candy & Chocolate Bars",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_638a5",
-                "products": 37
-            },
-            {
-                "category_main": "Grocery",
-                "category_sub": "Single-Serve Coffee Capsules & Pods",
-                "cat_main_id": "main_130fd",
-                "cat_sub_id": "sub_57fe6",
-                "products": 35
+                "products": 43
             },
             {
                 "category_main": "Grocery",
                 "category_sub": "Olive Oils",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_8091b",
-                "products": 35
+                "products": 41
+            },
+            {
+                "category_main": "Grocery",
+                "category_sub": "Jerky",
+                "cat_main_id": "main_130fd",
+                "cat_sub_id": "sub_29c00",
+                "products": 39
+            },
+            {
+                "category_main": "Grocery",
+                "category_sub": "Single-Serve Coffee Capsules & Pods",
+                "cat_main_id": "main_130fd",
+                "cat_sub_id": "sub_57fe6",
+                "products": 38
             },
             {
                 "category_main": "Grocery",
                 "category_sub": "Chewing Gum",
                 "cat_main_id": "main_130fd",
                 "cat_sub_id": "sub_e2503",
-                "products": 32
+                "products": 33
             }
         ]
     },
@@ -1137,7 +1165,7 @@
     {
         "category_main": "Pets",
         "cat_main_id": "main_d0d64",
-        "products": 1344,
+        "products": 1376,
         "relevancy": 10,
         "subs": [
             {
@@ -1145,7 +1173,7 @@
                 "category_sub": "Dog Treat Cookies, Biscuits & Snacks",
                 "cat_main_id": "main_d0d64",
                 "cat_sub_id": "sub_71d1f",
-                "products": 92
+                "products": 93
             },
             {
                 "category_main": "Pets",
@@ -1159,7 +1187,7 @@
                 "category_sub": "Dog Hip & Joint Care",
                 "cat_main_id": "main_d0d64",
                 "cat_sub_id": "sub_4689a",
-                "products": 39
+                "products": 40
             },
             {
                 "category_main": "Pets",
@@ -1170,13 +1198,6 @@
             },
             {
                 "category_main": "Pets",
-                "category_sub": "Dog Multivitamins",
-                "cat_main_id": "main_d0d64",
-                "cat_sub_id": "sub_343ee",
-                "products": 30
-            },
-            {
-                "category_main": "Pets",
                 "category_sub": "Dog Waste Bags",
                 "cat_main_id": "main_d0d64",
                 "cat_sub_id": "sub_bb3da",
@@ -1184,10 +1205,17 @@
             },
             {
                 "category_main": "Pets",
+                "category_sub": "Dog Multivitamins",
+                "cat_main_id": "main_d0d64",
+                "cat_sub_id": "sub_343ee",
+                "products": 30
+            },
+            {
+                "category_main": "Pets",
                 "category_sub": "Reptile & Amphibian Food",
                 "cat_main_id": "main_d0d64",
                 "cat_sub_id": "sub_4ebc4",
-                "products": 27
+                "products": 28
             },
             {
                 "category_main": "Pets",
@@ -1208,7 +1236,7 @@
                 "category_sub": "Dog Shampoos",
                 "cat_main_id": "main_d0d64",
                 "cat_sub_id": "sub_0c3bc",
-                "products": 22
+                "products": 23
             }
         ]
     }
