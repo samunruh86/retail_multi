@@ -78,9 +78,129 @@ const initCtaForm = () => {
   });
 };
 
+const initApplicationForm = () => {
+  const form = document.querySelector('[data-application-form]');
+  if (!form) return;
+
+  const statusEl = form.querySelector('[data-application-status]');
+  const submitButton = form.querySelector('[data-application-submit]');
+  const defaultButtonText = submitButton?.textContent ?? '';
+  const accordion = form.querySelector('[data-application-accordion]');
+  const accordionItems = accordion ? Array.from(accordion.querySelectorAll('.application-accordion__item')) : [];
+
+  const setItemState = (item, expand) => {
+    if (!item) return;
+    const panel = item.querySelector('.application-accordion__panel');
+    const toggle = item.querySelector('.application-accordion__toggle');
+    if (!panel || !toggle) return;
+    item.classList.toggle('is-open', expand);
+    toggle.setAttribute('aria-expanded', expand ? 'true' : 'false');
+    panel.hidden = !expand;
+  };
+
+  if (accordionItems.length) {
+    accordionItems.forEach((item, index) => {
+      setItemState(item, index === 0);
+      const toggle = item.querySelector('.application-accordion__toggle');
+      toggle?.addEventListener('click', () => {
+        const isOpen = item.classList.contains('is-open');
+        if (!isOpen) {
+          accordionItems.forEach((other) => {
+            if (other !== item) {
+              setItemState(other, false);
+            }
+          });
+        }
+        setItemState(item, !isOpen);
+      });
+    });
+  }
+
+  const onlineFieldWrapper = form.querySelector('[data-online-urls]');
+  const onlineTextarea = onlineFieldWrapper?.querySelector('textarea');
+  const onlineRadios = form.querySelectorAll('input[name="sell_online"]');
+
+  const updateOnlineField = () => {
+    if (!onlineFieldWrapper) return;
+    const selected = Array.from(onlineRadios).find((radio) => radio.checked)?.value;
+    const show = selected === 'Yes';
+    onlineFieldWrapper.hidden = !show;
+    if (onlineTextarea) {
+      onlineTextarea.required = show;
+      if (!show) {
+        onlineTextarea.value = '';
+      }
+    }
+  };
+
+  if (onlineRadios.length) {
+    onlineRadios.forEach((radio) => radio.addEventListener('change', updateOnlineField));
+  }
+  updateOnlineField();
+
+  const setStatus = (message, state) => {
+    if (!statusEl) return;
+    statusEl.innerHTML = message;
+    statusEl.classList.remove('application-status--success', 'application-status--error');
+    if (state) {
+      statusEl.classList.add(`application-status--${state}`);
+    }
+  };
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    setStatus('');
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Submitting...';
+    }
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/sam@bluehavenbrands.com', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+        },
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error(`Request failed: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const isSuccess = data.success === true || data.success === 'true';
+
+      if (!isSuccess) {
+        throw new Error(data.message || 'Submission failed');
+      }
+
+      form.reset();
+      updateOnlineField();
+      accordionItems.forEach((item, index) => setItemState(item, index === 0));
+
+      setStatus(
+        'Thank you — your application has been received. Our onboarding team reviews all submissions within 3 business days. Approved applicants will receive login credentials for wholesale access. <a href="#what-happens-next">What happens next</a>.',
+        'success',
+      );
+    } catch (error) {
+      setStatus('Something went wrong. Please try again or email sam@bluehavenbrands.com.', 'error');
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = defaultButtonText;
+      }
+    }
+  });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   resetWebflowStyles();
   initCtaForm();
+  initApplicationForm();
   const navMenu = document.querySelector('.nav_menu');
   const navButton = document.querySelector('.navbar1_menu-button');
   const overlay = document.getElementById('w-nav-overlay-0');
