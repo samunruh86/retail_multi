@@ -6,11 +6,6 @@ const productsGridEl = document.querySelector('[data-products-grid]');
 const paginationEl = document.querySelector('[data-pagination]');
 const appliedFiltersEl = document.querySelector('[data-applied-filters]');
 const sortSelectEl = document.querySelector('[data-sort-select]');
-const modalEl = document.querySelector('[data-catalog-modal]');
-const modalBackdropEl = modalEl?.querySelector('[data-modal-backdrop]');
-const modalCloseButtons = modalEl ? [...modalEl.querySelectorAll('[data-modal-close]')] : [];
-const modalImageEl = modalEl?.querySelector('[data-modal-image]');
-const modalTitleEl = modalEl?.querySelector('[data-modal-title]');
 
 const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (match) => {
   switch (match) {
@@ -49,54 +44,6 @@ const state = {
   sort: 'popularity',
   page: 1,
 };
-
-const openModal = (product) => {
-  if (!modalEl) return;
-  const { image, title } = product;
-  if (modalImageEl) {
-    if (image) {
-      modalImageEl.src = image;
-      modalImageEl.alt = title ? `Product image for ${title}` : 'Selected product image';
-      modalImageEl.classList.remove('is-hidden');
-    } else {
-      modalImageEl.removeAttribute('src');
-      modalImageEl.alt = '';
-      modalImageEl.classList.add('is-hidden');
-    }
-  }
-  if (modalTitleEl) {
-    modalTitleEl.textContent = title || 'Unlock wholesale pricing';
-  }
-  modalEl.classList.add('is-active');
-  modalEl.removeAttribute('hidden');
-  document.body.classList.add('catalog-modal-open');
-  const closeBtn = modalEl.querySelector('.catalog-modal__close');
-  if (closeBtn) {
-    closeBtn.focus({ preventScroll: true });
-  }
-};
-
-const closeModal = () => {
-  if (!modalEl) return;
-  modalEl.classList.remove('is-active');
-  document.body.classList.remove('catalog-modal-open');
-  window.setTimeout(() => {
-    if (!modalEl.classList.contains('is-active')) {
-      modalEl.setAttribute('hidden', '');
-    }
-  }, 250);
-};
-
-modalBackdropEl?.addEventListener('click', closeModal);
-modalCloseButtons.forEach((button) => {
-  button.addEventListener('click', closeModal);
-});
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    closeModal();
-  }
-});
 
 const handleLoadError = (error) => {
   if (resultCountEl) {
@@ -306,8 +253,7 @@ const renderProducts = () => {
               <button
                 type="button"
                 class="catalog-product-card__cta"
-                data-product-image="${productImage}"
-                data-product-title="${escapeAttribute(product.title || '')}"
+                data-login-trigger
               >
                 <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--locked" aria-hidden="true"></span>
                 <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--unlocked" aria-hidden="true"></span>
@@ -324,17 +270,6 @@ const renderProducts = () => {
     });
   });
 };
-
-productsGridEl?.addEventListener('click', (event) => {
-  const trigger = event.target.closest('.catalog-product-card__cta');
-  if (!trigger) return;
-  const image = trigger.dataset.productImage || '';
-  const title = trigger.dataset.productTitle || '';
-  openModal({
-    image,
-    title,
-  });
-});
 
 const renderPagination = () => {
   if (!paginationEl) return;

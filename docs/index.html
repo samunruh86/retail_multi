@@ -35,6 +35,7 @@
             <a href="/brands/" class="mobile-nav_link">Brands</a>
             <a href="/retailers/" class="mobile-nav_link">Retailers</a>
             <a href="/catalog/" class="mobile-nav_link">Catalog</a>
+            <a href="#" class="mobile-nav_link" data-login-trigger>Login</a>
             <div class="button-grup gap-tiny">
               <a href="/contact/#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Request Access</a>
             </div>
@@ -48,6 +49,7 @@
             <a href="/brands/" class="nav_link w-nav-link">Brands</a>
             <a href="/retailers/" class="nav_link w-nav-link">Retailers</a>
             <a href="/catalog/" class="nav_link w-nav-link">Catalog</a>
+            <a href="#" class="nav_link w-nav-link" data-login-trigger>Login</a>
           </nav>
           <div class="nav_cta">
             <div class="button-grup gap-tiny">
@@ -543,6 +545,24 @@
     </div>
   </div>
 </div>
+<div id="learn-more" class="section_global_cta">
+  <div class="container_medium2">
+    <div class="cta_banner">
+      <div class="cta-col_left col1">
+        <div class="w-layout-blockcontainer maxwidth_large w-container">
+          <h2 class="text-color-light h2-heading-style cta-heading">Ready to dive in?</h2>
+        </div>
+      </div>
+      <div class="cta_content">
+        <p class="text-color-light cta_description">Discover how Retail Stride supports premium brands and independent retailers with trusted wholesale partnerships tailored to each growth plan.</p>
+        <div class="cta_button-group button-group">
+          <a href="/brands" class="btn btn-primary w-button">Brands</a>
+          <a href="/retailers" class="btn btn_reverse w-button">Retailers</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="contact" class="section_global_footer">
   <div class="footer3">
     <div class="container_medium2">
@@ -556,12 +576,31 @@
           </div>
         </div>
         <div class="col footer-col last">
-          <p><strong>Explore</strong></p>
-          <div class="footer_links">
-            <a href="/contact/" class="footer2_link">Contact</a>
-            <a href="/brands/" class="footer2_link">Brands</a>
-            <a href="/retailers/" class="footer2_link">Retailers</a>
-            <a href="/catalog/" class="footer2_link">Catalog</a>
+          <div class="footer_links-grid">
+            <div class="footer_links-group">
+              <p><strong>Brands</strong></p>
+              <div class="footer_links">
+                <a href="/#services" class="footer2_link">Our Services</a>
+                <a href="/contact/" class="footer2_link">Contact</a>
+              </div>
+            </div>
+            <div class="footer_links-group">
+              <p><strong>Retailers</strong></p>
+              <div class="footer_links">
+                <a href="/retailers/" class="footer2_link">Login</a>
+                <a href="/contact/#cta" class="footer2_link">Apply for Access</a>
+                <a href="/#how-we-work" class="footer2_link">How It Works</a>
+                <a href="/contact/" class="footer2_link">Contact</a>
+              </div>
+            </div>
+            <div class="footer_links-group">
+              <p><strong>Explore</strong></p>
+              <div class="footer_links">
+                <a href="/catalog/" class="footer2_link">Catalog</a>
+                <a href="/contact/" class="footer2_link">Get in Touch</a>
+                <a href="/privacy/" class="footer2_link">Privacy Policy</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -571,6 +610,29 @@
           <p class="paragraph_small copy">© 2025 Retail Stride. <span class="text-span-32">All rights reserved.</span></p>
         </div>
       </div>
+  </div>
+</div>
+</div>
+<div class="login-modal" data-login-modal hidden>
+  <div class="login-modal__backdrop" data-login-close></div>
+  <div class="login-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
+    <button type="button" class="login-modal__close" data-login-close aria-label="Close login dialog">×</button>
+    <div class="login-modal__content">
+      <h3 id="login-modal-title" class="login-modal__title">Partner Login</h3>
+      <p class="login-modal__description">Sign in to view wholesale pricing, minimum order quantities, and live availability.</p>
+      <form class="login-form" data-login-form>
+        <div class="login-form_field">
+          <label for="login-username">Username</label>
+          <input id="login-username" name="username" type="text" autocomplete="username" placeholder="your@email.com" required data-login-first>
+        </div>
+        <div class="login-form_field">
+          <label for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn btn-primary login-form_submit w-button">Log In</button>
+      </form>
+      <p class="login-modal__status" role="status" aria-live="polite" data-login-status></p>
+      <p class="login-modal__note">Need credentials? <a href="/contact/#cta">Request access</a> and our team will reach out.</p>
     </div>
   </div>
 </div>

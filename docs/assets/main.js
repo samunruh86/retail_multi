@@ -339,30 +339,152 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.querySelectorAll('.accordion__style2').forEach((accordion) => {
-    accordion.querySelectorAll('.accordion__block').forEach((block) => {
+    const blocks = Array.from(accordion.querySelectorAll('.accordion__block'));
+
+    const setBlockState = (block, shouldOpen) => {
       const title = block.querySelector('.accordion__title');
       const content = block.querySelector('.accordion__content');
       if (!title || !content) return;
+
+      block.classList.toggle('active', shouldOpen);
+      title.classList.toggle('active', shouldOpen);
+      content.setAttribute('aria-hidden', shouldOpen ? 'false' : 'true');
+
+      if (shouldOpen) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.style.opacity = '1';
+      } else {
+        content.style.maxHeight = '0px';
+        content.style.opacity = '0';
+      }
+    };
+
+    blocks.forEach((block) => {
+      const title = block.querySelector('.accordion__title');
+      const content = block.querySelector('.accordion__content');
+      if (!title || !content) return;
+
       const blockIsActive = block.classList.contains('active');
-      content.style.display = blockIsActive ? 'block' : 'none';
+      content.style.maxHeight = blockIsActive ? `${content.scrollHeight}px` : '0px';
+      content.style.opacity = blockIsActive ? '1' : '0';
+      content.setAttribute('aria-hidden', blockIsActive ? 'false' : 'true');
       title.classList.toggle('active', blockIsActive);
+
       title.addEventListener('click', () => {
         const isActive = block.classList.contains('active');
-        accordion.querySelectorAll('.accordion__block').forEach((other) => {
-          other.classList.remove('active');
-          const otherContent = other.querySelector('.accordion__content');
-          const otherTitle = other.querySelector('.accordion__title');
-          if (otherContent) otherContent.style.display = 'none';
-          if (otherTitle) otherTitle.classList.remove('active');
+
+        blocks.forEach((other) => {
+          if (other !== block) {
+            setBlockState(other, false);
+          }
         });
-        if (!isActive) {
-          block.classList.add('active');
-          content.style.display = 'block';
-          title.classList.add('active');
-        }
+
+        setBlockState(block, !isActive);
+      });
+    });
+
+    window.addEventListener('resize', () => {
+      blocks.forEach((block) => {
+        if (!block.classList.contains('active')) return;
+        const content = block.querySelector('.accordion__content');
+        if (!content) return;
+        content.style.maxHeight = `${content.scrollHeight}px`;
       });
     });
   });
+
+  const loginModal = document.querySelector('[data-login-modal]');
+  if (loginModal) {
+    const loginStatus = loginModal.querySelector('[data-login-status]');
+    const loginForm = loginModal.querySelector('[data-login-form]');
+    const loginCloseElements = loginModal.querySelectorAll('[data-login-close]');
+    const firstField = loginModal.querySelector('[data-login-first]');
+    let lastFocusedTrigger = null;
+    let closeTimeout = null;
+
+    const resetStatus = () => {
+      if (!loginStatus) return;
+      loginStatus.textContent = '';
+      loginStatus.classList.remove('is-visible');
+    };
+
+    const closeLoginModal = () => {
+      if (loginModal.hidden) return;
+      loginModal.classList.remove('is-active');
+      document.body.classList.remove('login-modal-open');
+      if (closeTimeout) {
+        clearTimeout(closeTimeout);
+      }
+      closeTimeout = window.setTimeout(() => {
+        if (!loginModal.classList.contains('is-active')) {
+          loginModal.hidden = true;
+        }
+      }, 280);
+      if (lastFocusedTrigger && typeof lastFocusedTrigger.focus === 'function') {
+        lastFocusedTrigger.focus({ preventScroll: true });
+      }
+    };
+
+    const openLoginModal = (trigger) => {
+      lastFocusedTrigger = trigger instanceof HTMLElement ? trigger : null;
+      resetStatus();
+      if (closeTimeout) {
+        clearTimeout(closeTimeout);
+      }
+      loginModal.hidden = false;
+      requestAnimationFrame(() => {
+        loginModal.classList.add('is-active');
+      });
+      document.body.classList.add('login-modal-open');
+      if (typeof closeNav === 'function') {
+        closeNav();
+      }
+      if (firstField) {
+        setTimeout(() => firstField.focus({ preventScroll: true }), 120);
+      }
+    };
+
+    loginCloseElements.forEach((el) => {
+      el.addEventListener('click', (event) => {
+        event.preventDefault();
+        closeLoginModal();
+      });
+    });
+
+    if (loginForm) {
+      loginForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        if (loginStatus) {
+          loginStatus.textContent = 'Portal access is provided to approved partners. Please contact us to activate your login.';
+          loginStatus.classList.add('is-visible');
+        }
+      });
+    }
+
+    document.addEventListener('click', (event) => {
+      const trigger = event.target.closest('[data-login-trigger]');
+      if (!trigger) return;
+      event.preventDefault();
+      openLoginModal(trigger);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !loginModal.hidden) {
+        closeLoginModal();
+      }
+    });
+
+    loginModal.addEventListener('click', (event) => {
+      if (event.target === loginModal) {
+        closeLoginModal();
+      }
+    });
+
+    document.addEventListener('login:open', (event) => {
+      const trigger = event.detail?.trigger ?? null;
+      openLoginModal(trigger);
+    });
+  }
   const counters = document.querySelectorAll('.counter');
   if (counters.length) {
     const observer = new IntersectionObserver((entries, obs) => {

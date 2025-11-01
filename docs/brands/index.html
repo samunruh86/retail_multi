@@ -26,6 +26,7 @@
             <a href="/brands/" class="mobile-nav_link w--current" aria-current="page">Brands</a>
             <a href="/retailers/" class="mobile-nav_link">Retailers</a>
             <a href="/catalog/" class="mobile-nav_link">Catalog</a>
+            <a href="#" class="mobile-nav_link" data-login-trigger>Login</a>
             <div class="button-grup gap-tiny">
               <a href="/contact/#cta" class="btn phone-inverted btn_icon btn_reverse nav w-button">Let's Connect</a>
             </div>
@@ -39,6 +40,7 @@
             <a href="/brands/" class="nav_link w-nav-link w--current" aria-current="page">Brands</a>
             <a href="/retailers/" class="nav_link w-nav-link">Retailers</a>
             <a href="/catalog/" class="nav_link w-nav-link">Catalog</a>
+            <a href="#" class="nav_link w-nav-link" data-login-trigger>Login</a>
           </nav>
           <div class="nav_cta">
             <div class="button-grup gap-tiny">
@@ -542,6 +544,30 @@
           <p class="paragraph_small copy">© 2025 Retail Stride. <span class="text-span-32">All rights reserved.</span></p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="login-modal" data-login-modal hidden>
+  <div class="login-modal__backdrop" data-login-close></div>
+  <div class="login-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
+    <button type="button" class="login-modal__close" data-login-close aria-label="Close login dialog">×</button>
+    <div class="login-modal__content">
+      <h3 id="login-modal-title" class="login-modal__title">Partner Login</h3>
+      <p class="login-modal__description">Sign in to view wholesale pricing, minimum order quantities, and live availability.</p>
+      <form class="login-form" data-login-form>
+        <div class="login-form_field">
+          <label for="login-username">Username</label>
+          <input id="login-username" name="username" type="text" autocomplete="username" placeholder="your@email.com" required data-login-first>
+        </div>
+        <div class="login-form_field">
+          <label for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="btn btn-primary login-form_submit w-button">Log In</button>
+      </form>
+      <p class="login-modal__status" role="status" aria-live="polite" data-login-status></p>
+      <p class="login-modal__note">Need credentials? <a href="/contact/#cta">Request access</a> and our team will reach out.</p>
     </div>
   </div>
 </div>
