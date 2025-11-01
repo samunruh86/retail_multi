@@ -798,26 +798,6 @@ body.catalog-body {
   gap: 0.3rem;
 }
 
-.catalog-brand-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-}
-
-.catalog-brand-filter {
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-}
-
-.catalog-brand-filter__label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--catalog-text-subtle);
-}
-
 .catalog-applied-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1297,12 +1277,6 @@ body.catalog-modal-open {
   padding: 4px 10px;
 }
 
-.catalog-brand-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
 .catalog-pill__count {
   display: inline-flex;
   align-items: center;
@@ -1316,8 +1290,7 @@ body.catalog-modal-open {
   font-weight: 600;
 }
 
-.catalog-category-pill.is-active .catalog-pill__count,
-.catalog-brand-pill.is-active .catalog-pill__count {
+.catalog-category-pill.is-active .catalog-pill__count {
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }

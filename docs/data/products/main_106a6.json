@@ -2,7 +2,7 @@
     "meta": {
         "category_main": "Home",
         "cat_main_id": "main_106a6",
-        "products": 1500,
+        "products": 1495,
         "relevancy": 85,
         "subs": [
             {
@@ -21021,76 +21021,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41iQ7mqlo7L.jpg",
             "brand_image": null
-        },
-        {
-            "id": "2a27c1e0731c",
-            "cat_main_id": "main_106a6",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "feabe65f",
-            "brand": "Paige McRae Home & Decor",
-            "title": "Wedding Guest Book With Personalized 2025 Year - Linen Photo Guestbook to Sign at Reception Party - Includes Clear Photo Corners Self Adhesive - 100 Pages Blank and Lined Thick Paper Guest Books",
-            "reviews": 61,
-            "rating": 4.8,
-            "volume": 50,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41aA4ynWeeL.jpg",
-            "brand_image": "https://img.logo.dev/paigemcraehomedecor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "360064e989ae",
-            "cat_main_id": "main_106a6",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "d546ec86",
-            "brand": "Homechoice Decor",
-            "title": "Homechoice Decor Thermal Insulated Blackout Window Curtains, 54\" W x 84\" L (Pair), Boho Ruched Window Treatments with 3 Rows of Butterfly Flowers, Rustic Rod Pocket Drapes for Room, Camel (LQ-30)",
-            "reviews": 402,
-            "rating": 4.7,
-            "volume": 50,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41sVgI0iavL.jpg",
-            "brand_image": "https://img.logo.dev/homechoicedecor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "3cd09013b382",
-            "cat_main_id": "main_106a6",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "b94dd924",
-            "brand": "GIOTORENT",
-            "title": "GIOTORENT 5-Wire Standing Book Shelf & Bookcase, Metal Storage Shelving Unit Pantry Rack for Laundry Kitchen Bathroom Organizer, Black",
-            "reviews": 446,
-            "rating": 4.6,
-            "volume": 50,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31kwjmFKnYL.jpg",
-            "brand_image": "https://img.logo.dev/giotorent.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "e4d3e9064048",
-            "cat_main_id": "main_106a6",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "537daa26",
-            "brand": "GRT",
-            "title": "GRT Twin Mattress Protector Waterproof, 100% Waterproof Quilted Fitted Mattress Pad, Noiseless Hollow Cotton Mattress Cover, fits up to 18\" Deep, Dust Proof White",
-            "reviews": 1354,
-            "rating": 4.6,
-            "volume": 50,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41WWWd+a1BL.jpg",
-            "brand_image": "https://img.logo.dev/grt.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "aa9b6571a3df",
-            "cat_main_id": "main_106a6",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "a73e0d89",
-            "brand": "inhand",
-            "title": "inhand Cooling Blanket King Size (90\"x108\"), Cooling Blankets for Hot Sleepers, Absorbs Heat to Keep Adults Cool for Summer Nights Sweats, Thin Cold Lightweight Blanket for Couch Bed, All Season Use",
-            "reviews": 366,
-            "rating": 4.3,
-            "volume": 50,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51IHIt8yzrL.jpg",
-            "brand_image": "https://img.logo.dev/inhand.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         }
     ]
 }

@@ -70,6 +70,13 @@
             },
             {
                 "category_main": "Music",
+                "category_sub": "Music Tuning",
+                "cat_main_id": "main_18d67",
+                "cat_sub_id": "sub_872aa",
+                "products": 9
+            },
+            {
+                "category_main": "Music",
                 "category_sub": "Acoustic Guitar",
                 "cat_main_id": "main_18d67",
                 "cat_sub_id": "sub_7a8f4",
@@ -80,13 +87,6 @@
                 "category_sub": "Hangers For",
                 "cat_main_id": "main_18d67",
                 "cat_sub_id": "sub_c42cb",
-                "products": 9
-            },
-            {
-                "category_main": "Music",
-                "category_sub": "Music Tuning",
-                "cat_main_id": "main_18d67",
-                "cat_sub_id": "sub_872aa",
                 "products": 9
             }
         ]
