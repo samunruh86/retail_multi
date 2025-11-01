@@ -1,6 +1,8 @@
 const PAGE_SIZE = 30;
 const categoryListEl = document.querySelector('[data-category-list]');
 const subcategoryListEl = document.querySelector('[data-subcategory-list]');
+const brandFilterContainer = document.querySelector('[data-brand-filter]');
+const brandListEl = brandFilterContainer?.querySelector('[data-brand-list]') ?? document.querySelector('[data-brand-list]');
 const resultCountEl = document.querySelector('[data-result-count]');
 const productsGridEl = document.querySelector('[data-products-grid]');
 const paginationEl = document.querySelector('[data-pagination]');
@@ -31,14 +33,23 @@ const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (match) =>
 
 const escapeAttribute = escapeHTML;
 
+const formatNumber = (value) => {
+  if (value == null) return '';
+  const number = Number(value);
+  if (!Number.isFinite(number)) return '';
+  return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(number);
+};
+
 const state = {
   categories: [],
   activeMain: null,
   activeSub: null,
+  activeBrand: null,
   productsCache: new Map(),
   metaCache: new Map(),
   allProducts: [],
   filteredProducts: [],
+  brandOptions: [],
   sort: 'popularity',
   page: 1,
 };
@@ -115,6 +126,78 @@ const getActiveSubcategoryMeta = () => {
   return categoryMeta.subs.find((sub) => sub.cat_sub_id === state.activeSub) ?? null;
 };
 
+const getActiveBrandMeta = () => {
+  if (!state.activeBrand) return null;
+  const option = state.brandOptions.find((brand) => brand.brand_id === state.activeBrand);
+  if (option) return option;
+  const fallback = state.allProducts.find((product) => product.brand_id === state.activeBrand);
+  if (!fallback) return null;
+  return {
+    brand_id: fallback.brand_id,
+    brand: fallback.brand,
+    count: state.filteredProducts.filter((product) => product.brand_id === fallback.brand_id).length,
+    brand_image: fallback.brand_image,
+  };
+};
+
+const computeBrandOptions = (products) => {
+  const byBrand = new Map();
+  products.forEach((product) => {
+    const brandId = product.brand_id;
+    if (!brandId) return;
+    const existing = byBrand.get(brandId) ?? {
+      brand_id: brandId,
+      brand: product.brand || 'Unknown brand',
+      brand_image: product.brand_image || '',
+      count: 0,
+    };
+    existing.count += 1;
+    if (!existing.brand && product.brand) {
+      existing.brand = product.brand;
+    }
+    if (!existing.brand_image && product.brand_image) {
+      existing.brand_image = product.brand_image;
+    }
+    byBrand.set(brandId, existing);
+  });
+  return [...byBrand.values()].sort((a, b) => b.count - a.count).slice(0, 16);
+};
+
+const renderBrandFilters = (brandOptions) => {
+  if (!brandListEl) return;
+  brandListEl.innerHTML = '';
+
+  if (!brandOptions.length) {
+    brandFilterContainer?.setAttribute('hidden', '');
+    return;
+  }
+
+  brandFilterContainer?.removeAttribute('hidden');
+
+  brandOptions.forEach((brand) => {
+    const isActive = brand.brand_id === state.activeBrand;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'catalog-category-pill catalog-brand-pill';
+    button.dataset.brandId = brand.brand_id;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+    const label = escapeHTML(brand.brand || 'Brand');
+    const count = formatNumber(brand.count);
+    button.innerHTML = `
+      <span class="catalog-pill__label">${label}</span>
+      ${count ? `<span class="catalog-pill__count">${count}</span>` : ''}
+    `;
+    button.addEventListener('click', () => {
+      const willActivate = state.activeBrand !== brand.brand_id;
+      state.activeBrand = willActivate ? brand.brand_id : null;
+      state.page = 1;
+      applyFilters();
+    });
+    brandListEl.appendChild(button);
+  });
+};
+
 const renderMainCategories = () => {
   if (!categoryListEl) return;
   categoryListEl.innerHTML = '';
@@ -124,13 +207,15 @@ const renderMainCategories = () => {
     button.type = 'button';
     button.className = 'catalog-category-pill';
     button.dataset.catMain = category.cat_main_id;
-    button.textContent = category.category_main;
+    const label = escapeHTML(category.category_main || 'Category');
+    button.innerHTML = `<span class="catalog-pill__label">${label}</span>`;
     button.classList.toggle('is-active', isActive);
     button.setAttribute('aria-pressed', String(isActive));
     button.addEventListener('click', () => {
       if (state.activeMain === category.cat_main_id) return;
       state.activeMain = category.cat_main_id;
       state.activeSub = null;
+      state.activeBrand = null;
       state.page = 1;
       renderMainCategories();
       renderSubcategories();
@@ -158,12 +243,14 @@ const renderSubcategories = () => {
     button.type = 'button';
     button.className = 'catalog-category-pill catalog-subcategory-pill';
     button.dataset.catSub = sub.cat_sub_id;
-    button.textContent = sub.category_sub;
+    const label = escapeHTML(sub.category_sub || 'Subcategory');
+    button.innerHTML = `<span class="catalog-pill__label">${label}</span>`;
     button.classList.toggle('is-active', isActive);
     button.setAttribute('aria-pressed', String(isActive));
     button.addEventListener('click', () => {
       const willActivate = state.activeSub !== sub.cat_sub_id;
       state.activeSub = willActivate ? sub.cat_sub_id : null;
+      state.activeBrand = null;
       state.page = 1;
       renderSubcategories();
       applyFilters();
@@ -196,21 +283,73 @@ const renderResultCount = (shown) => {
   }
 
   const categoryMeta = getActiveCategoryMeta();
-  const categoryName = categoryMeta?.category_main || 'Selected category';
+  const categoryName = escapeHTML(categoryMeta?.category_main || 'Selected category');
+  const brandMeta = getActiveBrandMeta();
+  const brandName = brandMeta?.brand ? escapeHTML(brandMeta.brand) : '';
+  const shownLabel = formatNumber(shown);
 
   if (state.activeSub) {
     const subMeta = getActiveSubcategoryMeta();
-    const subName = subMeta?.category_sub || 'Selected subcategory';
-    resultCountEl.innerHTML = `Showing <strong>${shown}</strong> in <strong>${subName}</strong>`;
+    const subName = escapeHTML(subMeta?.category_sub || 'Selected subcategory');
+    if (brandName) {
+      resultCountEl.innerHTML = `Showing <strong>${shownLabel}</strong> in <strong>${subName}</strong> for <strong>${brandName}</strong>`;
+      return;
+    }
+    resultCountEl.innerHTML = `Showing <strong>${shownLabel}</strong> in <strong>${subName}</strong>`;
     return;
   }
 
-  resultCountEl.innerHTML = `Showing <strong>${shown}</strong> in <strong>${categoryName}</strong>`;
+  if (brandName) {
+    resultCountEl.innerHTML = `Showing <strong>${shownLabel}</strong> in <strong>${categoryName}</strong> from <strong>${brandName}</strong>`;
+    return;
+  }
+
+  resultCountEl.innerHTML = `Showing <strong>${shownLabel}</strong> in <strong>${categoryName}</strong>`;
 };
 
 const renderAppliedFilters = () => {
   if (!appliedFiltersEl) return;
   appliedFiltersEl.innerHTML = '';
+
+  const filters = [];
+  const subMeta = getActiveSubcategoryMeta();
+  if (subMeta) {
+    filters.push({
+      label: subMeta.category_sub || 'Selected subcategory',
+      onRemove: () => {
+        state.activeSub = null;
+        state.page = 1;
+        applyFilters();
+      },
+    });
+  }
+
+  const brandMeta = getActiveBrandMeta();
+  if (brandMeta) {
+    filters.push({
+      label: brandMeta.brand || 'Selected brand',
+      onRemove: () => {
+        state.activeBrand = null;
+        state.page = 1;
+        applyFilters();
+      },
+    });
+  }
+
+  filters.forEach((filter) => {
+    const chip = document.createElement('div');
+    chip.className = 'catalog-chip';
+    const label = document.createElement('span');
+    label.textContent = filter.label;
+    chip.appendChild(label);
+    const removeButton = document.createElement('button');
+    removeButton.type = 'button';
+    removeButton.setAttribute('aria-label', `Remove filter ${filter.label}`);
+    removeButton.textContent = '×';
+    removeButton.addEventListener('click', filter.onRemove);
+    chip.appendChild(removeButton);
+    appliedFiltersEl.appendChild(chip);
+  });
 };
 
 const renderProducts = () => {
@@ -273,7 +412,7 @@ const renderProducts = () => {
               >
                 <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--locked" aria-hidden="true"></span>
                 <span class="catalog-product-card__cta-icon catalog-product-card__cta-icon--unlocked" aria-hidden="true"></span>
-                <span class="catalog-product-card__cta-label">Unlock Wholesale Price</span>
+                <span class="catalog-product-card__cta-label">Unlock Price</span>
               </button>
             </div>
           </div>
@@ -342,6 +481,8 @@ const renderPagination = () => {
 const applyFilters = () => {
   if (!state.activeMain) {
     state.filteredProducts = [];
+    state.brandOptions = [];
+    renderBrandFilters([]);
     renderResultCount(0);
     renderAppliedFilters();
     renderProducts();
@@ -349,10 +490,21 @@ const applyFilters = () => {
     return;
   }
 
-  const filtered = state.allProducts.filter((product) => {
+  const subFiltered = state.allProducts.filter((product) => {
     if (!state.activeSub) return true;
     return product.cat_sub_id === state.activeSub;
   });
+
+  const brandOptions = computeBrandOptions(subFiltered);
+  state.brandOptions = brandOptions;
+  if (state.activeBrand && !brandOptions.some((brand) => brand.brand_id === state.activeBrand)) {
+    state.activeBrand = null;
+  }
+  renderBrandFilters(brandOptions);
+
+  const filtered = state.activeBrand
+    ? subFiltered.filter((product) => product.brand_id === state.activeBrand)
+    : subFiltered;
 
   const sorted = applySort(filtered);
   state.filteredProducts = sorted;
@@ -366,6 +518,8 @@ const applyFilters = () => {
 };
 
 const loadProductsForCategory = async (catMainId) => {
+  state.brandOptions = [];
+  renderBrandFilters([]);
   if (state.productsCache.has(catMainId)) {
     const cached = state.productsCache.get(catMainId);
     const meta = state.metaCache.get(catMainId);
@@ -375,7 +529,7 @@ const loadProductsForCategory = async (catMainId) => {
     return;
   }
 
-  const response = await fetch(`data/products/${catMainId}.json`);
+  const response = await fetch(`../data/products/${catMainId}.json`);
   if (!response.ok) throw new Error('Unable to load products');
   const data = await response.json();
 
@@ -404,7 +558,7 @@ const handleSortChange = () => {
 };
 
 const loadCategories = async () => {
-  const response = await fetch('data/categories/map.json');
+  const response = await fetch('../data/categories/map.json');
   if (!response.ok) throw new Error('Unable to load categories');
   const data = await response.json();
   state.categories = Array.isArray(data) ? data : [];

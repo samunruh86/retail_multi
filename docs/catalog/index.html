@@ -70,20 +70,15 @@
               <div class="catalog-sort-bar">
                 <div class="catalog-sort-bar__actions">
                   <div class="catalog-pill-row catalog-pill-row--sub" data-subcategory-list></div>
-                  <div class="catalog-sort-select">
-                    <select id="catalog-sort" data-sort-select aria-label="Sort by">
-                      <option value="popularity">Popularity</option>
-                      <option value="price-asc">Price: Low to High</option>
-                      <option value="price-desc">Price: High to Low</option>
-                      <option value="rating-desc">Rating: High to Low</option>
-                      <option value="reviews-desc">Reviews: High to Low</option>
-                    </select>
-                  </div>
                 </div>
                 <div class="catalog-applied-filters">
                   <span class="catalog-result-count" data-result-count>Loading products…</span>
                   <div class="catalog-applied-filters__list" data-applied-filters></div>
                 </div>
+              </div>
+              <div class="catalog-brand-filter" data-brand-filter hidden>
+                <p class="catalog-brand-filter__label">Top brands</p>
+                <div class="catalog-brand-list" data-brand-list role="group" aria-label="Filter by brand"></div>
               </div>
               <div class="catalog-products-grid" data-products-grid></div>
               <div class="catalog-pagination" data-pagination></div>

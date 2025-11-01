@@ -70,13 +70,6 @@
             },
             {
                 "category_main": "Gaming",
-                "category_sub": "Playstation 3",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_fddd0",
-                "products": 8
-            },
-            {
-                "category_main": "Gaming",
                 "category_sub": "Standalone Virtual",
                 "cat_main_id": "main_967ef",
                 "cat_sub_id": "sub_b5807",
@@ -84,17 +77,10 @@
             },
             {
                 "category_main": "Gaming",
-                "category_sub": "Xbox Accessories",
+                "category_sub": "Playstation 3",
                 "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_3cc0b",
-                "products": 6
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Wii U",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_bf4a5",
-                "products": 6
+                "cat_sub_id": "sub_fddd0",
+                "products": 8
             },
             {
                 "category_main": "Gaming",
@@ -102,48 +88,6 @@
                 "cat_main_id": "main_967ef",
                 "cat_sub_id": "sub_c6abe",
                 "products": 6
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Mac Gaming",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_a456d",
-                "products": 6
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Game Boy",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_97025",
-                "products": 5
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Nintendo Ds",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_05792",
-                "products": 5
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Sony Psp",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_5521c",
-                "products": 5
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Playstation Accessories",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_f5b2b",
-                "products": 5
-            },
-            {
-                "category_main": "Gaming",
-                "category_sub": "Mac Game",
-                "cat_main_id": "main_967ef",
-                "cat_sub_id": "sub_d1e84",
-                "products": 5
             }
         ]
     },
@@ -261,20 +205,6 @@
             "brand_image": "https://img.logo.dev/valorise.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "52f084182655",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_97025",
-            "brand_id": "88dc25eb",
-            "brand": "Huqjot",
-            "title": "Huqjot 2025 Upgraded Retro Gaming Console Stick Pro, Video Games Console with 4K HDMI, Built-in 23 Classic Game Emulators, 20000+ Games - Video Game with Upgrade Dual 2.4G Wireless Controllers (64G)",
-            "reviews": 197,
-            "rating": 4.7,
-            "volume": 100,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51XbOHecwnL.jpg",
-            "brand_image": "https://img.logo.dev/huqjot.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "b725f45808b0",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_bf6b5",
@@ -328,20 +258,6 @@
             "volume": 100,
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51hg2InAHAL.jpg",
-            "brand_image": "https://img.logo.dev/rdsindustriesinc.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "5eed5ed177d5",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "658fb78f",
-            "brand": "RDS Industries, Inc",
-            "title": "R.D.S. Industries, Inc. - Licensed Nintendo Switch 2, OLED & Nintendo Switch Systems Game Traveler Deluxe System Case \u2013 Holds 12 Game Cards & microSD Card Case Holds 2pcs & Each Holds 2 microSD Cards, (NS230)",
-            "reviews": 10,
-            "rating": 4.9,
-            "volume": 100,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51NfDorQkVL.jpg",
             "brand_image": "https://img.logo.dev/rdsindustriesinc.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
@@ -443,20 +359,6 @@
             "brand_image": "https://img.logo.dev/svetaecho.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "611620a54d4e",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "a39c7e2e",
-            "brand": "Tokluck",
-            "title": "PS5/Slim/Pro Wall Mount Kit with Cooling Fan & Charging Station, PS5 Shelf Floating Mount for All PlayStation 5/Slim/Pro Disc & Digital Console, PS 5 Wall Bracket Behind TV, PS Five Pro Accessories",
-            "reviews": 35,
-            "rating": 4.4,
-            "volume": 94,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/4133XH8qfxL.jpg",
-            "brand_image": "https://img.logo.dev/tokluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "1223b2007fcb",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_7868b",
@@ -469,6 +371,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41fsHdes5wL.jpg",
             "brand_image": "https://img.logo.dev/tmkbtechnologymechanicalkeyboard.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "611620a54d4e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "a39c7e2e",
+            "brand": "Tokluck",
+            "title": "PS5/Slim/Pro Wall Mount Kit with Cooling Fan & Charging Station, PS5 Shelf Floating Mount for All PlayStation 5/Slim/Pro Disc & Digital Console, PS 5 Wall Bracket Behind TV, PS Five Pro Accessories",
+            "reviews": 35,
+            "rating": 4.4,
+            "volume": 94,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/4133XH8qfxL.jpg",
+            "brand_image": "https://img.logo.dev/tokluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "e0a4bb594917",
@@ -499,6 +415,20 @@
             "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "5eed5ed177d5",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "658fb78f",
+            "brand": "RDS Industries, Inc",
+            "title": "R.D.S. Industries, Inc. - Licensed Nintendo Switch 2, OLED & Nintendo Switch Systems Game Traveler Deluxe System Case \u2013 Holds 12 Game Cards & microSD Card Case Holds 2pcs & Each Holds 2 microSD Cards, (NS230)",
+            "reviews": 10,
+            "rating": 4.9,
+            "volume": 100,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51NfDorQkVL.jpg",
+            "brand_image": "https://img.logo.dev/rdsindustriesinc.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "19742658a327",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_bf6b5",
@@ -513,20 +443,6 @@
             "brand_image": "https://img.logo.dev/kiwihome.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "bd39601c7eb6",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_97025",
-            "brand_id": "381e3bfd",
-            "brand": "RMOKA",
-            "title": "Retro Gaming Console, 20,000+ Retro Game Stick, 23 Emulators, 4K HD TV Game Stick, Built-in Classic Video Games, Plug & Play Game Console for TV with 2 Wireless Controllers",
-            "reviews": 151,
-            "rating": 4.1,
-            "volume": 91,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51NBdNSSJgL.jpg",
-            "brand_image": "https://img.logo.dev/rmoka.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "e57bf40f17a8",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5b694",
@@ -539,20 +455,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/412vPN0VcdL.jpg",
             "brand_image": null
-        },
-        {
-            "id": "49efcec26665",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_05792",
-            "brand_id": "532cdaf3",
-            "brand": "daydayup",
-            "title": "daydayup Switch Carrying Case Compatible with Nintendo Switch/Switch OLED, with 20 Games Cartridges Protective Hard Shell Travel Carrying Case Pouch for Console & Accessories, Black",
-            "reviews": 6091,
-            "rating": 4.8,
-            "volume": 90,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51dbKRJQE1L.jpg",
-            "brand_image": "https://img.logo.dev/daydayup.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "3cd54524c642",
@@ -611,20 +513,6 @@
             "brand_image": "https://img.logo.dev/dinostrike.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "385e6912680a",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "74b30ed4",
-            "brand": "TIANHOO",
-            "title": "TIANHOO 2 Pack Remote Controller for Wii & Wii U, with Silicone Case and Wrist Strap (White)",
-            "reviews": 327,
-            "rating": 4.4,
-            "volume": 71,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41imzIOrrHL.jpg",
-            "brand_image": "https://img.logo.dev/tianhoo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "6e1856b0f941",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
@@ -653,20 +541,6 @@
             "brand_image": "https://img.logo.dev/skybound.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "8304d45fa781",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_c6abe",
-            "brand_id": "67027ba2",
-            "brand": "EasySMX",
-            "title": "EasySMX X05 2.4g Wireless Gaming Controller for PC/Steam/iPhone/Android/Switch - Bluetooth Controller Gamepad with Hall Effect, RGB Lights and Turbo, Anti-Drift Controller",
-            "reviews": 1571,
-            "rating": 4.1,
-            "volume": 58,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41Rov1jeV+L.jpg",
-            "brand_image": "https://img.logo.dev/easysmx.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "32d093bdceb5",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
@@ -681,6 +555,20 @@
             "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "8304d45fa781",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_c6abe",
+            "brand_id": "67027ba2",
+            "brand": "EasySMX",
+            "title": "EasySMX X05 2.4g Wireless Gaming Controller for PC/Steam/iPhone/Android/Switch - Bluetooth Controller Gamepad with Hall Effect, RGB Lights and Turbo, Anti-Drift Controller",
+            "reviews": 1571,
+            "rating": 4.1,
+            "volume": 58,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41Rov1jeV+L.jpg",
+            "brand_image": "https://img.logo.dev/easysmx.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "e5054de121e7",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -693,34 +581,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51V6qeX+PNL.jpg",
             "brand_image": "https://img.logo.dev/ivoler.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "9308b1b93cfa",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5521c",
-            "brand_id": "fe36a545",
-            "brand": "FYOUNG",
-            "title": "FYOUNG 3 in 1 Accessories Bundle for Playstation Portal, Carrying Case & Hard PC Clear Cover Skins Set with Screen Protector, Protective Shell Portable Travel Handbag for PS5 Portal Remote Player",
-            "reviews": 506,
-            "rating": 4.6,
-            "volume": 56,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41WEFHErW5L.jpg",
-            "brand_image": "https://img.logo.dev/fyoung.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "4494f028bf4f",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "b3b207c9",
-            "brand": "Skybound",
-            "title": "Cuphead - Nintendo Switch",
-            "reviews": 74,
-            "rating": 4.8,
-            "volume": 55,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41DgdcgVGZL.jpg",
-            "brand_image": "https://img.logo.dev/skybound.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "d68ea74fb8ab",
@@ -749,118 +609,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41xeqnFMmKL.jpg",
             "brand_image": "https://img.logo.dev/abxylute.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "fbd775e6e312",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "a130aba4",
-            "brand": "VZNEK",
-            "title": "VZNEK Head Strap Compatible with Oculus Quest 2,Meta Quest 2 Accessories Adjustable Elite Strap Replacement for Enhanced Comfort Support and Gaming Immersion in VR (Without Battery)",
-            "reviews": 151,
-            "rating": 4.7,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31ZYXH2gORL.jpg",
-            "brand_image": "https://img.logo.dev/vznek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "7fb0c24e6990",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5b694",
-            "brand_id": "83ce67e0",
-            "brand": "MOSAHOLL",
-            "title": "TV Dock Station for Switch - 3 in 1 Replacement TV Base Docking Station Set with Upgraded IC Module, Charger, HDMI Cable Accessories for Switch Console - Not for Switch 2",
-            "reviews": 79,
-            "rating": 4.2,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41GlIQQkidL.jpg",
-            "brand_image": "https://img.logo.dev/mosaholl.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "8443a358f922",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_77ad6",
-            "brand_id": "576fadfc",
-            "brand": "SCUF",
-            "title": "SCUF Elite Series 2 Paddles for Xbox Elite Series 1 & 2 - Xbox",
-            "reviews": 745,
-            "rating": 4.6,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31b82MqEd8L.jpg",
-            "brand_image": null
-        },
-        {
-            "id": "1770cbf1dfd8",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "fd7ef513",
-            "brand": "AMVR",
-            "title": "AMVR FC1 Face Cover Pad Facial Interface Compatible with Meta/Oculus Quest 3 Accessories, NOT Compatible with Meta Quest 3S",
-            "reviews": 1362,
-            "rating": 4.2,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41xPXtZ4WHL.jpg",
-            "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "68e18320c0c9",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "6f09ad82",
-            "brand": "Feirsh",
-            "title": "45W Charger for Steam Deck and Switch, AC Adapter Steam Charger Fast USB-C Steam Power Adapter for Nintendo Switch/Lite/OLED/Xbox Controller/Phone with 5.9FT USB Type C Cable",
-            "reviews": 20,
-            "rating": 4.6,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41hlcFaFSBL.jpg",
-            "brand_image": "https://img.logo.dev/feirsh.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "29c6e791d07e",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf6b5",
-            "brand_id": "81129a3b",
-            "brand": "Rzkipdy",
-            "title": "PS5 Controller Charger - Charge 2 Controllers to 90% in 50 Mins - No Annoying Lights - Click in Design Dual Fast Charging Stand Dock Station Holder Accessories for PlayStation DualSense Controller",
-            "reviews": 94,
-            "rating": 4.9,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41lvlMMfpBL.jpg",
-            "brand_image": "https://img.logo.dev/rzkipdy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "3c190c887fa4",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_9edab",
-            "brand_id": "e3706eed",
-            "brand": "Ubisoft",
-            "title": "Ubisoft RockSmith Real Tone Cable",
-            "reviews": 1660,
-            "rating": 4.6,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41rBLInBTkL.jpg",
-            "brand_image": null
-        },
-        {
-            "id": "6d7ce4deee17",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "46eb92d3",
-            "brand": "Fachixy",
-            "title": "Fachixy FC200 Wireless Gaming Headset for PS5, PS4-2.4GHz USB Foldable Headphones with Mic - 3D Stereo Bluetooth Headset with 50Hrs Battery Life, for Switch, PC, Mac, Mobile",
-            "reviews": 894,
-            "rating": 4.4,
-            "volume": 51,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41iVQkmneML.jpg",
-            "brand_image": "https://img.logo.dev/fachixy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "50a063de00cd",
@@ -919,6 +667,118 @@
             "brand_image": "https://img.logo.dev/dinostrike.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "6d7ce4deee17",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "46eb92d3",
+            "brand": "Fachixy",
+            "title": "Fachixy FC200 Wireless Gaming Headset for PS5, PS4-2.4GHz USB Foldable Headphones with Mic - 3D Stereo Bluetooth Headset with 50Hrs Battery Life, for Switch, PC, Mac, Mobile",
+            "reviews": 894,
+            "rating": 4.4,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41iVQkmneML.jpg",
+            "brand_image": "https://img.logo.dev/fachixy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "3c190c887fa4",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_9edab",
+            "brand_id": "e3706eed",
+            "brand": "Ubisoft",
+            "title": "Ubisoft RockSmith Real Tone Cable",
+            "reviews": 1660,
+            "rating": 4.6,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41rBLInBTkL.jpg",
+            "brand_image": null
+        },
+        {
+            "id": "4494f028bf4f",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "b3b207c9",
+            "brand": "Skybound",
+            "title": "Cuphead - Nintendo Switch",
+            "reviews": 74,
+            "rating": 4.8,
+            "volume": 55,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41DgdcgVGZL.jpg",
+            "brand_image": "https://img.logo.dev/skybound.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "29c6e791d07e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_bf6b5",
+            "brand_id": "81129a3b",
+            "brand": "Rzkipdy",
+            "title": "PS5 Controller Charger - Charge 2 Controllers to 90% in 50 Mins - No Annoying Lights - Click in Design Dual Fast Charging Stand Dock Station Holder Accessories for PlayStation DualSense Controller",
+            "reviews": 94,
+            "rating": 4.9,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41lvlMMfpBL.jpg",
+            "brand_image": "https://img.logo.dev/rzkipdy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "fbd775e6e312",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "a130aba4",
+            "brand": "VZNEK",
+            "title": "VZNEK Head Strap Compatible with Oculus Quest 2,Meta Quest 2 Accessories Adjustable Elite Strap Replacement for Enhanced Comfort Support and Gaming Immersion in VR (Without Battery)",
+            "reviews": 151,
+            "rating": 4.7,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31ZYXH2gORL.jpg",
+            "brand_image": "https://img.logo.dev/vznek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "7fb0c24e6990",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_5b694",
+            "brand_id": "83ce67e0",
+            "brand": "MOSAHOLL",
+            "title": "TV Dock Station for Switch - 3 in 1 Replacement TV Base Docking Station Set with Upgraded IC Module, Charger, HDMI Cable Accessories for Switch Console - Not for Switch 2",
+            "reviews": 79,
+            "rating": 4.2,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41GlIQQkidL.jpg",
+            "brand_image": "https://img.logo.dev/mosaholl.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8443a358f922",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_77ad6",
+            "brand_id": "576fadfc",
+            "brand": "SCUF",
+            "title": "SCUF Elite Series 2 Paddles for Xbox Elite Series 1 & 2 - Xbox",
+            "reviews": 745,
+            "rating": 4.6,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31b82MqEd8L.jpg",
+            "brand_image": null
+        },
+        {
+            "id": "1770cbf1dfd8",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "fd7ef513",
+            "brand": "AMVR",
+            "title": "AMVR FC1 Face Cover Pad Facial Interface Compatible with Meta/Oculus Quest 3 Accessories, NOT Compatible with Meta Quest 3S",
+            "reviews": 1362,
+            "rating": 4.2,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41xPXtZ4WHL.jpg",
+            "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "d5cf572a076c",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_bf6b5",
@@ -961,48 +821,6 @@
             "brand_image": "https://img.logo.dev/binnune.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "b69e0593fd61",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_05792",
-            "brand_id": "c33ac14d",
-            "brand": "Pro-Draw",
-            "title": "The Grip for Apple Pencil Pro, 1st /2nd Gen Apple Pencil, and USB-C model // More Comfort. Better Control.",
-            "reviews": 744,
-            "rating": 4.4,
-            "volume": 48,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41IlZZyUv2L.jpg",
-            "brand_image": "https://img.logo.dev/prodraw.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "97a020f66f7b",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "d7c7da5a",
-            "brand": "MANBASNAKE",
-            "title": "ATTACK SHARK X3 Wireless Gaming Mouse, 49g Ergonomic Computer Mouse, Triple Modes PAW3395 26K DPI Optical Sensor, 200h Battery Life, Programmable Buttons, Gaming Accessories for PC/Laptop/Mac (White)",
-            "reviews": 316,
-            "rating": 4.5,
-            "volume": 48,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31nw6NAFYFL.jpg",
-            "brand_image": "https://img.logo.dev/manbasnake.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "4c2de4ed9bf2",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "141d96b8",
-            "brand": "G-STORY",
-            "title": "G-STORY Cooling Fan for Xbox Series S with Automatic Fan Speed Adjustable by Temperature, LED Display, High Performance Cooling, Low Noise, 3 Speed 1500/1750/2000RPM (140MM) with RGB LED (White)",
-            "reviews": 382,
-            "rating": 4.6,
-            "volume": 48,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41j07n-GVsL.jpg",
-            "brand_image": "https://img.logo.dev/gstory.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "3096dc27be28",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -1015,20 +833,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/517cDhTgkSL.jpg",
             "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "c5dd1c762828",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5521c",
-            "brand_id": "0762c379",
-            "brand": "Saqico",
-            "title": "Saqico Comfort Head Strap Compatible with Meta Quest 3S and Quest 3,Adjustable Elite Strap Reduce Pressure & Balanced Weight Distribution for Oculus Quest 3/3S VR Headset Accessories",
-            "reviews": 136,
-            "rating": 4.6,
-            "volume": 48,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41LMcsNadOL.jpg",
-            "brand_image": "https://img.logo.dev/saqico.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "e6f6c8afc4eb",
@@ -1057,20 +861,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41AHduB+0UL.jpg",
             "brand_image": "https://img.logo.dev/rebuffreality.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "6e168751d8db",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "e0e586b9",
-            "brand": "Smlau",
-            "title": "Smlau XB2 Wireless Adapter Compatible with Xbox One Controller & Xbox Series X for Windows 7/8/8.1/10/11",
-            "reviews": 42,
-            "rating": 4.0,
-            "volume": 48,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31ohxUDE6fL.jpg",
-            "brand_image": "https://img.logo.dev/smlau.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "8144b06756b7",
@@ -1255,20 +1045,6 @@
             "brand_image": "https://img.logo.dev/sarlar.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "a7d5650bf3bc",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "5505bd01",
-            "brand": "HIDEit Mounts",
-            "title": "HIDEit Mounts Wall Mount for Xbox Series S - American Company - White Steel Mount for Xbox Series S - Wall Mount Kit Works with Xbox Series S - Patented",
-            "reviews": 23,
-            "rating": 4.7,
-            "volume": 45,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31icXVN1HSL.jpg",
-            "brand_image": "https://img.logo.dev/hideitmounts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "6289fd76a972",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
@@ -1281,20 +1057,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41quy0ynQoL.jpg",
             "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "6afad7bfccff",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "e3706eed",
-            "brand": "Ubisoft",
-            "title": "Mario + Rabbids for Nintendo Switch",
-            "reviews": 1215,
-            "rating": 4.7,
-            "volume": 44,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/61a-tc8pGNL.jpg",
-            "brand_image": null
         },
         {
             "id": "f0a20316e785",
@@ -1367,20 +1129,6 @@
             "brand_image": "https://img.logo.dev/ppkkai.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "a58c984da455",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "8976e075",
-            "brand": "DESTEK",
-            "title": "DESTEK Cooling Face Pad Compatible with Oculus Quest 2, Soft & Bouncy Face Cover Replacement, Dry Sweat-Wicking Comfort, with Secure Light-Blocking Nose Guard",
-            "reviews": 72,
-            "rating": 4.6,
-            "volume": 44,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41PtCRqsVJL.jpg",
-            "brand_image": "https://img.logo.dev/destek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "ced8670a694b",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_77ad6",
@@ -1409,18 +1157,18 @@
             "brand_image": "https://img.logo.dev/kiwihome.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "e696d4c25138",
+            "id": "cd8fefc753e1",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "dd4f8704",
-            "brand": "HUO JI",
-            "title": "HUO JI E-Yooso Z-88 RGB Mechanical Gaming Keyboard USB Wired, Customizable RGB Backlit, Blue Switches - Clicky, Metal Panel, 104 Keys for Mac, PC, Silver+White",
-            "reviews": 236,
-            "rating": 4.6,
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "47fdfbbb",
+            "brand": "RisoPhy",
+            "title": "RisoPhy Wireless Gaming Keyboard and Mouse Combo, Metal Panel, 7 Color Backlits, Rechargeable 3200 mAh Battery, Wrist Rest, Sleep Mode, Light Up Keyboard + 7D 3200DPI Gaming Mice for PC Gamer",
+            "reviews": 27,
+            "rating": 4.3,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41z+6M9dhaL.jpg",
-            "brand_image": "https://img.logo.dev/huoji.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41njgjjVwsL.jpg",
+            "brand_image": "https://img.logo.dev/risophy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "9138bf560b1c",
@@ -1437,32 +1185,32 @@
             "brand_image": "https://img.logo.dev/skybound.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "cd8fefc753e1",
+            "id": "6afad7bfccff",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "47fdfbbb",
-            "brand": "RisoPhy",
-            "title": "RisoPhy Wireless Gaming Keyboard and Mouse Combo, Metal Panel, 7 Color Backlits, Rechargeable 3200 mAh Battery, Wrist Rest, Sleep Mode, Light Up Keyboard + 7D 3200DPI Gaming Mice for PC Gamer",
-            "reviews": 27,
-            "rating": 4.3,
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "e3706eed",
+            "brand": "Ubisoft",
+            "title": "Mario + Rabbids for Nintendo Switch",
+            "reviews": 1215,
+            "rating": 4.7,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41njgjjVwsL.jpg",
-            "brand_image": "https://img.logo.dev/risophy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/61a-tc8pGNL.jpg",
+            "brand_image": null
         },
         {
-            "id": "d6b81bec1a93",
+            "id": "a58c984da455",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
-            "brand_id": "45e4efab",
-            "brand": "VIYISI",
-            "title": "VIYISI Battery Pack for Oculus Quest 2, 5000mAh Portable Charger Accessories for Meta Quest 2 Headset, Power Bank for VR Quest 2 Original Strap, Fast Charging Extend Extra 2-4H Playtime",
-            "reviews": 16,
-            "rating": 4.5,
+            "brand_id": "8976e075",
+            "brand": "DESTEK",
+            "title": "DESTEK Cooling Face Pad Compatible with Oculus Quest 2, Soft & Bouncy Face Cover Replacement, Dry Sweat-Wicking Comfort, with Secure Light-Blocking Nose Guard",
+            "reviews": 72,
+            "rating": 4.6,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41ZLYh944-L.jpg",
-            "brand_image": "https://img.logo.dev/viyisi.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41PtCRqsVJL.jpg",
+            "brand_image": "https://img.logo.dev/destek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "6d7c569e425a",
@@ -1493,18 +1241,18 @@
             "brand_image": "https://img.logo.dev/chengdao.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "929777fb4e32",
+            "id": "18c955d18efe",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_05792",
-            "brand_id": "e13ed02a",
-            "brand": "Ponkor",
-            "title": "Ponkor Battery Pack for Reclining Furniture- 2500mAh Power Recliner Battery Rechargeable, Universal Furniture Battery Pack with 2-Pin Electric Cord for Lift Chairs Sofas- Power Supply",
-            "reviews": 46,
-            "rating": 4.1,
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "452af0ea",
+            "brand": "PDP",
+            "title": "Afterglow Wireless RGB Controller - Nintendo Switch/Switch Lite/Switch - OLED Model, Nintendo Switch 2, Prismatic LED Lighting, Full Motion Control Gamepad, Customizable Paddle Buttons, Rechargeable Battery, Translucent",
+            "reviews": 1026,
+            "rating": 4.5,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41PpRgNX9CL.jpg",
-            "brand_image": "https://img.logo.dev/ponkor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41yy7mGoe-L.jpg",
+            "brand_image": null
         },
         {
             "id": "102eb184f571",
@@ -1521,18 +1269,18 @@
             "brand_image": "https://img.logo.dev/easysmx.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "18c955d18efe",
+            "id": "d6b81bec1a93",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "452af0ea",
-            "brand": "PDP",
-            "title": "Afterglow Wireless RGB Controller - Nintendo Switch/Switch Lite/Switch - OLED Model, Nintendo Switch 2, Prismatic LED Lighting, Full Motion Control Gamepad, Customizable Paddle Buttons, Rechargeable Battery, Translucent",
-            "reviews": 1026,
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "45e4efab",
+            "brand": "VIYISI",
+            "title": "VIYISI Battery Pack for Oculus Quest 2, 5000mAh Portable Charger Accessories for Meta Quest 2 Headset, Power Bank for VR Quest 2 Original Strap, Fast Charging Extend Extra 2-4H Playtime",
+            "reviews": 16,
             "rating": 4.5,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41yy7mGoe-L.jpg",
-            "brand_image": null
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41ZLYh944-L.jpg",
+            "brand_image": "https://img.logo.dev/viyisi.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "a8ee79933c0e",
@@ -1563,20 +1311,6 @@
             "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "3fc593e721cd",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "7e19f7e4",
-            "brand": "HUDOBBYE",
-            "title": "Switch Controller for Switch/Switch OLED, Rechargeable Plug-in Switch Controller, One Piece Ergonomic Grip Switch Controller for Handheld Mode with Turbo,Dual Vibration,6-Axis Motion Control,Red-Blue",
-            "reviews": 49,
-            "rating": 4.2,
-            "volume": 43,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51ssQlv3+QS.jpg",
-            "brand_image": "https://img.logo.dev/hudobbye.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "2f32e5013054",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_165a3",
@@ -1589,20 +1323,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41K1Ztt2DAL.jpg",
             "brand_image": "https://img.logo.dev/monzlteck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "3821ae79e988",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_b5807",
-            "brand_id": "3a159def",
-            "brand": "Aubika",
-            "title": "Aubika Carrying Case for Meta Quest 3S/Quest 3/Oculus Quest 2/Pico 4/Quest Pro/Vision Pro, Compatible with Elite/Battery Headset Strap Accessories, Hard Travel Case (Pink)",
-            "reviews": 52,
-            "rating": 4.8,
-            "volume": 43,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41qZBwyQ9+L.jpg",
-            "brand_image": "https://img.logo.dev/aubika.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "08d0ccefedd3",
@@ -1619,6 +1339,20 @@
             "brand_image": "https://img.logo.dev/gammeefy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "347df1443b33",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_9edab",
+            "brand_id": "c0c9e757",
+            "brand": "Grefinity",
+            "title": "Grefinity Racing Wheel Stand,Height Adjustable Steering Wheel Stand Racing Simulator Cockpit for Logitech G920 G29 G923 G27 G25, Thrustmaster T300RS TX F458 T500RS T150 Xbox PS4 PS5 PC",
+            "reviews": 46,
+            "rating": 4.2,
+            "volume": 43,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41-VDPtHnmL.jpg",
+            "brand_image": "https://img.logo.dev/grefinity.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "1c4a2836d0c8",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_bf6b5",
@@ -1631,20 +1365,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/519q72eon5L.jpg",
             "brand_image": "https://img.logo.dev/darno.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "0e7b39fe4491",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_77ad6",
-            "brand_id": "9d195af6",
-            "brand": "LVVIL",
-            "title": "LVVIL Cooling Fan with 2 Packs 4800mWh Rechargeable Battery for Xbox Series X/S Console, Built-in Auto Adjustable Cooling System with Xbox Fans Cooler, Controller & Headset Holders Included",
-            "reviews": 46,
-            "rating": 4.5,
-            "volume": 43,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/513rRXSGOlL.jpg",
-            "brand_image": "https://img.logo.dev/lvvil.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "7e7583330fb8",
@@ -1661,46 +1381,46 @@
             "brand_image": null
         },
         {
-            "id": "c43beed7ee6f",
+            "id": "0e7b39fe4491",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5521c",
-            "brand_id": "2188ceba",
-            "brand": "Foluck",
-            "title": "Foluck 3 in 1 Accessoris Set Compatible with Playstation Portal, EVA Carrying Case for PS5 Portal, Soft Silicone Protective Cover, 2 Pack Screen Protector, Accessories for Playstation Consoles, Black",
-            "reviews": 165,
+            "cat_sub_id": "sub_77ad6",
+            "brand_id": "9d195af6",
+            "brand": "LVVIL",
+            "title": "LVVIL Cooling Fan with 2 Packs 4800mWh Rechargeable Battery for Xbox Series X/S Console, Built-in Auto Adjustable Cooling System with Xbox Fans Cooler, Controller & Headset Holders Included",
+            "reviews": 46,
+            "rating": 4.5,
+            "volume": 43,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/513rRXSGOlL.jpg",
+            "brand_image": "https://img.logo.dev/lvvil.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "3821ae79e988",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_b5807",
+            "brand_id": "3a159def",
+            "brand": "Aubika",
+            "title": "Aubika Carrying Case for Meta Quest 3S/Quest 3/Oculus Quest 2/Pico 4/Quest Pro/Vision Pro, Compatible with Elite/Battery Headset Strap Accessories, Hard Travel Case (Pink)",
+            "reviews": 52,
             "rating": 4.8,
             "volume": 43,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41yOptNl8PL.jpg",
-            "brand_image": "https://img.logo.dev/foluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41qZBwyQ9+L.jpg",
+            "brand_image": "https://img.logo.dev/aubika.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "347df1443b33",
+            "id": "3fc593e721cd",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_9edab",
-            "brand_id": "c0c9e757",
-            "brand": "Grefinity",
-            "title": "Grefinity Racing Wheel Stand,Height Adjustable Steering Wheel Stand Racing Simulator Cockpit for Logitech G920 G29 G923 G27 G25, Thrustmaster T300RS TX F458 T500RS T150 Xbox PS4 PS5 PC",
-            "reviews": 46,
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "7e19f7e4",
+            "brand": "HUDOBBYE",
+            "title": "Switch Controller for Switch/Switch OLED, Rechargeable Plug-in Switch Controller, One Piece Ergonomic Grip Switch Controller for Handheld Mode with Turbo,Dual Vibration,6-Axis Motion Control,Red-Blue",
+            "reviews": 49,
             "rating": 4.2,
             "volume": 43,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41-VDPtHnmL.jpg",
-            "brand_image": "https://img.logo.dev/grefinity.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "30b6e3d4bf4c",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "6906e8e2",
-            "brand": "MICRO\u00cfDS",
-            "title": "Who Wants to Be A Millionaire (NSW) - Nintendo Switch",
-            "reviews": 37,
-            "rating": 4.1,
-            "volume": 42,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51+jQjKTtPL.jpg",
-            "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51ssQlv3+QS.jpg",
+            "brand_image": "https://img.logo.dev/hudobbye.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "f97c6f525eca",
@@ -1743,6 +1463,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41AifAvWMSL.jpg",
             "brand_image": "https://img.logo.dev/koowod.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "30b6e3d4bf4c",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "6906e8e2",
+            "brand": "MICRO\u00cfDS",
+            "title": "Who Wants to Be A Millionaire (NSW) - Nintendo Switch",
+            "reviews": 37,
+            "rating": 4.1,
+            "volume": 42,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51+jQjKTtPL.jpg",
+            "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "1c9ac0bfd779",
@@ -1801,20 +1535,6 @@
             "brand_image": "https://img.logo.dev/juboty.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "535cf9790cfd",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "ffb88689",
-            "brand": "Exquisite Gaming",
-            "title": "Exquisite Gaming: Marvel Wolverine - Original Mobile Phone & Gaming Controller Holder, Device Stand, Cable Guys, Licensed Figure",
-            "reviews": 52,
-            "rating": 4.6,
-            "volume": 42,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31i4tBD8-NL.jpg",
-            "brand_image": "https://img.logo.dev/exquisitegaming.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "59a0d6890ec7",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_165a3",
@@ -1827,20 +1547,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/61h2ZY-myML.jpg",
             "brand_image": null
-        },
-        {
-            "id": "d5e67d17fe80",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "6906e8e2",
-            "brand": "MICRO\u00cfDS",
-            "title": "Smurfs Kart - Turbo Edition Nintendo Switch",
-            "reviews": 30,
-            "rating": 4.6,
-            "volume": 42,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51yYnJ5X35L.jpg",
-            "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "0360e53a8aac",
@@ -1869,62 +1575,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41pkcaxu1GL.jpg",
             "brand_image": "https://img.logo.dev/geekshare.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "e350066500a2",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf6b5",
-            "brand_id": "0fcd5ac1",
-            "brand": "Deegotech",
-            "title": "Deegotech Carrying Case Compatible with PS5/PS5 Pro/PS5 Slim, Protective Travel Bag Backpack Compatible with Playstation 5 Console, Disc, Accessories and 15.6\" Laptop, Black",
-            "reviews": 34,
-            "rating": 4.6,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41ALvMa1dgL.jpg",
-            "brand_image": "https://img.logo.dev/deegotech.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "836ffb89aec9",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_fddd0",
-            "brand_id": "d862fa7a",
-            "brand": "Fenolical",
-            "title": "Fenolical TV Switch Dock Station for Nintendo Switch/Switch OLED, Support 4K/1080P HDMI Switch Charger Docking Station for Joycon Controller Switch Accessories for PS3 Skins with 12 Game Slots (Black)",
-            "reviews": 328,
-            "rating": 4.3,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51kEda78UUL.jpg",
-            "brand_image": "https://img.logo.dev/fenolical.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "b5e01fc9323d",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "303f5215",
-            "brand": "Womier",
-            "title": "Womier 60% Keyboard Gaming Pink - Wired Creamy Mechanical Keyboard, Hot-Swappable RGB Custom Mini Key Board with Arrow Keys/Software Supported, Prelubrication Linear Switch (WK68-Pink)",
-            "reviews": 63,
-            "rating": 4.5,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51KYOpWiiML.jpg",
-            "brand_image": "https://img.logo.dev/womier.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "14a4b90c6a47",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "e8de4e22",
-            "brand": "BRAINWAVZ",
-            "title": "Colossus - Gamepad Controller & Headphone Hanger Holder - Designed for Xbox ONE, PS4, PS3, Dualshock, Switch, PC, Steelseries, Steam & More, Black by Brainwavz",
-            "reviews": 242,
-            "rating": 4.5,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41YPebmIF0L.jpg",
-            "brand_image": "https://img.logo.dev/brainwavz.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "246936264159",
@@ -1969,34 +1619,6 @@
             "brand_image": "https://img.logo.dev/coobile.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "9a6698a1ebfe",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "ffb88689",
-            "brand": "Exquisite Gaming",
-            "title": "Exquisite Gaming: Spyro The Dragon - Original Mobile Phone & Gaming Controller Holder, Device Stand, Cable Guys, Licensed Figure",
-            "reviews": 144,
-            "rating": 4.8,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41AYCCCNshL.jpg",
-            "brand_image": "https://img.logo.dev/exquisitegaming.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "1ee3a85424fc",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_f5b2b",
-            "brand_id": "c2577af1",
-            "brand": "TOPAD",
-            "title": "TOPAD Pa5 Wall Mount Kit ith Charging, 6-in-1 PlayStation 5 (Disc & Digital) Metal Wall Stand with Data Charging Cable/Controller Hanging Bracket/Remote Box/Headset Hanger, w/Non-Slip Mat Black",
-            "reviews": 34,
-            "rating": 4.7,
-            "volume": 41,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41+TA0sypCL.jpg",
-            "brand_image": "https://img.logo.dev/topad.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "36e833ec54d8",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -2008,6 +1630,20 @@
             "volume": 41,
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51eBEI2XcKL.jpg",
+            "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "d5e67d17fe80",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "6906e8e2",
+            "brand": "MICRO\u00cfDS",
+            "title": "Smurfs Kart - Turbo Edition Nintendo Switch",
+            "reviews": 30,
+            "rating": 4.6,
+            "volume": 42,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51yYnJ5X35L.jpg",
             "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
@@ -2025,46 +1661,60 @@
             "brand_image": "https://img.logo.dev/mionix.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "53f02b6cc95b",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d1e84",
-            "brand_id": "ea0a3933",
-            "brand": "Playseat",
-            "title": "Playseat Gear Shift Holder for Evolution, Evolution PRO and Revolution Optimal Gear Shift Position Easily Adjustable Compatible with All Gear Shifters",
-            "reviews": 390,
-            "rating": 4.6,
-            "volume": 40,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/21-oxgMFPzL.jpg",
-            "brand_image": "https://img.logo.dev/playseat.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "e01217d42c90",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_501e1",
-            "brand_id": "acbafe12",
-            "brand": "NEWDERY",
-            "title": "NEWDERY Controller Charger Station for Xbox, 2x1100mAh Rechargeable Battery Packs for Xbox One/Series X|S Controller, Fast Charging Dock with 4 Battery Covers - White",
-            "reviews": 138,
-            "rating": 4.2,
-            "volume": 40,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41jx0PjLqcL.jpg",
-            "brand_image": "https://img.logo.dev/newdery.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "0263d8b318ce",
+            "id": "14a4b90c6a47",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_165a3",
-            "brand_id": "ddee32c4",
-            "brand": "EPOS",
-            "title": "EPOS H3 Closed Acoustic Gaming Headset with Noise-Cancelling Microphone - Plug & Play Audio - Around The Ear - Adjustable, Ergonomic - for PC, Mac, PS4, PS5, Switch, Xbox - Onyx Black",
-            "reviews": 35,
-            "rating": 4.1,
-            "volume": 40,
+            "brand_id": "e8de4e22",
+            "brand": "BRAINWAVZ",
+            "title": "Colossus - Gamepad Controller & Headphone Hanger Holder - Designed for Xbox ONE, PS4, PS3, Dualshock, Switch, PC, Steelseries, Steam & More, Black by Brainwavz",
+            "reviews": 242,
+            "rating": 4.5,
+            "volume": 41,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31dxQGkrQGS.jpg",
-            "brand_image": "https://img.logo.dev/epos.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41YPebmIF0L.jpg",
+            "brand_image": "https://img.logo.dev/brainwavz.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "b5e01fc9323d",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "303f5215",
+            "brand": "Womier",
+            "title": "Womier 60% Keyboard Gaming Pink - Wired Creamy Mechanical Keyboard, Hot-Swappable RGB Custom Mini Key Board with Arrow Keys/Software Supported, Prelubrication Linear Switch (WK68-Pink)",
+            "reviews": 63,
+            "rating": 4.5,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51KYOpWiiML.jpg",
+            "brand_image": "https://img.logo.dev/womier.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "e350066500a2",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_bf6b5",
+            "brand_id": "0fcd5ac1",
+            "brand": "Deegotech",
+            "title": "Deegotech Carrying Case Compatible with PS5/PS5 Pro/PS5 Slim, Protective Travel Bag Backpack Compatible with Playstation 5 Console, Disc, Accessories and 15.6\" Laptop, Black",
+            "reviews": 34,
+            "rating": 4.6,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41ALvMa1dgL.jpg",
+            "brand_image": "https://img.logo.dev/deegotech.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "836ffb89aec9",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_fddd0",
+            "brand_id": "d862fa7a",
+            "brand": "Fenolical",
+            "title": "Fenolical TV Switch Dock Station for Nintendo Switch/Switch OLED, Support 4K/1080P HDMI Switch Charger Docking Station for Joycon Controller Switch Accessories for PS3 Skins with 12 Game Slots (Black)",
+            "reviews": 328,
+            "rating": 4.3,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51kEda78UUL.jpg",
+            "brand_image": "https://img.logo.dev/fenolical.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "abe2672ede1e",
@@ -2165,18 +1815,32 @@
             "brand_image": "https://img.logo.dev/sarlar.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "45eb15ef212d",
+            "id": "e01217d42c90",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_b5807",
-            "brand_id": "54452340",
-            "brand": "YEZRO",
-            "title": "YEZRO Golf Club Attachment for Meta Quest 3S/3 - Adjustable Weighted Aluminum VR Golf Club Handle Accessories for Golf + with Real Grip, 90 Degree Design Keep Tracking 2024 Upgrade Screws (Weighed)",
-            "reviews": 90,
-            "rating": 4.6,
-            "volume": 39,
+            "cat_sub_id": "sub_501e1",
+            "brand_id": "acbafe12",
+            "brand": "NEWDERY",
+            "title": "NEWDERY Controller Charger Station for Xbox, 2x1100mAh Rechargeable Battery Packs for Xbox One/Series X|S Controller, Fast Charging Dock with 4 Battery Covers - White",
+            "reviews": 138,
+            "rating": 4.2,
+            "volume": 40,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31deQSa6ccL.jpg",
-            "brand_image": "https://img.logo.dev/yezro.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41jx0PjLqcL.jpg",
+            "brand_image": "https://img.logo.dev/newdery.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "0263d8b318ce",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "ddee32c4",
+            "brand": "EPOS",
+            "title": "EPOS H3 Closed Acoustic Gaming Headset with Noise-Cancelling Microphone - Plug & Play Audio - Around The Ear - Adjustable, Ergonomic - for PC, Mac, PS4, PS5, Switch, Xbox - Onyx Black",
+            "reviews": 35,
+            "rating": 4.1,
+            "volume": 40,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31dxQGkrQGS.jpg",
+            "brand_image": "https://img.logo.dev/epos.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "b15333b74d55",
@@ -2249,32 +1913,18 @@
             "brand_image": "https://img.logo.dev/dacoity.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "7b0236706f64",
+            "id": "45eb15ef212d",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_f5b2b",
-            "brand_id": "24349396",
-            "brand": "Kuitmor",
-            "title": "Kuitmor Silicone PS5 Controller Cover Skin Set,Anti-Slip Soft Protective Case for PS5 Wireless Controller with 2 Thumb Grip Caps and 1 Sticker",
-            "reviews": 35,
+            "cat_sub_id": "sub_b5807",
+            "brand_id": "54452340",
+            "brand": "YEZRO",
+            "title": "YEZRO Golf Club Attachment for Meta Quest 3S/3 - Adjustable Weighted Aluminum VR Golf Club Handle Accessories for Golf + with Real Grip, 90 Degree Design Keep Tracking 2024 Upgrade Screws (Weighed)",
+            "reviews": 90,
             "rating": 4.6,
             "volume": 39,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41edNogFEfL.jpg",
-            "brand_image": "https://img.logo.dev/kuitmor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "22c7596ee45f",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d1e84",
-            "brand_id": "311d4c50",
-            "brand": "Crazy Controllerz",
-            "title": "Controller Bullet Buttons for Xbox One Series X S - Made with Real 9MM Spent Bullet Casings - Includes Tools",
-            "reviews": 257,
-            "rating": 4.3,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41bNZAay8dL.jpg",
-            "brand_image": "https://img.logo.dev/crazycontrollerz.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31deQSa6ccL.jpg",
+            "brand_image": "https://img.logo.dev/yezro.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "fbca0a7b8587",
@@ -2289,6 +1939,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41qQHltTEGL.jpg",
             "brand_image": "https://img.logo.dev/chonchow.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "53f15582dc76",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "5b247f51",
+            "brand": "JSCO",
+            "title": "Noiseless USB Optical Gaming Computer Wheel Mouse 1600 DPI Super Quiet JNL-101K Black Silent",
+            "reviews": 543,
+            "rating": 4.2,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/413jEy7Ay0L.jpg",
+            "brand_image": "https://img.logo.dev/jsco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "6e7bec02fbdc",
@@ -2317,20 +1981,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41cYy2qvO5L.jpg",
             "brand_image": null
-        },
-        {
-            "id": "d93aee4e5de3",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_97025",
-            "brand_id": "d75ae7b6",
-            "brand": "SZDILONG",
-            "title": "Switch Controller,Wireless Switch Pro Controller for Switch 2/Switch/Switch Lite Controller with 7 Colors LED Light/Dual Vibration, Motion Support,Gyro Axis Adjustable Turbo and Wake Up Function",
-            "reviews": 19,
-            "rating": 4.5,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/317Gx6SyHxL.jpg",
-            "brand_image": "https://img.logo.dev/szdilong.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "ca0de5bd7aff",
@@ -2389,20 +2039,6 @@
             "brand_image": "https://img.logo.dev/zaievo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "a4b23d54117a",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5b694",
-            "brand_id": "3e0c0aaf",
-            "brand": "EKSA",
-            "title": "EKSA Fenrir S Gaming Headset with Microphone, Noise Cancelling Mic, Comfortable Ear Pads, 50 mm Drivers, RGB Light, One Key Control, Gaming Headphones for PC, Xbox, PS4, PS5, Switch, Controller",
-            "reviews": 36,
-            "rating": 4.1,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41kW8+km8EL.jpg",
-            "brand_image": "https://img.logo.dev/eksa.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "f515fc6c654f",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -2443,20 +2079,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41fiqFBW1QL.jpg",
             "brand_image": "https://img.logo.dev/purbhe.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "dfd0ee7a5901",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d1e84",
-            "brand_id": "b5bab027",
-            "brand": "KASOTT",
-            "title": "KASOTT Battle Buds Pro in-Ear Gaming Headset with Dual Microphone, Mute and Volume Control, Wired Earphones for Mobile Gaming, Nintendo Switch, Xbox One, PS, PC (New-Black)",
-            "reviews": 76,
-            "rating": 4.4,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41nVQYca2ML.jpg",
-            "brand_image": null
         },
         {
             "id": "d093f464a8e8",
@@ -2529,34 +2151,6 @@
             "brand_image": "https://img.logo.dev/rig.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "d4af731786b3",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_501e1",
-            "brand_id": "2ae5373d",
-            "brand": "WB Games",
-            "title": "Middle Earth: Shadow of Mordor Game of the Year - Xbox One",
-            "reviews": 279,
-            "rating": 4.5,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51jY4Tk+7qL.jpg",
-            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "29625806a659",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_05792",
-            "brand_id": "3ab7bd94",
-            "brand": "JUBOTY",
-            "title": "SPR-003 Battery, 2025 New Upgraded 1900mAh Ultra High Capacity High Performance Lithium-ion Replacement Battery for Nintendo 3DS XL/New 3DS XL/ 3DS LL/New 3DS LL Game Console (Black, SPR-003, A)",
-            "reviews": 42,
-            "rating": 4.5,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51oQsCS+AHL.jpg",
-            "brand_image": "https://img.logo.dev/juboty.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "0e1931f219d7",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -2569,6 +2163,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41SLUex-ExL.jpg",
             "brand_image": "https://img.logo.dev/jaoystii.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "a4b23d54117a",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_5b694",
+            "brand_id": "3e0c0aaf",
+            "brand": "EKSA",
+            "title": "EKSA Fenrir S Gaming Headset with Microphone, Noise Cancelling Mic, Comfortable Ear Pads, 50 mm Drivers, RGB Light, One Key Control, Gaming Headphones for PC, Xbox, PS4, PS5, Switch, Controller",
+            "reviews": 36,
+            "rating": 4.1,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41kW8+km8EL.jpg",
+            "brand_image": "https://img.logo.dev/eksa.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "626954b44886",
@@ -2599,18 +2207,18 @@
             "brand_image": "https://img.logo.dev/aikeec.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "7807dee207bc",
+            "id": "153ca0a8574c",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "af72d73e",
-            "brand": "Kulannder",
-            "title": "Kulannder Wii Remote Battery Charger(Free USB Wall Charger+Lengthened Cord) Dual Charging Station Dock with Two Rechargeable Capacity Increased Batteries for Wii U Game Remote Controller (White)",
-            "reviews": 772,
-            "rating": 4.4,
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "e97c3a05",
+            "brand": "SUPERUS",
+            "title": "SUPERUS Head Strap for Meta Quest 2 VR - Elite Strap Replacement with Adjustable Hinge - Enhanced Comfort, Reduces Head Pressure - VR Accessories for Quest 2",
+            "reviews": 349,
+            "rating": 4.6,
             "volume": 39,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/410azHb81eL.jpg",
-            "brand_image": "https://img.logo.dev/kulannder.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41VFFDa13lL.jpg",
+            "brand_image": "https://img.logo.dev/superus.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "1b2401c5088f",
@@ -2627,60 +2235,18 @@
             "brand_image": "https://img.logo.dev/amvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "153ca0a8574c",
+            "id": "d4af731786b3",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "e97c3a05",
-            "brand": "SUPERUS",
-            "title": "SUPERUS Head Strap for Meta Quest 2 VR - Elite Strap Replacement with Adjustable Hinge - Enhanced Comfort, Reduces Head Pressure - VR Accessories for Quest 2",
-            "reviews": 349,
-            "rating": 4.6,
+            "cat_sub_id": "sub_501e1",
+            "brand_id": "2ae5373d",
+            "brand": "WB Games",
+            "title": "Middle Earth: Shadow of Mordor Game of the Year - Xbox One",
+            "reviews": 279,
+            "rating": 4.5,
             "volume": 39,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41VFFDa13lL.jpg",
-            "brand_image": "https://img.logo.dev/superus.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "53f15582dc76",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "5b247f51",
-            "brand": "JSCO",
-            "title": "Noiseless USB Optical Gaming Computer Wheel Mouse 1600 DPI Super Quiet JNL-101K Black Silent",
-            "reviews": 543,
-            "rating": 4.2,
-            "volume": 39,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/413jEy7Ay0L.jpg",
-            "brand_image": "https://img.logo.dev/jsco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "ff0f3aef7a44",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "99cb8ecd",
-            "brand": "TechKen",
-            "title": "2 Pack Wii Remote with Wii Motion Plus Inside Shock Wii Nunchuk Controller Compatible Nintendo Wii, Wii U",
-            "reviews": 850,
-            "rating": 4.1,
-            "volume": 38,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41huoAs52bL.jpg",
-            "brand_image": "https://img.logo.dev/techken.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "870cd2d69354",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "556dda0f",
-            "brand": "DBEPANK",
-            "title": "DBEPANK Switch Controller, Wireless Pro Controller Compatible with Nitendo Switch/Switch Lite/Switch OLED, Switch Controller Pro, Rechargeable Switch Remote Gamepad with 6-Axis Gyro,10 LED Light",
-            "reviews": 94,
-            "rating": 4.6,
-            "volume": 38,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51nn2vKSO+L.jpg",
-            "brand_image": "https://img.logo.dev/dbepank.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51jY4Tk+7qL.jpg",
+            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "01b531042591",
@@ -2695,6 +2261,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51kI8NkKeiL.jpg",
             "brand_image": null
+        },
+        {
+            "id": "870cd2d69354",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "556dda0f",
+            "brand": "DBEPANK",
+            "title": "DBEPANK Switch Controller, Wireless Pro Controller Compatible with Nitendo Switch/Switch Lite/Switch OLED, Switch Controller Pro, Rechargeable Switch Remote Gamepad with 6-Axis Gyro,10 LED Light",
+            "reviews": 94,
+            "rating": 4.6,
+            "volume": 38,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51nn2vKSO+L.jpg",
+            "brand_image": "https://img.logo.dev/dbepank.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "4cd472e615e3",
@@ -2723,20 +2303,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51GCte+U4WL.jpg",
             "brand_image": "https://img.logo.dev/arisll.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "ff343017ea99",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf4a5",
-            "brand_id": "8979e916",
-            "brand": "Uwayor",
-            "title": "Uwayor 6600mAh Wii U Gamepad Battery, Rechargeable Wii U Battery Replacement for Nintendo Wii U Gamepad WUP-001 WUP-012 with Screwdriver",
-            "reviews": 12,
-            "rating": 4.6,
-            "volume": 38,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51gZBZYSJnL.jpg",
-            "brand_image": "https://img.logo.dev/uwayor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "4c7a9073461e",
@@ -2795,32 +2361,32 @@
             "brand_image": "https://img.logo.dev/rumoon.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "c430fdd72396",
+            "id": "9855aee5b4db",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_77ad6",
-            "brand_id": "7eb2476e",
-            "brand": "HEATFUN",
-            "title": "Switch Pro Controller Charger, Xbox Series S/X Controller Charging Dock, Charging Station for PS5 Control, Nintendo Switch Pro (Not for Power A)",
-            "reviews": 38,
-            "rating": 4.0,
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "8fedf6c1",
+            "brand": "pedroshaw",
+            "title": "2 Pack Wireless Switch Controller, Compatible with Switch/Switch Lite/OLED/PC, 1000mAh Switch Pro Controller with 9 Color LED, Programmable, Multi-Vibration & Multi-Axis Gyro, Motion, Turbo, Share, Screenshot",
+            "reviews": 45,
+            "rating": 4.4,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41bNFaEWfuL.jpg",
-            "brand_image": "https://img.logo.dev/heatfun.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51j0-cZi6uL.jpg",
+            "brand_image": "https://img.logo.dev/pedroshaw.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "c0d3bfc2b825",
+            "id": "e17ecbfc1981",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_05792",
-            "brand_id": "7207f71f",
-            "brand": "Edupress",
-            "title": "Edupress Math Splat\u2122 Game: Addition Grades 2+ (EP63759), 3.5 H x 5.625 L x 2.25 W",
-            "reviews": 12,
-            "rating": 4.7,
+            "cat_sub_id": "sub_b5807",
+            "brand_id": "5b202b55",
+            "brand": "Nexatrix",
+            "title": "Head Strap for Meta Quest 3S/3, Lightweight Headstrap Replacement for Oculus Quest 3/3s, Nexatrix VR Headset Elite Strap Accessories with Adjustable Hinge and Enlarged Head Support",
+            "reviews": 29,
+            "rating": 4.5,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51rPJ6lEmEL.jpg",
-            "brand_image": "https://img.logo.dev/edupress.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31hVDYaGRZL.jpg",
+            "brand_image": "https://img.logo.dev/nexatrix.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "45ac4c90cb65",
@@ -2949,18 +2515,32 @@
             "brand_image": "https://img.logo.dev/tpfoon.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "9855aee5b4db",
+            "id": "c430fdd72396",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "8fedf6c1",
-            "brand": "pedroshaw",
-            "title": "2 Pack Wireless Switch Controller, Compatible with Switch/Switch Lite/OLED/PC, 1000mAh Switch Pro Controller with 9 Color LED, Programmable, Multi-Vibration & Multi-Axis Gyro, Motion, Turbo, Share, Screenshot",
-            "reviews": 45,
-            "rating": 4.4,
+            "cat_sub_id": "sub_77ad6",
+            "brand_id": "7eb2476e",
+            "brand": "HEATFUN",
+            "title": "Switch Pro Controller Charger, Xbox Series S/X Controller Charging Dock, Charging Station for PS5 Control, Nintendo Switch Pro (Not for Power A)",
+            "reviews": 38,
+            "rating": 4.0,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51j0-cZi6uL.jpg",
-            "brand_image": "https://img.logo.dev/pedroshaw.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41bNFaEWfuL.jpg",
+            "brand_image": "https://img.logo.dev/heatfun.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "0424a4419f17",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "6a49bf3c",
+            "brand": "Foscomax",
+            "title": "Foscomax Charging Dock for Meta Quest 3S/3/2, 20W Magnetic Charging Station for Oculus Quest 3S/3/2 Accessories with Rechargeable 2X2100mAh Batteries, RGB Charging Stand for VR Headset & Controllers",
+            "reviews": 144,
+            "rating": 4.2,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41godQPi9JL.jpg",
+            "brand_image": "https://img.logo.dev/foscomax.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "069fb385fcae",
@@ -2975,20 +2555,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/519DFO53jeS.jpg",
             "brand_image": "https://img.logo.dev/mergegames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "61cec9f38e38",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "2468b1f0",
-            "brand": "kkcobvr",
-            "title": "KKCOBVR Q3 PRO Comfort Battery Head Strap 10000mh Compatible with Meta Quest 3/Quest 3S Head Strap, Extend Playtime Replacement Head Strap Accessories",
-            "reviews": 117,
-            "rating": 4.3,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41w3IepTjlL.jpg",
-            "brand_image": "https://img.logo.dev/kkcobvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "b0fe444d43ef",
@@ -3047,20 +2613,6 @@
             "brand_image": "https://img.logo.dev/microds.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "8b0fbc6010a4",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_f5b2b",
-            "brand_id": "adbc8235",
-            "brand": "Enstixsm",
-            "title": "Upgrade Ymir Luna Controller for TV Compatible with Luna and GeForce Now,Luna Wireless Controller with Back Paddles,1200mAh,Turbo,Dual Motors,No Drift ALPS Joystick,Midnight Blue",
-            "reviews": 54,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41ysctkFevL.jpg",
-            "brand_image": "https://img.logo.dev/enstixsm.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "fcfac61a6755",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
@@ -3073,20 +2625,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/316RVAZ7q+L.jpg",
             "brand_image": "https://img.logo.dev/jhzwd.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "1e79ec595d2e",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "ae89c422",
-            "brand": "Mumba",
-            "title": "Mumba Carrying Case for Nintendo Switch OLED & Nintendo Switch, [Plus Version] Portable Protective Travel Carry handbag Pouch for Blade/Battle Case [Large Capacity] (Black)",
-            "reviews": 561,
-            "rating": 4.8,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41iVBjdx+VL.jpg",
-            "brand_image": "https://img.logo.dev/mumba.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "16a02865f45d",
@@ -3117,88 +2655,18 @@
             "brand_image": "https://img.logo.dev/dacoity.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "f58067efcb2c",
+            "id": "61cec9f38e38",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "07c51c5f",
-            "brand": "SXBan",
-            "title": "2.4GHz Wireless Cute Hamster Shape Less Noice Portable Mobile Optical 1200DPI USB Mice Cordless Mouse for PC Laptop Computer Notebook MacBook Kids Girl Gift (Purple)",
-            "reviews": 58,
+            "cat_sub_id": "sub_5183c",
+            "brand_id": "2468b1f0",
+            "brand": "kkcobvr",
+            "title": "KKCOBVR Q3 PRO Comfort Battery Head Strap 10000mh Compatible with Meta Quest 3/Quest 3S Head Strap, Extend Playtime Replacement Head Strap Accessories",
+            "reviews": 117,
             "rating": 4.3,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31AmvhKudxL.jpg",
-            "brand_image": "https://img.logo.dev/sxban.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "e17ecbfc1981",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_b5807",
-            "brand_id": "5b202b55",
-            "brand": "Nexatrix",
-            "title": "Head Strap for Meta Quest 3S/3, Lightweight Headstrap Replacement for Oculus Quest 3/3s, Nexatrix VR Headset Elite Strap Accessories with Adjustable Hinge and Enlarged Head Support",
-            "reviews": 29,
-            "rating": 4.5,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31hVDYaGRZL.jpg",
-            "brand_image": "https://img.logo.dev/nexatrix.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "0424a4419f17",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5183c",
-            "brand_id": "6a49bf3c",
-            "brand": "Foscomax",
-            "title": "Foscomax Charging Dock for Meta Quest 3S/3/2, 20W Magnetic Charging Station for Oculus Quest 3S/3/2 Accessories with Rechargeable 2X2100mAh Batteries, RGB Charging Stand for VR Headset & Controllers",
-            "reviews": 144,
-            "rating": 4.2,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41godQPi9JL.jpg",
-            "brand_image": "https://img.logo.dev/foscomax.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "ff89950e42f9",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "141d96b8",
-            "brand": "G-STORY",
-            "title": "G-STORY PS5 Cooling Fan,PS5 Cooler System, Fan Speed Automactically Adjusted by Temperature(?/?), Low Noise, 3 Speed 1500/1750/2000RPM (140MM) with RGB LED (White)",
-            "reviews": 112,
-            "rating": 4.5,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31O4dQAat9L.jpg",
-            "brand_image": "https://img.logo.dev/gstory.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "09a30dc7e559",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "6bb00823",
-            "brand": "Pulsar Gaming Gears",
-            "title": "Superglide Glass Mouse Skates - Super Smooth Glide, Polished Round Edge, Super Fast Gaming Mouse Feet with Durable Sole for Logitech G Pro X Superlight1 (Type-S, Black)",
-            "reviews": 460,
-            "rating": 4.5,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31Anz1x+9RL.jpg",
-            "brand_image": "https://img.logo.dev/pulsargaminggears.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "c7fd85332dad",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_9edab",
-            "brand_id": "00e03950",
-            "brand": "ELISWEEN",
-            "title": "Switch Controller, Wireless Switch Controller Compatible with Switch Controller/Switch Lite/OLED, Wireless Switch Controllers Work with iOS/Android/PC with RGB Light, Programmable, TURBO & Wakeup",
-            "reviews": 257,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41gQfD3vZEL.jpg",
-            "brand_image": "https://img.logo.dev/elisween.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41w3IepTjlL.jpg",
+            "brand_image": "https://img.logo.dev/kkcobvr.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "f3db9003b689",
@@ -3215,32 +2683,60 @@
             "brand_image": "https://img.logo.dev/hideitmounts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "09bcac1b8e4e",
+            "id": "fc7d19549403",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_f5b2b",
-            "brand_id": "76b719dc",
-            "brand": "BRHE",
-            "title": "PS5 Cooling Fan with LED Light,Quiet and Efficient Cooling System for PS5 Cooler,2 Fan Speeds,USB 3.0 Port Compatible with PlayStation 5 Digital & Discs Edition,Not for PS5 Slim and New PS5 Pro",
-            "reviews": 85,
-            "rating": 4.3,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51an2ZQ+bnL.jpg",
-            "brand_image": "https://img.logo.dev/brhe.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "3028735e08ed",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5521c",
-            "brand_id": "59011996",
-            "brand": "OSTENT",
-            "title": "OSTENT High Capacity Quality Real 1800mAh 3.6V Lithium Ion Polymer Li-ion Polymer Rechargeable Battery Pack Replacement for Sony PSP 1000 PSP-110 Console",
-            "reviews": 168,
+            "cat_sub_id": "sub_5b694",
+            "brand_id": "269006ed",
+            "brand": "Vakedy",
+            "title": "Vakedy Wireless Gaming Headset for PC, PS5, PS4, Mac, Switch, 2.4GHz USB Dongle Headphones with Mic, Bluetooth 5.4, 50mm Driver, Stereo Sound, Cool Lighting, 50H Battery-Black/Green",
+            "reviews": 273,
             "rating": 4.4,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31idzA5h1qL.jpg",
-            "brand_image": "https://img.logo.dev/ostent.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41MpKrScq2L.jpg",
+            "brand_image": "https://img.logo.dev/vakedy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "09a30dc7e559",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "6bb00823",
+            "brand": "Pulsar Gaming Gears",
+            "title": "Superglide Glass Mouse Skates - Super Smooth Glide, Polished Round Edge, Super Fast Gaming Mouse Feet with Durable Sole for Logitech G Pro X Superlight1 (Type-S, Black)",
+            "reviews": 460,
+            "rating": 4.5,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31Anz1x+9RL.jpg",
+            "brand_image": "https://img.logo.dev/pulsargaminggears.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "45b88c99037d",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "d7f9d4d1",
+            "brand": "WEPIGEEK",
+            "title": "WEPIGEEK Case for Backbone One/PlayStation Edition Mobile Controller,Portable Travel All Protective,Hard Messenger Carrying Bag, Strong Strap,Soft Lining,with Pockets for Accessories Black",
+            "reviews": 117,
+            "rating": 4.7,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/61TFrDtRRIL.jpg",
+            "brand_image": "https://img.logo.dev/wepigeek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "c7fd85332dad",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_9edab",
+            "brand_id": "00e03950",
+            "brand": "ELISWEEN",
+            "title": "Switch Controller, Wireless Switch Controller Compatible with Switch Controller/Switch Lite/OLED, Wireless Switch Controllers Work with iOS/Android/PC with RGB Light, Programmable, TURBO & Wakeup",
+            "reviews": 257,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41gQfD3vZEL.jpg",
+            "brand_image": "https://img.logo.dev/elisween.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "603aa920ca27",
@@ -3255,6 +2751,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/511B-kqPXBL.jpg",
             "brand_image": "https://img.logo.dev/mergegames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "1e79ec595d2e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "ae89c422",
+            "brand": "Mumba",
+            "title": "Mumba Carrying Case for Nintendo Switch OLED & Nintendo Switch, [Plus Version] Portable Protective Travel Carry handbag Pouch for Blade/Battle Case [Large Capacity] (Black)",
+            "reviews": 561,
+            "rating": 4.8,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41iVBjdx+VL.jpg",
+            "brand_image": "https://img.logo.dev/mumba.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "886efed654c1",
@@ -3299,20 +2809,6 @@
             "brand_image": "https://img.logo.dev/vznek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "283b1a8421de",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_97025",
-            "brand_id": "018112dd",
-            "brand": "Sombbry",
-            "title": "Sombbry Wireless Controller for PS4, White ps4 controller with Dual Vibration/ 6-Axis Motion Sensor/Audio Jack/Touch Pad/Share Button, p-4 Accessories Perfect Adaptive Full Version 4/4 Pro White",
-            "reviews": 183,
-            "rating": 4.3,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41svkdZjpGL.jpg",
-            "brand_image": "https://img.logo.dev/sombbry.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "3f5466d41b69",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_501e1",
@@ -3341,46 +2837,32 @@
             "brand_image": "https://img.logo.dev/warnerbrosinteractiveentertainment.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "45b88c99037d",
+            "id": "ff89950e42f9",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "d7f9d4d1",
-            "brand": "WEPIGEEK",
-            "title": "WEPIGEEK Case for Backbone One/PlayStation Edition Mobile Controller,Portable Travel All Protective,Hard Messenger Carrying Bag, Strong Strap,Soft Lining,with Pockets for Accessories Black",
-            "reviews": 117,
-            "rating": 4.7,
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "141d96b8",
+            "brand": "G-STORY",
+            "title": "G-STORY PS5 Cooling Fan,PS5 Cooler System, Fan Speed Automactically Adjusted by Temperature(?/?), Low Noise, 3 Speed 1500/1750/2000RPM (140MM) with RGB LED (White)",
+            "reviews": 112,
+            "rating": 4.5,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/61TFrDtRRIL.jpg",
-            "brand_image": "https://img.logo.dev/wepigeek.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31O4dQAat9L.jpg",
+            "brand_image": "https://img.logo.dev/gstory.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "fc7d19549403",
+            "id": "ad306482d4ba",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5b694",
-            "brand_id": "269006ed",
-            "brand": "Vakedy",
-            "title": "Vakedy Wireless Gaming Headset for PC, PS5, PS4, Mac, Switch, 2.4GHz USB Dongle Headphones with Mic, Bluetooth 5.4, 50mm Driver, Stereo Sound, Cool Lighting, 50H Battery-Black/Green",
-            "reviews": 273,
-            "rating": 4.4,
+            "cat_sub_id": "sub_501e1",
+            "brand_id": "a8b37497",
+            "brand": "6amLifestyle",
+            "title": "Upgrade Rechargeable Xbox One Controller Lithium Battery Pack Rechargeable, Xbox Series S|X Batteries 1 Pack=52 Playtime, Rechargeable Xbox Battery Accessories mit 4 Covers & USB/Type C Adapter",
+            "reviews": 56,
+            "rating": 4.3,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41MpKrScq2L.jpg",
-            "brand_image": "https://img.logo.dev/vakedy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "84d2f1d81731",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "0a07dca0",
-            "brand": "HEYSTOP",
-            "title": "HEYSTOP Case for Nintendo Switch 2 Accessories Bundle with Switch 2 Dockable Protective Cover Switch 2 Tempered Film,Switch 2 Racing Wheels Joycon Grip Cover for Nintendo Switch 2 Controller",
-            "reviews": 284,
-            "rating": 4.7,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/514bobkhW5L.jpg",
-            "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41N5jrVm40L.jpg",
+            "brand_image": "https://img.logo.dev/6amlifestyle.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "71d00edbb61e",
@@ -3395,20 +2877,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41ysSNfdcaL.jpg",
             "brand_image": "https://img.logo.dev/nargos.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "a49a3bedfb42",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "c0fa99f9",
-            "brand": "TotalMount",
-            "title": "TotalMount Universal Mount for Electronics \u2013 Adjustable Strap Wall Mount for Your Router, Wireless System, Cable Modem, DVR, Xbox, PlayStation, and More (White, Standard Shelf)",
-            "reviews": 44,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41w9YTB+ovL.jpg",
-            "brand_image": "https://img.logo.dev/totalmount.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "14911ae4f658",
@@ -3439,18 +2907,18 @@
             "brand_image": "https://img.logo.dev/waycom.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "8f82fcff1bf8",
+            "id": "da8acfe4d2c7",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "94b960f8",
-            "brand": "INPHIC",
-            "title": "INPHIC IN10P Superlight Wireless Gaming Mouse, 60g, 8K Polling Rate, 26,000 DPI, Tri-Mode, PAW3395 Sensor, Fully Programmable",
-            "reviews": 27,
-            "rating": 4.6,
+            "cat_sub_id": "sub_501e1",
+            "brand_id": "ef7a93b0",
+            "brand": "NinABXY",
+            "title": "Fast Charging Controller Charging Station with 2x4800mWh Rechargeable Battery Packs for Xbox Series X|S, One S/X/Elite, Dual Charger Dock with 4 Battery Covers",
+            "reviews": 62,
+            "rating": 4.4,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/317K9NEIugL.jpg",
-            "brand_image": "https://img.logo.dev/inphic.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51ANjV522vL.jpg",
+            "brand_image": "https://img.logo.dev/ninabxy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "536ec66473aa",
@@ -3467,88 +2935,46 @@
             "brand_image": "https://img.logo.dev/odier.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "ad306482d4ba",
+            "id": "ece9bb027f7d",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_501e1",
-            "brand_id": "a8b37497",
-            "brand": "6amLifestyle",
-            "title": "Upgrade Rechargeable Xbox One Controller Lithium Battery Pack Rechargeable, Xbox Series S|X Batteries 1 Pack=52 Playtime, Rechargeable Xbox Battery Accessories mit 4 Covers & USB/Type C Adapter",
-            "reviews": 56,
-            "rating": 4.3,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41N5jrVm40L.jpg",
-            "brand_image": "https://img.logo.dev/6amlifestyle.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "da8acfe4d2c7",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_501e1",
-            "brand_id": "ef7a93b0",
-            "brand": "NinABXY",
-            "title": "Fast Charging Controller Charging Station with 2x4800mWh Rechargeable Battery Packs for Xbox Series X|S, One S/X/Elite, Dual Charger Dock with 4 Battery Covers",
-            "reviews": 62,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51ANjV522vL.jpg",
-            "brand_image": "https://img.logo.dev/ninabxy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "2d5ddb0bb218",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d1e84",
-            "brand_id": "ad3f3977",
-            "brand": "SADES",
-            "title": "SADES SA902 7.1 USB Surround Sound PC Headsets Over-Ear Gaming Headphones with Microphone LED Light",
-            "reviews": 588,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51CWjJUUcWL.jpg",
-            "brand_image": "https://img.logo.dev/sades.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "b074fd1f6f33",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "267a2dc5",
-            "brand": "Runatch",
-            "title": "Doki Doki Literature Club Plus! Premium Physical Edition \u2013 Nintendo Switch",
-            "reviews": 217,
-            "rating": 4.8,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51nnwOXI0BL.jpg",
-            "brand_image": "https://img.logo.dev/runatch.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "230c0b0af5c2",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf6b5",
-            "brand_id": "e47c5fa7",
-            "brand": "Nargos",
-            "title": "Video Game Storage Tower Universal for PS5/PS4/PS3/PS2/Xbox One/Xbox 360 And Xbox Series X/S/Wii/Switch/Switch 2 Game Cases, DVD And Blu-Ray Disks, Organizer Para Juegos, Regalo Gamer (23 Pcs)",
-            "reviews": 44,
-            "rating": 4.6,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51Zn3iltJCL.jpg",
-            "brand_image": "https://img.logo.dev/nargos.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "7c2bbfb2e4d6",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5521c",
-            "brand_id": "80fcc8ec",
-            "brand": "KEKUCULL",
-            "title": "KEKUCULL 2Pcs Rechargeable Battery Pack Replacement for PSP 2000/3000/Lite/Slim Console, Real Capacity 1200mAh Lithium Polymer Batteries for PSP 2001/3001",
-            "reviews": 18,
+            "cat_sub_id": "sub_77ad6",
+            "brand_id": "21570ba1",
+            "brand": "MENEEA",
+            "title": "Auto Cooling Fan and Charge Stand Accessories for Xbox Series X Console with 15 Light Modes, Wireless Dual Charger Dock for XSX Controller, 2* Rechargeable Batteries, Headset Stand & Game Disc Storage (Black)",
+            "reviews": 126,
             "rating": 4.7,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41wwaIQFMiL.jpg",
-            "brand_image": "https://img.logo.dev/kekucull.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51c7-A0UHNL.jpg",
+            "brand_image": "https://img.logo.dev/meneea.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "84d2f1d81731",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "0a07dca0",
+            "brand": "HEYSTOP",
+            "title": "HEYSTOP Case for Nintendo Switch 2 Accessories Bundle with Switch 2 Dockable Protective Cover Switch 2 Tempered Film,Switch 2 Racing Wheels Joycon Grip Cover for Nintendo Switch 2 Controller",
+            "reviews": 284,
+            "rating": 4.7,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/514bobkhW5L.jpg",
+            "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "83fe3c4a9fe4",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "7f025bb3",
+            "brand": "TIKOdirect",
+            "title": "TIKOdirect Carrying Case for Switch 2(2025), Cute Portable Travel Bag in Updated Design of Pink Interior with an Adjustable Shoulder Strap, Pink",
+            "reviews": 17,
+            "rating": 4.5,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/4108L-vYiGL.jpg",
+            "brand_image": null
         },
         {
             "id": "ef41662add35",
@@ -3563,20 +2989,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41TAufmcneL.jpg",
             "brand_image": "https://img.logo.dev/tmkbtechnologymechanicalkeyboard.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "c423dda8df90",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_3cc0b",
-            "brand_id": "5505bd01",
-            "brand": "HIDEit Mounts",
-            "title": "HIDEit Mounts for Xbox Series X - Xbox Series X Wall Mount, Steel Mount for No Sag",
-            "reviews": 186,
-            "rating": 4.8,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31m0ANcclFL.jpg",
-            "brand_image": "https://img.logo.dev/hideitmounts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "958ba32489e5",
@@ -3621,6 +3033,20 @@
             "brand_image": "https://img.logo.dev/oaprire.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "230c0b0af5c2",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_bf6b5",
+            "brand_id": "e47c5fa7",
+            "brand": "Nargos",
+            "title": "Video Game Storage Tower Universal for PS5/PS4/PS3/PS2/Xbox One/Xbox 360 And Xbox Series X/S/Wii/Switch/Switch 2 Game Cases, DVD And Blu-Ray Disks, Organizer Para Juegos, Regalo Gamer (23 Pcs)",
+            "reviews": 44,
+            "rating": 4.6,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51Zn3iltJCL.jpg",
+            "brand_image": "https://img.logo.dev/nargos.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "1c08404ae8b2",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_5183c",
@@ -3663,18 +3089,32 @@
             "brand_image": "https://img.logo.dev/lucidsound.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "83fe3c4a9fe4",
+            "id": "b074fd1f6f33",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
-            "brand_id": "7f025bb3",
-            "brand": "TIKOdirect",
-            "title": "TIKOdirect Carrying Case for Switch 2(2025), Cute Portable Travel Bag in Updated Design of Pink Interior with an Adjustable Shoulder Strap, Pink",
-            "reviews": 17,
-            "rating": 4.5,
+            "brand_id": "267a2dc5",
+            "brand": "Runatch",
+            "title": "Doki Doki Literature Club Plus! Premium Physical Edition \u2013 Nintendo Switch",
+            "reviews": 217,
+            "rating": 4.8,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/4108L-vYiGL.jpg",
-            "brand_image": null
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51nnwOXI0BL.jpg",
+            "brand_image": "https://img.logo.dev/runatch.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "9f58e1a314ec",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "c4daaf9e",
+            "brand": "Soedesco",
+            "title": "Among the Sleep: Enhanced Edition - Nintendo Switch",
+            "reviews": 41,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41TLcaps05L.jpg",
+            "brand_image": "https://img.logo.dev/soedesco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "d730fe460bfa",
@@ -3689,20 +3129,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/31DkqluHXqL.jpg",
             "brand_image": "https://img.logo.dev/easysmx.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "ece9bb027f7d",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_77ad6",
-            "brand_id": "21570ba1",
-            "brand": "MENEEA",
-            "title": "Auto Cooling Fan and Charge Stand Accessories for Xbox Series X Console with 15 Light Modes, Wireless Dual Charger Dock for XSX Controller, 2* Rechargeable Batteries, Headset Stand & Game Disc Storage (Black)",
-            "reviews": 126,
-            "rating": 4.7,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51c7-A0UHNL.jpg",
-            "brand_image": "https://img.logo.dev/meneea.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "312d31ada6ef",
@@ -3789,20 +3215,6 @@
             "brand_image": "https://img.logo.dev/phnixgam.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "cddb17229038",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d1e84",
-            "brand_id": "2a5217de",
-            "brand": "gmrpwnage",
-            "title": "gmrpwnage 2.4GHz Wireless Gaming Headsets for PS5/PS4/PC/Switch - Bluetooth 5.3 Headphones with 7.1 Surround Sound, Noise-Canceling Mic, 30+Hr Battery & Support Playing While Charging - Black",
-            "reviews": 18,
-            "rating": 4.6,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41lWbTq62YL.jpg",
-            "brand_image": "https://img.logo.dev/gmrpwnage.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "16ded93af7a8",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_7868b",
@@ -3831,32 +3243,18 @@
             "brand_image": "https://img.logo.dev/weseary.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "9f58e1a314ec",
+            "id": "f1d451c720f2",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "c4daaf9e",
-            "brand": "Soedesco",
-            "title": "Among the Sleep: Enhanced Edition - Nintendo Switch",
-            "reviews": 41,
-            "rating": 4.4,
-            "volume": 37,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41TLcaps05L.jpg",
-            "brand_image": "https://img.logo.dev/soedesco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "4ad985633477",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "f3471d06",
-            "brand": "G-Wolves",
-            "title": "GWolves HSK Plus Lite Wireless Fingertip Grip Gaming Mouse, ~38Gram, Low Latency, PAW3399,21,000CPI, Nrf52840 High-Performance CPU, 5Programmable Btns, On-Board Memory, PC/Mac and Laptop (BlueWave)",
-            "reviews": 26,
-            "rating": 4.2,
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "298df816",
+            "brand": "New Bee",
+            "title": "New Bee RGB Headphone Stand with 2 USB-C & 1 USB Charging Ports, Desk Gaming Headset Holder with 7 Light Modes and Non-Slip Rubber Base Suitable for All Earphone Accessories",
+            "reviews": 165,
+            "rating": 4.6,
             "volume": 36,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/21QoUCWp6KL.jpg",
-            "brand_image": "https://img.logo.dev/gwolves.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51k6qIjOdEL.jpg",
+            "brand_image": "https://img.logo.dev/newbee.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "015a3e14a308",
@@ -3901,60 +3299,18 @@
             "brand_image": "https://img.logo.dev/easysmx.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "f1d451c720f2",
+            "id": "4ad985633477",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "298df816",
-            "brand": "New Bee",
-            "title": "New Bee RGB Headphone Stand with 2 USB-C & 1 USB Charging Ports, Desk Gaming Headset Holder with 7 Light Modes and Non-Slip Rubber Base Suitable for All Earphone Accessories",
-            "reviews": 165,
-            "rating": 4.6,
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "f3471d06",
+            "brand": "G-Wolves",
+            "title": "GWolves HSK Plus Lite Wireless Fingertip Grip Gaming Mouse, ~38Gram, Low Latency, PAW3399,21,000CPI, Nrf52840 High-Performance CPU, 5Programmable Btns, On-Board Memory, PC/Mac and Laptop (BlueWave)",
+            "reviews": 26,
+            "rating": 4.2,
             "volume": 36,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51k6qIjOdEL.jpg",
-            "brand_image": "https://img.logo.dev/newbee.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "0a601217e230",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_e8b4e",
-            "brand_id": "2ae5373d",
-            "brand": "WB Games",
-            "title": "Witcher 3: Wild Hunt Complete Edition - Nintendo Switch",
-            "reviews": 57,
-            "rating": 4.6,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51J4L0HWsoL.jpg",
-            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "ebbc58982d77",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_5b694",
-            "brand_id": "929f9703",
-            "brand": "Reashy",
-            "title": "Reashy Hotas Mount, Joystick Mount, Aluminum Flight Stick Desk Mount for Logitech X56, X52, X52 Pro, Thrustmaster T.1600M, TCA, T.Flight Hotas One, 4, X, Airbus, VKB Gladiator Nxt (Black)",
-            "reviews": 36,
-            "rating": 4.4,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41WhpvobHKL.jpg",
-            "brand_image": "https://img.logo.dev/reashy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "339c65eddad9",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "49eccdcd",
-            "brand": "SHARE SUNSHINE",
-            "title": "Wireless Mouse Ergonomic Vertical Pink Rechargeable Silent Upright Comfortable Carpal Tunnel Ergo Optical Cordless Mice for Small Middle Hands for PC Laptop Computer Macbook Office Work Wrist Pain",
-            "reviews": 29,
-            "rating": 4.0,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31q5IFj29LL.jpg",
-            "brand_image": "https://img.logo.dev/sharesunshine.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/21QoUCWp6KL.jpg",
+            "brand_image": "https://img.logo.dev/gwolves.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "a0f329023ae0",
@@ -4027,46 +3383,46 @@
             "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "15c22314d155",
+            "id": "ebbc58982d77",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "2ae5373d",
-            "brand": "WB Games",
-            "title": "Mortal Kombat XL - PlayStation 4",
-            "reviews": 825,
-            "rating": 4.6,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41ryL0ZFJBL.jpg",
-            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "f4fed365ce20",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_a456d",
-            "brand_id": "c5da0695",
-            "brand": "CHONCHOW",
-            "title": "CHONCHOW 87 Keys TKL Wired Gaming Keyboard, Rainbow Led Backlight, White Keyboard and Mouse 3200DPI Combo Compatible with PC Laptop Ps4 Ps5 Xbox Gamer",
-            "reviews": 28,
+            "cat_sub_id": "sub_5b694",
+            "brand_id": "929f9703",
+            "brand": "Reashy",
+            "title": "Reashy Hotas Mount, Joystick Mount, Aluminum Flight Stick Desk Mount for Logitech X56, X52, X52 Pro, Thrustmaster T.1600M, TCA, T.Flight Hotas One, 4, X, Airbus, VKB Gladiator Nxt (Black)",
+            "reviews": 36,
             "rating": 4.4,
             "volume": 36,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41vMsHQHHQL.jpg",
-            "brand_image": "https://img.logo.dev/chonchow.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41WhpvobHKL.jpg",
+            "brand_image": "https://img.logo.dev/reashy.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "43c5a10416d4",
+            "id": "0a601217e230",
             "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_165a3",
-            "brand_id": "f0623e12",
-            "brand": "Sehawei",
-            "title": "Sehawei Haute42 Arcade Stick 16Keys All-Button Gamerfinger with Custom RGB & Turbo Functions,Arcade Controller Street Fight for PC/Ps3/Ps4/Switch/Steam Game Keyboard-Supports Hot Swap & SOCD",
-            "reviews": 69,
-            "rating": 4.5,
+            "cat_sub_id": "sub_e8b4e",
+            "brand_id": "2ae5373d",
+            "brand": "WB Games",
+            "title": "Witcher 3: Wild Hunt Complete Edition - Nintendo Switch",
+            "reviews": 57,
+            "rating": 4.6,
             "volume": 36,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41aSqn9WaRL.jpg",
-            "brand_image": "https://img.logo.dev/sehawei.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51J4L0HWsoL.jpg",
+            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "dbcf4e19f9f0",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_bf6b5",
+            "brand_id": "72f26e42",
+            "brand": "KAPEYDESI",
+            "title": "KAPEYDESI Wireless Gaming Headset for PS5, PS4, PC, NES, Bluetooth 5.3 Gaming Headsets Wireless with Noise Canceling Microphone, Gamer Headphones for Nintendo Switch, 50H Battery - Pink",
+            "reviews": 631,
+            "rating": 4.4,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41vse8dTKfL.jpg",
+            "brand_image": "https://img.logo.dev/kapeydesi.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "2eaf81491820",
@@ -4125,6 +3481,20 @@
             "brand_image": "https://img.logo.dev/anvow.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "43c5a10416d4",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "f0623e12",
+            "brand": "Sehawei",
+            "title": "Sehawei Haute42 Arcade Stick 16Keys All-Button Gamerfinger with Custom RGB & Turbo Functions,Arcade Controller Street Fight for PC/Ps3/Ps4/Switch/Steam Game Keyboard-Supports Hot Swap & SOCD",
+            "reviews": 69,
+            "rating": 4.5,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41aSqn9WaRL.jpg",
+            "brand_image": "https://img.logo.dev/sehawei.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "2b81e508f52f",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_7868b",
@@ -4137,20 +3507,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41Sofs0PMaL.jpg",
             "brand_image": "https://img.logo.dev/chonchow.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "dbcf4e19f9f0",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_bf6b5",
-            "brand_id": "72f26e42",
-            "brand": "KAPEYDESI",
-            "title": "KAPEYDESI Wireless Gaming Headset for PS5, PS4, PC, NES, Bluetooth 5.3 Gaming Headsets Wireless with Noise Canceling Microphone, Gamer Headphones for Nintendo Switch, 50H Battery - Pink",
-            "reviews": 631,
-            "rating": 4.4,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41vse8dTKfL.jpg",
-            "brand_image": "https://img.logo.dev/kapeydesi.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "152415fd5d36",
@@ -4207,6 +3563,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41KCSqsT16L.jpg",
             "brand_image": "https://img.logo.dev/ninki.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "15c22314d155",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_165a3",
+            "brand_id": "2ae5373d",
+            "brand": "WB Games",
+            "title": "Mortal Kombat XL - PlayStation 4",
+            "reviews": 825,
+            "rating": 4.6,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41ryL0ZFJBL.jpg",
+            "brand_image": "https://img.logo.dev/wbgames.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "3add69b7209c",
@@ -4293,20 +3663,6 @@
             "brand_image": null
         },
         {
-            "id": "8b5f911a2b7c",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_f5b2b",
-            "brand_id": "64ba757a",
-            "brand": "Glistco",
-            "title": "Glistco Skates - Horizontal Stand for PS5 Pro Compatible with Disc & Digital Edition (Black)",
-            "reviews": 57,
-            "rating": 4.2,
-            "volume": 35,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/31juAcTf09L.jpg",
-            "brand_image": "https://img.logo.dev/glistco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "1251cf8addb3",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_bf6b5",
@@ -4349,20 +3705,6 @@
             "brand_image": "https://img.logo.dev/d3publisher.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "417194010aab",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_7868b",
-            "brand_id": "93f4ce57",
-            "brand": "ENDGAME GEAR",
-            "title": "ENDGAME GEAR OP1we Wireless Gaming Mouse, CompX CX52850 Microcontroller, Pixart PAW3370 Optical Sensor, Mod-Friendly, Hybrid Skate Design, Claw Grip, 2.1 oz, White",
-            "reviews": 27,
-            "rating": 4.3,
-            "volume": 35,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/216RwwJBpmL.jpg",
-            "brand_image": "https://img.logo.dev/endgamegear.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "12bd7d6ab674",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_e8b4e",
@@ -4375,20 +3717,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41ZyCemlhSL.jpg",
             "brand_image": "https://img.logo.dev/melosync.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "7b6a51e7e31e",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_97025",
-            "brand_id": "4fba94e1",
-            "brand": "Tatybo",
-            "title": "Tatybo Wireless Gaming Headset for PC, Ps4, Ps5, 2.4GHz USB & Type-C, Bluetooth 5.3 Gaming Headphone with Detachable Noise Cancelling Microphone, Low-Latency for Switch, Laptop, Mobile Gamers - Red",
-            "reviews": 513,
-            "rating": 4.3,
-            "volume": 34,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51kXK2Hr7QL.jpg",
-            "brand_image": "https://img.logo.dev/tatybo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "f62980e79534",
@@ -4433,6 +3761,20 @@
             "brand_image": "https://img.logo.dev/bethesda.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "417194010aab",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_7868b",
+            "brand_id": "93f4ce57",
+            "brand": "ENDGAME GEAR",
+            "title": "ENDGAME GEAR OP1we Wireless Gaming Mouse, CompX CX52850 Microcontroller, Pixart PAW3370 Optical Sensor, Mod-Friendly, Hybrid Skate Design, Claw Grip, 2.1 oz, White",
+            "reviews": 27,
+            "rating": 4.3,
+            "volume": 35,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/216RwwJBpmL.jpg",
+            "brand_image": "https://img.logo.dev/endgamegear.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "d5e7497381cd",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_7868b",
@@ -4475,6 +3817,20 @@
             "brand_image": "https://img.logo.dev/dgg.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "52f084182655",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "88dc25eb",
+            "brand": "Huqjot",
+            "title": "Huqjot 2025 Upgraded Retro Gaming Console Stick Pro, Video Games Console with 4K HDMI, Built-in 23 Classic Game Emulators, 20000+ Games - Video Game with Upgrade Dual 2.4G Wireless Controllers (64G)",
+            "reviews": 197,
+            "rating": 4.7,
+            "volume": 100,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51XbOHecwnL.jpg",
+            "brand_image": "https://img.logo.dev/huqjot.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "63bd3caa1639",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4489,20 +3845,6 @@
             "brand_image": "https://img.logo.dev/nonbliep.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "27f5528984aa",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "4fba94e1",
-            "brand": "Tatybo",
-            "title": "Wireless Gaming Headset for PC, Ps5, Ps4, 2.4 Ghz USB & Type-C Gaming Headphones with Microphone, 30H Battery Bluetooth Headphones for Switch, Laptop, Mobile, Mac",
-            "reviews": 575,
-            "rating": 4.5,
-            "volume": 99,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41wI3tyi36L.jpg",
-            "brand_image": "https://img.logo.dev/tatybo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
             "id": "653ec3c2cb5f",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4515,6 +3857,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/31nHuI-4xAL.jpg",
             "brand_image": "https://img.logo.dev/prodico.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "27f5528984aa",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "4fba94e1",
+            "brand": "Tatybo",
+            "title": "Wireless Gaming Headset for PC, Ps5, Ps4, 2.4 Ghz USB & Type-C Gaming Headphones with Microphone, 30H Battery Bluetooth Headphones for Switch, Laptop, Mobile, Mac",
+            "reviews": 575,
+            "rating": 4.5,
+            "volume": 99,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41wI3tyi36L.jpg",
+            "brand_image": "https://img.logo.dev/tatybo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "2fcc648768bc",
@@ -4545,6 +3901,48 @@
             "brand_image": "https://img.logo.dev/aquage.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "bd39601c7eb6",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "381e3bfd",
+            "brand": "RMOKA",
+            "title": "Retro Gaming Console, 20,000+ Retro Game Stick, 23 Emulators, 4K HD TV Game Stick, Built-in Classic Video Games, Plug & Play Game Console for TV with 2 Wireless Controllers",
+            "reviews": 151,
+            "rating": 4.1,
+            "volume": 91,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51NBdNSSJgL.jpg",
+            "brand_image": "https://img.logo.dev/rmoka.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "49efcec26665",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "532cdaf3",
+            "brand": "daydayup",
+            "title": "daydayup Switch Carrying Case Compatible with Nintendo Switch/Switch OLED, with 20 Games Cartridges Protective Hard Shell Travel Carrying Case Pouch for Console & Accessories, Black",
+            "reviews": 6091,
+            "rating": 4.8,
+            "volume": 90,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51dbKRJQE1L.jpg",
+            "brand_image": "https://img.logo.dev/daydayup.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "385e6912680a",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "74b30ed4",
+            "brand": "TIANHOO",
+            "title": "TIANHOO 2 Pack Remote Controller for Wii & Wii U, with Silicone Case and Wrist Strap (White)",
+            "reviews": 327,
+            "rating": 4.4,
+            "volume": 71,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41imzIOrrHL.jpg",
+            "brand_image": "https://img.logo.dev/tianhoo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "3a811906de78",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4557,6 +3955,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41C+lO+GSCL.jpg",
             "brand_image": "https://img.logo.dev/wolflaws.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "9308b1b93cfa",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "fe36a545",
+            "brand": "FYOUNG",
+            "title": "FYOUNG 3 in 1 Accessories Bundle for Playstation Portal, Carrying Case & Hard PC Clear Cover Skins Set with Screen Protector, Protective Shell Portable Travel Handbag for PS5 Portal Remote Player",
+            "reviews": 506,
+            "rating": 4.6,
+            "volume": 56,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41WEFHErW5L.jpg",
+            "brand_image": "https://img.logo.dev/fyoung.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "0044c6064e6b",
@@ -4573,6 +3985,20 @@
             "brand_image": "https://img.logo.dev/vidppluing.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "c9f7d066b77d",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "e13ed02a",
+            "brand": "Ponkor",
+            "title": "Ponkor Switch Controller, Switch 2 Controller, Wireless Pro Controller Compatible with Nintendo Switch 2/Switch/Lite/Switch OLED/PC Controller for Switch with Wake-up, Turbo Vibration",
+            "reviews": 99,
+            "rating": 4.3,
+            "volume": 52,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41b-qf4rGmL.jpg",
+            "brand_image": "https://img.logo.dev/ponkor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "60af0ec76ec9",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4587,18 +4013,18 @@
             "brand_image": "https://img.logo.dev/auarte.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "c9f7d066b77d",
+            "id": "f3a8f1039431",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "e13ed02a",
-            "brand": "Ponkor",
-            "title": "Ponkor Switch Controller, Switch 2 Controller, Wireless Pro Controller Compatible with Nintendo Switch 2/Switch/Lite/Switch OLED/PC Controller for Switch with Wake-up, Turbo Vibration",
-            "reviews": 99,
+            "brand_id": "a39c7e2e",
+            "brand": "Tokluck",
+            "title": "Switch Docking Station for TV with Controller Charger, Replacement for Switch TV Dock with HDMI Adapter, SW Base Station Portable Charging Dock with 10 Game Slots NES Console",
+            "reviews": 210,
             "rating": 4.3,
-            "volume": 52,
+            "volume": 51,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41b-qf4rGmL.jpg",
-            "brand_image": "https://img.logo.dev/ponkor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51qN7QVk1lL.jpg",
+            "brand_image": "https://img.logo.dev/tokluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "86e255e15a7a",
@@ -4629,6 +4055,20 @@
             "brand_image": "https://img.logo.dev/ypbdan.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "68e18320c0c9",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "6f09ad82",
+            "brand": "Feirsh",
+            "title": "45W Charger for Steam Deck and Switch, AC Adapter Steam Charger Fast USB-C Steam Power Adapter for Nintendo Switch/Lite/OLED/Xbox Controller/Phone with 5.9FT USB Type C Cable",
+            "reviews": 20,
+            "rating": 4.6,
+            "volume": 51,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41hlcFaFSBL.jpg",
+            "brand_image": "https://img.logo.dev/feirsh.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "6af4cec6aec5",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4643,18 +4083,46 @@
             "brand_image": "https://img.logo.dev/fisherg.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "f3a8f1039431",
+            "id": "b69e0593fd61",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "a39c7e2e",
-            "brand": "Tokluck",
-            "title": "Switch Docking Station for TV with Controller Charger, Replacement for Switch TV Dock with HDMI Adapter, SW Base Station Portable Charging Dock with 10 Game Slots NES Console",
-            "reviews": 210,
-            "rating": 4.3,
-            "volume": 51,
+            "brand_id": "c33ac14d",
+            "brand": "Pro-Draw",
+            "title": "The Grip for Apple Pencil Pro, 1st /2nd Gen Apple Pencil, and USB-C model // More Comfort. Better Control.",
+            "reviews": 744,
+            "rating": 4.4,
+            "volume": 48,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51qN7QVk1lL.jpg",
-            "brand_image": "https://img.logo.dev/tokluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41IlZZyUv2L.jpg",
+            "brand_image": "https://img.logo.dev/prodraw.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "97a020f66f7b",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "d7c7da5a",
+            "brand": "MANBASNAKE",
+            "title": "ATTACK SHARK X3 Wireless Gaming Mouse, 49g Ergonomic Computer Mouse, Triple Modes PAW3395 26K DPI Optical Sensor, 200h Battery Life, Programmable Buttons, Gaming Accessories for PC/Laptop/Mac (White)",
+            "reviews": 316,
+            "rating": 4.5,
+            "volume": 48,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31nw6NAFYFL.jpg",
+            "brand_image": "https://img.logo.dev/manbasnake.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "4c2de4ed9bf2",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "141d96b8",
+            "brand": "G-STORY",
+            "title": "G-STORY Cooling Fan for Xbox Series S with Automatic Fan Speed Adjustable by Temperature, LED Display, High Performance Cooling, Low Noise, 3 Speed 1500/1750/2000RPM (140MM) with RGB LED (White)",
+            "reviews": 382,
+            "rating": 4.6,
+            "volume": 48,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41j07n-GVsL.jpg",
+            "brand_image": "https://img.logo.dev/gstory.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "8b160e361669",
@@ -4671,6 +4139,48 @@
             "brand_image": "https://img.logo.dev/fyoung.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "c5dd1c762828",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "0762c379",
+            "brand": "Saqico",
+            "title": "Saqico Comfort Head Strap Compatible with Meta Quest 3S and Quest 3,Adjustable Elite Strap Reduce Pressure & Balanced Weight Distribution for Oculus Quest 3/3S VR Headset Accessories",
+            "reviews": 136,
+            "rating": 4.6,
+            "volume": 48,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41LMcsNadOL.jpg",
+            "brand_image": "https://img.logo.dev/saqico.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "6e168751d8db",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "e0e586b9",
+            "brand": "Smlau",
+            "title": "Smlau XB2 Wireless Adapter Compatible with Xbox One Controller & Xbox Series X for Windows 7/8/8.1/10/11",
+            "reviews": 42,
+            "rating": 4.0,
+            "volume": 48,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31ohxUDE6fL.jpg",
+            "brand_image": "https://img.logo.dev/smlau.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "a7d5650bf3bc",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "5505bd01",
+            "brand": "HIDEit Mounts",
+            "title": "HIDEit Mounts Wall Mount for Xbox Series S - American Company - White Steel Mount for Xbox Series S - Wall Mount Kit Works with Xbox Series S - Patented",
+            "reviews": 23,
+            "rating": 4.7,
+            "volume": 45,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31icXVN1HSL.jpg",
+            "brand_image": "https://img.logo.dev/hideitmounts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "778ac37d6e5e",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4683,20 +4193,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51azXO4koJL.jpg",
             "brand_image": "https://img.logo.dev/tokluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "fb66ea53f191",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "87bc07c4",
-            "brand": "SENZER",
-            "title": "SENZER SG600 Wireless Gaming Headset with Microphone - 7.1 Surround Sound, Noise Canceling Mic, 2.4GHz Wireless & Bluetooth 5.3 - Foldable Gaming Headphones for PC PS5 PS4 (Not Xbox Compatible)",
-            "reviews": 179,
-            "rating": 4.0,
-            "volume": 44,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41xz798fVLL.jpg",
-            "brand_image": "https://img.logo.dev/senzer.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "fc9367a380ed",
@@ -4713,6 +4209,20 @@
             "brand_image": "https://img.logo.dev/portholic.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "e696d4c25138",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "dd4f8704",
+            "brand": "HUO JI",
+            "title": "HUO JI E-Yooso Z-88 RGB Mechanical Gaming Keyboard USB Wired, Customizable RGB Backlit, Blue Switches - Clicky, Metal Panel, 104 Keys for Mac, PC, Silver+White",
+            "reviews": 236,
+            "rating": 4.6,
+            "volume": 44,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41z+6M9dhaL.jpg",
+            "brand_image": "https://img.logo.dev/huoji.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "91b469265c68",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4727,18 +4237,46 @@
             "brand_image": "https://img.logo.dev/daydayup.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "2e1a9bf4de67",
+            "id": "fb66ea53f191",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "c021abd8",
-            "brand": "PORTHOLIC",
-            "title": "PORTHOLIC Wii to HDMI Converter 1080P with 5FT/1.5M High Speed HDMI Cable Wii2 HDMI Adapter Video&Audio with 3.5mm Jack Audio, Support All Wii Display 720P Compatible with HD Device(Plug and Play)",
-            "reviews": 2814,
-            "rating": 4.6,
+            "brand_id": "87bc07c4",
+            "brand": "SENZER",
+            "title": "SENZER SG600 Wireless Gaming Headset with Microphone - 7.1 Surround Sound, Noise Canceling Mic, 2.4GHz Wireless & Bluetooth 5.3 - Foldable Gaming Headphones for PC PS5 PS4 (Not Xbox Compatible)",
+            "reviews": 179,
+            "rating": 4.0,
             "volume": 44,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41LAQX4Sc8L.jpg",
-            "brand_image": "https://img.logo.dev/portholic.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41xz798fVLL.jpg",
+            "brand_image": "https://img.logo.dev/senzer.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "929777fb4e32",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "e13ed02a",
+            "brand": "Ponkor",
+            "title": "Ponkor Battery Pack for Reclining Furniture- 2500mAh Power Recliner Battery Rechargeable, Universal Furniture Battery Pack with 2-Pin Electric Cord for Lift Chairs Sofas- Power Supply",
+            "reviews": 46,
+            "rating": 4.1,
+            "volume": 44,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41PpRgNX9CL.jpg",
+            "brand_image": "https://img.logo.dev/ponkor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8db95746ce88",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "7d8ed744",
+            "brand": "Jeecoo",
+            "title": "Jeecoo V20U USB Pro Gaming Headset for PC - 7.1 Surround Sound Headphones with Noise Cancelling Microphone- Memory Foam Ear Pads for Laptop Computers",
+            "reviews": 6937,
+            "rating": 4.3,
+            "volume": 44,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/415vqgr9qUL.jpg",
+            "brand_image": "https://img.logo.dev/jeecoo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "551a5d9759ac",
@@ -4755,18 +4293,18 @@
             "brand_image": "https://img.logo.dev/smatree.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "8db95746ce88",
+            "id": "c43beed7ee6f",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "7d8ed744",
-            "brand": "Jeecoo",
-            "title": "Jeecoo V20U USB Pro Gaming Headset for PC - 7.1 Surround Sound Headphones with Noise Cancelling Microphone- Memory Foam Ear Pads for Laptop Computers",
-            "reviews": 6937,
-            "rating": 4.3,
-            "volume": 44,
+            "brand_id": "2188ceba",
+            "brand": "Foluck",
+            "title": "Foluck 3 in 1 Accessoris Set Compatible with Playstation Portal, EVA Carrying Case for PS5 Portal, Soft Silicone Protective Cover, 2 Pack Screen Protector, Accessories for Playstation Consoles, Black",
+            "reviews": 165,
+            "rating": 4.8,
+            "volume": 43,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/415vqgr9qUL.jpg",
-            "brand_image": "https://img.logo.dev/jeecoo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41yOptNl8PL.jpg",
+            "brand_image": "https://img.logo.dev/foluck.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "ef5eed4246b9",
@@ -4811,18 +4349,32 @@
             "brand_image": "https://img.logo.dev/deruitu.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "e32778bc1885",
+            "id": "535cf9790cfd",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "9985f0fe",
-            "brand": "FIOTOK",
-            "title": "FIOTOK Gamecube Controller Adapter Compatible with Nintendo Switch/WII U/PC/Super Smash Bros Switch Controller Adapter with 4 Port and Support Home/Turbo Features",
-            "reviews": 259,
-            "rating": 4.2,
-            "volume": 41,
+            "brand_id": "ffb88689",
+            "brand": "Exquisite Gaming",
+            "title": "Exquisite Gaming: Marvel Wolverine - Original Mobile Phone & Gaming Controller Holder, Device Stand, Cable Guys, Licensed Figure",
+            "reviews": 52,
+            "rating": 4.6,
+            "volume": 42,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/41Wj6H17YEL.jpg",
-            "brand_image": "https://img.logo.dev/fiotok.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31i4tBD8-NL.jpg",
+            "brand_image": "https://img.logo.dev/exquisitegaming.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "2e1a9bf4de67",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "c021abd8",
+            "brand": "PORTHOLIC",
+            "title": "PORTHOLIC Wii to HDMI Converter 1080P with 5FT/1.5M High Speed HDMI Cable Wii2 HDMI Adapter Video&Audio with 3.5mm Jack Audio, Support All Wii Display 720P Compatible with HD Device(Plug and Play)",
+            "reviews": 2814,
+            "rating": 4.6,
+            "volume": 44,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41LAQX4Sc8L.jpg",
+            "brand_image": "https://img.logo.dev/portholic.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "4a86d31e3856",
@@ -4839,18 +4391,88 @@
             "brand_image": "https://img.logo.dev/blazeentertainment.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "f5f55dd59951",
+            "id": "9a6698a1ebfe",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "0a07dca0",
-            "brand": "HEYSTOP",
-            "title": "Switch 2 Charging Dock Station,HEYSTOP Switch 2 Controller Charger for Switch 2 Pro Controller and Joy Cons,with RGB,Heat Dissipation,Game Card Slot*6,Fast-Magnetic Charging Station Storage Organizer",
-            "reviews": 136,
+            "brand_id": "ffb88689",
+            "brand": "Exquisite Gaming",
+            "title": "Exquisite Gaming: Spyro The Dragon - Original Mobile Phone & Gaming Controller Holder, Device Stand, Cable Guys, Licensed Figure",
+            "reviews": 144,
             "rating": 4.8,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41AYCCCNshL.jpg",
+            "brand_image": "https://img.logo.dev/exquisitegaming.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "1ee3a85424fc",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "c2577af1",
+            "brand": "TOPAD",
+            "title": "TOPAD Pa5 Wall Mount Kit ith Charging, 6-in-1 PlayStation 5 (Disc & Digital) Metal Wall Stand with Data Charging Cable/Controller Hanging Bracket/Remote Box/Headset Hanger, w/Non-Slip Mat Black",
+            "reviews": 34,
+            "rating": 4.7,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41+TA0sypCL.jpg",
+            "brand_image": "https://img.logo.dev/topad.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "e32778bc1885",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "9985f0fe",
+            "brand": "FIOTOK",
+            "title": "FIOTOK Gamecube Controller Adapter Compatible with Nintendo Switch/WII U/PC/Super Smash Bros Switch Controller Adapter with 4 Port and Support Home/Turbo Features",
+            "reviews": 259,
+            "rating": 4.2,
+            "volume": 41,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41Wj6H17YEL.jpg",
+            "brand_image": "https://img.logo.dev/fiotok.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "53f02b6cc95b",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "ea0a3933",
+            "brand": "Playseat",
+            "title": "Playseat Gear Shift Holder for Evolution, Evolution PRO and Revolution Optimal Gear Shift Position Easily Adjustable Compatible with All Gear Shifters",
+            "reviews": 390,
+            "rating": 4.6,
+            "volume": 40,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/21-oxgMFPzL.jpg",
+            "brand_image": "https://img.logo.dev/playseat.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "7b0236706f64",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "24349396",
+            "brand": "Kuitmor",
+            "title": "Kuitmor Silicone PS5 Controller Cover Skin Set,Anti-Slip Soft Protective Case for PS5 Wireless Controller with 2 Thumb Grip Caps and 1 Sticker",
+            "reviews": 35,
+            "rating": 4.6,
             "volume": 39,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/4187DnmkSNL.jpg",
-            "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41edNogFEfL.jpg",
+            "brand_image": "https://img.logo.dev/kuitmor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "d93aee4e5de3",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "d75ae7b6",
+            "brand": "SZDILONG",
+            "title": "Switch Controller,Wireless Switch Pro Controller for Switch 2/Switch/Switch Lite Controller with 7 Colors LED Light/Dual Vibration, Motion Support,Gyro Axis Adjustable Turbo and Wake Up Function",
+            "reviews": 19,
+            "rating": 4.5,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/317Gx6SyHxL.jpg",
+            "brand_image": "https://img.logo.dev/szdilong.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "da8a9502153c",
@@ -4865,6 +4487,34 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/31Z5xIg-zgL.jpg",
             "brand_image": "https://img.logo.dev/yoges.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "29625806a659",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "3ab7bd94",
+            "brand": "JUBOTY",
+            "title": "SPR-003 Battery, 2025 New Upgraded 1900mAh Ultra High Capacity High Performance Lithium-ion Replacement Battery for Nintendo 3DS XL/New 3DS XL/ 3DS LL/New 3DS LL Game Console (Black, SPR-003, A)",
+            "reviews": 42,
+            "rating": 4.5,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51oQsCS+AHL.jpg",
+            "brand_image": "https://img.logo.dev/juboty.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "f5f55dd59951",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "0a07dca0",
+            "brand": "HEYSTOP",
+            "title": "Switch 2 Charging Dock Station,HEYSTOP Switch 2 Controller Charger for Switch 2 Pro Controller and Joy Cons,with RGB,Heat Dissipation,Game Card Slot*6,Fast-Magnetic Charging Station Storage Organizer",
+            "reviews": 136,
+            "rating": 4.8,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/4187DnmkSNL.jpg",
+            "brand_image": "https://img.logo.dev/heystop.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "8be06234d3d5",
@@ -4895,6 +4545,20 @@
             "brand_image": "https://img.logo.dev/kiwitata.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "dfd0ee7a5901",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "b5bab027",
+            "brand": "KASOTT",
+            "title": "KASOTT Battle Buds Pro in-Ear Gaming Headset with Dual Microphone, Mute and Volume Control, Wired Earphones for Mobile Gaming, Nintendo Switch, Xbox One, PS, PC (New-Black)",
+            "reviews": 76,
+            "rating": 4.4,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41nVQYca2ML.jpg",
+            "brand_image": null
+        },
+        {
             "id": "375a3e0f8bb7",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4923,6 +4587,20 @@
             "brand_image": "https://img.logo.dev/weemsbox.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "7807dee207bc",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "af72d73e",
+            "brand": "Kulannder",
+            "title": "Kulannder Wii Remote Battery Charger(Free USB Wall Charger+Lengthened Cord) Dual Charging Station Dock with Two Rechargeable Capacity Increased Batteries for Wii U Game Remote Controller (White)",
+            "reviews": 772,
+            "rating": 4.4,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/410azHb81eL.jpg",
+            "brand_image": "https://img.logo.dev/kulannder.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "138094858071",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4935,6 +4613,48 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41MeWYxudFL.jpg",
             "brand_image": "https://img.logo.dev/tevodo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "22c7596ee45f",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "311d4c50",
+            "brand": "Crazy Controllerz",
+            "title": "Controller Bullet Buttons for Xbox One Series X S - Made with Real 9MM Spent Bullet Casings - Includes Tools",
+            "reviews": 257,
+            "rating": 4.3,
+            "volume": 39,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41bNZAay8dL.jpg",
+            "brand_image": "https://img.logo.dev/crazycontrollerz.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "ff0f3aef7a44",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "99cb8ecd",
+            "brand": "TechKen",
+            "title": "2 Pack Wii Remote with Wii Motion Plus Inside Shock Wii Nunchuk Controller Compatible Nintendo Wii, Wii U",
+            "reviews": 850,
+            "rating": 4.1,
+            "volume": 38,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41huoAs52bL.jpg",
+            "brand_image": "https://img.logo.dev/techken.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "ff343017ea99",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "8979e916",
+            "brand": "Uwayor",
+            "title": "Uwayor 6600mAh Wii U Gamepad Battery, Rechargeable Wii U Battery Replacement for Nintendo Wii U Gamepad WUP-001 WUP-012 with Screwdriver",
+            "reviews": 12,
+            "rating": 4.6,
+            "volume": 38,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51gZBZYSJnL.jpg",
+            "brand_image": "https://img.logo.dev/uwayor.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "b151752e8eba",
@@ -4951,6 +4671,20 @@
             "brand_image": "https://img.logo.dev/ctadigital.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "c0d3bfc2b825",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "7207f71f",
+            "brand": "Edupress",
+            "title": "Edupress Math Splat\u2122 Game: Addition Grades 2+ (EP63759), 3.5 H x 5.625 L x 2.25 W",
+            "reviews": 12,
+            "rating": 4.7,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51rPJ6lEmEL.jpg",
+            "brand_image": "https://img.logo.dev/edupress.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "7a5e51f12d99",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -4963,6 +4697,20 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41lAR9RO-tL.jpg",
             "brand_image": "https://img.logo.dev/suncala.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8b0fbc6010a4",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "adbc8235",
+            "brand": "Enstixsm",
+            "title": "Upgrade Ymir Luna Controller for TV Compatible with Luna and GeForce Now,Luna Wireless Controller with Back Paddles,1200mAh,Turbo,Dual Motors,No Drift ALPS Joystick,Midnight Blue",
+            "reviews": 54,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41ysctkFevL.jpg",
+            "brand_image": "https://img.logo.dev/enstixsm.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "a79363083632",
@@ -4979,18 +4727,46 @@
             "brand_image": "https://img.logo.dev/rysker.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "ace926f6b200",
+            "id": "f58067efcb2c",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "6b45ef92",
-            "brand": "Game Traveler",
-            "title": "RDS - Officially Licensed Super Nintendo Classic Entertainment System Carrying Case \u2013 Protective Deluxe Travel System with Gray Ballistic Nylon Exterior",
-            "reviews": 577,
-            "rating": 4.7,
+            "brand_id": "07c51c5f",
+            "brand": "SXBan",
+            "title": "2.4GHz Wireless Cute Hamster Shape Less Noice Portable Mobile Optical 1200DPI USB Mice Cordless Mouse for PC Laptop Computer Notebook MacBook Kids Girl Gift (Purple)",
+            "reviews": 58,
+            "rating": 4.3,
             "volume": 37,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51GpPfLACqL.jpg",
-            "brand_image": "https://img.logo.dev/gametraveler.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31AmvhKudxL.jpg",
+            "brand_image": "https://img.logo.dev/sxban.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "09bcac1b8e4e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "76b719dc",
+            "brand": "BRHE",
+            "title": "PS5 Cooling Fan with LED Light,Quiet and Efficient Cooling System for PS5 Cooler,2 Fan Speeds,USB 3.0 Port Compatible with PlayStation 5 Digital & Discs Edition,Not for PS5 Slim and New PS5 Pro",
+            "reviews": 85,
+            "rating": 4.3,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51an2ZQ+bnL.jpg",
+            "brand_image": "https://img.logo.dev/brhe.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "3028735e08ed",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "59011996",
+            "brand": "OSTENT",
+            "title": "OSTENT High Capacity Quality Real 1800mAh 3.6V Lithium Ion Polymer Li-ion Polymer Rechargeable Battery Pack Replacement for Sony PSP 1000 PSP-110 Console",
+            "reviews": 168,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31idzA5h1qL.jpg",
+            "brand_image": "https://img.logo.dev/ostent.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "6db887157624",
@@ -5007,6 +4783,20 @@
             "brand_image": "https://img.logo.dev/totalmount.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "283b1a8421de",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "018112dd",
+            "brand": "Sombbry",
+            "title": "Sombbry Wireless Controller for PS4, White ps4 controller with Dual Vibration/ 6-Axis Motion Sensor/Audio Jack/Touch Pad/Share Button, p-4 Accessories Perfect Adaptive Full Version 4/4 Pro White",
+            "reviews": 183,
+            "rating": 4.3,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41svkdZjpGL.jpg",
+            "brand_image": "https://img.logo.dev/sombbry.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "63ba7b17f412",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -5019,6 +4809,76 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/41P2dZy+W7L.jpg",
             "brand_image": "https://img.logo.dev/ssioizz.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "ace926f6b200",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "6b45ef92",
+            "brand": "Game Traveler",
+            "title": "RDS - Officially Licensed Super Nintendo Classic Entertainment System Carrying Case \u2013 Protective Deluxe Travel System with Gray Ballistic Nylon Exterior",
+            "reviews": 577,
+            "rating": 4.7,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51GpPfLACqL.jpg",
+            "brand_image": "https://img.logo.dev/gametraveler.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8f82fcff1bf8",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "94b960f8",
+            "brand": "INPHIC",
+            "title": "INPHIC IN10P Superlight Wireless Gaming Mouse, 60g, 8K Polling Rate, 26,000 DPI, Tri-Mode, PAW3395 Sensor, Fully Programmable",
+            "reviews": 27,
+            "rating": 4.6,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/317K9NEIugL.jpg",
+            "brand_image": "https://img.logo.dev/inphic.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "2d5ddb0bb218",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "ad3f3977",
+            "brand": "SADES",
+            "title": "SADES SA902 7.1 USB Surround Sound PC Headsets Over-Ear Gaming Headphones with Microphone LED Light",
+            "reviews": 588,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51CWjJUUcWL.jpg",
+            "brand_image": "https://img.logo.dev/sades.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "7c2bbfb2e4d6",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "80fcc8ec",
+            "brand": "KEKUCULL",
+            "title": "KEKUCULL 2Pcs Rechargeable Battery Pack Replacement for PSP 2000/3000/Lite/Slim Console, Real Capacity 1200mAh Lithium Polymer Batteries for PSP 2001/3001",
+            "reviews": 18,
+            "rating": 4.7,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41wwaIQFMiL.jpg",
+            "brand_image": "https://img.logo.dev/kekucull.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "c423dda8df90",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "5505bd01",
+            "brand": "HIDEit Mounts",
+            "title": "HIDEit Mounts for Xbox Series X - Xbox Series X Wall Mount, Steel Mount for No Sag",
+            "reviews": 186,
+            "rating": 4.8,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31m0ANcclFL.jpg",
+            "brand_image": "https://img.logo.dev/hideitmounts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "add29221aa4f",
@@ -5049,6 +4909,20 @@
             "brand_image": "https://img.logo.dev/purbhe.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "cddb17229038",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "2a5217de",
+            "brand": "gmrpwnage",
+            "title": "gmrpwnage 2.4GHz Wireless Gaming Headsets for PS5/PS4/PC/Switch - Bluetooth 5.3 Headphones with 7.1 Surround Sound, Noise-Canceling Mic, 30+Hr Battery & Support Playing While Charging - Black",
+            "reviews": 18,
+            "rating": 4.6,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41lWbTq62YL.jpg",
+            "brand_image": "https://img.logo.dev/gmrpwnage.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "930200f1d3ab",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -5063,6 +4937,20 @@
             "brand_image": "https://img.logo.dev/enhance.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
+            "id": "a49a3bedfb42",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "c0fa99f9",
+            "brand": "TotalMount",
+            "title": "TotalMount Universal Mount for Electronics \u2013 Adjustable Strap Wall Mount for Your Router, Wireless System, Cable Modem, DVR, Xbox, PlayStation, and More (White, Standard Shelf)",
+            "reviews": 44,
+            "rating": 4.4,
+            "volume": 37,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41w9YTB+ovL.jpg",
+            "brand_image": "https://img.logo.dev/totalmount.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "61a0822e64f9",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -5075,34 +4963,6 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/31zAEwg+LHL.jpg",
             "brand_image": "https://img.logo.dev/jinwava.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "8e3c53b67cf2",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "2bb51a21",
-            "brand": "Reiso",
-            "title": "Reiso Gamecube Controller, 2 Pack NGC Classic Wired Controller for Wii Game cube Console (Clear Purple and Green)",
-            "reviews": 67,
-            "rating": 4.0,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51kEpK7gfCL.jpg",
-            "brand_image": "https://img.logo.dev/reiso.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
-        },
-        {
-            "id": "400e93a67bc2",
-            "cat_main_id": "main_967ef",
-            "cat_sub_id": "sub_d41d8",
-            "brand_id": "60e6a3b1",
-            "brand": "TNP Products",
-            "title": "TNP New 3DS Case - Ultra Clear Crystal Transparent Hard Shell Protective Case Cover Skin for New 2015 Nintendo 3DS - [New Modified Hinge-less Design]",
-            "reviews": 160,
-            "rating": 4.2,
-            "volume": 36,
-            "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/3155MckLp4L.jpg",
-            "brand_image": "https://img.logo.dev/tnpproducts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "9ceaade15ed6",
@@ -5133,6 +4993,34 @@
             "brand_image": null
         },
         {
+            "id": "339c65eddad9",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "49eccdcd",
+            "brand": "SHARE SUNSHINE",
+            "title": "Wireless Mouse Ergonomic Vertical Pink Rechargeable Silent Upright Comfortable Carpal Tunnel Ergo Optical Cordless Mice for Small Middle Hands for PC Laptop Computer Macbook Office Work Wrist Pain",
+            "reviews": 29,
+            "rating": 4.0,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31q5IFj29LL.jpg",
+            "brand_image": "https://img.logo.dev/sharesunshine.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8e3c53b67cf2",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "2bb51a21",
+            "brand": "Reiso",
+            "title": "Reiso Gamecube Controller, 2 Pack NGC Classic Wired Controller for Wii Game cube Console (Clear Purple and Green)",
+            "reviews": 67,
+            "rating": 4.0,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51kEpK7gfCL.jpg",
+            "brand_image": "https://img.logo.dev/reiso.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
             "id": "98762b84c179",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
@@ -5161,18 +5049,18 @@
             "brand_image": "https://img.logo.dev/xahpower.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
-            "id": "64b805ce027e",
+            "id": "f4fed365ce20",
             "cat_main_id": "main_967ef",
             "cat_sub_id": "sub_d41d8",
-            "brand_id": "1e734284",
-            "brand": "NC",
-            "title": "NC Classic NES Controllers for NES 8 Bit Entertainment System Console Control Pad(2PCS)",
-            "reviews": 56,
-            "rating": 4.3,
+            "brand_id": "c5da0695",
+            "brand": "CHONCHOW",
+            "title": "CHONCHOW 87 Keys TKL Wired Gaming Keyboard, Rainbow Led Backlight, White Keyboard and Mouse 3200DPI Combo Compatible with PC Laptop Ps4 Ps5 Xbox Gamer",
+            "reviews": 28,
+            "rating": 4.4,
             "volume": 36,
             "src_id": "ss",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/419NKgNgQoL.jpg",
-            "brand_image": "https://img.logo.dev/nc.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41vMsHQHHQL.jpg",
+            "brand_image": "https://img.logo.dev/chonchow.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         },
         {
             "id": "41e17660de03",
@@ -5215,6 +5103,62 @@
             "src_id": "ss",
             "image": "https://images-na.ssl-images-amazon.com/images/I/51e3V0pYK9L.jpg",
             "brand_image": "https://img.logo.dev/flagpower.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "64b805ce027e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "1e734284",
+            "brand": "NC",
+            "title": "NC Classic NES Controllers for NES 8 Bit Entertainment System Console Control Pad(2PCS)",
+            "reviews": 56,
+            "rating": 4.3,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/419NKgNgQoL.jpg",
+            "brand_image": "https://img.logo.dev/nc.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "400e93a67bc2",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "60e6a3b1",
+            "brand": "TNP Products",
+            "title": "TNP New 3DS Case - Ultra Clear Crystal Transparent Hard Shell Protective Case Cover Skin for New 2015 Nintendo 3DS - [New Modified Hinge-less Design]",
+            "reviews": 160,
+            "rating": 4.2,
+            "volume": 36,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/3155MckLp4L.jpg",
+            "brand_image": "https://img.logo.dev/tnpproducts.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "8b5f911a2b7c",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "64ba757a",
+            "brand": "Glistco",
+            "title": "Glistco Skates - Horizontal Stand for PS5 Pro Compatible with Disc & Digital Edition (Black)",
+            "reviews": 57,
+            "rating": 4.2,
+            "volume": 35,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/31juAcTf09L.jpg",
+            "brand_image": "https://img.logo.dev/glistco.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
+        },
+        {
+            "id": "7b6a51e7e31e",
+            "cat_main_id": "main_967ef",
+            "cat_sub_id": "sub_d41d8",
+            "brand_id": "4fba94e1",
+            "brand": "Tatybo",
+            "title": "Tatybo Wireless Gaming Headset for PC, Ps4, Ps5, 2.4GHz USB & Type-C, Bluetooth 5.3 Gaming Headphone with Detachable Noise Cancelling Microphone, Low-Latency for Switch, Laptop, Mobile Gamers - Red",
+            "reviews": 513,
+            "rating": 4.3,
+            "volume": 34,
+            "src_id": "ss",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51kXK2Hr7QL.jpg",
+            "brand_image": "https://img.logo.dev/tatybo.com?token=pk_PHiqpZOdRqiH9vzLC_7TPg&size=64&format=png&retina=true"
         }
     ]
 }
