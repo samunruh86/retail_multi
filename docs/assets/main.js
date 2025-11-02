@@ -396,7 +396,18 @@ const initCatalogPreview = () => {
   const createProductCard = (product, index) => {
     const card = document.createElement('article');
     card.className = 'preview_card';
+    card.dataset.loginTrigger = '';
+    card.setAttribute('role', 'button');
+    card.tabIndex = 0;
     card.style.setProperty('--preview-animation-delay', `${Math.min(index, MAX_STAGGERED_ITEMS) * 0.06}s`);
+    const ariaLabelParts = [];
+    if (product.brand) ariaLabelParts.push(product.brand);
+    if (product.title) ariaLabelParts.push(product.title);
+    const ariaLabel =
+      ariaLabelParts.length > 0
+        ? `${ariaLabelParts.join(' – ')}. Opens login modal.`
+        : 'Open catalog login modal.';
+    card.setAttribute('aria-label', ariaLabel);
 
     const imageWrapper = document.createElement('div');
     imageWrapper.className = 'preview_card-image';
@@ -429,6 +440,16 @@ const initCatalogPreview = () => {
 
     content.append(brandEl, titleEl);
     card.append(imageWrapper, content);
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        const loginEvent = new CustomEvent('login:open', {
+          bubbles: false,
+          detail: { trigger: card },
+        });
+        document.dispatchEvent(loginEvent);
+      }
+    });
 
     return card;
   };

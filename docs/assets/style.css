@@ -3039,7 +3039,7 @@ label {
 .catalog-preview_wrapper {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 .catalog-preview_pills {
   display: flex;
@@ -3092,23 +3092,12 @@ label {
     display: flex;
     gap: 1.25rem;
     overflow-x: auto;
-    padding-bottom: 15px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    scroll-snap-type: x proximity;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(146, 156, 255, 0.35) rgba(6, 26, 58, 0.6);
+    padding: 15px 15px 15px 5px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 .preview_grid::-webkit-scrollbar {
-  height: 8px;
-}
-.preview_grid::-webkit-scrollbar-track {
-  background: rgba(6, 26, 58, 0.6);
-  border-radius: 999px;
-}
-.preview_grid::-webkit-scrollbar-thumb {
-  background: rgba(146, 156, 255, 0.35);
-  border-radius: 999px;
+  display: none;
 }
 .preview_grid.is-empty {
   display: none;
@@ -3128,23 +3117,34 @@ label {
     backdrop-filter: blur(6px);
     color: #fff;
     min-height: 100%;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 240px;
+    max-width: 240px;
     scroll-snap-align: start;
     opacity: 0;
     transform: translateY(18px);
     transition-delay: var(--preview-animation-delay, 0s);
+    box-shadow: 0 16px 36px -24px rgba(6, 26, 58, 0.7);
+    cursor: pointer;
 }
-.preview_card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(255, 255, 255, 0.4);
+.preview_card:hover,
+.preview_card:focus-visible {
+  transform: translateY(-8px) scale(1.015);
+  border-color: rgba(255, 255, 255, 0.45);
   background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 18px 40px -20px rgba(6, 26, 58, 0.8);
+  box-shadow: 0 28px 44px -16px rgba(6, 26, 58, 0.85);
+}
+.preview_card:focus-visible {
+  outline: 2px solid rgba(0, 255, 212, 0.55);
+  outline-offset: 3px;
 }
 
 .preview_card.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+.preview_card.is-visible:hover,
+.preview_card.is-visible:focus-visible {
+  transform: translateY(-8px) scale(1.015);
 }
 .preview_card-image {
   background: radial-gradient(circle at top, rgba(255, 255, 255, 0.12), transparent 68%);
@@ -3205,9 +3205,6 @@ label {
 }
 .catalog-preview_wrapper .btn.btn-primary.mobile_disabled {
   margin-top: 0.25rem;
-}
-.catalog-preview_wrapper .btn.btn-primary:after {
-  display: none;
 }
 .marketplaces_grid {
   display: grid;
