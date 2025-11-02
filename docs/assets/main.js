@@ -97,7 +97,7 @@ const initCtaForm = () => {
       form.reset();
       updateStatus("Thanks! We'll be in touch soon.", 'success');
     } catch (error) {
-      updateStatus('Something went wrong. Please try again or email sam@bluehavenbrands.com.', 'error');
+      updateStatus('Something went wrong. Please try again or email partners@retailstride.com.', 'error');
     } finally {
       if (submitButton) {
         submitButton.disabled = false;
@@ -188,7 +188,7 @@ const initApplicationForm = () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/sam@bluehavenbrands.com', {
+      const response = await fetch('https://formsubmit.co/ajax/partners@retailstride.com', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
@@ -216,7 +216,7 @@ const initApplicationForm = () => {
         'success',
       );
     } catch (error) {
-      setStatus('Something went wrong. Please try again or email sam@bluehavenbrands.com.', 'error');
+      setStatus('Something went wrong. Please try again or email partners@retailstride.com.', 'error');
     } finally {
       if (submitButton) {
         submitButton.disabled = false;
