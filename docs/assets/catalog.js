@@ -23,6 +23,57 @@ if (previewBannerEl && previewBannerCloseEl) {
   });
 }
 
+const supportsNativeLazyLoading = typeof HTMLImageElement !== 'undefined' && 'loading' in HTMLImageElement.prototype;
+const TRANSPARENT_PIXEL = 'data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=';
+
+let lazyImageObserver = null;
+
+if (typeof window !== 'undefined' && 'IntersectionObserver' in window) {
+  lazyImageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const img = entry.target;
+      const dataSrc = img.dataset.productSrc;
+      if (!dataSrc) {
+        observer.unobserve(img);
+        return;
+      }
+      img.decoding = 'async';
+      img.src = dataSrc;
+      img.removeAttribute('data-product-src');
+      observer.unobserve(img);
+    });
+  }, {
+    rootMargin: '200px 0px',
+    threshold: 0.01,
+  });
+}
+
+const registerLazyImage = (img) => {
+  if (!img) return;
+  const dataSrc = img.dataset.productSrc;
+  if (!dataSrc) return;
+
+  if (supportsNativeLazyLoading) {
+    img.loading = 'lazy';
+    img.setAttribute('loading', 'lazy');
+    img.decoding = 'async';
+    img.src = dataSrc;
+    img.removeAttribute('data-product-src');
+    return;
+  }
+
+  if (lazyImageObserver) {
+    img.src = TRANSPARENT_PIXEL;
+    lazyImageObserver.observe(img);
+    return;
+  }
+
+  img.src = dataSrc;
+  img.decoding = 'async';
+  img.removeAttribute('data-product-src');
+};
+
 const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (match) => {
   switch (match) {
     case '&':
@@ -257,9 +308,12 @@ const renderProducts = () => {
         const productTitle = escapeHTML(product.title || 'Untitled product');
         const productBrand = escapeHTML(product.brand ?? 'Unknown brand');
         const productImage = escapeAttribute(product.image || '');
+        const imageAttributes = productImage
+          ? `src="${TRANSPARENT_PIXEL}" data-product-src="${productImage}"`
+          : `src="${TRANSPARENT_PIXEL}"`;
         card.innerHTML = `
           <div class="catalog-product-card__media">
-            <img src="${productImage}" alt="${productTitle}" loading="lazy">
+            <img ${imageAttributes} alt="${productTitle}" class="catalog-product-card__image">
             ${badgeLabel ? `<span class="catalog-product-card__badge">${badgeLabel}</span>` : ''}
           </div>
           <div class="catalog-product-card__details">
@@ -279,6 +333,8 @@ const renderProducts = () => {
           </div>
         `;
         productsGridEl.appendChild(card);
+        const imageEl = card.querySelector('.catalog-product-card__image');
+        registerLazyImage(imageEl);
       });
     }
     requestAnimationFrame(() => {
@@ -294,12 +350,25 @@ const renderPagination = () => {
 
   const totalPages = Math.max(1, Math.ceil(state.filteredProducts.length / PAGE_SIZE));
 
-  const makeButton = (label, page, disabled = false, isActive = false) => {
+  const makeButton = (label, page, disabled = false, isActive = false, kind = 'page') => {
     const button = document.createElement('button');
     button.type = 'button';
     button.textContent = label;
+    button.dataset.paginationButton = kind;
     if (disabled) button.disabled = true;
-    if (isActive) button.classList.add('is-active');
+    if (isActive) {
+      button.classList.add('is-active');
+      if (kind === 'page') {
+        button.setAttribute('aria-current', 'page');
+      }
+    }
+    if (kind === 'page') {
+      button.setAttribute('aria-label', `Go to page ${page}`);
+    } else if (kind === 'previous') {
+      button.setAttribute('aria-label', 'Go to previous page');
+    } else if (kind === 'next') {
+      button.setAttribute('aria-label', 'Go to next page');
+    }
     button.addEventListener('click', () => {
       state.page = page;
       renderProducts();
@@ -315,16 +384,16 @@ const renderPagination = () => {
     paginationEl.appendChild(button);
   };
 
-  makeButton('‹ Previous', Math.max(1, state.page - 1), state.page === 1);
+  makeButton('‹ Previous', Math.max(1, state.page - 1), state.page === 1, false, 'previous');
 
   const start = Math.max(1, state.page - Math.floor(WINDOW_SIZE / 2));
   const end = Math.min(totalPages, start + WINDOW_SIZE - 1);
 
   for (let page = start; page <= end; page += 1) {
-    makeButton(String(page), page, false, page === state.page);
+    makeButton(String(page), page, false, page === state.page, 'page');
   }
 
-  makeButton('Next ›', Math.min(totalPages, state.page + 1), state.page === totalPages);
+  makeButton('Next ›', Math.min(totalPages, state.page + 1), state.page === totalPages, false, 'next');
 };
 
 const applyFilters = () => {
