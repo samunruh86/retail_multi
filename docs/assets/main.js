@@ -464,19 +464,57 @@ const initNavigation = async () => {
   const navRoot = document.querySelector('[data-nav-root]');
   const navMenu = navRoot?.querySelector('.nav_menu') || document.querySelector('.nav_menu');
   const navButton = navRoot?.querySelector('.navbar1_menu-button') || document.querySelector('.navbar1_menu-button');
+  const mobileNav = navRoot?.querySelector('.mobile-nav_component') || document.querySelector('.mobile-nav_component');
   const overlay = document.getElementById('w-nav-overlay-0');
+  let bodyScrollLocked = false;
+  let previousBodyOverflow = '';
 
   const closeNav = () => {
     if (navMenu) navMenu.classList.remove('w--open');
-    if (navButton) navButton.classList.remove('w--open');
+    if (mobileNav) {
+      mobileNav.classList.remove('w--open');
+      mobileNav.setAttribute('aria-hidden', 'true');
+      const mobileNavContent = mobileNav.querySelector('.mobile-nav_content');
+      if (mobileNavContent) {
+        mobileNavContent.scrollTop = 0;
+      }
+    }
+    if (navButton) {
+      navButton.classList.remove('w--open');
+      navButton.setAttribute('aria-expanded', 'false');
+    }
     if (overlay) overlay.style.display = 'none';
+    if (bodyScrollLocked) {
+      document.body.style.overflow = previousBodyOverflow;
+      bodyScrollLocked = false;
+    }
   };
 
-  if (navButton && navMenu) {
+  if (mobileNav) {
+    mobileNav.setAttribute('aria-hidden', 'true');
+  }
+
+  if (navButton) {
     navButton.addEventListener('click', () => {
-      const isOpen = navMenu.classList.toggle('w--open');
+      const isOpen = !navButton.classList.contains('w--open');
       navButton.classList.toggle('w--open', isOpen);
+      if (navMenu) navMenu.classList.toggle('w--open', isOpen);
+      if (mobileNav) {
+        mobileNav.classList.toggle('w--open', isOpen);
+        mobileNav.setAttribute('aria-hidden', String(!isOpen));
+      }
+      navButton.setAttribute('aria-expanded', String(isOpen));
       if (overlay) overlay.style.display = isOpen ? 'block' : 'none';
+      if (isOpen) {
+        if (!bodyScrollLocked) {
+          previousBodyOverflow = document.body.style.overflow;
+          bodyScrollLocked = true;
+        }
+        document.body.style.overflow = 'hidden';
+      } else if (bodyScrollLocked) {
+        document.body.style.overflow = previousBodyOverflow;
+        bodyScrollLocked = false;
+      }
     });
   }
 
