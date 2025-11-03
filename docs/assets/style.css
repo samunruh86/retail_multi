@@ -2184,9 +2184,9 @@ label {
   .nav_cta {
     display: none;
   }
-  .nav_cta.mobile-only {
+  /* .nav_cta.mobile-only {
     display: block !important;
-  }
+  } */
   .mobile-nav_link {
     color: #000;
     font-size: 1.5rem;
