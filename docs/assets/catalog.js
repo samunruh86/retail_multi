@@ -1,3 +1,5 @@
+import { uploadMetaToGCS } from './gcs.js';
+
 const PAGE_SIZE = 50;
 const WINDOW_SIZE = 7;
 const categoryListEl = document.querySelector('[data-category-list]');
@@ -7,11 +9,28 @@ const productsGridEl = document.querySelector('[data-products-grid]');
 const paginationEl = document.querySelector('[data-pagination]');
 const appliedFiltersEl = document.querySelector('[data-applied-filters]');
 const sortSelectEl = document.querySelector('[data-sort-select]');
+const isCatalogAdminPage = typeof window !== 'undefined' && window.location.pathname.includes('catalog-admin');
+const adminSessionFlags = new Map();
+const ORIGINAL_INDEX_KEY = '__catalogOrderIndex';
 const previewBannerEl = document.querySelector('[data-preview-banner]');
 const previewBannerCloseEl = document.querySelector('[data-preview-banner-close]');
-const isCatalogAdminPage = typeof window !== 'undefined' && window.location.pathname.includes('catalog-admin');
+let adminSearchInput = null;
+const alertUser = (message) => {
+  if (typeof window !== 'undefined' && typeof window.alert === 'function') {
+    window.alert(message);
+  }
+};
 
-if (previewBannerEl && previewBannerCloseEl) {
+if (isCatalogAdminPage) {
+  if (typeof document !== 'undefined' && document.body) {
+    document.body.classList.add('catalog-admin-page');
+  }
+  previewBannerEl?.remove();
+  const learnMoreSection = document.getElementById('learn-more');
+  learnMoreSection?.remove();
+}
+
+if (!isCatalogAdminPage && previewBannerEl && previewBannerCloseEl) {
   previewBannerCloseEl.addEventListener('click', () => {
     previewBannerEl.classList.add('is-dismissed');
     previewBannerEl.addEventListener(
@@ -111,6 +130,9 @@ const state = {
   filteredProducts: [],
   sort: 'popularity',
   page: 1,
+  manualPromote: new Set(),
+  manualRemove: new Set(),
+  searchQuery: '',
 };
 
 const handleLoadError = (error) => {
@@ -119,6 +141,90 @@ const handleLoadError = (error) => {
   }
   // eslint-disable-next-line no-console
   console.error(error);
+};
+
+const loadManualConfig = async () => {
+  const manualPath = '../data/admin/manual.json';
+  try {
+    const response = await fetch(manualPath, { cache: 'no-store' });
+    if (!response.ok) {
+      if (response.status === 404) {
+        state.manualPromote = new Set();
+        state.manualRemove = new Set();
+        return;
+      }
+      throw new Error(`Manual config HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+    const promoteList = Array.isArray(data?.promote) ? data.promote : [];
+    const removeList = Array.isArray(data?.demote) ? data.demote : [];
+
+    const normalizeIds = (list) => {
+      const items = Array.isArray(list) ? list : [];
+      return items
+        .map((item) => {
+          if (item == null) return '';
+          const str = String(item).trim();
+          return str;
+        })
+        .filter((str) => str.length > 0);
+    };
+
+    state.manualPromote = new Set(normalizeIds(promoteList));
+    state.manualRemove = new Set(normalizeIds(removeList));
+  } catch (error) {
+    state.manualPromote = new Set();
+    state.manualRemove = new Set();
+    // eslint-disable-next-line no-console
+    console.warn('loadManualConfig: unable to load manual ordering', error);
+  }
+};
+
+const annotateProductOrder = (products) => {
+  if (!Array.isArray(products)) return;
+  products.forEach((product, index) => {
+    if (product && typeof product === 'object') {
+      // Preserve original dataset order so we can fall back to it for manual overrides.
+      // eslint-disable-next-line no-param-reassign
+      product[ORIGINAL_INDEX_KEY] = index;
+    }
+  });
+};
+
+const fetchCategoryData = async (catMainId) => {
+  if (!catMainId) return { products: [], meta: null };
+
+  if (state.productsCache.has(catMainId)) {
+    const cached = state.productsCache.get(catMainId);
+    const cachedProducts = Array.isArray(cached?.products) ? cached.products : [];
+    annotateProductOrder(cachedProducts);
+    if (cached?.meta && !state.metaCache.has(catMainId)) {
+      state.metaCache.set(catMainId, cached.meta);
+    }
+    return { products: cachedProducts, meta: cached?.meta ?? state.metaCache.get(catMainId) ?? null };
+  }
+
+  const response = await fetch(`../data/products/${catMainId}.json`);
+  if (!response.ok) throw new Error('Unable to load products');
+  const data = await response.json();
+  const fetchedProducts = Array.isArray(data?.products) ? data.products : [];
+  annotateProductOrder(fetchedProducts);
+
+  state.productsCache.set(catMainId, { products: fetchedProducts, meta: data?.meta ?? null });
+  if (data?.meta) {
+    state.metaCache.set(catMainId, data.meta);
+    const index = state.categories.findIndex((category) => category.cat_main_id === catMainId);
+    if (index >= 0) {
+      state.categories[index] = {
+        ...state.categories[index],
+        ...data.meta,
+        subs: data.meta.subs ?? state.categories[index].subs ?? [],
+      };
+    }
+  }
+
+  return { products: fetchedProducts, meta: data?.meta ?? null };
 };
 
 const getActiveCategoryMeta = () => {
@@ -139,6 +245,9 @@ const getActiveSubcategoryMeta = () => {
 
 const renderMainCategories = () => {
   if (!categoryListEl) return;
+  if (isCatalogAdminPage) {
+    ensureAdminSearchBar();
+  }
   categoryListEl.innerHTML = '';
   state.categories.forEach((category) => {
     const isActive = category.cat_main_id === state.activeMain;
@@ -151,7 +260,17 @@ const renderMainCategories = () => {
     button.classList.toggle('is-active', isActive);
     button.setAttribute('aria-pressed', String(isActive));
     button.addEventListener('click', () => {
-      if (state.activeMain === category.cat_main_id) return;
+      const wasActive = state.activeMain === category.cat_main_id;
+      if (wasActive) {
+        if (!isCatalogAdminPage) return;
+        state.activeMain = null;
+        state.activeSub = null;
+        state.page = 1;
+        renderMainCategories();
+        renderSubcategories();
+        loadAllProducts().catch(handleLoadError);
+        return;
+      }
       state.activeMain = category.cat_main_id;
       state.activeSub = null;
       state.page = 1;
@@ -196,26 +315,184 @@ const renderSubcategories = () => {
   });
 };
 
-const applySort = (products) => {
-  switch (state.sort) {
-    case 'price-asc':
-      return [...products].sort((a, b) => (a.price ?? 0) - (b.price ?? 0));
-    case 'price-desc':
-      return [...products].sort((a, b) => (b.price ?? 0) - (a.price ?? 0));
-    case 'rating-desc':
-      return [...products].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
-    case 'reviews-desc':
-      return [...products].sort((a, b) => (b.reviews ?? 0) - (a.reviews ?? 0));
-    case 'popularity':
-    default:
-      return [...products].sort((a, b) => (b.volume ?? 0) - (a.volume ?? 0));
+const ensureAdminSearchBar = () => {
+  if (!isCatalogAdminPage) return;
+  if (adminSearchInput) return;
+  const pillsRow = categoryListEl;
+  if (!pillsRow || !pillsRow.parentElement) return;
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'catalog-admin-search';
+
+  const input = document.createElement('input');
+  input.type = 'search';
+  input.id = 'catalog-admin-search-input';
+  input.className = 'catalog-admin-search__input';
+  input.placeholder = 'Search products…';
+  input.autocomplete = 'off';
+  input.spellcheck = false;
+  input.setAttribute('aria-label', 'Search products');
+  input.value = state.searchQuery;
+  input.addEventListener('input', (event) => {
+    const value = typeof event.target.value === 'string' ? event.target.value : '';
+    state.searchQuery = value;
+    applyFilters();
+  });
+
+  wrapper.appendChild(input);
+  pillsRow.insertAdjacentElement('afterend', wrapper);
+  adminSearchInput = input;
+};
+
+const loadAllProducts = async () => {
+  const ids = state.categories.map((category) => category?.cat_main_id).filter((id) => typeof id === 'string' && id.length > 0);
+  if (!ids.length) {
+    state.allProducts = [];
+    state.filteredProducts = [];
+    state.activeSub = null;
+    state.page = 1;
+    renderSubcategories();
+    applyFilters();
+    return;
   }
+
+  if (resultCountEl) {
+    resultCountEl.textContent = 'Loading all products…';
+  }
+  state.allProducts = [];
+  state.filteredProducts = [];
+  renderProducts();
+  renderPagination();
+
+  const results = await Promise.all(
+    ids.map(async (catMainId) => {
+      try {
+        const { products } = await fetchCategoryData(catMainId);
+        return products || [];
+      } catch (error) {
+        // eslint-disable-next-line no-console
+        console.warn('loadAllProducts: failed to load category', catMainId, error);
+        return [];
+      }
+    }),
+  );
+
+  const combined = results.flat();
+  state.allProducts = combined;
+  state.filteredProducts = combined;
+  state.activeSub = null;
+  state.page = 1;
+  renderSubcategories();
+  applyFilters();
+};
+
+const getProductId = (product) => {
+  if (!product || product.id == null) return null;
+  const id = String(product.id).trim();
+  return id.length ? id : null;
+};
+
+const getAdminFlagsForProduct = (product) => {
+  const productId = getProductId(product);
+  const sessionFlags = productId ? adminSessionFlags.get(productId) : null;
+  const manualPromote = productId ? state.manualPromote.has(productId) : false;
+  const manualRemove = productId ? state.manualRemove.has(productId) : false;
+  const productPromote = Boolean(product?.promote);
+  const productRemove = Boolean(product?.demote);
+
+  const hasSessionPromote = sessionFlags != null && Object.prototype.hasOwnProperty.call(sessionFlags, 'promote');
+  const hasSessionRemove = sessionFlags != null && Object.prototype.hasOwnProperty.call(sessionFlags, 'demote');
+
+  const promote = hasSessionPromote
+    ? Boolean(sessionFlags.promote)
+    : Boolean(manualPromote || productPromote);
+  const remove = hasSessionRemove
+    ? Boolean(sessionFlags.demote)
+    : Boolean(manualRemove || productRemove);
+
+  return { promote, remove };
+};
+
+const getProductOrderIndex = (product) => {
+  const value = product?.[ORIGINAL_INDEX_KEY];
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value;
+  }
+  return Number.MAX_SAFE_INTEGER;
+};
+
+const compareAdminPriority = (a, b) => {
+  const aFlags = getAdminFlagsForProduct(a);
+  const bFlags = getAdminFlagsForProduct(b);
+
+  if (aFlags.remove !== bFlags.remove) {
+    return aFlags.remove ? 1 : -1;
+  }
+  if (aFlags.remove && bFlags.remove) {
+    return getProductOrderIndex(a) - getProductOrderIndex(b);
+  }
+
+  if (aFlags.promote !== bFlags.promote) {
+    return aFlags.promote ? -1 : 1;
+  }
+  if (aFlags.promote && bFlags.promote) {
+    return getProductOrderIndex(a) - getProductOrderIndex(b);
+  }
+
+  return 0;
+};
+
+const matchesSearch = (product, term) => {
+  if (!term) return true;
+  if (!product || typeof product !== 'object') return false;
+
+  const haystacks = [
+    product.title,
+    product.brand,
+    product.src_id,
+    product.id,
+    product.category_main,
+    product.category_sub,
+  ];
+
+  return haystacks.some((value) => {
+    if (value == null) return false;
+    const text = String(value).toLowerCase();
+    return text.includes(term);
+  });
+};
+
+const applySort = (products) => {
+  const baseComparator = (() => {
+    switch (state.sort) {
+      case 'price-asc':
+        return (a, b) => (a.price ?? 0) - (b.price ?? 0);
+      case 'price-desc':
+        return (a, b) => (b.price ?? 0) - (a.price ?? 0);
+      case 'rating-desc':
+        return (a, b) => (b.rating ?? 0) - (a.rating ?? 0);
+      case 'reviews-desc':
+        return (a, b) => (b.reviews ?? 0) - (a.reviews ?? 0);
+      case 'popularity':
+      default:
+        return (a, b) => (b.volume ?? 0) - (a.volume ?? 0);
+    }
+  })();
+
+  return [...products].sort((a, b) => {
+    const adminOrder = compareAdminPriority(a, b);
+    if (adminOrder !== 0) return adminOrder;
+    const baseOrder = baseComparator(a, b);
+    if (baseOrder !== 0) return baseOrder;
+    return getProductOrderIndex(a) - getProductOrderIndex(b);
+  });
 };
 
 const renderResultCount = (shown) => {
   if (!resultCountEl) return;
   if (!state.activeMain) {
-    resultCountEl.textContent = 'Select a category to see products.';
+    const shownLabel = formatNumber(shown);
+    resultCountEl.innerHTML = `Showing <strong>${shownLabel}</strong> across all categories`;
     return;
   }
 
@@ -266,20 +543,107 @@ const renderAppliedFilters = () => {
   });
 };
 
+const bindAdminMetaHandlers = (card, product) => {
+  if (!isCatalogAdminPage) return;
+  if (!card || !product) return;
+
+  const rawId = product.id == null ? '' : String(product.id).trim();
+  if (!rawId) return;
+
+  const promoteEl = card.querySelector('[data-product-promote]');
+  const removeEl = card.querySelector('[data-product-remove]');
+  const promoteToggle = promoteEl instanceof HTMLInputElement ? promoteEl : null;
+  const removeToggle = removeEl instanceof HTMLInputElement ? removeEl : null;
+  if (!promoteToggle && !removeToggle) return;
+
+  const toggles = [promoteToggle, removeToggle].filter(Boolean);
+  let isSaving = false;
+
+  const persistMeta = async (changedToggle, previousValue, previousFlags) => {
+    if (isSaving) return;
+    isSaving = true;
+    toggles.forEach((toggle) => {
+      if (toggle) toggle.disabled = true;
+    });
+
+    const currentFlags = adminSessionFlags.get(rawId);
+    const meta = {
+      product_id: rawId,
+      promote: Boolean(currentFlags?.promote),
+      demote: Boolean(currentFlags?.demote),
+    };
+
+    const path = `Main/retailstride/admin/products/${rawId}`;
+
+    try {
+      await uploadMetaToGCS(meta, path);
+      toggles.forEach((toggle) => {
+        if (toggle) toggle.disabled = false;
+      });
+      isSaving = false;
+      applyFilters();
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error('Failed to upload product meta to GCS', error);
+      if (changedToggle && typeof previousValue === 'boolean') {
+        changedToggle.checked = previousValue;
+      }
+      if (rawId) {
+        if (previousFlags) {
+          adminSessionFlags.set(rawId, previousFlags);
+        } else {
+          adminSessionFlags.delete(rawId);
+        }
+      }
+      toggles.forEach((toggle) => {
+        if (toggle) toggle.disabled = false;
+      });
+      isSaving = false;
+      applyFilters();
+      alertUser('Unable to save product changes. Please try again.');
+    }
+  };
+
+  const currentFlags = getAdminFlagsForProduct(product);
+  if (promoteToggle) promoteToggle.checked = currentFlags.promote;
+  if (removeToggle) removeToggle.checked = currentFlags.remove;
+
+  const handleToggleChange = (toggle) => {
+    toggle.addEventListener('change', () => {
+      const previousValue = !toggle.checked;
+      const previousFlags = rawId ? adminSessionFlags.get(rawId) : undefined;
+      const nextFlags = {
+        promote: Boolean(promoteToggle?.checked),
+        demote: Boolean(removeToggle?.checked),
+      };
+      if (rawId) {
+        adminSessionFlags.set(rawId, nextFlags);
+      }
+      void persistMeta(toggle, previousValue, previousFlags);
+    });
+  };
+
+  toggles.forEach((toggle) => {
+    handleToggleChange(toggle);
+  });
+};
+
 const renderProducts = () => {
   if (!productsGridEl) return;
   const start = (state.page - 1) * PAGE_SIZE;
   const pageProducts = state.filteredProducts.slice(start, start + PAGE_SIZE);
+  const viewingAllCategories = !state.activeMain;
+  const hasAnyProducts = state.filteredProducts.length > 0;
 
   productsGridEl.classList.add('is-transitioning');
   requestAnimationFrame(() => {
     productsGridEl.innerHTML = '';
-    if (!state.activeMain) {
+    if (viewingAllCategories && !hasAnyProducts && state.allProducts.length === 0) {
       const prompt = document.createElement('div');
       prompt.className = 'catalog-empty';
       prompt.innerHTML = `
-        <h3>Select a category</h3>
-        <p>Choose a category pill to load matching products.</p>
+        <h3>Loading catalog</h3>
+        <p>Fetching products across all categories…</p>
       `;
       productsGridEl.appendChild(prompt);
       requestAnimationFrame(() => {
@@ -293,7 +657,7 @@ const renderProducts = () => {
       empty.className = 'catalog-empty';
       empty.innerHTML = `
         <h3>No matching products</h3>
-        <p>Try a different subcategory or choose another category to keep browsing.</p>
+        <p>Adjust your filters or try a different search.</p>
       `;
       productsGridEl.appendChild(empty);
     } else {
@@ -308,6 +672,18 @@ const renderProducts = () => {
         })();
         const productTitle = escapeHTML(product.title || 'Untitled product');
         const productBrand = escapeHTML(product.brand ?? 'Unknown brand');
+        const rawSrcId = product.src_id == null ? '' : String(product.src_id).trim();
+        const safeSrcId = escapeHTML(rawSrcId);
+        const srcIdClass = (() => {
+          if (!rawSrcId) return '';
+          const lower = rawSrcId.slice(0, 2).toLowerCase();
+          if (lower === 'ss') return ' catalog-product-card__source-pill--ss';
+          if (lower === 'fa') return ' catalog-product-card__source-pill--fa';
+          return '';
+        })();
+        const sourcePill = isCatalogAdminPage && safeSrcId
+          ? `<span class="catalog-product-card__source-pill${srcIdClass}">${safeSrcId}</span>`
+          : '';
         const productImage = escapeAttribute(product.image || '');
         const imageAttributes = productImage
           ? `src="${TRANSPARENT_PIXEL}" data-product-src="${productImage}"`
@@ -315,8 +691,8 @@ const renderProducts = () => {
         const rawProductId = product.id == null ? '' : String(product.id);
         const safeProductId = escapeAttribute(rawProductId);
         const productIdAttr = safeProductId ? ` data-product-id="${safeProductId}"` : '';
-        const promoteFieldName = safeProductId ? `product_promote_${safeProductId}` : 'product_promote';
-        const removeFieldName = safeProductId ? `product_remove_${safeProductId}` : 'product_remove';
+        const promoteFieldName = safeProductId ? `product_promote_${safeProductId}` : 'promote';
+        const removeFieldName = safeProductId ? `product_remove_${safeProductId}` : 'demote';
         const actionsClass = isCatalogAdminPage
           ? 'catalog-product-card__actions catalog-product-card__actions--admin'
           : 'catalog-product-card__actions';
@@ -325,7 +701,7 @@ const renderProducts = () => {
               <label class="catalog-admin-switch">
                 <input
                   type="checkbox"
-                  id="product_promote"
+                  id="promote"
                   name="${promoteFieldName}"
                   class="catalog-admin-switch__input"
                   data-product-promote${productIdAttr}
@@ -336,7 +712,7 @@ const renderProducts = () => {
               <label class="catalog-admin-switch">
                 <input
                   type="checkbox"
-                  id="product_remove"
+                  id="demote"
                   name="${removeFieldName}"
                   class="catalog-admin-switch__input"
                   data-product-remove${productIdAttr}
@@ -358,6 +734,7 @@ const renderProducts = () => {
             `;
         card.innerHTML = `
           <div class="catalog-product-card__media">
+            ${sourcePill}
             <img ${imageAttributes} alt="${productTitle}" class="catalog-product-card__image">
             ${badgeLabel ? `<span class="catalog-product-card__badge">${badgeLabel}</span>` : ''}
           </div>
@@ -372,6 +749,7 @@ const renderProducts = () => {
         productsGridEl.appendChild(card);
         const imageEl = card.querySelector('.catalog-product-card__image');
         registerLazyImage(imageEl);
+        bindAdminMetaHandlers(card, product);
       });
     }
     requestAnimationFrame(() => {
@@ -383,7 +761,7 @@ const renderProducts = () => {
 const renderPagination = () => {
   if (!paginationEl) return;
   paginationEl.innerHTML = '';
-  if (!state.activeMain) return;
+  if (!state.filteredProducts.length) return;
 
   const totalPages = Math.max(1, Math.ceil(state.filteredProducts.length / PAGE_SIZE));
 
@@ -434,24 +812,29 @@ const renderPagination = () => {
 };
 
 const applyFilters = () => {
-  if (!state.activeMain) {
-    state.filteredProducts = [];
-    renderResultCount(0);
-    renderAppliedFilters();
-    renderProducts();
-    renderPagination();
-    return;
+  if (!state.activeMain && state.activeSub) {
+    state.activeSub = null;
   }
 
-  const subFiltered = state.allProducts.filter((product) => {
+  const baseProducts = Array.isArray(state.allProducts) ? state.allProducts : [];
+
+  const subFiltered = baseProducts.filter((product) => {
     if (!state.activeSub) return true;
     return product.cat_sub_id === state.activeSub;
   });
 
-  const sorted = applySort(subFiltered);
+  const searchTerm = typeof state.searchQuery === 'string' ? state.searchQuery.trim().toLowerCase() : '';
+  const searchFiltered = searchTerm
+    ? subFiltered.filter((product) => matchesSearch(product, searchTerm))
+    : subFiltered;
+
+  const sorted = applySort(searchFiltered);
   state.filteredProducts = sorted;
   const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
   state.page = Math.min(state.page, totalPages);
+  if (!Number.isFinite(state.page) || state.page < 1) {
+    state.page = 1;
+  }
 
   renderResultCount(sorted.length);
   renderAppliedFilters();
@@ -460,35 +843,14 @@ const applyFilters = () => {
 };
 
 const loadProductsForCategory = async (catMainId) => {
-  if (state.productsCache.has(catMainId)) {
-    const cached = state.productsCache.get(catMainId);
-    const meta = state.metaCache.get(catMainId);
-    state.allProducts = cached.products || [];
+  try {
+    const { products } = await fetchCategoryData(catMainId);
+    state.allProducts = products;
     renderSubcategories();
     applyFilters();
-    return;
+  } catch (error) {
+    throw error;
   }
-
-  const response = await fetch(`../data/products/${catMainId}.json`);
-  if (!response.ok) throw new Error('Unable to load products');
-  const data = await response.json();
-
-  state.productsCache.set(catMainId, data);
-  if (data.meta) {
-    state.metaCache.set(catMainId, data.meta);
-    const index = state.categories.findIndex((category) => category.cat_main_id === catMainId);
-    if (index >= 0) {
-      state.categories[index] = {
-        ...state.categories[index],
-        ...data.meta,
-        subs: data.meta.subs ?? state.categories[index].subs ?? [],
-      };
-    }
-  }
-
-  state.allProducts = data.products || [];
-  renderSubcategories();
-  applyFilters();
 };
 
 const handleSortChange = () => {
@@ -517,6 +879,7 @@ const loadCategories = async () => {
 const initCatalog = async () => {
   try {
     sortSelectEl?.addEventListener('change', handleSortChange);
+    await loadManualConfig();
     await loadCategories();
   } catch (error) {
     handleLoadError(error);
