@@ -1,2 +1,0 @@
-# Retailers
-- retailstride.com/retailers

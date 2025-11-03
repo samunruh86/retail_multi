@@ -1,2 +1,0 @@
-# Catalog
-- retailstride.com/catalog

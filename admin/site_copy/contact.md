@@ -1,2 +1,0 @@
-# Contact
-- retailstride.com/contact
