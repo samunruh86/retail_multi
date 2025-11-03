@@ -325,6 +325,172 @@ const initApplicationForm = () => {
   });
 };
 
+const NAV_PATH_MAP = {
+  '/': 'home',
+  '/brands/': 'brands',
+  '/retailers/': 'retailers',
+  '/catalog/': 'catalog',
+  '/apply/': 'retailers',
+};
+
+const normalizePathname = (pathname) => {
+  if (typeof pathname !== 'string' || pathname.length === 0) {
+    return '/';
+  }
+  const noIndex = pathname.replace(/index\.html$/i, '');
+  if (noIndex === '' || noIndex === '/') {
+    return '/';
+  }
+  return noIndex.endsWith('/') ? noIndex : `${noIndex}/`;
+};
+
+const determineNavCurrentKey = (container) => {
+  if (!container || !container.dataset) return '';
+  const explicit = (container.dataset.navCurrent || '').trim();
+  if (explicit) {
+    return explicit;
+  }
+  if (typeof window === 'undefined') return '';
+  const normalizedPath = normalizePathname(window.location.pathname || '/');
+  const directMatch = NAV_PATH_MAP[normalizedPath];
+  if (directMatch) {
+    return directMatch;
+  }
+  let fallbackKey = '';
+  let fallbackLength = 0;
+  Object.entries(NAV_PATH_MAP).forEach(([path, key]) => {
+    if (path === '/') return;
+    if (normalizedPath.endsWith(path) && path.length > fallbackLength) {
+      fallbackKey = key;
+      fallbackLength = path.length;
+    }
+  });
+  if (fallbackKey) {
+    return fallbackKey;
+  }
+  if (normalizedPath === '/' || normalizedPath.endsWith('/')) {
+    return NAV_PATH_MAP['/'] || '';
+  }
+  return '';
+};
+
+const applyNavCurrentState = (navRoot, currentKey) => {
+  if (!navRoot) return;
+  const normalizedKey = typeof currentKey === 'string' ? currentKey.trim() : '';
+
+  const navLinks = navRoot.querySelectorAll('[data-nav-link]');
+  navLinks.forEach((link) => {
+    if (!link.dataset.navOriginalHref) {
+      const originalHref = link.getAttribute('href');
+      if (originalHref != null) {
+        link.dataset.navOriginalHref = originalHref;
+      }
+    }
+    link.classList.remove('nav_is_current', 'w--current');
+    link.removeAttribute('aria-current');
+    link.removeAttribute('aria-disabled');
+    const originalHref = link.dataset.navOriginalHref;
+    if (originalHref != null && originalHref !== '') {
+      link.setAttribute('href', originalHref);
+    } else {
+      link.removeAttribute('href');
+    }
+  });
+
+  if (normalizedKey) {
+    navRoot.querySelectorAll(`[data-nav-link="${normalizedKey}"]`).forEach((link) => {
+      link.classList.add('nav_is_current');
+      if (link.classList.contains('w-nav-link')) {
+        link.classList.add('w--current');
+      }
+      link.setAttribute('aria-current', 'page');
+      link.setAttribute('aria-disabled', 'true');
+      link.removeAttribute('href');
+    });
+  }
+
+  const isHome = normalizedKey === 'home';
+  navRoot.querySelectorAll('[data-nav-brand]').forEach((brandLink) => {
+    if (isHome) {
+      brandLink.classList.add('w--current');
+      brandLink.setAttribute('aria-current', 'page');
+    } else {
+      brandLink.classList.remove('w--current');
+      brandLink.removeAttribute('aria-current');
+    }
+  });
+};
+
+const applyNavCtaOverrides = (navRoot, { label, href }) => {
+  if (!navRoot) return;
+  const normalizedLabel = typeof label === 'string' ? label.trim() : '';
+  const normalizedHref = typeof href === 'string' ? href.trim() : '';
+  if (!normalizedLabel && !normalizedHref) return;
+  navRoot.querySelectorAll('[data-nav-cta]').forEach((ctaLink) => {
+    if (normalizedLabel) {
+      ctaLink.textContent = normalizedLabel;
+    }
+    if (normalizedHref) {
+      ctaLink.setAttribute('href', normalizedHref);
+    }
+  });
+};
+
+const initNavigation = async () => {
+  const containers = document.querySelectorAll('[data-navbar]');
+  if (!containers.length) {
+    return () => {};
+  }
+
+  const navUrl = resolveAssetUrl('nav.html');
+
+  const response = await fetch(navUrl);
+  if (!response.ok) {
+    throw new Error(`Failed to load navigation partial: ${response.status}`);
+  }
+
+  const navHtml = await response.text();
+  containers.forEach((container) => {
+    container.innerHTML = navHtml;
+    const navRoot = container.querySelector('[data-nav-root]') || container;
+    const currentKey = determineNavCurrentKey(container);
+    applyNavCurrentState(navRoot, currentKey);
+    applyNavCtaOverrides(navRoot, {
+      label: container.dataset.navCtaLabel,
+      href: container.dataset.navCtaHref,
+    });
+  });
+
+  const navRoot = document.querySelector('[data-nav-root]');
+  const navMenu = navRoot?.querySelector('.nav_menu') || document.querySelector('.nav_menu');
+  const navButton = navRoot?.querySelector('.navbar1_menu-button') || document.querySelector('.navbar1_menu-button');
+  const overlay = document.getElementById('w-nav-overlay-0');
+
+  const closeNav = () => {
+    if (navMenu) navMenu.classList.remove('w--open');
+    if (navButton) navButton.classList.remove('w--open');
+    if (overlay) overlay.style.display = 'none';
+  };
+
+  if (navButton && navMenu) {
+    navButton.addEventListener('click', () => {
+      const isOpen = navMenu.classList.toggle('w--open');
+      navButton.classList.toggle('w--open', isOpen);
+      if (overlay) overlay.style.display = isOpen ? 'block' : 'none';
+    });
+  }
+
+  if (overlay) {
+    overlay.addEventListener('click', closeNav);
+  }
+
+  containers.forEach((container) => {
+    attachSmoothScrollHandlers(container, closeNav);
+  });
+
+  return closeNav;
+};
+
 const loadFooter = async (onNavigate) => {
   const containers = document.querySelectorAll('[data-footer]');
   if (!containers.length) return;
@@ -773,32 +939,22 @@ document.addEventListener('DOMContentLoaded', () => {
   resetWebflowStyles();
   initCtaForm();
   initApplicationForm();
-  const navMenu = document.querySelector('.nav_menu');
-  const navButton = document.querySelector('.navbar1_menu-button');
-  const overlay = document.getElementById('w-nav-overlay-0');
-
-  const closeNav = () => {
-    if (navMenu) navMenu.classList.remove('w--open');
-    if (navButton) navButton.classList.remove('w--open');
-    if (overlay) overlay.style.display = 'none';
+  const finalizeNavigation = (closeNavCandidate) => {
+    const closeNav = typeof closeNavCandidate === 'function' ? closeNavCandidate : () => {};
+    attachSmoothScrollHandlers(document, closeNav);
+    loadFooter(closeNav);
+    initLoginModal(closeNav);
+    loadLoginModal().then(() => initLoginModal(closeNav));
   };
 
-  if (navButton && navMenu) {
-    navButton.addEventListener('click', () => {
-      const isOpen = navMenu.classList.toggle('w--open');
-      navButton.classList.toggle('w--open', isOpen);
-      if (overlay) overlay.style.display = isOpen ? 'block' : 'none';
+  initNavigation()
+    .then((closeNav) => {
+      finalizeNavigation(closeNav);
+    })
+    .catch((error) => {
+      console.error('Navigation initialization failed', error);
+      finalizeNavigation();
     });
-  }
-
-  if (overlay) {
-    overlay.addEventListener('click', closeNav);
-  }
-
-  attachSmoothScrollHandlers(document, closeNav);
-  loadFooter(closeNav);
-  initLoginModal(closeNav);
-  loadLoginModal().then(() => initLoginModal(closeNav));
   initCatalogPreview();
 
   const animatedItems = document.querySelectorAll('.animate-item');
