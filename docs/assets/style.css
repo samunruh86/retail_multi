@@ -4296,6 +4296,17 @@ body .nav_dropdown.w--open {
   .section_home_hero {
     padding-top: 10rem;
   }
+  #hero .hero_static__card {
+    min-width: calc(100vw - 40px);
+  }
+  #hero .container_medium.hero_static__inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #hero .hero_static__content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .cta_banner {
     padding-left: 1rem;
     padding-right: 1rem;
