@@ -41,6 +41,344 @@ const resolveAssetUrl = (relativePath) => {
   return script ? new URL(relativePath, script.src).href : `/assets/${relativePath}`;
 };
 
+const LEAFLET_CDN_VERSION = '1.9.4';
+let leafletLoader = null;
+
+const loadLeafletLibrary = () => {
+  if (typeof window === 'undefined') {
+    return Promise.reject(new Error('Leaflet requires a browser environment'));
+  }
+  if (typeof L !== 'undefined') {
+    return Promise.resolve(L);
+  }
+  if (!leafletLoader) {
+    leafletLoader = new Promise((resolve, reject) => {
+      const cleanup = (error) => {
+        leafletLoader = null;
+        reject(error);
+      };
+
+      if (!document.querySelector('link[data-leaflet]')) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = `https://unpkg.com/leaflet@${LEAFLET_CDN_VERSION}/dist/leaflet.css`;
+        link.dataset.leaflet = 'true';
+        document.head.appendChild(link);
+      }
+
+      const handleReady = () => {
+        if (typeof L === 'undefined') {
+          cleanup(new Error('Leaflet failed to initialize'));
+          return;
+        }
+        resolve(L);
+      };
+
+      let script = document.querySelector('script[data-leaflet]');
+      if (script) {
+        if (script.dataset.loaded === 'true' && typeof L !== 'undefined') {
+          resolve(L);
+          return;
+        }
+        script.addEventListener(
+          'load',
+          () => {
+            script.dataset.loaded = 'true';
+            handleReady();
+          },
+          { once: true },
+        );
+        script.addEventListener(
+          'error',
+          () => cleanup(new Error('Leaflet script failed to load')),
+          { once: true },
+        );
+        return;
+      }
+
+      script = document.createElement('script');
+      script.src = `https://unpkg.com/leaflet@${LEAFLET_CDN_VERSION}/dist/leaflet.js`;
+      script.async = true;
+      script.defer = true;
+      script.dataset.leaflet = 'true';
+      script.addEventListener('load', () => {
+        script.dataset.loaded = 'true';
+        handleReady();
+      });
+      script.addEventListener('error', () => cleanup(new Error('Leaflet script failed to load')));
+      document.body.appendChild(script);
+    }).catch((error) => {
+      leafletLoader = null;
+      throw error;
+    });
+  }
+  return leafletLoader;
+};
+
+let locationsDataPromise = null;
+
+const sanitizeLocationEntry = (entry) => {
+  if (!entry || typeof entry !== 'object') return null;
+  const lat = Number(entry.lat ?? entry.latitude);
+  const lon = Number(entry.lon ?? entry.lng ?? entry.longitude);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  const city = typeof entry.city === 'string' ? entry.city.trim() : '';
+  const state = typeof entry.state === 'string' ? entry.state.trim() : '';
+  const populationValue = Number(entry.population);
+  const countValue = Number(entry.count);
+  return {
+    city,
+    state,
+    lat,
+    lon,
+    population: Number.isFinite(populationValue) && populationValue > 0 ? populationValue : null,
+    count: Number.isFinite(countValue) && countValue > 0 ? countValue : null,
+  };
+};
+
+const loadLocationsData = async () => {
+  if (!locationsDataPromise) {
+    const dataUrl = resolveAssetUrl('../data/locations/all.json');
+    locationsDataPromise = fetch(dataUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch location data: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        if (!Array.isArray(data)) {
+          return [];
+        }
+        return data.map(sanitizeLocationEntry).filter(Boolean);
+      })
+      .catch((error) => {
+        locationsDataPromise = null;
+        throw error;
+      });
+  }
+  return locationsDataPromise;
+};
+
+const formatNumber = (value) => {
+  if (!Number.isFinite(value)) return '--';
+  return value.toLocaleString();
+};
+
+const renderLocationsLegend = (legendEl, locations) => {
+  if (!legendEl) return;
+  legendEl.innerHTML = '';
+  if (!Array.isArray(locations) || !locations.length) {
+    legendEl.hidden = true;
+    return;
+  }
+
+  const stats = locations.reduce(
+    (acc, location) => {
+      const count = Number.isFinite(location.count) ? location.count : 0;
+      const population = Number.isFinite(location.population) ? location.population : 0;
+      if (location.state) {
+        acc.states.add(location.state);
+      }
+      acc.totalCount += count;
+      acc.totalPopulation += population;
+      const weight = count || population;
+      if (weight > acc.topLocation.weight) {
+        acc.topLocation = {
+          city: location.city,
+          state: location.state,
+          count,
+          population,
+          weight,
+        };
+      }
+      return acc;
+    },
+    {
+      totalCount: 0,
+      totalPopulation: 0,
+      states: new Set(),
+      topLocation: { city: '', state: '', count: 0, population: 0, weight: 0 },
+    },
+  );
+
+  const items = [
+    { label: 'Independent retailers', value: formatNumber(stats.totalCount) },
+    { label: 'States covered', value: stats.states.size ? String(stats.states.size) : '--' },
+  ];
+
+  if (stats.topLocation.weight > 0 && stats.topLocation.city) {
+    const { city, state, count, population } = stats.topLocation;
+    const locationLabel = state ? `${city}, ${state}` : city;
+    const detail = count
+      ? `${formatNumber(count)} retailer${count === 1 ? '' : 's'}`
+      : `${formatNumber(population)} population`;
+    items.push({
+      label: 'Largest cluster',
+      value: `${locationLabel} - ${detail}`,
+    });
+  }
+
+  legendEl.hidden = items.length === 0;
+
+  items.forEach((item) => {
+    const row = document.createElement('div');
+    row.className = 'locations-map__legend-item';
+
+    const label = document.createElement('span');
+    label.className = 'locations-map__legend-label';
+    label.textContent = item.label;
+
+    const value = document.createElement('span');
+    value.className = 'locations-map__legend-value';
+    value.textContent = item.value;
+
+    row.append(label, value);
+    legendEl.appendChild(row);
+  });
+};
+
+const initLocationsMap = async () => {
+  const section = document.querySelector('[data-locations-map]');
+  if (!section || section.dataset.mapInitialized === 'true') return;
+
+  const canvas = section.querySelector('[data-locations-map-canvas]');
+  if (!canvas) return;
+
+  const statusEl = section.querySelector('[data-locations-map-status]');
+  const legendEl = section.querySelector('[data-locations-map-legend]');
+  const creditEl = section.querySelector('[data-locations-map-credit]');
+
+  const setStatus = (message) => {
+    if (!statusEl) return;
+    const text = message ? String(message) : '';
+    statusEl.textContent = text;
+    statusEl.hidden = text.length === 0;
+  };
+
+  setStatus('Loading retailer locations...');
+
+  try {
+    const [L, locations] = await Promise.all([loadLeafletLibrary(), loadLocationsData()]);
+    if (!locations.length) {
+      throw new Error('No location data available');
+    }
+
+    if (!canvas.style.height) {
+      canvas.style.height = '520px';
+    }
+
+    const map = L.map(canvas, {
+      center: [39.5, -98.35],
+      zoom: 4,
+      zoomControl: true,
+      attributionControl: false,
+    });
+
+    const cartoLayer = L.tileLayer('https://{s}.tile.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors & CARTO',
+      maxZoom: 18,
+      subdomains: 'abcd',
+      crossOrigin: true,
+    });
+
+    let activeLayer = cartoLayer.addTo(map);
+    let usingFallback = false;
+
+    const attachFallbackLayer = () => {
+      if (usingFallback) return;
+      usingFallback = true;
+      if (activeLayer) {
+        map.removeLayer(activeLayer);
+      }
+      const fallbackLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19,
+        crossOrigin: true,
+      });
+      activeLayer = fallbackLayer.addTo(map);
+      if (creditEl) {
+        creditEl.textContent = 'Map data © OpenStreetMap contributors';
+      }
+    };
+
+    cartoLayer.on('tileerror', attachFallbackLayer);
+
+    const values = locations
+      .map((location) => {
+        const value = Number.isFinite(location.count) && location.count > 0 ? location.count : location.population;
+        return Number.isFinite(value) && value > 0 ? value : null;
+      })
+      .filter((value) => value != null);
+
+    const minValue = values.length ? Math.min(...values) : 0;
+    const maxValue = values.length ? Math.max(...values) : 0;
+    const radius = (value) => {
+      if (!Number.isFinite(value) || value <= 0) return 6;
+      if (minValue === maxValue) return 10;
+      const normalized = (value - minValue) / (maxValue - minValue || 1);
+      return 6 + normalized * 12;
+    };
+
+    const circleMarkers = locations.map((location) => {
+      const sizeValue =
+        Number.isFinite(location.count) && location.count > 0 ? location.count : location.population || 1;
+      const marker = L.circleMarker([location.lat, location.lon], {
+        radius: radius(sizeValue),
+        weight: 1,
+        color: '#1f2937',
+        opacity: 0.85,
+        fillColor: '#2563eb',
+        fillOpacity: 0.6,
+        interactive: true,
+      }).addTo(map);
+
+      const cityName = location.city || 'Retailer';
+      const stateName = location.state ? `, ${location.state}` : '';
+      const lines = [`<strong>${cityName}${stateName}</strong>`];
+      if (Number.isFinite(location.count)) {
+        lines.push(`Retailers: ${formatNumber(location.count)}`);
+      }
+      if (Number.isFinite(location.population)) {
+        lines.push(`Population: ${formatNumber(location.population)}`);
+      }
+      marker.bindTooltip(lines.join('<br>'), { direction: 'top' });
+      return marker;
+    });
+
+    if (circleMarkers.length) {
+      const bounds = L.featureGroup(circleMarkers).getBounds().pad(0.2);
+      if (bounds.isValid()) {
+        map.fitBounds(bounds);
+      }
+    }
+
+    map.whenReady(() => {
+      requestAnimationFrame(() => {
+        map.invalidateSize();
+      });
+    });
+
+    if (legendEl) {
+      renderLocationsLegend(legendEl, locations);
+    }
+    if (creditEl) {
+      creditEl.textContent = 'Map data © OpenStreetMap contributors & CARTO';
+      creditEl.hidden = false;
+    }
+
+    setStatus('');
+    section.dataset.mapInitialized = 'true';
+  } catch (error) {
+    console.error('Locations map initialization failed', error);
+    setStatus("We're unable to display the map right now.");
+    if (creditEl) {
+      creditEl.textContent = 'Map data © OpenStreetMap contributors & CARTO';
+      creditEl.hidden = false;
+    }
+  }
+};
+
 const getFormName = (form, fallback = '') => {
   if (!form) return fallback;
   const name = form.dataset?.formName || '';
@@ -1025,6 +1363,7 @@ document.addEventListener('DOMContentLoaded', () => {
       finalizeNavigation();
     });
   initCatalogPreview();
+  initLocationsMap();
 
   const animatedItems = document.querySelectorAll('.animate-item');
   if (animatedItems.length) {
