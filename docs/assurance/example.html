@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Retail Stride — City Clusters</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { height: 520px; border-radius: 12px; }
+    .legend { background:#fff;padding:6px 8px;border:1px solid #ddd;border-radius:8px;font:12px/1.2 system-ui; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+  // Minimal centroid data; ideally load from /assets/city_centroids.json
+  // const data = see data/locations/all.json
+
+  // Size scaler (tune domain for your data)
+  const minR = 4, maxR = 18;
+  const popValues = data.map(d => d.population || d.count || 1);
+  const popMin = Math.min(...popValues), popMax = Math.max(...popValues);
+  const radius = v => {
+    if (!v || popMax === popMin) return 6;
+    const t = (v - popMin) / (popMax - popMin);
+    return minR + t * (maxR - minR);
+  };
+
+  const map = L.map('map', { zoomControl: true }).setView([39.5, -98.35], 4);
+  L.tileLayer('https://{s}.tile.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap & CARTO'
+  }).addTo(map);
+
+  data.forEach(d => {
+    const c = L.circleMarker([d.lat, d.lon], {
+      radius: radius(d.population || d.count),
+      weight: 1, color: '#1f2937', opacity: 0.8,
+      fillColor: '#60a5fa', fillOpacity: 0.6
+    }).addTo(map);
+    c.bindTooltip(`<b>${d.city}, ${d.state}</b><br>Population: ${d.population?.toLocaleString?.() || '–'}<br>Count: ${d.count ?? '–'}`);
+  });
+
+  // Fit bounds
+  const group = L.featureGroup(data.map(d => L.marker([d.lat, d.lon])));
+  if (data.length) map.fitBounds(group.getBounds().pad(0.2));
+  </script>
+</body>
+</html>

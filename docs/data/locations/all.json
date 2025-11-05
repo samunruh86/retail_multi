@@ -1,0 +1,5826 @@
+[
+    {
+        "city": "Aberdeen",
+        "state": "South Dakota",
+        "lat": 45.466,
+        "lon": -98.486,
+        "population": 32217,
+        "count": 1
+    },
+    {
+        "city": "Ada",
+        "state": "Michigan",
+        "lat": 42.957,
+        "lon": -85.481,
+        "population": 20092,
+        "count": 1
+    },
+    {
+        "city": "Ada",
+        "state": "Oklahoma",
+        "lat": 34.78,
+        "lon": -96.692,
+        "population": 31368,
+        "count": 1
+    },
+    {
+        "city": "Addison",
+        "state": "Illinois",
+        "lat": 41.934,
+        "lon": -88.005,
+        "population": 37175,
+        "count": 1
+    },
+    {
+        "city": "Adrian",
+        "state": "Michigan",
+        "lat": 41.9,
+        "lon": -84.045,
+        "population": 41209,
+        "count": 1
+    },
+    {
+        "city": "Akron",
+        "state": "Ohio",
+        "lat": 41.07190909090909,
+        "lon": -81.53818181818181,
+        "population": 232942,
+        "count": 11
+    },
+    {
+        "city": "Albert Lea",
+        "state": "Minnesota",
+        "lat": 43.654,
+        "lon": -93.371,
+        "population": 21621,
+        "count": 1
+    },
+    {
+        "city": "Alexandria",
+        "state": "Minnesota",
+        "lat": 45.882,
+        "lon": -95.382,
+        "population": 26369,
+        "count": 1
+    },
+    {
+        "city": "Algonquin",
+        "state": "Illinois",
+        "lat": 42.164,
+        "lon": -88.306,
+        "population": 32227,
+        "count": 1
+    },
+    {
+        "city": "Allen Park",
+        "state": "Michigan",
+        "lat": 42.252,
+        "lon": -83.212,
+        "population": 28395,
+        "count": 1
+    },
+    {
+        "city": "Allendale",
+        "state": "Michigan",
+        "lat": 42.971,
+        "lon": -85.925,
+        "population": 28358,
+        "count": 1
+    },
+    {
+        "city": "Alliance",
+        "state": "Ohio",
+        "lat": 40.916,
+        "lon": -81.118,
+        "population": 32716,
+        "count": 1
+    },
+    {
+        "city": "Alpena",
+        "state": "Michigan",
+        "lat": 45.079,
+        "lon": -83.46,
+        "population": 22009,
+        "count": 1
+    },
+    {
+        "city": "Alsip",
+        "state": "Illinois",
+        "lat": 41.672,
+        "lon": -87.736,
+        "population": 22198,
+        "count": 1
+    },
+    {
+        "city": "Alton",
+        "state": "Illinois",
+        "lat": 38.909,
+        "lon": -90.157,
+        "population": 30166,
+        "count": 1
+    },
+    {
+        "city": "Altoona",
+        "state": "Iowa",
+        "lat": 41.648,
+        "lon": -93.472,
+        "population": 21402,
+        "count": 1
+    },
+    {
+        "city": "Altus",
+        "state": "Oklahoma",
+        "lat": 34.648,
+        "lon": -99.32,
+        "population": 20479,
+        "count": 1
+    },
+    {
+        "city": "Amelia",
+        "state": "Ohio",
+        "lat": 39.021,
+        "lon": -84.211,
+        "population": 24243,
+        "count": 1
+    },
+    {
+        "city": "Ames",
+        "state": "Iowa",
+        "lat": 42.043499999999995,
+        "lon": -93.64699999999999,
+        "population": 64773,
+        "count": 2
+    },
+    {
+        "city": "Amherst",
+        "state": "Ohio",
+        "lat": 41.362,
+        "lon": -82.254,
+        "population": 20982,
+        "count": 1
+    },
+    {
+        "city": "Anderson",
+        "state": "Indiana",
+        "lat": 40.096199999999996,
+        "lon": -85.6702,
+        "population": 79122,
+        "count": 5
+    },
+    {
+        "city": "Andover",
+        "state": "Minnesota",
+        "lat": 45.238,
+        "lon": -93.272,
+        "population": 49175,
+        "count": 1
+    },
+    {
+        "city": "Ankeny",
+        "state": "Iowa",
+        "lat": 41.72,
+        "lon": -93.5975,
+        "population": 72570,
+        "count": 2
+    },
+    {
+        "city": "Ann Arbor",
+        "state": "Michigan",
+        "lat": 42.2726,
+        "lon": -83.7324,
+        "population": 169983,
+        "count": 5
+    },
+    {
+        "city": "Anoka",
+        "state": "Minnesota",
+        "lat": 45.282,
+        "lon": -93.419,
+        "population": 52051,
+        "count": 1
+    },
+    {
+        "city": "Antioch",
+        "state": "Illinois",
+        "lat": 42.465,
+        "lon": -88.118,
+        "population": 24398,
+        "count": 1
+    },
+    {
+        "city": "Appleton",
+        "state": "Wisconsin",
+        "lat": 44.284,
+        "lon": -88.40525,
+        "population": 124556,
+        "count": 4
+    },
+    {
+        "city": "Ardmore",
+        "state": "Oklahoma",
+        "lat": 34.157,
+        "lon": -97.179,
+        "population": 36324,
+        "count": 1
+    },
+    {
+        "city": "Arlington Heights",
+        "state": "Illinois",
+        "lat": 42.088,
+        "lon": -87.9825,
+        "population": 81405,
+        "count": 2
+    },
+    {
+        "city": "Arnold",
+        "state": "Missouri",
+        "lat": 38.43,
+        "lon": -90.387,
+        "population": 34744,
+        "count": 1
+    },
+    {
+        "city": "Ashland",
+        "state": "Ohio",
+        "lat": 40.856,
+        "lon": -82.319,
+        "population": 31447,
+        "count": 1
+    },
+    {
+        "city": "Ashtabula",
+        "state": "Ohio",
+        "lat": 41.868,
+        "lon": -80.795,
+        "population": 31348,
+        "count": 1
+    },
+    {
+        "city": "Athens",
+        "state": "Ohio",
+        "lat": 39.318,
+        "lon": -82.102,
+        "population": 33363,
+        "count": 1
+    },
+    {
+        "city": "Auburn",
+        "state": "Indiana",
+        "lat": 41.359,
+        "lon": -85.047,
+        "population": 20000,
+        "count": 1
+    },
+    {
+        "city": "Auburn Hills",
+        "state": "Michigan",
+        "lat": 42.658,
+        "lon": -83.238,
+        "population": 24105,
+        "count": 1
+    },
+    {
+        "city": "Aurora",
+        "state": "Illinois",
+        "lat": 41.756,
+        "lon": -88.2808,
+        "population": 188610,
+        "count": 5
+    },
+    {
+        "city": "Aurora",
+        "state": "Ohio",
+        "lat": 41.318,
+        "lon": -81.345,
+        "population": 22106,
+        "count": 1
+    },
+    {
+        "city": "Austin",
+        "state": "Minnesota",
+        "lat": 43.67,
+        "lon": -92.978,
+        "population": 29316,
+        "count": 1
+    },
+    {
+        "city": "Avon",
+        "state": "Indiana",
+        "lat": 39.763,
+        "lon": -86.4,
+        "population": 41870,
+        "count": 1
+    },
+    {
+        "city": "Avon",
+        "state": "Ohio",
+        "lat": 41.447,
+        "lon": -82.02,
+        "population": 24822,
+        "count": 1
+    },
+    {
+        "city": "Avon Lake",
+        "state": "Ohio",
+        "lat": 41.502,
+        "lon": -82.011,
+        "population": 25220,
+        "count": 1
+    },
+    {
+        "city": "Ballwin",
+        "state": "Missouri",
+        "lat": 38.593,
+        "lon": -90.543,
+        "population": 92459,
+        "count": 2
+    },
+    {
+        "city": "Baraboo",
+        "state": "Wisconsin",
+        "lat": 43.482,
+        "lon": -89.746,
+        "population": 21346,
+        "count": 1
+    },
+    {
+        "city": "Barberton",
+        "state": "Ohio",
+        "lat": 41.02,
+        "lon": -81.621,
+        "population": 38714,
+        "count": 1
+    },
+    {
+        "city": "Barrington",
+        "state": "Illinois",
+        "lat": 42.161,
+        "lon": -88.138,
+        "population": 46674,
+        "count": 1
+    },
+    {
+        "city": "Bartlesville",
+        "state": "Oklahoma",
+        "lat": 36.7405,
+        "lon": -95.9585,
+        "population": 41649,
+        "count": 2
+    },
+    {
+        "city": "Bartlett",
+        "state": "Illinois",
+        "lat": 41.979,
+        "lon": -88.206,
+        "population": 42047,
+        "count": 1
+    },
+    {
+        "city": "Batavia",
+        "state": "Illinois",
+        "lat": 41.848,
+        "lon": -88.31,
+        "population": 28393,
+        "count": 1
+    },
+    {
+        "city": "Batavia",
+        "state": "Ohio",
+        "lat": 39.096,
+        "lon": -84.145,
+        "population": 35908,
+        "count": 1
+    },
+    {
+        "city": "Battle Creek",
+        "state": "Michigan",
+        "lat": 42.317,
+        "lon": -85.18475,
+        "population": 91345,
+        "count": 4
+    },
+    {
+        "city": "Bay City",
+        "state": "Michigan",
+        "lat": 43.5955,
+        "lon": -83.91550000000001,
+        "population": 65039,
+        "count": 2
+    },
+    {
+        "city": "Beachwood",
+        "state": "Ohio",
+        "lat": 41.47,
+        "lon": -81.523,
+        "population": 36522,
+        "count": 1
+    },
+    {
+        "city": "Beaver Dam",
+        "state": "Wisconsin",
+        "lat": 43.462,
+        "lon": -88.841,
+        "population": 23045,
+        "count": 1
+    },
+    {
+        "city": "Bedford",
+        "state": "Indiana",
+        "lat": 38.873,
+        "lon": -86.487,
+        "population": 27661,
+        "count": 1
+    },
+    {
+        "city": "Bedford",
+        "state": "Ohio",
+        "lat": 41.392,
+        "lon": -81.523,
+        "population": 29632,
+        "count": 1
+    },
+    {
+        "city": "Belleville",
+        "state": "Illinois",
+        "lat": 38.5335,
+        "lon": -89.99549999999999,
+        "population": 94598,
+        "count": 4
+    },
+    {
+        "city": "Belleville",
+        "state": "Michigan",
+        "lat": 42.195,
+        "lon": -83.485,
+        "population": 44169,
+        "count": 1
+    },
+    {
+        "city": "Bellevue",
+        "state": "Nebraska",
+        "lat": 41.147333333333336,
+        "lon": -95.93466666666666,
+        "population": 67925,
+        "count": 3
+    },
+    {
+        "city": "Beloit",
+        "state": "Wisconsin",
+        "lat": 42.562,
+        "lon": -89.086,
+        "population": 48749,
+        "count": 1
+    },
+    {
+        "city": "Belton",
+        "state": "Missouri",
+        "lat": 38.816,
+        "lon": -94.533,
+        "population": 28611,
+        "count": 1
+    },
+    {
+        "city": "Belvidere",
+        "state": "Illinois",
+        "lat": 42.26,
+        "lon": -88.851,
+        "population": 34227,
+        "count": 1
+    },
+    {
+        "city": "Bemidji",
+        "state": "Minnesota",
+        "lat": 47.572,
+        "lon": -94.801,
+        "population": 34476,
+        "count": 1
+    },
+    {
+        "city": "Bensenville",
+        "state": "Illinois",
+        "lat": 41.95,
+        "lon": -87.945,
+        "population": 20321,
+        "count": 1
+    },
+    {
+        "city": "Benton Harbor",
+        "state": "Michigan",
+        "lat": 42.109,
+        "lon": -86.423,
+        "population": 29985,
+        "count": 1
+    },
+    {
+        "city": "Berwyn",
+        "state": "Illinois",
+        "lat": 41.835,
+        "lon": -87.791,
+        "population": 64659,
+        "count": 1
+    },
+    {
+        "city": "Bethany",
+        "state": "Oklahoma",
+        "lat": 35.504,
+        "lon": -97.64,
+        "population": 21268,
+        "count": 1
+    },
+    {
+        "city": "Bettendorf",
+        "state": "Iowa",
+        "lat": 41.551,
+        "lon": -90.494,
+        "population": 40639,
+        "count": 1
+    },
+    {
+        "city": "Big Lake",
+        "state": "Minnesota",
+        "lat": 45.351,
+        "lon": -93.74,
+        "population": 20894,
+        "count": 1
+    },
+    {
+        "city": "Birmingham",
+        "state": "Michigan",
+        "lat": 42.544,
+        "lon": -83.213,
+        "population": 21738,
+        "count": 1
+    },
+    {
+        "city": "Bismarck",
+        "state": "North Dakota",
+        "lat": 46.79,
+        "lon": -100.74866666666667,
+        "population": 95068,
+        "count": 3
+    },
+    {
+        "city": "Bixby",
+        "state": "Oklahoma",
+        "lat": 35.942,
+        "lon": -95.883,
+        "population": 31190,
+        "count": 1
+    },
+    {
+        "city": "Blacklick",
+        "state": "Ohio",
+        "lat": 40.021,
+        "lon": -82.808,
+        "population": 31002,
+        "count": 1
+    },
+    {
+        "city": "Blanchard",
+        "state": "Oklahoma",
+        "lat": 35.119,
+        "lon": -97.64,
+        "population": 20314,
+        "count": 1
+    },
+    {
+        "city": "Bloomfield Hills",
+        "state": "Michigan",
+        "lat": 42.572,
+        "lon": -83.26566666666666,
+        "population": 49406,
+        "count": 3
+    },
+    {
+        "city": "Bloomingdale",
+        "state": "Illinois",
+        "lat": 41.948,
+        "lon": -88.078,
+        "population": 23647,
+        "count": 1
+    },
+    {
+        "city": "Bloomington",
+        "state": "Illinois",
+        "lat": 40.46266666666667,
+        "lon": -88.99966666666667,
+        "population": 85743,
+        "count": 3
+    },
+    {
+        "city": "Bloomington",
+        "state": "Indiana",
+        "lat": 39.173,
+        "lon": -86.52959999999999,
+        "population": 128608,
+        "count": 5
+    },
+    {
+        "city": "Blue Island",
+        "state": "Illinois",
+        "lat": 41.658,
+        "lon": -87.68,
+        "population": 24959,
+        "count": 1
+    },
+    {
+        "city": "Blue Springs",
+        "state": "Missouri",
+        "lat": 39.015,
+        "lon": -94.286,
+        "population": 59975,
+        "count": 2
+    },
+    {
+        "city": "Bolingbrook",
+        "state": "Illinois",
+        "lat": 41.688500000000005,
+        "lon": -88.1135,
+        "population": 73755,
+        "count": 2
+    },
+    {
+        "city": "Bourbonnais",
+        "state": "Illinois",
+        "lat": 41.166,
+        "lon": -87.879,
+        "population": 28443,
+        "count": 1
+    },
+    {
+        "city": "Bowling Green",
+        "state": "Ohio",
+        "lat": 41.382,
+        "lon": -83.651,
+        "population": 31472,
+        "count": 1
+    },
+    {
+        "city": "Brainerd",
+        "state": "Minnesota",
+        "lat": 46.35,
+        "lon": -94.1,
+        "population": 31347,
+        "count": 1
+    },
+    {
+        "city": "Branson",
+        "state": "Missouri",
+        "lat": 36.669,
+        "lon": -93.248,
+        "population": 27811,
+        "count": 1
+    },
+    {
+        "city": "Brighton",
+        "state": "Michigan",
+        "lat": 42.5535,
+        "lon": -83.762,
+        "population": 48572,
+        "count": 2
+    },
+    {
+        "city": "Broken Arrow",
+        "state": "Oklahoma",
+        "lat": 36.03,
+        "lon": -95.78133333333334,
+        "population": 137119,
+        "count": 3
+    },
+    {
+        "city": "Brookfield",
+        "state": "Wisconsin",
+        "lat": 43.064499999999995,
+        "lon": -88.1225,
+        "population": 44916,
+        "count": 2
+    },
+    {
+        "city": "Brookings",
+        "state": "South Dakota",
+        "lat": 44.306,
+        "lon": -96.791,
+        "population": 23402,
+        "count": 1
+    },
+    {
+        "city": "Brownsburg",
+        "state": "Indiana",
+        "lat": 39.847,
+        "lon": -86.387,
+        "population": 41437,
+        "count": 1
+    },
+    {
+        "city": "Brunswick",
+        "state": "Ohio",
+        "lat": 41.247,
+        "lon": -81.828,
+        "population": 45874,
+        "count": 1
+    },
+    {
+        "city": "Buffalo",
+        "state": "Minnesota",
+        "lat": 45.181,
+        "lon": -93.864,
+        "population": 25268,
+        "count": 1
+    },
+    {
+        "city": "Buffalo Grove",
+        "state": "Illinois",
+        "lat": 42.16,
+        "lon": -87.964,
+        "population": 42867,
+        "count": 1
+    },
+    {
+        "city": "Burbank",
+        "state": "Illinois",
+        "lat": 41.745,
+        "lon": -87.77,
+        "population": 29122,
+        "count": 1
+    },
+    {
+        "city": "Burlington",
+        "state": "Iowa",
+        "lat": 40.809,
+        "lon": -91.117,
+        "population": 27592,
+        "count": 1
+    },
+    {
+        "city": "Burlington",
+        "state": "Wisconsin",
+        "lat": 42.666,
+        "lon": -88.275,
+        "population": 29217,
+        "count": 1
+    },
+    {
+        "city": "Burnsville",
+        "state": "Minnesota",
+        "lat": 44.746,
+        "lon": -93.2835,
+        "population": 64075,
+        "count": 2
+    },
+    {
+        "city": "Burton",
+        "state": "Michigan",
+        "lat": 42.99533333333333,
+        "lon": -83.627,
+        "population": 26095,
+        "count": 3
+    },
+    {
+        "city": "Byron Center",
+        "state": "Michigan",
+        "lat": 42.802,
+        "lon": -85.714,
+        "population": 25397,
+        "count": 1
+    },
+    {
+        "city": "Cadillac",
+        "state": "Michigan",
+        "lat": 44.25,
+        "lon": -85.43,
+        "population": 22300,
+        "count": 1
+    },
+    {
+        "city": "Caledonia",
+        "state": "Michigan",
+        "lat": 42.819,
+        "lon": -85.524,
+        "population": 25291,
+        "count": 1
+    },
+    {
+        "city": "Calumet City",
+        "state": "Illinois",
+        "lat": 41.615,
+        "lon": -87.548,
+        "population": 35708,
+        "count": 1
+    },
+    {
+        "city": "Canal Winchester",
+        "state": "Ohio",
+        "lat": 39.835,
+        "lon": -82.804,
+        "population": 38235,
+        "count": 1
+    },
+    {
+        "city": "Canfield",
+        "state": "Ohio",
+        "lat": 41.029,
+        "lon": -80.756,
+        "population": 22101,
+        "count": 1
+    },
+    {
+        "city": "Canton",
+        "state": "Michigan",
+        "lat": 42.311499999999995,
+        "lon": -83.4675,
+        "population": 98251,
+        "count": 2
+    },
+    {
+        "city": "Canton",
+        "state": "Ohio",
+        "lat": 40.8165,
+        "lon": -81.3845,
+        "population": 140117,
+        "count": 10
+    },
+    {
+        "city": "Cape Girardeau",
+        "state": "Missouri",
+        "lat": 37.311499999999995,
+        "lon": -89.53200000000001,
+        "population": 46676,
+        "count": 2
+    },
+    {
+        "city": "Carbondale",
+        "state": "Illinois",
+        "lat": 37.72,
+        "lon": -89.216,
+        "population": 23178,
+        "count": 1
+    },
+    {
+        "city": "Carmel",
+        "state": "Indiana",
+        "lat": 39.9725,
+        "lon": -86.1035,
+        "population": 91109,
+        "count": 2
+    },
+    {
+        "city": "Carol Stream",
+        "state": "Illinois",
+        "lat": 41.918,
+        "lon": -88.137,
+        "population": 42219,
+        "count": 1
+    },
+    {
+        "city": "Carpentersville",
+        "state": "Illinois",
+        "lat": 42.123,
+        "lon": -88.261,
+        "population": 39383,
+        "count": 1
+    },
+    {
+        "city": "Carthage",
+        "state": "Missouri",
+        "lat": 37.16,
+        "lon": -94.311,
+        "population": 25464,
+        "count": 1
+    },
+    {
+        "city": "Cary",
+        "state": "Illinois",
+        "lat": 42.22,
+        "lon": -88.243,
+        "population": 26266,
+        "count": 1
+    },
+    {
+        "city": "Cedar Falls",
+        "state": "Iowa",
+        "lat": 42.524,
+        "lon": -92.45,
+        "population": 43732,
+        "count": 1
+    },
+    {
+        "city": "Cedar Rapids",
+        "state": "Iowa",
+        "lat": 41.99679999999999,
+        "lon": -91.6816,
+        "population": 142773,
+        "count": 5
+    },
+    {
+        "city": "Chagrin Falls",
+        "state": "Ohio",
+        "lat": 41.418,
+        "lon": -81.3675,
+        "population": 35344,
+        "count": 2
+    },
+    {
+        "city": "Champaign",
+        "state": "Illinois",
+        "lat": 40.11666666666667,
+        "lon": -88.26833333333333,
+        "population": 95129,
+        "count": 3
+    },
+    {
+        "city": "Champlin",
+        "state": "Minnesota",
+        "lat": 45.17,
+        "lon": -93.382,
+        "population": 23666,
+        "count": 1
+    },
+    {
+        "city": "Chanhassen",
+        "state": "Minnesota",
+        "lat": 44.868,
+        "lon": -93.536,
+        "population": 21959,
+        "count": 1
+    },
+    {
+        "city": "Chardon",
+        "state": "Ohio",
+        "lat": 41.572,
+        "lon": -81.206,
+        "population": 24558,
+        "count": 1
+    },
+    {
+        "city": "Charleston",
+        "state": "Illinois",
+        "lat": 39.487,
+        "lon": -88.176,
+        "population": 20923,
+        "count": 1
+    },
+    {
+        "city": "Charlotte",
+        "state": "Michigan",
+        "lat": 42.57,
+        "lon": -84.835,
+        "population": 20165,
+        "count": 1
+    },
+    {
+        "city": "Chaska",
+        "state": "Minnesota",
+        "lat": 44.806,
+        "lon": -93.608,
+        "population": 29647,
+        "count": 1
+    },
+    {
+        "city": "Chesterfield",
+        "state": "Missouri",
+        "lat": 38.6405,
+        "lon": -90.575,
+        "population": 62420,
+        "count": 2
+    },
+    {
+        "city": "Chesterton",
+        "state": "Indiana",
+        "lat": 41.614,
+        "lon": -87.047,
+        "population": 27204,
+        "count": 1
+    },
+    {
+        "city": "Chicago Heights",
+        "state": "Illinois",
+        "lat": 41.509,
+        "lon": -87.59,
+        "population": 53222,
+        "count": 1
+    },
+    {
+        "city": "Chickasha",
+        "state": "Oklahoma",
+        "lat": 35.027,
+        "lon": -97.952,
+        "population": 20373,
+        "count": 1
+    },
+    {
+        "city": "Chillicothe",
+        "state": "Ohio",
+        "lat": 39.338,
+        "lon": -82.99,
+        "population": 56300,
+        "count": 1
+    },
+    {
+        "city": "Chippewa Falls",
+        "state": "Wisconsin",
+        "lat": 44.937,
+        "lon": -91.393,
+        "population": 34192,
+        "count": 1
+    },
+    {
+        "city": "Choctaw",
+        "state": "Oklahoma",
+        "lat": 35.472,
+        "lon": -97.273,
+        "population": 25295,
+        "count": 1
+    },
+    {
+        "city": "Cicero",
+        "state": "Illinois",
+        "lat": 41.838,
+        "lon": -87.76,
+        "population": 84189,
+        "count": 1
+    },
+    {
+        "city": "Cincinnati",
+        "state": "Ohio",
+        "lat": 39.183,
+        "lon": -84.52263636363637,
+        "population": 344420,
+        "count": 11
+    },
+    {
+        "city": "Circle Pines",
+        "state": "Minnesota",
+        "lat": 45.153,
+        "lon": -93.144,
+        "population": 28740,
+        "count": 1
+    },
+    {
+        "city": "Circleville",
+        "state": "Ohio",
+        "lat": 39.599,
+        "lon": -82.93,
+        "population": 24365,
+        "count": 1
+    },
+    {
+        "city": "Claremore",
+        "state": "Oklahoma",
+        "lat": 36.302499999999995,
+        "lon": -95.601,
+        "population": 49276,
+        "count": 2
+    },
+    {
+        "city": "Clarkston",
+        "state": "Michigan",
+        "lat": 42.742,
+        "lon": -83.4135,
+        "population": 48031,
+        "count": 2
+    },
+    {
+        "city": "Cleveland",
+        "state": "Ohio",
+        "lat": 41.45736363636364,
+        "lon": -81.64681818181818,
+        "population": 420913,
+        "count": 11
+    },
+    {
+        "city": "Clinton",
+        "state": "Iowa",
+        "lat": 41.852,
+        "lon": -90.208,
+        "population": 25984,
+        "count": 1
+    },
+    {
+        "city": "Clinton Township",
+        "state": "Michigan",
+        "lat": 42.58866666666667,
+        "lon": -82.93033333333334,
+        "population": 100139,
+        "count": 3
+    },
+    {
+        "city": "Clio",
+        "state": "Michigan",
+        "lat": 43.178,
+        "lon": -83.725,
+        "population": 21019,
+        "count": 1
+    },
+    {
+        "city": "Coldwater",
+        "state": "Michigan",
+        "lat": 41.926,
+        "lon": -85.006,
+        "population": 24990,
+        "count": 1
+    },
+    {
+        "city": "Collinsville",
+        "state": "Illinois",
+        "lat": 38.684,
+        "lon": -89.985,
+        "population": 32491,
+        "count": 1
+    },
+    {
+        "city": "Collinsville",
+        "state": "Oklahoma",
+        "lat": 36.37,
+        "lon": -95.847,
+        "population": 22698,
+        "count": 1
+    },
+    {
+        "city": "Columbia",
+        "state": "Missouri",
+        "lat": 38.955999999999996,
+        "lon": -92.32666666666667,
+        "population": 155986,
+        "count": 3
+    },
+    {
+        "city": "Columbia City",
+        "state": "Indiana",
+        "lat": 41.162,
+        "lon": -85.474,
+        "population": 23463,
+        "count": 1
+    },
+    {
+        "city": "Columbus",
+        "state": "Indiana",
+        "lat": 39.218,
+        "lon": -85.90899999999999,
+        "population": 73220,
+        "count": 2
+    },
+    {
+        "city": "Columbus",
+        "state": "Nebraska",
+        "lat": 41.43,
+        "lon": -97.368,
+        "population": 30224,
+        "count": 1
+    },
+    {
+        "city": "Columbus",
+        "state": "Ohio",
+        "lat": 40.00054545454546,
+        "lon": -82.97681818181819,
+        "population": 502926,
+        "count": 11
+    },
+    {
+        "city": "Commerce Township",
+        "state": "Michigan",
+        "lat": 42.583,
+        "lon": -83.501,
+        "population": 23765,
+        "count": 1
+    },
+    {
+        "city": "Connersville",
+        "state": "Indiana",
+        "lat": 39.644,
+        "lon": -85.146,
+        "population": 22714,
+        "count": 1
+    },
+    {
+        "city": "Coralville",
+        "state": "Iowa",
+        "lat": 41.694,
+        "lon": -91.591,
+        "population": 22494,
+        "count": 1
+    },
+    {
+        "city": "Cottage Grove",
+        "state": "Minnesota",
+        "lat": 44.831,
+        "lon": -92.939,
+        "population": 38842,
+        "count": 1
+    },
+    {
+        "city": "Council Bluffs",
+        "state": "Iowa",
+        "lat": 41.247,
+        "lon": -95.85,
+        "population": 72481,
+        "count": 2
+    },
+    {
+        "city": "Crawfordsville",
+        "state": "Indiana",
+        "lat": 40.032,
+        "lon": -86.907,
+        "population": 28319,
+        "count": 1
+    },
+    {
+        "city": "Crown Point",
+        "state": "Indiana",
+        "lat": 41.424,
+        "lon": -87.356,
+        "population": 71355,
+        "count": 1
+    },
+    {
+        "city": "Crystal Lake",
+        "state": "Illinois",
+        "lat": 42.2485,
+        "lon": -88.3265,
+        "population": 60304,
+        "count": 2
+    },
+    {
+        "city": "Cuyahoga Falls",
+        "state": "Ohio",
+        "lat": 41.143,
+        "lon": -81.495,
+        "population": 48065,
+        "count": 2
+    },
+    {
+        "city": "Danville",
+        "state": "Illinois",
+        "lat": 40.1485,
+        "lon": -87.64750000000001,
+        "population": 40912,
+        "count": 2
+    },
+    {
+        "city": "Darien",
+        "state": "Illinois",
+        "lat": 41.743,
+        "lon": -87.98,
+        "population": 22997,
+        "count": 1
+    },
+    {
+        "city": "Davenport",
+        "state": "Iowa",
+        "lat": 41.5456,
+        "lon": -90.5862,
+        "population": 102466,
+        "count": 5
+    },
+    {
+        "city": "Davison",
+        "state": "Michigan",
+        "lat": 43.035,
+        "lon": -83.527,
+        "population": 33601,
+        "count": 1
+    },
+    {
+        "city": "Dayton",
+        "state": "Ohio",
+        "lat": 39.73390909090909,
+        "lon": -84.16563636363637,
+        "population": 302148,
+        "count": 11
+    },
+    {
+        "city": "De Pere",
+        "state": "Wisconsin",
+        "lat": 44.439,
+        "lon": -88.081,
+        "population": 48796,
+        "count": 1
+    },
+    {
+        "city": "De Soto",
+        "state": "Missouri",
+        "lat": 38.12,
+        "lon": -90.555,
+        "population": 20282,
+        "count": 1
+    },
+    {
+        "city": "Dearborn",
+        "state": "Michigan",
+        "lat": 42.317750000000004,
+        "lon": -83.22,
+        "population": 108414,
+        "count": 4
+    },
+    {
+        "city": "Dearborn Heights",
+        "state": "Michigan",
+        "lat": 42.306,
+        "lon": -83.2735,
+        "population": 62474,
+        "count": 2
+    },
+    {
+        "city": "Decatur",
+        "state": "Illinois",
+        "lat": 39.847,
+        "lon": -88.95666666666666,
+        "population": 79035,
+        "count": 3
+    },
+    {
+        "city": "Deerfield",
+        "state": "Illinois",
+        "lat": 42.17,
+        "lon": -87.859,
+        "population": 27835,
+        "count": 1
+    },
+    {
+        "city": "Defiance",
+        "state": "Ohio",
+        "lat": 41.28,
+        "lon": -84.363,
+        "population": 28435,
+        "count": 1
+    },
+    {
+        "city": "Dekalb",
+        "state": "Illinois",
+        "lat": 41.901,
+        "lon": -88.755,
+        "population": 42456,
+        "count": 1
+    },
+    {
+        "city": "Delaware",
+        "state": "Ohio",
+        "lat": 40.293,
+        "lon": -83.072,
+        "population": 57745,
+        "count": 1
+    },
+    {
+        "city": "Derby",
+        "state": "Kansas",
+        "lat": 37.553,
+        "lon": -97.255,
+        "population": 29459,
+        "count": 1
+    },
+    {
+        "city": "Des Moines",
+        "state": "Iowa",
+        "lat": 41.59136363636364,
+        "lon": -93.6260909090909,
+        "population": 221145,
+        "count": 11
+    },
+    {
+        "city": "Des Plaines",
+        "state": "Illinois",
+        "lat": 42.031499999999994,
+        "lon": -87.8775,
+        "population": 90808,
+        "count": 2
+    },
+    {
+        "city": "Detroit",
+        "state": "Michigan",
+        "lat": 42.394363636363636,
+        "lon": -83.13318181818182,
+        "population": 407037,
+        "count": 11
+    },
+    {
+        "city": "Dickinson",
+        "state": "North Dakota",
+        "lat": 46.806,
+        "lon": -102.756,
+        "population": 29309,
+        "count": 1
+    },
+    {
+        "city": "Dixon",
+        "state": "Illinois",
+        "lat": 41.848,
+        "lon": -89.489,
+        "population": 22593,
+        "count": 1
+    },
+    {
+        "city": "Dodge City",
+        "state": "Kansas",
+        "lat": 37.757,
+        "lon": -100.024,
+        "population": 30935,
+        "count": 1
+    },
+    {
+        "city": "Dolton",
+        "state": "Illinois",
+        "lat": 41.626,
+        "lon": -87.598,
+        "population": 21283,
+        "count": 1
+    },
+    {
+        "city": "Downers Grove",
+        "state": "Illinois",
+        "lat": 41.781499999999994,
+        "lon": -88.015,
+        "population": 57729,
+        "count": 2
+    },
+    {
+        "city": "Dublin",
+        "state": "Ohio",
+        "lat": 40.1035,
+        "lon": -83.1345,
+        "population": 85929,
+        "count": 2
+    },
+    {
+        "city": "Dubuque",
+        "state": "Iowa",
+        "lat": 42.49733333333334,
+        "lon": -90.70100000000001,
+        "population": 74586,
+        "count": 3
+    },
+    {
+        "city": "Duluth",
+        "state": "Minnesota",
+        "lat": 46.79,
+        "lon": -92.14,
+        "population": 115235,
+        "count": 9
+    },
+    {
+        "city": "Duncan",
+        "state": "Oklahoma",
+        "lat": 34.507,
+        "lon": -97.94,
+        "population": 27866,
+        "count": 1
+    },
+    {
+        "city": "Durant",
+        "state": "Oklahoma",
+        "lat": 34.006,
+        "lon": -96.385,
+        "population": 26158,
+        "count": 1
+    },
+    {
+        "city": "Dyer",
+        "state": "Indiana",
+        "lat": 41.492,
+        "lon": -87.511,
+        "population": 23074,
+        "count": 1
+    },
+    {
+        "city": "East Chicago",
+        "state": "Indiana",
+        "lat": 41.635,
+        "lon": -87.463,
+        "population": 26363,
+        "count": 1
+    },
+    {
+        "city": "East Lansing",
+        "state": "Michigan",
+        "lat": 42.7315,
+        "lon": -84.4705,
+        "population": 60568,
+        "count": 2
+    },
+    {
+        "city": "East Liverpool",
+        "state": "Ohio",
+        "lat": 40.677,
+        "lon": -80.601,
+        "population": 21462,
+        "count": 1
+    },
+    {
+        "city": "East Moline",
+        "state": "Illinois",
+        "lat": 41.512,
+        "lon": -90.432,
+        "population": 23239,
+        "count": 1
+    },
+    {
+        "city": "East Peoria",
+        "state": "Illinois",
+        "lat": 40.673,
+        "lon": -89.551,
+        "population": 23447,
+        "count": 1
+    },
+    {
+        "city": "East Saint Louis",
+        "state": "Illinois",
+        "lat": 38.60433333333334,
+        "lon": -90.11966666666666,
+        "population": 43018,
+        "count": 6
+    },
+    {
+        "city": "Eastlake",
+        "state": "Ohio",
+        "lat": 41.659,
+        "lon": -81.444,
+        "population": 32635,
+        "count": 1
+    },
+    {
+        "city": "Eastpointe",
+        "state": "Michigan",
+        "lat": 42.466,
+        "lon": -82.946,
+        "population": 34087,
+        "count": 1
+    },
+    {
+        "city": "Eau Claire",
+        "state": "Wisconsin",
+        "lat": 44.8095,
+        "lon": -91.50200000000001,
+        "population": 85177,
+        "count": 2
+    },
+    {
+        "city": "Eden Prairie",
+        "state": "Minnesota",
+        "lat": 44.856,
+        "lon": -93.45333333333333,
+        "population": 63623,
+        "count": 3
+    },
+    {
+        "city": "Edmond",
+        "state": "Oklahoma",
+        "lat": 35.6614,
+        "lon": -97.48780000000001,
+        "population": 187413,
+        "count": 5
+    },
+    {
+        "city": "Edwardsville",
+        "state": "Illinois",
+        "lat": 38.805,
+        "lon": -89.964,
+        "population": 35947,
+        "count": 1
+    },
+    {
+        "city": "El Reno",
+        "state": "Oklahoma",
+        "lat": 35.534,
+        "lon": -97.959,
+        "population": 20263,
+        "count": 1
+    },
+    {
+        "city": "Elgin",
+        "state": "Illinois",
+        "lat": 42.035,
+        "lon": -88.31833333333333,
+        "population": 124298,
+        "count": 3
+    },
+    {
+        "city": "Elk Grove Village",
+        "state": "Illinois",
+        "lat": 42.008,
+        "lon": -87.993,
+        "population": 32768,
+        "count": 1
+    },
+    {
+        "city": "Elk River",
+        "state": "Minnesota",
+        "lat": 45.314,
+        "lon": -93.581,
+        "population": 44149,
+        "count": 1
+    },
+    {
+        "city": "Elkhart",
+        "state": "Indiana",
+        "lat": 41.67766666666667,
+        "lon": -85.96933333333334,
+        "population": 98952,
+        "count": 3
+    },
+    {
+        "city": "Elkhorn",
+        "state": "Nebraska",
+        "lat": 41.276,
+        "lon": -96.243,
+        "population": 32570,
+        "count": 1
+    },
+    {
+        "city": "Elmhurst",
+        "state": "Illinois",
+        "lat": 41.893,
+        "lon": -87.941,
+        "population": 48032,
+        "count": 1
+    },
+    {
+        "city": "Elmwood Park",
+        "state": "Illinois",
+        "lat": 41.923,
+        "lon": -87.818,
+        "population": 40845,
+        "count": 1
+    },
+    {
+        "city": "Elyria",
+        "state": "Ohio",
+        "lat": 41.372,
+        "lon": -82.105,
+        "population": 62050,
+        "count": 1
+    },
+    {
+        "city": "Emporia",
+        "state": "Kansas",
+        "lat": 38.418,
+        "lon": -96.187,
+        "population": 27416,
+        "count": 1
+    },
+    {
+        "city": "Englewood",
+        "state": "Ohio",
+        "lat": 39.877,
+        "lon": -84.332,
+        "population": 21540,
+        "count": 1
+    },
+    {
+        "city": "Enid",
+        "state": "Oklahoma",
+        "lat": 36.4005,
+        "lon": -97.889,
+        "population": 55049,
+        "count": 2
+    },
+    {
+        "city": "Euclid",
+        "state": "Ohio",
+        "lat": 41.592999999999996,
+        "lon": -81.517,
+        "population": 42606,
+        "count": 3
+    },
+    {
+        "city": "Evanston",
+        "state": "Illinois",
+        "lat": 42.042500000000004,
+        "lon": -87.69,
+        "population": 76990,
+        "count": 2
+    },
+    {
+        "city": "Evansville",
+        "state": "Indiana",
+        "lat": 38.007000000000005,
+        "lon": -87.565875,
+        "population": 182680,
+        "count": 8
+    },
+    {
+        "city": "Fairborn",
+        "state": "Ohio",
+        "lat": 39.805,
+        "lon": -84.02,
+        "population": 40623,
+        "count": 1
+    },
+    {
+        "city": "Fairfield",
+        "state": "Ohio",
+        "lat": 39.327,
+        "lon": -84.548,
+        "population": 46023,
+        "count": 1
+    },
+    {
+        "city": "Fargo",
+        "state": "North Dakota",
+        "lat": 46.85666666666666,
+        "lon": -96.82799999999999,
+        "population": 126998,
+        "count": 3
+    },
+    {
+        "city": "Faribault",
+        "state": "Minnesota",
+        "lat": 44.294,
+        "lon": -93.282,
+        "population": 30973,
+        "count": 1
+    },
+    {
+        "city": "Farmington",
+        "state": "Michigan",
+        "lat": 42.484750000000005,
+        "lon": -83.381,
+        "population": 92753,
+        "count": 4
+    },
+    {
+        "city": "Farmington",
+        "state": "Minnesota",
+        "lat": 44.663,
+        "lon": -93.154,
+        "population": 36697,
+        "count": 1
+    },
+    {
+        "city": "Farmington",
+        "state": "Missouri",
+        "lat": 37.777,
+        "lon": -90.409,
+        "population": 29073,
+        "count": 1
+    },
+    {
+        "city": "Fenton",
+        "state": "Michigan",
+        "lat": 42.785,
+        "lon": -83.729,
+        "population": 38929,
+        "count": 1
+    },
+    {
+        "city": "Fenton",
+        "state": "Missouri",
+        "lat": 38.502,
+        "lon": -90.468,
+        "population": 44824,
+        "count": 1
+    },
+    {
+        "city": "Ferndale",
+        "state": "Michigan",
+        "lat": 42.459,
+        "lon": -83.136,
+        "population": 21664,
+        "count": 1
+    },
+    {
+        "city": "Festus",
+        "state": "Missouri",
+        "lat": 38.188,
+        "lon": -90.429,
+        "population": 28276,
+        "count": 1
+    },
+    {
+        "city": "Findlay",
+        "state": "Ohio",
+        "lat": 41.045,
+        "lon": -83.646,
+        "population": 54557,
+        "count": 1
+    },
+    {
+        "city": "Fishers",
+        "state": "Indiana",
+        "lat": 39.957,
+        "lon": -85.9915,
+        "population": 89970,
+        "count": 2
+    },
+    {
+        "city": "Flat Rock",
+        "state": "Michigan",
+        "lat": 42.106,
+        "lon": -83.28,
+        "population": 24114,
+        "count": 1
+    },
+    {
+        "city": "Flint",
+        "state": "Michigan",
+        "lat": 43.03183333333334,
+        "lon": -83.71816666666666,
+        "population": 139366,
+        "count": 6
+    },
+    {
+        "city": "Florissant",
+        "state": "Missouri",
+        "lat": 38.812000000000005,
+        "lon": -90.30566666666668,
+        "population": 110636,
+        "count": 3
+    },
+    {
+        "city": "Flushing",
+        "state": "Michigan",
+        "lat": 43.072,
+        "lon": -83.842,
+        "population": 25824,
+        "count": 1
+    },
+    {
+        "city": "Fond Du Lac",
+        "state": "Wisconsin",
+        "lat": 43.7695,
+        "lon": -88.5205,
+        "population": 63527,
+        "count": 2
+    },
+    {
+        "city": "Forest Lake",
+        "state": "Minnesota",
+        "lat": 45.268,
+        "lon": -92.975,
+        "population": 25732,
+        "count": 1
+    },
+    {
+        "city": "Fort Dodge",
+        "state": "Iowa",
+        "lat": 42.509,
+        "lon": -94.181,
+        "population": 28530,
+        "count": 1
+    },
+    {
+        "city": "Fort Wayne",
+        "state": "Indiana",
+        "lat": 41.09854545454545,
+        "lon": -85.14854545454546,
+        "population": 274224,
+        "count": 11
+    },
+    {
+        "city": "Frankfort",
+        "state": "Illinois",
+        "lat": 41.509,
+        "lon": -87.825,
+        "population": 32596,
+        "count": 1
+    },
+    {
+        "city": "Frankfort",
+        "state": "Indiana",
+        "lat": 40.304,
+        "lon": -86.469,
+        "population": 23188,
+        "count": 1
+    },
+    {
+        "city": "Franklin",
+        "state": "Indiana",
+        "lat": 39.485,
+        "lon": -86.061,
+        "population": 34801,
+        "count": 1
+    },
+    {
+        "city": "Franklin",
+        "state": "Ohio",
+        "lat": 39.536,
+        "lon": -84.303,
+        "population": 31739,
+        "count": 1
+    },
+    {
+        "city": "Franklin",
+        "state": "Wisconsin",
+        "lat": 42.902,
+        "lon": -88.009,
+        "population": 36094,
+        "count": 1
+    },
+    {
+        "city": "Freeport",
+        "state": "Illinois",
+        "lat": 42.299,
+        "lon": -89.634,
+        "population": 29359,
+        "count": 1
+    },
+    {
+        "city": "Fremont",
+        "state": "Nebraska",
+        "lat": 41.442,
+        "lon": -96.494,
+        "population": 31304,
+        "count": 1
+    },
+    {
+        "city": "Fremont",
+        "state": "Ohio",
+        "lat": 41.35,
+        "lon": -83.118,
+        "population": 29304,
+        "count": 1
+    },
+    {
+        "city": "Fulton",
+        "state": "Missouri",
+        "lat": 38.852,
+        "lon": -91.96,
+        "population": 21172,
+        "count": 1
+    },
+    {
+        "city": "Galesburg",
+        "state": "Illinois",
+        "lat": 40.952,
+        "lon": -90.37,
+        "population": 30809,
+        "count": 1
+    },
+    {
+        "city": "Galloway",
+        "state": "Ohio",
+        "lat": 39.937,
+        "lon": -83.184,
+        "population": 29409,
+        "count": 1
+    },
+    {
+        "city": "Garden City",
+        "state": "Kansas",
+        "lat": 37.977,
+        "lon": -100.862,
+        "population": 34584,
+        "count": 1
+    },
+    {
+        "city": "Garden City",
+        "state": "Michigan",
+        "lat": 42.324,
+        "lon": -83.34,
+        "population": 27203,
+        "count": 1
+    },
+    {
+        "city": "Gardner",
+        "state": "Kansas",
+        "lat": 38.808,
+        "lon": -94.916,
+        "population": 25625,
+        "count": 1
+    },
+    {
+        "city": "Gary",
+        "state": "Indiana",
+        "lat": 41.57785714285715,
+        "lon": -87.34242857142856,
+        "population": 73872,
+        "count": 7
+    },
+    {
+        "city": "Gaylord",
+        "state": "Michigan",
+        "lat": 45.012,
+        "lon": -84.672,
+        "population": 20570,
+        "count": 1
+    },
+    {
+        "city": "Geneva",
+        "state": "Illinois",
+        "lat": 41.886,
+        "lon": -88.311,
+        "population": 30938,
+        "count": 1
+    },
+    {
+        "city": "Glen Ellyn",
+        "state": "Illinois",
+        "lat": 41.866,
+        "lon": -88.065,
+        "population": 38945,
+        "count": 1
+    },
+    {
+        "city": "Glendale Heights",
+        "state": "Illinois",
+        "lat": 41.92,
+        "lon": -88.079,
+        "population": 33161,
+        "count": 1
+    },
+    {
+        "city": "Glenview",
+        "state": "Illinois",
+        "lat": 42.073,
+        "lon": -87.805,
+        "population": 55601,
+        "count": 2
+    },
+    {
+        "city": "Goshen",
+        "state": "Indiana",
+        "lat": 41.605000000000004,
+        "lon": -85.8485,
+        "population": 60230,
+        "count": 2
+    },
+    {
+        "city": "Grain Valley",
+        "state": "Missouri",
+        "lat": 39.027,
+        "lon": -94.209,
+        "population": 21330,
+        "count": 1
+    },
+    {
+        "city": "Grand Blanc",
+        "state": "Michigan",
+        "lat": 42.928,
+        "lon": -83.626,
+        "population": 52012,
+        "count": 1
+    },
+    {
+        "city": "Grand Forks",
+        "state": "North Dakota",
+        "lat": 47.914,
+        "lon": -97.056,
+        "population": 58633,
+        "count": 2
+    },
+    {
+        "city": "Grand Haven",
+        "state": "Michigan",
+        "lat": 43.038,
+        "lon": -86.191,
+        "population": 33104,
+        "count": 1
+    },
+    {
+        "city": "Grand Island",
+        "state": "Nebraska",
+        "lat": 40.9255,
+        "lon": -98.364,
+        "population": 56101,
+        "count": 2
+    },
+    {
+        "city": "Grand Rapids",
+        "state": "Michigan",
+        "lat": 42.947545454545455,
+        "lon": -85.63727272727273,
+        "population": 368354,
+        "count": 11
+    },
+    {
+        "city": "Grand Rapids",
+        "state": "Minnesota",
+        "lat": 47.235,
+        "lon": -93.512,
+        "population": 20207,
+        "count": 1
+    },
+    {
+        "city": "Grandview",
+        "state": "Missouri",
+        "lat": 38.882,
+        "lon": -94.52,
+        "population": 25808,
+        "count": 1
+    },
+    {
+        "city": "Grandville",
+        "state": "Michigan",
+        "lat": 42.894,
+        "lon": -85.762,
+        "population": 30419,
+        "count": 1
+    },
+    {
+        "city": "Granger",
+        "state": "Indiana",
+        "lat": 41.743,
+        "lon": -86.141,
+        "population": 31689,
+        "count": 1
+    },
+    {
+        "city": "Granite City",
+        "state": "Illinois",
+        "lat": 38.726,
+        "lon": -90.111,
+        "population": 40716,
+        "count": 1
+    },
+    {
+        "city": "Grayslake",
+        "state": "Illinois",
+        "lat": 42.352,
+        "lon": -88.054,
+        "population": 35978,
+        "count": 1
+    },
+    {
+        "city": "Green Bay",
+        "state": "Wisconsin",
+        "lat": 44.511833333333335,
+        "lon": -88.02283333333332,
+        "population": 186609,
+        "count": 6
+    },
+    {
+        "city": "Greenfield",
+        "state": "Indiana",
+        "lat": 39.79,
+        "lon": -85.814,
+        "population": 41879,
+        "count": 1
+    },
+    {
+        "city": "Greensburg",
+        "state": "Indiana",
+        "lat": 39.3,
+        "lon": -85.492,
+        "population": 21755,
+        "count": 1
+    },
+    {
+        "city": "Greenville",
+        "state": "Ohio",
+        "lat": 40.099,
+        "lon": -84.634,
+        "population": 22027,
+        "count": 1
+    },
+    {
+        "city": "Greenwood",
+        "state": "Indiana",
+        "lat": 39.608999999999995,
+        "lon": -86.14,
+        "population": 92829,
+        "count": 2
+    },
+    {
+        "city": "Grosse Pointe",
+        "state": "Michigan",
+        "lat": 42.406,
+        "lon": -82.912,
+        "population": 48631,
+        "count": 2
+    },
+    {
+        "city": "Grove City",
+        "state": "Ohio",
+        "lat": 39.881,
+        "lon": -83.084,
+        "population": 66365,
+        "count": 1
+    },
+    {
+        "city": "Gurnee",
+        "state": "Illinois",
+        "lat": 42.367,
+        "lon": -87.945,
+        "population": 37202,
+        "count": 1
+    },
+    {
+        "city": "Guthrie",
+        "state": "Oklahoma",
+        "lat": 35.833,
+        "lon": -97.436,
+        "population": 24043,
+        "count": 1
+    },
+    {
+        "city": "Hamilton",
+        "state": "Ohio",
+        "lat": 39.397,
+        "lon": -84.55933333333333,
+        "population": 138151,
+        "count": 3
+    },
+    {
+        "city": "Hammond",
+        "state": "Indiana",
+        "lat": 41.603750000000005,
+        "lon": -87.49375,
+        "population": 69847,
+        "count": 4
+    },
+    {
+        "city": "Hampshire",
+        "state": "Illinois",
+        "lat": 42.081,
+        "lon": -88.517,
+        "population": 21287,
+        "count": 1
+    },
+    {
+        "city": "Hamtramck",
+        "state": "Michigan",
+        "lat": 42.408,
+        "lon": -83.058,
+        "population": 43213,
+        "count": 1
+    },
+    {
+        "city": "Hannibal",
+        "state": "Missouri",
+        "lat": 39.706,
+        "lon": -91.384,
+        "population": 21167,
+        "count": 1
+    },
+    {
+        "city": "Hanover Park",
+        "state": "Illinois",
+        "lat": 42.0,
+        "lon": -88.145,
+        "population": 37222,
+        "count": 1
+    },
+    {
+        "city": "Harrison",
+        "state": "Ohio",
+        "lat": 39.259,
+        "lon": -84.784,
+        "population": 21196,
+        "count": 1
+    },
+    {
+        "city": "Harrison Township",
+        "state": "Michigan",
+        "lat": 42.588,
+        "lon": -82.822,
+        "population": 24259,
+        "count": 1
+    },
+    {
+        "city": "Hartford",
+        "state": "Wisconsin",
+        "lat": 43.316,
+        "lon": -88.371,
+        "population": 23394,
+        "count": 1
+    },
+    {
+        "city": "Hartland",
+        "state": "Wisconsin",
+        "lat": 43.117,
+        "lon": -88.345,
+        "population": 21325,
+        "count": 1
+    },
+    {
+        "city": "Harvey",
+        "state": "Illinois",
+        "lat": 41.61,
+        "lon": -87.653,
+        "population": 23213,
+        "count": 1
+    },
+    {
+        "city": "Harwood Heights",
+        "state": "Illinois",
+        "lat": 41.964,
+        "lon": -87.816,
+        "population": 24233,
+        "count": 1
+    },
+    {
+        "city": "Hastings",
+        "state": "Minnesota",
+        "lat": 44.713,
+        "lon": -92.864,
+        "population": 29454,
+        "count": 1
+    },
+    {
+        "city": "Hastings",
+        "state": "Nebraska",
+        "lat": 40.588,
+        "lon": -98.391,
+        "population": 26307,
+        "count": 1
+    },
+    {
+        "city": "Hays",
+        "state": "Kansas",
+        "lat": 38.878,
+        "lon": -99.335,
+        "population": 24045,
+        "count": 1
+    },
+    {
+        "city": "Highland",
+        "state": "Indiana",
+        "lat": 41.55,
+        "lon": -87.457,
+        "population": 23794,
+        "count": 1
+    },
+    {
+        "city": "Highland Park",
+        "state": "Illinois",
+        "lat": 42.179,
+        "lon": -87.806,
+        "population": 30215,
+        "count": 1
+    },
+    {
+        "city": "Highland Park",
+        "state": "Michigan",
+        "lat": 42.421,
+        "lon": -83.101,
+        "population": 20584,
+        "count": 1
+    },
+    {
+        "city": "Hilliard",
+        "state": "Ohio",
+        "lat": 40.032,
+        "lon": -83.138,
+        "population": 64633,
+        "count": 1
+    },
+    {
+        "city": "Hillsboro",
+        "state": "Ohio",
+        "lat": 39.168,
+        "lon": -83.606,
+        "population": 23399,
+        "count": 1
+    },
+    {
+        "city": "Hobart",
+        "state": "Indiana",
+        "lat": 41.526,
+        "lon": -87.252,
+        "population": 32049,
+        "count": 1
+    },
+    {
+        "city": "Hoffman Estates",
+        "state": "Illinois",
+        "lat": 42.046,
+        "lon": -88.09299999999999,
+        "population": 50446,
+        "count": 2
+    },
+    {
+        "city": "Holland",
+        "state": "Michigan",
+        "lat": 42.7915,
+        "lon": -86.12950000000001,
+        "population": 94960,
+        "count": 2
+    },
+    {
+        "city": "Holly",
+        "state": "Michigan",
+        "lat": 42.79,
+        "lon": -83.613,
+        "population": 22416,
+        "count": 1
+    },
+    {
+        "city": "Holt",
+        "state": "Michigan",
+        "lat": 42.639,
+        "lon": -84.524,
+        "population": 21194,
+        "count": 1
+    },
+    {
+        "city": "Homer Glen",
+        "state": "Illinois",
+        "lat": 41.603,
+        "lon": -87.96,
+        "population": 22779,
+        "count": 1
+    },
+    {
+        "city": "Homewood",
+        "state": "Illinois",
+        "lat": 41.556,
+        "lon": -87.662,
+        "population": 20430,
+        "count": 1
+    },
+    {
+        "city": "Hopkins",
+        "state": "Minnesota",
+        "lat": 44.9335,
+        "lon": -93.4425,
+        "population": 48069,
+        "count": 2
+    },
+    {
+        "city": "Howell",
+        "state": "Michigan",
+        "lat": 42.6515,
+        "lon": -83.9195,
+        "population": 63101,
+        "count": 2
+    },
+    {
+        "city": "Hudson",
+        "state": "Ohio",
+        "lat": 41.246,
+        "lon": -81.437,
+        "population": 26269,
+        "count": 1
+    },
+    {
+        "city": "Hudson",
+        "state": "Wisconsin",
+        "lat": 44.984,
+        "lon": -92.727,
+        "population": 33465,
+        "count": 1
+    },
+    {
+        "city": "Hudsonville",
+        "state": "Michigan",
+        "lat": 42.875,
+        "lon": -85.875,
+        "population": 40410,
+        "count": 1
+    },
+    {
+        "city": "Hugo",
+        "state": "Minnesota",
+        "lat": 45.182,
+        "lon": -92.945,
+        "population": 23764,
+        "count": 1
+    },
+    {
+        "city": "Huntington",
+        "state": "Indiana",
+        "lat": 40.881,
+        "lon": -85.505,
+        "population": 27018,
+        "count": 1
+    },
+    {
+        "city": "Huntley",
+        "state": "Illinois",
+        "lat": 42.176,
+        "lon": -88.427,
+        "population": 29449,
+        "count": 1
+    },
+    {
+        "city": "Hutchinson",
+        "state": "Kansas",
+        "lat": 38.085499999999996,
+        "lon": -97.9125,
+        "population": 48335,
+        "count": 2
+    },
+    {
+        "city": "Imperial",
+        "state": "Missouri",
+        "lat": 38.407,
+        "lon": -90.438,
+        "population": 28716,
+        "count": 1
+    },
+    {
+        "city": "Independence",
+        "state": "Missouri",
+        "lat": 39.094857142857144,
+        "lon": -94.39885714285715,
+        "population": 125126,
+        "count": 7
+    },
+    {
+        "city": "Independence",
+        "state": "Ohio",
+        "lat": 41.381,
+        "lon": -81.664,
+        "population": 20704,
+        "count": 1
+    },
+    {
+        "city": "Indianapolis",
+        "state": "Indiana",
+        "lat": 39.780272727272724,
+        "lon": -86.15554545454546,
+        "population": 449232,
+        "count": 11
+    },
+    {
+        "city": "Indianola",
+        "state": "Iowa",
+        "lat": 41.314,
+        "lon": -93.588,
+        "population": 20364,
+        "count": 1
+    },
+    {
+        "city": "Inkster",
+        "state": "Michigan",
+        "lat": 42.294,
+        "lon": -83.315,
+        "population": 25839,
+        "count": 1
+    },
+    {
+        "city": "Inver Grove Heights",
+        "state": "Minnesota",
+        "lat": 44.828500000000005,
+        "lon": -93.06649999999999,
+        "population": 35681,
+        "count": 2
+    },
+    {
+        "city": "Ionia",
+        "state": "Michigan",
+        "lat": 42.986,
+        "lon": -85.071,
+        "population": 22038,
+        "count": 1
+    },
+    {
+        "city": "Iowa City",
+        "state": "Iowa",
+        "lat": 41.64833333333333,
+        "lon": -91.528,
+        "population": 80903,
+        "count": 3
+    },
+    {
+        "city": "Ironton",
+        "state": "Ohio",
+        "lat": 38.529,
+        "lon": -82.665,
+        "population": 20594,
+        "count": 1
+    },
+    {
+        "city": "Jackson",
+        "state": "Michigan",
+        "lat": 42.248666666666665,
+        "lon": -84.403,
+        "population": 104747,
+        "count": 3
+    },
+    {
+        "city": "Jackson",
+        "state": "Missouri",
+        "lat": 37.388,
+        "lon": -89.652,
+        "population": 27269,
+        "count": 1
+    },
+    {
+        "city": "Jacksonville",
+        "state": "Illinois",
+        "lat": 39.734,
+        "lon": -90.229,
+        "population": 24627,
+        "count": 1
+    },
+    {
+        "city": "Janesville",
+        "state": "Wisconsin",
+        "lat": 42.696333333333335,
+        "lon": -89.057,
+        "population": 73508,
+        "count": 3
+    },
+    {
+        "city": "Jasper",
+        "state": "Indiana",
+        "lat": 38.36,
+        "lon": -86.93,
+        "population": 22186,
+        "count": 1
+    },
+    {
+        "city": "Jefferson City",
+        "state": "Missouri",
+        "lat": 38.561499999999995,
+        "lon": -92.19800000000001,
+        "population": 70335,
+        "count": 2
+    },
+    {
+        "city": "Jeffersonville",
+        "state": "Indiana",
+        "lat": 38.308,
+        "lon": -85.736,
+        "population": 48599,
+        "count": 1
+    },
+    {
+        "city": "Jenison",
+        "state": "Michigan",
+        "lat": 42.91,
+        "lon": -85.828,
+        "population": 27793,
+        "count": 1
+    },
+    {
+        "city": "Jenks",
+        "state": "Oklahoma",
+        "lat": 36.015,
+        "lon": -95.98,
+        "population": 23879,
+        "count": 1
+    },
+    {
+        "city": "Johnston",
+        "state": "Iowa",
+        "lat": 41.673,
+        "lon": -93.703,
+        "population": 23967,
+        "count": 1
+    },
+    {
+        "city": "Joliet",
+        "state": "Illinois",
+        "lat": 41.5108,
+        "lon": -88.068,
+        "population": 130351,
+        "count": 5
+    },
+    {
+        "city": "Joplin",
+        "state": "Missouri",
+        "lat": 37.0715,
+        "lon": -94.5075,
+        "population": 74070,
+        "count": 2
+    },
+    {
+        "city": "Junction City",
+        "state": "Kansas",
+        "lat": 39.03,
+        "lon": -96.84,
+        "population": 25582,
+        "count": 1
+    },
+    {
+        "city": "Kalamazoo",
+        "state": "Michigan",
+        "lat": 42.29742857142857,
+        "lon": -85.59142857142857,
+        "population": 162131,
+        "count": 7
+    },
+    {
+        "city": "Kankakee",
+        "state": "Illinois",
+        "lat": 41.117,
+        "lon": -87.87,
+        "population": 33968,
+        "count": 1
+    },
+    {
+        "city": "Kansas City",
+        "state": "Kansas",
+        "lat": 39.10525,
+        "lon": -94.7065,
+        "population": 157910,
+        "count": 8
+    },
+    {
+        "city": "Kansas City",
+        "state": "Missouri",
+        "lat": 39.113,
+        "lon": -94.55454545454545,
+        "population": 316882,
+        "count": 11
+    },
+    {
+        "city": "Kaukauna",
+        "state": "Wisconsin",
+        "lat": 44.296,
+        "lon": -88.272,
+        "population": 27959,
+        "count": 1
+    },
+    {
+        "city": "Kearney",
+        "state": "Nebraska",
+        "lat": 40.7325,
+        "lon": -99.1035,
+        "population": 38338,
+        "count": 2
+    },
+    {
+        "city": "Kenosha",
+        "state": "Wisconsin",
+        "lat": 42.58225,
+        "lon": -87.8515,
+        "population": 112016,
+        "count": 4
+    },
+    {
+        "city": "Kent",
+        "state": "Ohio",
+        "lat": 41.145,
+        "lon": -81.35,
+        "population": 38208,
+        "count": 1
+    },
+    {
+        "city": "Kirksville",
+        "state": "Missouri",
+        "lat": 40.191,
+        "lon": -92.586,
+        "population": 20924,
+        "count": 1
+    },
+    {
+        "city": "Kokomo",
+        "state": "Indiana",
+        "lat": 40.475,
+        "lon": -86.14,
+        "population": 75526,
+        "count": 2
+    },
+    {
+        "city": "La Crosse",
+        "state": "Wisconsin",
+        "lat": 43.824,
+        "lon": -91.233,
+        "population": 64896,
+        "count": 2
+    },
+    {
+        "city": "La Grange",
+        "state": "Illinois",
+        "lat": 41.784,
+        "lon": -87.869,
+        "population": 31647,
+        "count": 1
+    },
+    {
+        "city": "La Porte",
+        "state": "Indiana",
+        "lat": 41.599,
+        "lon": -86.708,
+        "population": 44923,
+        "count": 1
+    },
+    {
+        "city": "Lafayette",
+        "state": "Indiana",
+        "lat": 40.38366666666666,
+        "lon": -86.87400000000001,
+        "population": 100970,
+        "count": 3
+    },
+    {
+        "city": "Lake Forest",
+        "state": "Illinois",
+        "lat": 42.237,
+        "lon": -87.848,
+        "population": 21159,
+        "count": 1
+    },
+    {
+        "city": "Lake In The Hills",
+        "state": "Illinois",
+        "lat": 42.182,
+        "lon": -88.33,
+        "population": 28958,
+        "count": 1
+    },
+    {
+        "city": "Lake Orion",
+        "state": "Michigan",
+        "lat": 42.74733333333334,
+        "lon": -83.27466666666668,
+        "population": 37305,
+        "count": 3
+    },
+    {
+        "city": "Lake Saint Louis",
+        "state": "Missouri",
+        "lat": 38.794,
+        "lon": -90.785,
+        "population": 27371,
+        "count": 1
+    },
+    {
+        "city": "Lake Villa",
+        "state": "Illinois",
+        "lat": 42.381,
+        "lon": -87.999,
+        "population": 34854,
+        "count": 1
+    },
+    {
+        "city": "Lake Zurich",
+        "state": "Illinois",
+        "lat": 42.216,
+        "lon": -88.077,
+        "population": 43750,
+        "count": 1
+    },
+    {
+        "city": "Lakeville",
+        "state": "Minnesota",
+        "lat": 44.675,
+        "lon": -93.258,
+        "population": 61134,
+        "count": 1
+    },
+    {
+        "city": "Lakewood",
+        "state": "Ohio",
+        "lat": 41.485,
+        "lon": -81.802,
+        "population": 50676,
+        "count": 1
+    },
+    {
+        "city": "Lancaster",
+        "state": "Ohio",
+        "lat": 39.719,
+        "lon": -82.603,
+        "population": 62187,
+        "count": 1
+    },
+    {
+        "city": "Lansing",
+        "state": "Illinois",
+        "lat": 41.566,
+        "lon": -87.545,
+        "population": 29059,
+        "count": 1
+    },
+    {
+        "city": "Lansing",
+        "state": "Michigan",
+        "lat": 42.726499999999994,
+        "lon": -84.567,
+        "population": 158708,
+        "count": 6
+    },
+    {
+        "city": "Lapeer",
+        "state": "Michigan",
+        "lat": 43.058,
+        "lon": -83.333,
+        "population": 30693,
+        "count": 1
+    },
+    {
+        "city": "Lawrence",
+        "state": "Kansas",
+        "lat": 38.96925,
+        "lon": -95.25150000000001,
+        "population": 100082,
+        "count": 4
+    },
+    {
+        "city": "Lawrenceburg",
+        "state": "Indiana",
+        "lat": 39.14,
+        "lon": -84.866,
+        "population": 23301,
+        "count": 1
+    },
+    {
+        "city": "Lawton",
+        "state": "Oklahoma",
+        "lat": 34.61166666666667,
+        "lon": -98.40500000000002,
+        "population": 89715,
+        "count": 3
+    },
+    {
+        "city": "Leavenworth",
+        "state": "Kansas",
+        "lat": 39.302,
+        "lon": -94.934,
+        "population": 35970,
+        "count": 1
+    },
+    {
+        "city": "Leawood",
+        "state": "Kansas",
+        "lat": 38.967,
+        "lon": -94.617,
+        "population": 37239,
+        "count": 3
+    },
+    {
+        "city": "Lebanon",
+        "state": "Indiana",
+        "lat": 40.045,
+        "lon": -86.464,
+        "population": 23443,
+        "count": 1
+    },
+    {
+        "city": "Lebanon",
+        "state": "Missouri",
+        "lat": 37.685,
+        "lon": -92.655,
+        "population": 29974,
+        "count": 1
+    },
+    {
+        "city": "Lebanon",
+        "state": "Ohio",
+        "lat": 39.429,
+        "lon": -84.174,
+        "population": 42346,
+        "count": 1
+    },
+    {
+        "city": "Lees Summit",
+        "state": "Missouri",
+        "lat": 38.9234,
+        "lon": -94.3612,
+        "population": 109293,
+        "count": 5
+    },
+    {
+        "city": "Lemont",
+        "state": "Illinois",
+        "lat": 41.707,
+        "lon": -87.976,
+        "population": 24670,
+        "count": 1
+    },
+    {
+        "city": "Lenexa",
+        "state": "Kansas",
+        "lat": 38.954,
+        "lon": -94.734,
+        "population": 56735,
+        "count": 4
+    },
+    {
+        "city": "Lewis Center",
+        "state": "Ohio",
+        "lat": 40.188,
+        "lon": -82.988,
+        "population": 34661,
+        "count": 1
+    },
+    {
+        "city": "Liberal",
+        "state": "Kansas",
+        "lat": 37.044,
+        "lon": -100.929,
+        "population": 20990,
+        "count": 1
+    },
+    {
+        "city": "Liberty",
+        "state": "Missouri",
+        "lat": 39.246,
+        "lon": -94.419,
+        "population": 37237,
+        "count": 1
+    },
+    {
+        "city": "Libertyville",
+        "state": "Illinois",
+        "lat": 42.281,
+        "lon": -87.95,
+        "population": 29452,
+        "count": 1
+    },
+    {
+        "city": "Lima",
+        "state": "Ohio",
+        "lat": 40.7406,
+        "lon": -84.1188,
+        "population": 83311,
+        "count": 5
+    },
+    {
+        "city": "Lincoln",
+        "state": "Nebraska",
+        "lat": 40.80836363636364,
+        "lon": -96.66672727272727,
+        "population": 257222,
+        "count": 11
+    },
+    {
+        "city": "Lincoln Park",
+        "state": "Michigan",
+        "lat": 42.242,
+        "lon": -83.181,
+        "population": 39807,
+        "count": 1
+    },
+    {
+        "city": "Lisle",
+        "state": "Illinois",
+        "lat": 41.786,
+        "lon": -88.088,
+        "population": 29135,
+        "count": 1
+    },
+    {
+        "city": "Livonia",
+        "state": "Michigan",
+        "lat": 42.394666666666666,
+        "lon": -83.36866666666667,
+        "population": 94928,
+        "count": 3
+    },
+    {
+        "city": "Lockport",
+        "state": "Illinois",
+        "lat": 41.593,
+        "lon": -88.051,
+        "population": 37046,
+        "count": 1
+    },
+    {
+        "city": "Logansport",
+        "state": "Indiana",
+        "lat": 40.76,
+        "lon": -86.36,
+        "population": 28590,
+        "count": 1
+    },
+    {
+        "city": "Lombard",
+        "state": "Illinois",
+        "lat": 41.872,
+        "lon": -88.016,
+        "population": 52598,
+        "count": 1
+    },
+    {
+        "city": "London",
+        "state": "Ohio",
+        "lat": 39.9,
+        "lon": -83.444,
+        "population": 23812,
+        "count": 1
+    },
+    {
+        "city": "Lorain",
+        "state": "Ohio",
+        "lat": 41.442,
+        "lon": -82.17,
+        "population": 69012,
+        "count": 3
+    },
+    {
+        "city": "Loveland",
+        "state": "Ohio",
+        "lat": 39.244,
+        "lon": -84.259,
+        "population": 55364,
+        "count": 1
+    },
+    {
+        "city": "Loves Park",
+        "state": "Illinois",
+        "lat": 42.33,
+        "lon": -89.034,
+        "population": 22756,
+        "count": 1
+    },
+    {
+        "city": "Machesney Park",
+        "state": "Illinois",
+        "lat": 42.354,
+        "lon": -89.04,
+        "population": 22542,
+        "count": 1
+    },
+    {
+        "city": "Macomb",
+        "state": "Michigan",
+        "lat": 42.659,
+        "lon": -82.907,
+        "population": 91418,
+        "count": 2
+    },
+    {
+        "city": "Madison",
+        "state": "Indiana",
+        "lat": 38.765,
+        "lon": -85.407,
+        "population": 23434,
+        "count": 1
+    },
+    {
+        "city": "Madison",
+        "state": "Wisconsin",
+        "lat": 43.07036363636364,
+        "lon": -89.39481818181818,
+        "population": 297661,
+        "count": 11
+    },
+    {
+        "city": "Madison Heights",
+        "state": "Michigan",
+        "lat": 42.502,
+        "lon": -83.103,
+        "population": 28521,
+        "count": 1
+    },
+    {
+        "city": "Maineville",
+        "state": "Ohio",
+        "lat": 39.317,
+        "lon": -84.244,
+        "population": 29112,
+        "count": 1
+    },
+    {
+        "city": "Mandan",
+        "state": "North Dakota",
+        "lat": 46.831,
+        "lon": -100.909,
+        "population": 28814,
+        "count": 1
+    },
+    {
+        "city": "Manhattan",
+        "state": "Kansas",
+        "lat": 39.22,
+        "lon": -96.61,
+        "population": 61206,
+        "count": 2
+    },
+    {
+        "city": "Manitowoc",
+        "state": "Wisconsin",
+        "lat": 44.097,
+        "lon": -87.682,
+        "population": 40562,
+        "count": 1
+    },
+    {
+        "city": "Mankato",
+        "state": "Minnesota",
+        "lat": 44.185500000000005,
+        "lon": -94.04499999999999,
+        "population": 65884,
+        "count": 2
+    },
+    {
+        "city": "Mansfield",
+        "state": "Ohio",
+        "lat": 40.74583333333333,
+        "lon": -82.51766666666667,
+        "population": 93688,
+        "count": 6
+    },
+    {
+        "city": "Maple Grove",
+        "state": "Minnesota",
+        "lat": 45.072,
+        "lon": -93.456,
+        "population": 37797,
+        "count": 1
+    },
+    {
+        "city": "Maple Heights",
+        "state": "Ohio",
+        "lat": 41.41,
+        "lon": -81.56,
+        "population": 23610,
+        "count": 1
+    },
+    {
+        "city": "Marietta",
+        "state": "Ohio",
+        "lat": 39.428,
+        "lon": -81.464,
+        "population": 26250,
+        "count": 1
+    },
+    {
+        "city": "Marion",
+        "state": "Illinois",
+        "lat": 37.726,
+        "lon": -88.929,
+        "population": 27255,
+        "count": 1
+    },
+    {
+        "city": "Marion",
+        "state": "Indiana",
+        "lat": 40.555,
+        "lon": -85.668,
+        "population": 41435,
+        "count": 2
+    },
+    {
+        "city": "Marion",
+        "state": "Iowa",
+        "lat": 42.041,
+        "lon": -91.594,
+        "population": 42803,
+        "count": 1
+    },
+    {
+        "city": "Marion",
+        "state": "Ohio",
+        "lat": 40.588,
+        "lon": -83.127,
+        "population": 55090,
+        "count": 1
+    },
+    {
+        "city": "Marquette",
+        "state": "Michigan",
+        "lat": 46.579,
+        "lon": -87.454,
+        "population": 33075,
+        "count": 1
+    },
+    {
+        "city": "Marshalltown",
+        "state": "Iowa",
+        "lat": 42.04,
+        "lon": -92.913,
+        "population": 31047,
+        "count": 1
+    },
+    {
+        "city": "Marshfield",
+        "state": "Wisconsin",
+        "lat": 44.662,
+        "lon": -90.178,
+        "population": 26149,
+        "count": 1
+    },
+    {
+        "city": "Martinsville",
+        "state": "Indiana",
+        "lat": 39.478,
+        "lon": -86.467,
+        "population": 32564,
+        "count": 1
+    },
+    {
+        "city": "Maryland Heights",
+        "state": "Missouri",
+        "lat": 38.723,
+        "lon": -90.447,
+        "population": 22123,
+        "count": 1
+    },
+    {
+        "city": "Marysville",
+        "state": "Ohio",
+        "lat": 40.248,
+        "lon": -83.362,
+        "population": 36678,
+        "count": 1
+    },
+    {
+        "city": "Mason",
+        "state": "Ohio",
+        "lat": 39.336,
+        "lon": -84.315,
+        "population": 57214,
+        "count": 1
+    },
+    {
+        "city": "Mason City",
+        "state": "Iowa",
+        "lat": 43.15,
+        "lon": -93.195,
+        "population": 28909,
+        "count": 1
+    },
+    {
+        "city": "Massillon",
+        "state": "Ohio",
+        "lat": 40.804,
+        "lon": -81.525,
+        "population": 66317,
+        "count": 2
+    },
+    {
+        "city": "Matteson",
+        "state": "Illinois",
+        "lat": 41.51,
+        "lon": -87.741,
+        "population": 20735,
+        "count": 1
+    },
+    {
+        "city": "Mattoon",
+        "state": "Illinois",
+        "lat": 39.48,
+        "lon": -88.376,
+        "population": 20965,
+        "count": 1
+    },
+    {
+        "city": "Maumee",
+        "state": "Ohio",
+        "lat": 41.582,
+        "lon": -83.663,
+        "population": 29859,
+        "count": 1
+    },
+    {
+        "city": "Maywood",
+        "state": "Illinois",
+        "lat": 41.879,
+        "lon": -87.843,
+        "population": 23385,
+        "count": 1
+    },
+    {
+        "city": "Mcalester",
+        "state": "Oklahoma",
+        "lat": 34.926,
+        "lon": -95.759,
+        "population": 28740,
+        "count": 1
+    },
+    {
+        "city": "Mchenry",
+        "state": "Illinois",
+        "lat": 42.3425,
+        "lon": -88.2625,
+        "population": 55418,
+        "count": 2
+    },
+    {
+        "city": "Medina",
+        "state": "Ohio",
+        "lat": 41.14,
+        "lon": -81.858,
+        "population": 64186,
+        "count": 1
+    },
+    {
+        "city": "Melrose Park",
+        "state": "Illinois",
+        "lat": 41.9105,
+        "lon": -87.875,
+        "population": 46548,
+        "count": 2
+    },
+    {
+        "city": "Menasha",
+        "state": "Wisconsin",
+        "lat": 44.211,
+        "lon": -88.418,
+        "population": 27042,
+        "count": 1
+    },
+    {
+        "city": "Menomonee Falls",
+        "state": "Wisconsin",
+        "lat": 43.16,
+        "lon": -88.113,
+        "population": 38639,
+        "count": 1
+    },
+    {
+        "city": "Menomonie",
+        "state": "Wisconsin",
+        "lat": 44.872,
+        "lon": -91.926,
+        "population": 25972,
+        "count": 1
+    },
+    {
+        "city": "Mentor",
+        "state": "Ohio",
+        "lat": 41.69,
+        "lon": -81.342,
+        "population": 59932,
+        "count": 1
+    },
+    {
+        "city": "Mequon",
+        "state": "Wisconsin",
+        "lat": 43.241,
+        "lon": -87.99449999999999,
+        "population": 28381,
+        "count": 2
+    },
+    {
+        "city": "Merrillville",
+        "state": "Indiana",
+        "lat": 41.496,
+        "lon": -87.351,
+        "population": 39121,
+        "count": 1
+    },
+    {
+        "city": "Miamisburg",
+        "state": "Ohio",
+        "lat": 39.632,
+        "lon": -84.268,
+        "population": 36127,
+        "count": 1
+    },
+    {
+        "city": "Michigan City",
+        "state": "Indiana",
+        "lat": 41.698,
+        "lon": -86.87,
+        "population": 43891,
+        "count": 1
+    },
+    {
+        "city": "Middleton",
+        "state": "Wisconsin",
+        "lat": 43.105,
+        "lon": -89.507,
+        "population": 29161,
+        "count": 1
+    },
+    {
+        "city": "Middletown",
+        "state": "Ohio",
+        "lat": 39.5235,
+        "lon": -84.394,
+        "population": 82721,
+        "count": 2
+    },
+    {
+        "city": "Midland",
+        "state": "Michigan",
+        "lat": 43.638,
+        "lon": -84.233,
+        "population": 66206,
+        "count": 2
+    },
+    {
+        "city": "Milford",
+        "state": "Michigan",
+        "lat": 42.589,
+        "lon": -83.6215,
+        "population": 21323,
+        "count": 2
+    },
+    {
+        "city": "Milford",
+        "state": "Ohio",
+        "lat": 39.166,
+        "lon": -84.233,
+        "population": 33853,
+        "count": 1
+    },
+    {
+        "city": "Millersburg",
+        "state": "Ohio",
+        "lat": 40.557,
+        "lon": -81.832,
+        "population": 20163,
+        "count": 1
+    },
+    {
+        "city": "Milwaukee",
+        "state": "Wisconsin",
+        "lat": 43.04636363636364,
+        "lon": -87.949,
+        "population": 426704,
+        "count": 11
+    },
+    {
+        "city": "Minnetonka",
+        "state": "Minnesota",
+        "lat": 44.914,
+        "lon": -93.485,
+        "population": 21440,
+        "count": 1
+    },
+    {
+        "city": "Minot",
+        "state": "North Dakota",
+        "lat": 48.28,
+        "lon": -101.307,
+        "population": 55635,
+        "count": 2
+    },
+    {
+        "city": "Mishawaka",
+        "state": "Indiana",
+        "lat": 41.667500000000004,
+        "lon": -86.165,
+        "population": 57817,
+        "count": 2
+    },
+    {
+        "city": "Mission",
+        "state": "Kansas",
+        "lat": 39.028,
+        "lon": -94.656,
+        "population": 30873,
+        "count": 2
+    },
+    {
+        "city": "Mokena",
+        "state": "Illinois",
+        "lat": 41.534,
+        "lon": -87.891,
+        "population": 24626,
+        "count": 1
+    },
+    {
+        "city": "Moline",
+        "state": "Illinois",
+        "lat": 41.491,
+        "lon": -90.498,
+        "population": 44006,
+        "count": 1
+    },
+    {
+        "city": "Monroe",
+        "state": "Michigan",
+        "lat": 41.9185,
+        "lon": -83.45849999999999,
+        "population": 55515,
+        "count": 2
+    },
+    {
+        "city": "Montgomery",
+        "state": "Illinois",
+        "lat": 41.718,
+        "lon": -88.332,
+        "population": 30101,
+        "count": 1
+    },
+    {
+        "city": "Mooresville",
+        "state": "Indiana",
+        "lat": 39.592,
+        "lon": -86.364,
+        "population": 24656,
+        "count": 1
+    },
+    {
+        "city": "Moorhead",
+        "state": "Minnesota",
+        "lat": 46.868,
+        "lon": -96.757,
+        "population": 43860,
+        "count": 1
+    },
+    {
+        "city": "Morris",
+        "state": "Illinois",
+        "lat": 41.367,
+        "lon": -88.418,
+        "population": 20729,
+        "count": 1
+    },
+    {
+        "city": "Morton Grove",
+        "state": "Illinois",
+        "lat": 42.043,
+        "lon": -87.79,
+        "population": 24910,
+        "count": 1
+    },
+    {
+        "city": "Mount Pleasant",
+        "state": "Michigan",
+        "lat": 43.601,
+        "lon": -84.774,
+        "population": 43036,
+        "count": 1
+    },
+    {
+        "city": "Mount Prospect",
+        "state": "Illinois",
+        "lat": 42.062,
+        "lon": -87.938,
+        "population": 56651,
+        "count": 1
+    },
+    {
+        "city": "Mount Vernon",
+        "state": "Illinois",
+        "lat": 38.317,
+        "lon": -88.91,
+        "population": 23253,
+        "count": 1
+    },
+    {
+        "city": "Mount Vernon",
+        "state": "Ohio",
+        "lat": 40.385,
+        "lon": -82.487,
+        "population": 31064,
+        "count": 1
+    },
+    {
+        "city": "Muncie",
+        "state": "Indiana",
+        "lat": 40.199000000000005,
+        "lon": -85.39633333333335,
+        "population": 81236,
+        "count": 3
+    },
+    {
+        "city": "Mundelein",
+        "state": "Illinois",
+        "lat": 42.264,
+        "lon": -88.005,
+        "population": 37131,
+        "count": 1
+    },
+    {
+        "city": "Munster",
+        "state": "Indiana",
+        "lat": 41.554,
+        "lon": -87.501,
+        "population": 23731,
+        "count": 1
+    },
+    {
+        "city": "Muscatine",
+        "state": "Iowa",
+        "lat": 41.43,
+        "lon": -91.051,
+        "population": 30357,
+        "count": 1
+    },
+    {
+        "city": "Muskego",
+        "state": "Wisconsin",
+        "lat": 42.905,
+        "lon": -88.121,
+        "population": 26047,
+        "count": 1
+    },
+    {
+        "city": "Muskegon",
+        "state": "Michigan",
+        "lat": 43.22575,
+        "lon": -86.235,
+        "population": 129706,
+        "count": 4
+    },
+    {
+        "city": "Muskogee",
+        "state": "Oklahoma",
+        "lat": 35.7235,
+        "lon": -95.4225,
+        "population": 45215,
+        "count": 2
+    },
+    {
+        "city": "Mustang",
+        "state": "Oklahoma",
+        "lat": 35.388,
+        "lon": -97.731,
+        "population": 26536,
+        "count": 1
+    },
+    {
+        "city": "Naperville",
+        "state": "Illinois",
+        "lat": 41.74825,
+        "lon": -88.15825,
+        "population": 167232,
+        "count": 4
+    },
+    {
+        "city": "Neenah",
+        "state": "Wisconsin",
+        "lat": 44.181,
+        "lon": -88.479,
+        "population": 46539,
+        "count": 1
+    },
+    {
+        "city": "Neosho",
+        "state": "Missouri",
+        "lat": 36.871,
+        "lon": -94.386,
+        "population": 23931,
+        "count": 1
+    },
+    {
+        "city": "New Albany",
+        "state": "Indiana",
+        "lat": 38.309,
+        "lon": -85.822,
+        "population": 49722,
+        "count": 1
+    },
+    {
+        "city": "New Albany",
+        "state": "Ohio",
+        "lat": 40.085,
+        "lon": -82.799,
+        "population": 28552,
+        "count": 1
+    },
+    {
+        "city": "New Baltimore",
+        "state": "Michigan",
+        "lat": 42.6835,
+        "lon": -82.798,
+        "population": 57518,
+        "count": 2
+    },
+    {
+        "city": "New Berlin",
+        "state": "Wisconsin",
+        "lat": 42.977999999999994,
+        "lon": -88.125,
+        "population": 40253,
+        "count": 2
+    },
+    {
+        "city": "New Castle",
+        "state": "Indiana",
+        "lat": 39.921,
+        "lon": -85.366,
+        "population": 29377,
+        "count": 1
+    },
+    {
+        "city": "New Lenox",
+        "state": "Illinois",
+        "lat": 41.507,
+        "lon": -87.963,
+        "population": 37488,
+        "count": 1
+    },
+    {
+        "city": "New Philadelphia",
+        "state": "Ohio",
+        "lat": 40.484,
+        "lon": -81.436,
+        "population": 24924,
+        "count": 1
+    },
+    {
+        "city": "Newark",
+        "state": "Ohio",
+        "lat": 40.072,
+        "lon": -82.405,
+        "population": 62460,
+        "count": 1
+    },
+    {
+        "city": "Newburgh",
+        "state": "Indiana",
+        "lat": 37.964,
+        "lon": -87.394,
+        "population": 38772,
+        "count": 1
+    },
+    {
+        "city": "Newton",
+        "state": "Iowa",
+        "lat": 41.699,
+        "lon": -93.046,
+        "population": 20339,
+        "count": 1
+    },
+    {
+        "city": "Newton",
+        "state": "Kansas",
+        "lat": 38.045,
+        "lon": -97.344,
+        "population": 21113,
+        "count": 1
+    },
+    {
+        "city": "Niles",
+        "state": "Illinois",
+        "lat": 42.031,
+        "lon": -87.811,
+        "population": 30857,
+        "count": 1
+    },
+    {
+        "city": "Niles",
+        "state": "Michigan",
+        "lat": 41.82,
+        "lon": -86.237,
+        "population": 36792,
+        "count": 1
+    },
+    {
+        "city": "Niles",
+        "state": "Ohio",
+        "lat": 41.182,
+        "lon": -80.756,
+        "population": 20260,
+        "count": 1
+    },
+    {
+        "city": "Nixa",
+        "state": "Missouri",
+        "lat": 37.051,
+        "lon": -93.297,
+        "population": 34681,
+        "count": 1
+    },
+    {
+        "city": "Noblesville",
+        "state": "Indiana",
+        "lat": 40.059,
+        "lon": -86.036,
+        "population": 84531,
+        "count": 2
+    },
+    {
+        "city": "Norfolk",
+        "state": "Nebraska",
+        "lat": 42.033,
+        "lon": -97.423,
+        "population": 31116,
+        "count": 1
+    },
+    {
+        "city": "Normal",
+        "state": "Illinois",
+        "lat": 40.512,
+        "lon": -88.988,
+        "population": 53423,
+        "count": 1
+    },
+    {
+        "city": "Norman",
+        "state": "Oklahoma",
+        "lat": 35.2215,
+        "lon": -97.41,
+        "population": 132039,
+        "count": 4
+    },
+    {
+        "city": "North Canton",
+        "state": "Ohio",
+        "lat": 40.799,
+        "lon": -81.378,
+        "population": 39942,
+        "count": 1
+    },
+    {
+        "city": "North Liberty",
+        "state": "Iowa",
+        "lat": 41.744,
+        "lon": -91.606,
+        "population": 22119,
+        "count": 1
+    },
+    {
+        "city": "North Olmsted",
+        "state": "Ohio",
+        "lat": 41.42,
+        "lon": -81.913,
+        "population": 32244,
+        "count": 1
+    },
+    {
+        "city": "North Platte",
+        "state": "Nebraska",
+        "lat": 41.133,
+        "lon": -100.775,
+        "population": 28136,
+        "count": 1
+    },
+    {
+        "city": "North Ridgeville",
+        "state": "Ohio",
+        "lat": 41.396,
+        "lon": -82.003,
+        "population": 35625,
+        "count": 1
+    },
+    {
+        "city": "North Royalton",
+        "state": "Ohio",
+        "lat": 41.323,
+        "lon": -81.746,
+        "population": 31144,
+        "count": 1
+    },
+    {
+        "city": "North Vernon",
+        "state": "Indiana",
+        "lat": 39.002,
+        "lon": -85.627,
+        "population": 21520,
+        "count": 1
+    },
+    {
+        "city": "Northbrook",
+        "state": "Illinois",
+        "lat": 42.125,
+        "lon": -87.846,
+        "population": 42004,
+        "count": 1
+    },
+    {
+        "city": "Northfield",
+        "state": "Minnesota",
+        "lat": 44.459,
+        "lon": -93.167,
+        "population": 25307,
+        "count": 1
+    },
+    {
+        "city": "Northville",
+        "state": "Michigan",
+        "lat": 42.417500000000004,
+        "lon": -83.4885,
+        "population": 48274,
+        "count": 2
+    },
+    {
+        "city": "Norwalk",
+        "state": "Ohio",
+        "lat": 41.24,
+        "lon": -82.608,
+        "population": 23215,
+        "count": 1
+    },
+    {
+        "city": "Novi",
+        "state": "Michigan",
+        "lat": 42.477666666666664,
+        "lon": -83.48566666666666,
+        "population": 61141,
+        "count": 3
+    },
+    {
+        "city": "O Fallon",
+        "state": "Illinois",
+        "lat": 38.572,
+        "lon": -89.896,
+        "population": 35467,
+        "count": 1
+    },
+    {
+        "city": "O Fallon",
+        "state": "Missouri",
+        "lat": 38.787499999999994,
+        "lon": -90.7365,
+        "population": 98870,
+        "count": 2
+    },
+    {
+        "city": "Oak Creek",
+        "state": "Wisconsin",
+        "lat": 42.889,
+        "lon": -87.903,
+        "population": 36286,
+        "count": 1
+    },
+    {
+        "city": "Oak Forest",
+        "state": "Illinois",
+        "lat": 41.608,
+        "lon": -87.754,
+        "population": 26939,
+        "count": 1
+    },
+    {
+        "city": "Oak Lawn",
+        "state": "Illinois",
+        "lat": 41.714,
+        "lon": -87.752,
+        "population": 57665,
+        "count": 1
+    },
+    {
+        "city": "Oak Park",
+        "state": "Illinois",
+        "lat": 41.882000000000005,
+        "lon": -87.789,
+        "population": 50627,
+        "count": 2
+    },
+    {
+        "city": "Oak Park",
+        "state": "Michigan",
+        "lat": 42.466,
+        "lon": -83.184,
+        "population": 29495,
+        "count": 1
+    },
+    {
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "lat": 43.11,
+        "lon": -88.486,
+        "population": 36973,
+        "count": 1
+    },
+    {
+        "city": "Okemos",
+        "state": "Michigan",
+        "lat": 42.705,
+        "lon": -84.419,
+        "population": 23359,
+        "count": 1
+    },
+    {
+        "city": "Oklahoma City",
+        "state": "Oklahoma",
+        "lat": 35.467727272727274,
+        "lon": -97.56109090909091,
+        "population": 374221,
+        "count": 11
+    },
+    {
+        "city": "Olathe",
+        "state": "Kansas",
+        "lat": 38.8795,
+        "lon": -94.7975,
+        "population": 144209,
+        "count": 2
+    },
+    {
+        "city": "Olmsted Falls",
+        "state": "Ohio",
+        "lat": 41.373,
+        "lon": -81.916,
+        "population": 23149,
+        "count": 1
+    },
+    {
+        "city": "Omaha",
+        "state": "Nebraska",
+        "lat": 41.257636363636365,
+        "lon": -96.065,
+        "population": 310920,
+        "count": 11
+    },
+    {
+        "city": "Onalaska",
+        "state": "Wisconsin",
+        "lat": 43.897,
+        "lon": -91.231,
+        "population": 24590,
+        "count": 1
+    },
+    {
+        "city": "Oregon",
+        "state": "Ohio",
+        "lat": 41.642,
+        "lon": -83.471,
+        "population": 20215,
+        "count": 1
+    },
+    {
+        "city": "Orland Park",
+        "state": "Illinois",
+        "lat": 41.6105,
+        "lon": -87.866,
+        "population": 66103,
+        "count": 2
+    },
+    {
+        "city": "Oshkosh",
+        "state": "Wisconsin",
+        "lat": 44.01566666666667,
+        "lon": -88.55900000000001,
+        "population": 81375,
+        "count": 3
+    },
+    {
+        "city": "Osseo",
+        "state": "Minnesota",
+        "lat": 45.128,
+        "lon": -93.459,
+        "population": 37983,
+        "count": 1
+    },
+    {
+        "city": "Oswego",
+        "state": "Illinois",
+        "lat": 41.685,
+        "lon": -88.345,
+        "population": 40714,
+        "count": 1
+    },
+    {
+        "city": "Ottawa",
+        "state": "Illinois",
+        "lat": 41.353,
+        "lon": -88.842,
+        "population": 24385,
+        "count": 1
+    },
+    {
+        "city": "Ottumwa",
+        "state": "Iowa",
+        "lat": 41.031,
+        "lon": -92.41,
+        "population": 30535,
+        "count": 1
+    },
+    {
+        "city": "Overland Park",
+        "state": "Kansas",
+        "lat": 38.92033333333333,
+        "lon": -94.683,
+        "population": 191839,
+        "count": 9
+    },
+    {
+        "city": "Owasso",
+        "state": "Oklahoma",
+        "lat": 36.286,
+        "lon": -95.822,
+        "population": 48185,
+        "count": 1
+    },
+    {
+        "city": "Owatonna",
+        "state": "Minnesota",
+        "lat": 44.08,
+        "lon": -93.219,
+        "population": 29657,
+        "count": 1
+    },
+    {
+        "city": "Owosso",
+        "state": "Michigan",
+        "lat": 42.993,
+        "lon": -84.16,
+        "population": 27154,
+        "count": 1
+    },
+    {
+        "city": "Oxford",
+        "state": "Michigan",
+        "lat": 42.822,
+        "lon": -83.283,
+        "population": 26098,
+        "count": 1
+    },
+    {
+        "city": "Oxford",
+        "state": "Ohio",
+        "lat": 39.507,
+        "lon": -84.745,
+        "population": 27391,
+        "count": 1
+    },
+    {
+        "city": "Ozark",
+        "state": "Missouri",
+        "lat": 37.017,
+        "lon": -93.202,
+        "population": 33581,
+        "count": 1
+    },
+    {
+        "city": "Painesville",
+        "state": "Ohio",
+        "lat": 41.708,
+        "lon": -81.199,
+        "population": 58369,
+        "count": 1
+    },
+    {
+        "city": "Palatine",
+        "state": "Illinois",
+        "lat": 42.129999999999995,
+        "lon": -88.033,
+        "population": 75602,
+        "count": 2
+    },
+    {
+        "city": "Papillion",
+        "state": "Nebraska",
+        "lat": 41.147000000000006,
+        "lon": -96.025,
+        "population": 46780,
+        "count": 2
+    },
+    {
+        "city": "Park Forest",
+        "state": "Illinois",
+        "lat": 41.479,
+        "lon": -87.683,
+        "population": 21243,
+        "count": 1
+    },
+    {
+        "city": "Park Ridge",
+        "state": "Illinois",
+        "lat": 42.012,
+        "lon": -87.842,
+        "population": 39332,
+        "count": 1
+    },
+    {
+        "city": "Pataskala",
+        "state": "Ohio",
+        "lat": 40.001,
+        "lon": -82.669,
+        "population": 31566,
+        "count": 1
+    },
+    {
+        "city": "Pekin",
+        "state": "Illinois",
+        "lat": 40.567,
+        "lon": -89.624,
+        "population": 40775,
+        "count": 1
+    },
+    {
+        "city": "Peoria",
+        "state": "Illinois",
+        "lat": 40.70957142857143,
+        "lon": -89.62642857142858,
+        "population": 127105,
+        "count": 7
+    },
+    {
+        "city": "Perrysburg",
+        "state": "Ohio",
+        "lat": 41.543,
+        "lon": -83.593,
+        "population": 42914,
+        "count": 1
+    },
+    {
+        "city": "Peru",
+        "state": "Indiana",
+        "lat": 40.749,
+        "lon": -86.068,
+        "population": 23363,
+        "count": 1
+    },
+    {
+        "city": "Pewaukee",
+        "state": "Wisconsin",
+        "lat": 43.079,
+        "lon": -88.273,
+        "population": 26653,
+        "count": 1
+    },
+    {
+        "city": "Pickerington",
+        "state": "Ohio",
+        "lat": 39.906,
+        "lon": -82.756,
+        "population": 46058,
+        "count": 1
+    },
+    {
+        "city": "Pinckney",
+        "state": "Michigan",
+        "lat": 42.46,
+        "lon": -83.91,
+        "population": 21210,
+        "count": 1
+    },
+    {
+        "city": "Piqua",
+        "state": "Ohio",
+        "lat": 40.149,
+        "lon": -84.253,
+        "population": 24926,
+        "count": 1
+    },
+    {
+        "city": "Pittsburg",
+        "state": "Kansas",
+        "lat": 37.395,
+        "lon": -94.71,
+        "population": 25006,
+        "count": 1
+    },
+    {
+        "city": "Plainfield",
+        "state": "Illinois",
+        "lat": 41.607,
+        "lon": -88.21233333333333,
+        "population": 100856,
+        "count": 3
+    },
+    {
+        "city": "Plainfield",
+        "state": "Indiana",
+        "lat": 39.689,
+        "lon": -86.392,
+        "population": 38284,
+        "count": 1
+    },
+    {
+        "city": "Plymouth",
+        "state": "Indiana",
+        "lat": 41.353,
+        "lon": -86.302,
+        "population": 23675,
+        "count": 1
+    },
+    {
+        "city": "Plymouth",
+        "state": "Michigan",
+        "lat": 42.369,
+        "lon": -83.48,
+        "population": 40675,
+        "count": 1
+    },
+    {
+        "city": "Ponca City",
+        "state": "Oklahoma",
+        "lat": 36.716499999999996,
+        "lon": -97.0615,
+        "population": 31335,
+        "count": 2
+    },
+    {
+        "city": "Pontiac",
+        "state": "Michigan",
+        "lat": 42.647,
+        "lon": -83.29066666666667,
+        "population": 62051,
+        "count": 3
+    },
+    {
+        "city": "Poplar Bluff",
+        "state": "Missouri",
+        "lat": 36.766,
+        "lon": -90.417,
+        "population": 34545,
+        "count": 1
+    },
+    {
+        "city": "Port Huron",
+        "state": "Michigan",
+        "lat": 42.996,
+        "lon": -82.46,
+        "population": 39644,
+        "count": 1
+    },
+    {
+        "city": "Portage",
+        "state": "Indiana",
+        "lat": 41.567,
+        "lon": -87.176,
+        "population": 39947,
+        "count": 1
+    },
+    {
+        "city": "Portage",
+        "state": "Michigan",
+        "lat": 42.1955,
+        "lon": -85.5915,
+        "population": 50514,
+        "count": 2
+    },
+    {
+        "city": "Portsmouth",
+        "state": "Ohio",
+        "lat": 38.793,
+        "lon": -82.931,
+        "population": 27304,
+        "count": 1
+    },
+    {
+        "city": "Powell",
+        "state": "Ohio",
+        "lat": 40.183,
+        "lon": -83.091,
+        "population": 45067,
+        "count": 1
+    },
+    {
+        "city": "Prairie Village",
+        "state": "Kansas",
+        "lat": 38.992,
+        "lon": -94.634,
+        "population": 21609,
+        "count": 1
+    },
+    {
+        "city": "Prior Lake",
+        "state": "Minnesota",
+        "lat": 44.711,
+        "lon": -93.41,
+        "population": 34184,
+        "count": 1
+    },
+    {
+        "city": "Quincy",
+        "state": "Illinois",
+        "lat": 39.945499999999996,
+        "lon": -91.3395,
+        "population": 50417,
+        "count": 2
+    },
+    {
+        "city": "Racine",
+        "state": "Wisconsin",
+        "lat": 42.7324,
+        "lon": -87.816,
+        "population": 128457,
+        "count": 5
+    },
+    {
+        "city": "Rapid City",
+        "state": "South Dakota",
+        "lat": 44.064666666666675,
+        "lon": -103.24666666666667,
+        "population": 96982,
+        "count": 3
+    },
+    {
+        "city": "Ravenna",
+        "state": "Ohio",
+        "lat": 41.165,
+        "lon": -81.234,
+        "population": 32530,
+        "count": 1
+    },
+    {
+        "city": "Raymore",
+        "state": "Missouri",
+        "lat": 38.802,
+        "lon": -94.453,
+        "population": 24733,
+        "count": 1
+    },
+    {
+        "city": "Redford",
+        "state": "Michigan",
+        "lat": 42.400999999999996,
+        "lon": -83.2955,
+        "population": 54286,
+        "count": 2
+    },
+    {
+        "city": "Republic",
+        "state": "Missouri",
+        "lat": 37.123,
+        "lon": -93.48,
+        "population": 20507,
+        "count": 1
+    },
+    {
+        "city": "Reynoldsburg",
+        "state": "Ohio",
+        "lat": 39.955,
+        "lon": -82.804,
+        "population": 58916,
+        "count": 1
+    },
+    {
+        "city": "Rhinelander",
+        "state": "Wisconsin",
+        "lat": 45.704,
+        "lon": -89.387,
+        "population": 21174,
+        "count": 1
+    },
+    {
+        "city": "Richmond",
+        "state": "Indiana",
+        "lat": 39.832,
+        "lon": -84.894,
+        "population": 45480,
+        "count": 1
+    },
+    {
+        "city": "River Falls",
+        "state": "Wisconsin",
+        "lat": 44.855,
+        "lon": -92.631,
+        "population": 23964,
+        "count": 1
+    },
+    {
+        "city": "Riverdale",
+        "state": "Illinois",
+        "lat": 41.65,
+        "lon": -87.63,
+        "population": 25538,
+        "count": 1
+    },
+    {
+        "city": "Rochester",
+        "state": "Michigan",
+        "lat": 42.68266666666667,
+        "lon": -83.15433333333333,
+        "population": 102508,
+        "count": 3
+    },
+    {
+        "city": "Rochester",
+        "state": "Minnesota",
+        "lat": 44.04275,
+        "lon": -92.444,
+        "population": 132901,
+        "count": 4
+    },
+    {
+        "city": "Rock Island",
+        "state": "Illinois",
+        "lat": 41.491,
+        "lon": -90.565,
+        "population": 37838,
+        "count": 1
+    },
+    {
+        "city": "Rockford",
+        "state": "Illinois",
+        "lat": 42.271,
+        "lon": -89.063625,
+        "population": 179561,
+        "count": 8
+    },
+    {
+        "city": "Rockford",
+        "state": "Michigan",
+        "lat": 43.115,
+        "lon": -85.514,
+        "population": 39094,
+        "count": 1
+    },
+    {
+        "city": "Rocky River",
+        "state": "Ohio",
+        "lat": 41.469,
+        "lon": -81.851,
+        "population": 21575,
+        "count": 1
+    },
+    {
+        "city": "Rolla",
+        "state": "Missouri",
+        "lat": 37.948,
+        "lon": -91.76,
+        "population": 32444,
+        "count": 1
+    },
+    {
+        "city": "Rolling Meadows",
+        "state": "Illinois",
+        "lat": 42.073,
+        "lon": -88.019,
+        "population": 22863,
+        "count": 1
+    },
+    {
+        "city": "Romeoville",
+        "state": "Illinois",
+        "lat": 41.64,
+        "lon": -88.07,
+        "population": 41253,
+        "count": 1
+    },
+    {
+        "city": "Romulus",
+        "state": "Michigan",
+        "lat": 42.222,
+        "lon": -83.397,
+        "population": 32155,
+        "count": 1
+    },
+    {
+        "city": "Roscoe",
+        "state": "Illinois",
+        "lat": 42.422,
+        "lon": -88.994,
+        "population": 20567,
+        "count": 1
+    },
+    {
+        "city": "Roselle",
+        "state": "Illinois",
+        "lat": 41.98,
+        "lon": -88.086,
+        "population": 24016,
+        "count": 1
+    },
+    {
+        "city": "Rosemount",
+        "state": "Minnesota",
+        "lat": 44.739,
+        "lon": -93.126,
+        "population": 31701,
+        "count": 1
+    },
+    {
+        "city": "Roseville",
+        "state": "Michigan",
+        "lat": 42.503,
+        "lon": -82.939,
+        "population": 47476,
+        "count": 1
+    },
+    {
+        "city": "Round Lake",
+        "state": "Illinois",
+        "lat": 42.367,
+        "lon": -88.089,
+        "population": 62071,
+        "count": 1
+    },
+    {
+        "city": "Royal Oak",
+        "state": "Michigan",
+        "lat": 42.504999999999995,
+        "lon": -83.14699999999999,
+        "population": 58107,
+        "count": 2
+    },
+    {
+        "city": "Saginaw",
+        "state": "Michigan",
+        "lat": 43.43116666666666,
+        "lon": -83.9955,
+        "population": 124462,
+        "count": 6
+    },
+    {
+        "city": "Saint Charles",
+        "state": "Illinois",
+        "lat": 41.933499999999995,
+        "lon": -88.3495,
+        "population": 56756,
+        "count": 2
+    },
+    {
+        "city": "Saint Charles",
+        "state": "Missouri",
+        "lat": 38.767,
+        "lon": -90.55866666666667,
+        "population": 141424,
+        "count": 3
+    },
+    {
+        "city": "Saint Clair Shores",
+        "state": "Michigan",
+        "lat": 42.49733333333333,
+        "lon": -82.895,
+        "population": 58589,
+        "count": 3
+    },
+    {
+        "city": "Saint Cloud",
+        "state": "Minnesota",
+        "lat": 45.55466666666666,
+        "lon": -94.17133333333334,
+        "population": 77333,
+        "count": 3
+    },
+    {
+        "city": "Saint Joseph",
+        "state": "Michigan",
+        "lat": 42.064,
+        "lon": -86.478,
+        "population": 23778,
+        "count": 1
+    },
+    {
+        "city": "Saint Joseph",
+        "state": "Missouri",
+        "lat": 39.7585,
+        "lon": -94.83133333333332,
+        "population": 83449,
+        "count": 6
+    },
+    {
+        "city": "Saint Louis",
+        "state": "Missouri",
+        "lat": 38.596272727272726,
+        "lon": -90.34409090909091,
+        "population": 420179,
+        "count": 11
+    },
+    {
+        "city": "Saint Paul",
+        "state": "Minnesota",
+        "lat": 44.95490909090909,
+        "lon": -93.098,
+        "population": 485408,
+        "count": 11
+    },
+    {
+        "city": "Saint Peters",
+        "state": "Missouri",
+        "lat": 38.78,
+        "lon": -90.623,
+        "population": 74967,
+        "count": 1
+    },
+    {
+        "city": "Salem",
+        "state": "Ohio",
+        "lat": 40.9,
+        "lon": -80.862,
+        "population": 25215,
+        "count": 1
+    },
+    {
+        "city": "Salina",
+        "state": "Kansas",
+        "lat": 38.824,
+        "lon": -97.642,
+        "population": 50638,
+        "count": 1
+    },
+    {
+        "city": "Saline",
+        "state": "Michigan",
+        "lat": 42.17,
+        "lon": -83.785,
+        "population": 23240,
+        "count": 1
+    },
+    {
+        "city": "Sand Springs",
+        "state": "Oklahoma",
+        "lat": 36.134,
+        "lon": -96.143,
+        "population": 31174,
+        "count": 1
+    },
+    {
+        "city": "Sandusky",
+        "state": "Ohio",
+        "lat": 41.435,
+        "lon": -82.706,
+        "population": 40067,
+        "count": 1
+    },
+    {
+        "city": "Sapulpa",
+        "state": "Oklahoma",
+        "lat": 36.003,
+        "lon": -96.111,
+        "population": 31578,
+        "count": 1
+    },
+    {
+        "city": "Sartell",
+        "state": "Minnesota",
+        "lat": 45.632,
+        "lon": -94.214,
+        "population": 20852,
+        "count": 1
+    },
+    {
+        "city": "Savage",
+        "state": "Minnesota",
+        "lat": 44.762,
+        "lon": -93.343,
+        "population": 32017,
+        "count": 1
+    },
+    {
+        "city": "Schaumburg",
+        "state": "Illinois",
+        "lat": 42.044250000000005,
+        "lon": -88.092,
+        "population": 78848,
+        "count": 4
+    },
+    {
+        "city": "Schererville",
+        "state": "Indiana",
+        "lat": 41.492,
+        "lon": -87.46,
+        "population": 23740,
+        "count": 1
+    },
+    {
+        "city": "Sedalia",
+        "state": "Missouri",
+        "lat": 38.696,
+        "lon": -93.232,
+        "population": 34994,
+        "count": 1
+    },
+    {
+        "city": "Seymour",
+        "state": "Indiana",
+        "lat": 38.957,
+        "lon": -85.882,
+        "population": 33170,
+        "count": 1
+    },
+    {
+        "city": "Shakopee",
+        "state": "Minnesota",
+        "lat": 44.779,
+        "lon": -93.52,
+        "population": 48318,
+        "count": 1
+    },
+    {
+        "city": "Shawnee",
+        "state": "Kansas",
+        "lat": 39.042,
+        "lon": -94.72,
+        "population": 73475,
+        "count": 5
+    },
+    {
+        "city": "Shawnee",
+        "state": "Oklahoma",
+        "lat": 35.341499999999996,
+        "lon": -96.9465,
+        "population": 43602,
+        "count": 2
+    },
+    {
+        "city": "Sheboygan",
+        "state": "Wisconsin",
+        "lat": 43.7795,
+        "lon": -87.74549999999999,
+        "population": 65064,
+        "count": 2
+    },
+    {
+        "city": "Shelbyville",
+        "state": "Indiana",
+        "lat": 39.504,
+        "lon": -85.788,
+        "population": 28727,
+        "count": 1
+    },
+    {
+        "city": "Sidney",
+        "state": "Ohio",
+        "lat": 40.287,
+        "lon": -84.162,
+        "population": 29336,
+        "count": 1
+    },
+    {
+        "city": "Sikeston",
+        "state": "Missouri",
+        "lat": 36.891,
+        "lon": -89.582,
+        "population": 22273,
+        "count": 1
+    },
+    {
+        "city": "Sioux City",
+        "state": "Iowa",
+        "lat": 42.5098,
+        "lon": -96.3856,
+        "population": 84185,
+        "count": 5
+    },
+    {
+        "city": "Sioux Falls",
+        "state": "South Dakota",
+        "lat": 43.53057142857143,
+        "lon": -96.72714285714287,
+        "population": 198852,
+        "count": 7
+    },
+    {
+        "city": "Skokie",
+        "state": "Illinois",
+        "lat": 42.035,
+        "lon": -87.74350000000001,
+        "population": 62500,
+        "count": 2
+    },
+    {
+        "city": "Solon",
+        "state": "Ohio",
+        "lat": 41.387,
+        "lon": -81.442,
+        "population": 24912,
+        "count": 1
+    },
+    {
+        "city": "South Bend",
+        "state": "Indiana",
+        "lat": 41.682100000000005,
+        "lon": -86.2514,
+        "population": 148799,
+        "count": 10
+    },
+    {
+        "city": "South Elgin",
+        "state": "Illinois",
+        "lat": 41.997,
+        "lon": -88.299,
+        "population": 23931,
+        "count": 1
+    },
+    {
+        "city": "South Holland",
+        "state": "Illinois",
+        "lat": 41.598,
+        "lon": -87.594,
+        "population": 21695,
+        "count": 1
+    },
+    {
+        "city": "South Lyon",
+        "state": "Michigan",
+        "lat": 42.457,
+        "lon": -83.659,
+        "population": 36842,
+        "count": 1
+    },
+    {
+        "city": "South Milwaukee",
+        "state": "Wisconsin",
+        "lat": 42.91,
+        "lon": -87.865,
+        "population": 20678,
+        "count": 1
+    },
+    {
+        "city": "South Saint Paul",
+        "state": "Minnesota",
+        "lat": 44.888,
+        "lon": -93.046,
+        "population": 20647,
+        "count": 1
+    },
+    {
+        "city": "Southfield",
+        "state": "Michigan",
+        "lat": 42.482749999999996,
+        "lon": -83.25425,
+        "population": 80196,
+        "count": 4
+    },
+    {
+        "city": "Southgate",
+        "state": "Michigan",
+        "lat": 42.204,
+        "lon": -83.2,
+        "population": 29948,
+        "count": 1
+    },
+    {
+        "city": "Springboro",
+        "state": "Ohio",
+        "lat": 39.563,
+        "lon": -84.229,
+        "population": 26144,
+        "count": 1
+    },
+    {
+        "city": "Springfield",
+        "state": "Illinois",
+        "lat": 39.789833333333334,
+        "lon": -89.65433333333333,
+        "population": 137602,
+        "count": 6
+    },
+    {
+        "city": "Springfield",
+        "state": "Missouri",
+        "lat": 37.18642857142857,
+        "lon": -93.27757142857142,
+        "population": 232443,
+        "count": 7
+    },
+    {
+        "city": "Springfield",
+        "state": "Ohio",
+        "lat": 39.927800000000005,
+        "lon": -83.8074,
+        "population": 100128,
+        "count": 5
+    },
+    {
+        "city": "Sterling",
+        "state": "Illinois",
+        "lat": 41.806,
+        "lon": -89.705,
+        "population": 21138,
+        "count": 1
+    },
+    {
+        "city": "Sterling Heights",
+        "state": "Michigan",
+        "lat": 42.584,
+        "lon": -83.02674999999999,
+        "population": 133744,
+        "count": 4
+    },
+    {
+        "city": "Steubenville",
+        "state": "Ohio",
+        "lat": 40.361,
+        "lon": -80.656,
+        "population": 29459,
+        "count": 2
+    },
+    {
+        "city": "Stevens Point",
+        "state": "Wisconsin",
+        "lat": 44.5385,
+        "lon": -89.5385,
+        "population": 37217,
+        "count": 2
+    },
+    {
+        "city": "Stillwater",
+        "state": "Minnesota",
+        "lat": 45.061,
+        "lon": -92.847,
+        "population": 36154,
+        "count": 1
+    },
+    {
+        "city": "Stillwater",
+        "state": "Oklahoma",
+        "lat": 36.122,
+        "lon": -97.06200000000001,
+        "population": 57999,
+        "count": 2
+    },
+    {
+        "city": "Stow",
+        "state": "Ohio",
+        "lat": 41.175,
+        "lon": -81.438,
+        "population": 38715,
+        "count": 1
+    },
+    {
+        "city": "Streamwood",
+        "state": "Illinois",
+        "lat": 42.022,
+        "lon": -88.169,
+        "population": 39450,
+        "count": 1
+    },
+    {
+        "city": "Strongsville",
+        "state": "Ohio",
+        "lat": 41.313,
+        "lon": -81.842,
+        "population": 46241,
+        "count": 2
+    },
+    {
+        "city": "Sun Prairie",
+        "state": "Wisconsin",
+        "lat": 43.187,
+        "lon": -89.223,
+        "population": 43423,
+        "count": 1
+    },
+    {
+        "city": "Superior",
+        "state": "Wisconsin",
+        "lat": 46.702,
+        "lon": -92.091,
+        "population": 30219,
+        "count": 1
+    },
+    {
+        "city": "Swartz Creek",
+        "state": "Michigan",
+        "lat": 42.947,
+        "lon": -83.817,
+        "population": 22586,
+        "count": 1
+    },
+    {
+        "city": "Sycamore",
+        "state": "Illinois",
+        "lat": 41.991,
+        "lon": -88.693,
+        "population": 21996,
+        "count": 1
+    },
+    {
+        "city": "Sylvania",
+        "state": "Ohio",
+        "lat": 41.708,
+        "lon": -83.707,
+        "population": 32717,
+        "count": 1
+    },
+    {
+        "city": "Tahlequah",
+        "state": "Oklahoma",
+        "lat": 35.909,
+        "lon": -94.979,
+        "population": 30812,
+        "count": 1
+    },
+    {
+        "city": "Taylor",
+        "state": "Michigan",
+        "lat": 42.232,
+        "lon": -83.267,
+        "population": 62937,
+        "count": 1
+    },
+    {
+        "city": "Temperance",
+        "state": "Michigan",
+        "lat": 41.768,
+        "lon": -83.58,
+        "population": 21391,
+        "count": 1
+    },
+    {
+        "city": "Terre Haute",
+        "state": "Indiana",
+        "lat": 39.474199999999996,
+        "lon": -87.3754,
+        "population": 91225,
+        "count": 5
+    },
+    {
+        "city": "Tiffin",
+        "state": "Ohio",
+        "lat": 41.124,
+        "lon": -83.184,
+        "population": 28667,
+        "count": 1
+    },
+    {
+        "city": "Tinley Park",
+        "state": "Illinois",
+        "lat": 41.573,
+        "lon": -87.8195,
+        "population": 62741,
+        "count": 2
+    },
+    {
+        "city": "Tipp City",
+        "state": "Ohio",
+        "lat": 39.942,
+        "lon": -84.166,
+        "population": 22429,
+        "count": 1
+    },
+    {
+        "city": "Toledo",
+        "state": "Ohio",
+        "lat": 41.66854545454545,
+        "lon": -83.58390909090909,
+        "population": 273043,
+        "count": 11
+    },
+    {
+        "city": "Topeka",
+        "state": "Kansas",
+        "lat": 39.04381818181818,
+        "lon": -95.687,
+        "population": 149183,
+        "count": 11
+    },
+    {
+        "city": "Traverse City",
+        "state": "Michigan",
+        "lat": 44.77225,
+        "lon": -85.61175,
+        "population": 77926,
+        "count": 4
+    },
+    {
+        "city": "Trenton",
+        "state": "Michigan",
+        "lat": 42.138,
+        "lon": -83.218,
+        "population": 42467,
+        "count": 1
+    },
+    {
+        "city": "Troy",
+        "state": "Michigan",
+        "lat": 42.58075,
+        "lon": -83.14825,
+        "population": 87170,
+        "count": 4
+    },
+    {
+        "city": "Troy",
+        "state": "Missouri",
+        "lat": 39.001,
+        "lon": -90.962,
+        "population": 27318,
+        "count": 1
+    },
+    {
+        "city": "Troy",
+        "state": "Ohio",
+        "lat": 40.037,
+        "lon": -84.203,
+        "population": 37714,
+        "count": 1
+    },
+    {
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "lat": 36.099,
+        "lon": -95.91490909090909,
+        "population": 279093,
+        "count": 11
+    },
+    {
+        "city": "Twinsburg",
+        "state": "Ohio",
+        "lat": 41.329,
+        "lon": -81.456,
+        "population": 22351,
+        "count": 1
+    },
+    {
+        "city": "Union",
+        "state": "Missouri",
+        "lat": 38.446,
+        "lon": -91.021,
+        "population": 20071,
+        "count": 1
+    },
+    {
+        "city": "Uniontown",
+        "state": "Ohio",
+        "lat": 40.964,
+        "lon": -81.421,
+        "population": 28875,
+        "count": 1
+    },
+    {
+        "city": "Urbana",
+        "state": "Illinois",
+        "lat": 40.0925,
+        "lon": -88.1865,
+        "population": 47687,
+        "count": 2
+    },
+    {
+        "city": "Urbana",
+        "state": "Ohio",
+        "lat": 40.107,
+        "lon": -83.767,
+        "population": 20269,
+        "count": 1
+    },
+    {
+        "city": "Urbandale",
+        "state": "Iowa",
+        "lat": 41.6295,
+        "lon": -93.7475,
+        "population": 48428,
+        "count": 2
+    },
+    {
+        "city": "Utica",
+        "state": "Michigan",
+        "lat": 42.666666666666664,
+        "lon": -83.03466666666667,
+        "population": 84602,
+        "count": 3
+    },
+    {
+        "city": "Valparaiso",
+        "state": "Indiana",
+        "lat": 41.462999999999994,
+        "lon": -87.072,
+        "population": 83115,
+        "count": 2
+    },
+    {
+        "city": "Vernon Hills",
+        "state": "Illinois",
+        "lat": 42.229,
+        "lon": -87.972,
+        "population": 27602,
+        "count": 1
+    },
+    {
+        "city": "Verona",
+        "state": "Wisconsin",
+        "lat": 43.0,
+        "lon": -89.552,
+        "population": 28074,
+        "count": 1
+    },
+    {
+        "city": "Villa Park",
+        "state": "Illinois",
+        "lat": 41.88,
+        "lon": -87.978,
+        "population": 30973,
+        "count": 1
+    },
+    {
+        "city": "Vincennes",
+        "state": "Indiana",
+        "lat": 38.673,
+        "lon": -87.51,
+        "population": 25378,
+        "count": 1
+    },
+    {
+        "city": "Wadsworth",
+        "state": "Ohio",
+        "lat": 41.038,
+        "lon": -81.737,
+        "population": 33768,
+        "count": 1
+    },
+    {
+        "city": "Walled Lake",
+        "state": "Michigan",
+        "lat": 42.558,
+        "lon": -83.477,
+        "population": 23854,
+        "count": 1
+    },
+    {
+        "city": "Warren",
+        "state": "Michigan",
+        "lat": 42.495400000000004,
+        "lon": -83.02000000000001,
+        "population": 138588,
+        "count": 5
+    },
+    {
+        "city": "Warren",
+        "state": "Ohio",
+        "lat": 41.227000000000004,
+        "lon": -80.824,
+        "population": 72850,
+        "count": 4
+    },
+    {
+        "city": "Warrensburg",
+        "state": "Missouri",
+        "lat": 38.767,
+        "lon": -93.727,
+        "population": 27432,
+        "count": 1
+    },
+    {
+        "city": "Warsaw",
+        "state": "Indiana",
+        "lat": 41.263999999999996,
+        "lon": -85.85300000000001,
+        "population": 36601,
+        "count": 2
+    },
+    {
+        "city": "Washington",
+        "state": "Illinois",
+        "lat": 40.703,
+        "lon": -89.419,
+        "population": 24712,
+        "count": 1
+    },
+    {
+        "city": "Washington",
+        "state": "Michigan",
+        "lat": 42.747,
+        "lon": -83.0335,
+        "population": 26014,
+        "count": 2
+    },
+    {
+        "city": "Washington",
+        "state": "Missouri",
+        "lat": 38.546,
+        "lon": -91.019,
+        "population": 22105,
+        "count": 1
+    },
+    {
+        "city": "Washington Court House",
+        "state": "Ohio",
+        "lat": 39.537,
+        "lon": -83.455,
+        "population": 21847,
+        "count": 1
+    },
+    {
+        "city": "Waterford",
+        "state": "Michigan",
+        "lat": 42.65833333333333,
+        "lon": -83.38366666666667,
+        "population": 70527,
+        "count": 3
+    },
+    {
+        "city": "Waterloo",
+        "state": "Iowa",
+        "lat": 42.48866666666667,
+        "lon": -92.343,
+        "population": 69533,
+        "count": 3
+    },
+    {
+        "city": "Watertown",
+        "state": "South Dakota",
+        "lat": 44.904,
+        "lon": -97.124,
+        "population": 26119,
+        "count": 1
+    },
+    {
+        "city": "Watertown",
+        "state": "Wisconsin",
+        "lat": 43.2345,
+        "lon": -88.7165,
+        "population": 30093,
+        "count": 2
+    },
+    {
+        "city": "Waukee",
+        "state": "Iowa",
+        "lat": 41.593,
+        "lon": -93.859,
+        "population": 25635,
+        "count": 1
+    },
+    {
+        "city": "Waukegan",
+        "state": "Illinois",
+        "lat": 42.3765,
+        "lon": -87.86,
+        "population": 99280,
+        "count": 2
+    },
+    {
+        "city": "Waukesha",
+        "state": "Wisconsin",
+        "lat": 42.988,
+        "lon": -88.262,
+        "population": 94390,
+        "count": 3
+    },
+    {
+        "city": "Waunakee",
+        "state": "Wisconsin",
+        "lat": 43.182,
+        "lon": -89.453,
+        "population": 20517,
+        "count": 1
+    },
+    {
+        "city": "Wausau",
+        "state": "Wisconsin",
+        "lat": 44.959,
+        "lon": -89.61949999999999,
+        "population": 56166,
+        "count": 2
+    },
+    {
+        "city": "Wentzville",
+        "state": "Missouri",
+        "lat": 38.802,
+        "lon": -90.853,
+        "population": 48535,
+        "count": 1
+    },
+    {
+        "city": "West Bend",
+        "state": "Wisconsin",
+        "lat": 43.433,
+        "lon": -88.19,
+        "population": 49405,
+        "count": 2
+    },
+    {
+        "city": "West Bloomfield",
+        "state": "Michigan",
+        "lat": 42.568666666666665,
+        "lon": -83.38033333333334,
+        "population": 67282,
+        "count": 3
+    },
+    {
+        "city": "West Chester",
+        "state": "Ohio",
+        "lat": 39.34,
+        "lon": -84.4,
+        "population": 55414,
+        "count": 1
+    },
+    {
+        "city": "West Chicago",
+        "state": "Illinois",
+        "lat": 41.889,
+        "lon": -88.202,
+        "population": 34049,
+        "count": 1
+    },
+    {
+        "city": "West Des Moines",
+        "state": "Iowa",
+        "lat": 41.575,
+        "lon": -93.772,
+        "population": 68730,
+        "count": 2
+    },
+    {
+        "city": "West Fargo",
+        "state": "North Dakota",
+        "lat": 46.891,
+        "lon": -96.926,
+        "population": 39243,
+        "count": 1
+    },
+    {
+        "city": "West Lafayette",
+        "state": "Indiana",
+        "lat": 40.444,
+        "lon": -86.924,
+        "population": 73916,
+        "count": 1
+    },
+    {
+        "city": "West Plains",
+        "state": "Missouri",
+        "lat": 36.728,
+        "lon": -91.872,
+        "population": 25173,
+        "count": 1
+    },
+    {
+        "city": "Westerville",
+        "state": "Ohio",
+        "lat": 40.1335,
+        "lon": -82.896,
+        "population": 97941,
+        "count": 2
+    },
+    {
+        "city": "Westfield",
+        "state": "Indiana",
+        "lat": 40.049,
+        "lon": -86.15,
+        "population": 44075,
+        "count": 1
+    },
+    {
+        "city": "Westlake",
+        "state": "Ohio",
+        "lat": 41.454,
+        "lon": -81.922,
+        "population": 34027,
+        "count": 1
+    },
+    {
+        "city": "Westland",
+        "state": "Michigan",
+        "lat": 42.3125,
+        "lon": -83.37700000000001,
+        "population": 84806,
+        "count": 2
+    },
+    {
+        "city": "Westmont",
+        "state": "Illinois",
+        "lat": 41.773,
+        "lon": -87.976,
+        "population": 24411,
+        "count": 1
+    },
+    {
+        "city": "Wheaton",
+        "state": "Illinois",
+        "lat": 41.856,
+        "lon": -88.1005,
+        "population": 60294,
+        "count": 2
+    },
+    {
+        "city": "Wheeling",
+        "state": "Illinois",
+        "lat": 42.134,
+        "lon": -87.934,
+        "population": 38753,
+        "count": 1
+    },
+    {
+        "city": "White Lake",
+        "state": "Michigan",
+        "lat": 42.6495,
+        "lon": -83.507,
+        "population": 31136,
+        "count": 2
+    },
+    {
+        "city": "Whitewater",
+        "state": "Wisconsin",
+        "lat": 42.827,
+        "lon": -88.743,
+        "population": 20500,
+        "count": 1
+    },
+    {
+        "city": "Wichita",
+        "state": "Kansas",
+        "lat": 37.68909090909091,
+        "lon": -97.33445454545455,
+        "population": 284607,
+        "count": 11
+    },
+    {
+        "city": "Williston",
+        "state": "North Dakota",
+        "lat": 48.226,
+        "lon": -103.649,
+        "population": 33579,
+        "count": 1
+    },
+    {
+        "city": "Willmar",
+        "state": "Minnesota",
+        "lat": 45.139,
+        "lon": -95.052,
+        "population": 24685,
+        "count": 1
+    },
+    {
+        "city": "Willoughby",
+        "state": "Ohio",
+        "lat": 41.63,
+        "lon": -81.408,
+        "population": 36958,
+        "count": 1
+    },
+    {
+        "city": "Willowbrook",
+        "state": "Illinois",
+        "lat": 41.745,
+        "lon": -87.933,
+        "population": 28983,
+        "count": 1
+    },
+    {
+        "city": "Wilmette",
+        "state": "Illinois",
+        "lat": 42.076,
+        "lon": -87.725,
+        "population": 27591,
+        "count": 1
+    },
+    {
+        "city": "Wilmington",
+        "state": "Ohio",
+        "lat": 39.449,
+        "lon": -83.842,
+        "population": 22683,
+        "count": 1
+    },
+    {
+        "city": "Winnetka",
+        "state": "Illinois",
+        "lat": 42.105,
+        "lon": -87.754,
+        "population": 20272,
+        "count": 1
+    },
+    {
+        "city": "Winona",
+        "state": "Minnesota",
+        "lat": 44.03,
+        "lon": -91.701,
+        "population": 34052,
+        "count": 1
+    },
+    {
+        "city": "Wisconsin Rapids",
+        "state": "Wisconsin",
+        "lat": 44.382,
+        "lon": -89.86449999999999,
+        "population": 35420,
+        "count": 2
+    },
+    {
+        "city": "Woodridge",
+        "state": "Illinois",
+        "lat": 41.752,
+        "lon": -88.049,
+        "population": 33282,
+        "count": 1
+    },
+    {
+        "city": "Woodstock",
+        "state": "Illinois",
+        "lat": 42.32,
+        "lon": -88.448,
+        "population": 33116,
+        "count": 1
+    },
+    {
+        "city": "Wooster",
+        "state": "Ohio",
+        "lat": 40.809,
+        "lon": -81.948,
+        "population": 44775,
+        "count": 1
+    },
+    {
+        "city": "Wyandotte",
+        "state": "Michigan",
+        "lat": 42.208,
+        "lon": -83.162,
+        "population": 24857,
+        "count": 1
+    },
+    {
+        "city": "Wyoming",
+        "state": "Michigan",
+        "lat": 42.9055,
+        "lon": -85.71199999999999,
+        "population": 56619,
+        "count": 2
+    },
+    {
+        "city": "Xenia",
+        "state": "Ohio",
+        "lat": 39.684,
+        "lon": -83.937,
+        "population": 39699,
+        "count": 1
+    },
+    {
+        "city": "Yankton",
+        "state": "South Dakota",
+        "lat": 42.882,
+        "lon": -97.399,
+        "population": 20266,
+        "count": 1
+    },
+    {
+        "city": "Yorkville",
+        "state": "Illinois",
+        "lat": 41.639,
+        "lon": -88.444,
+        "population": 26932,
+        "count": 1
+    },
+    {
+        "city": "Youngstown",
+        "state": "Ohio",
+        "lat": 41.07925,
+        "lon": -80.669625,
+        "population": 144895,
+        "count": 8
+    },
+    {
+        "city": "Ypsilanti",
+        "state": "Michigan",
+        "lat": 42.238,
+        "lon": -83.60849999999999,
+        "population": 106289,
+        "count": 2
+    },
+    {
+        "city": "Yukon",
+        "state": "Oklahoma",
+        "lat": 35.498,
+        "lon": -97.732,
+        "population": 83451,
+        "count": 1
+    },
+    {
+        "city": "Zanesville",
+        "state": "Ohio",
+        "lat": 39.927,
+        "lon": -82.004,
+        "population": 55531,
+        "count": 1
+    },
+    {
+        "city": "Zeeland",
+        "state": "Michigan",
+        "lat": 42.826,
+        "lon": -86.01,
+        "population": 29027,
+        "count": 1
+    },
+    {
+        "city": "Zion",
+        "state": "Illinois",
+        "lat": 42.444,
+        "lon": -87.839,
+        "population": 31523,
+        "count": 1
+    },
+    {
+        "city": "Zionsville",
+        "state": "Indiana",
+        "lat": 39.956,
+        "lon": -86.277,
+        "population": 34056,
+        "count": 1
+    }
+]
