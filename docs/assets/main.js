@@ -41,7 +41,18 @@ const resolveAssetUrl = (relativePath) => {
   return script ? new URL(relativePath, script.src).href : `/assets/${relativePath}`;
 };
 
-const GEOAPIFY_API_KEY = 'e9ea7703b7a14dbcb315138791cb258a';
+const TILE_PROVIDERS = {
+  osmStandard: {
+    id: 'osmStandard',
+    label: 'OpenStreetMap Standard',
+    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '© OpenStreetMap contributors',
+    creditText: 'Map data © OpenStreetMap contributors',
+    maxZoom: 19,
+    options: {},
+  },
+};
+const DEFAULT_TILE_PROVIDER = 'osmStandard';
 const LEAFLET_CDN_VERSION = '1.9.4';
 let leafletLoader = null;
 
@@ -279,36 +290,33 @@ const initLocationsMap = async () => {
       scrollWheelZoom: false,
     });
 
-    const geoapifyUrl = `https://maps.geoapify.com/v1/tile/positron/{z}/{x}/{y}.png?apikey=${GEOAPIFY_API_KEY}`;
-    const geoapifyLayer = L.tileLayer(geoapifyUrl, {
-      attribution:
-        'Powered by <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a> | © OpenStreetMap contributors',
-      maxZoom: 7,
-      crossOrigin: true,
-    });
+    const getProvider = () => TILE_PROVIDERS[DEFAULT_TILE_PROVIDER];
 
-    let activeLayer = geoapifyLayer.addTo(map);
-    let usingFallback = false;
-
-    const attachFallbackLayer = () => {
-      if (usingFallback) return;
-      usingFallback = true;
-      if (activeLayer) {
-        map.removeLayer(activeLayer);
-      }
-      const fallbackLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        maxZoom: 7,
-        crossOrigin: true,
-      });
-      activeLayer = fallbackLayer.addTo(map);
-      if (creditEl) {
-        creditEl.textContent = 'Map data © OpenStreetMap contributors';
-        creditEl.hidden = false;
-      }
+    const createTileLayer = (provider) => {
+      const layerOptions = {
+        maxZoom: Math.min(provider.maxZoom ?? 19, map.options.maxZoom ?? 7),
+        attribution: provider.attribution || '',
+        crossOrigin: 'anonymous',
+        ...provider.options,
+      };
+      return L.tileLayer(provider.url, layerOptions);
     };
 
-    geoapifyLayer.on('tileerror', attachFallbackLayer);
+    const updateCredit = (provider) => {
+      if (!creditEl) return;
+      const text = provider.creditText || provider.attribution || '';
+      creditEl.textContent = text;
+      creditEl.hidden = text.length === 0;
+    };
+
+    const provider = getProvider();
+    const tileLayer = createTileLayer(provider);
+    tileLayer.on('tileerror', (event) => {
+      console.warn(`Tile load error for provider "${provider.label}"`, event?.error || event);
+    });
+    tileLayer.addTo(map);
+    updateCredit(provider);
+    console.log(`Locations map tiles set to: ${provider.label}`);
     map.on('zoomend', () => {
       const currentZoom = map.getZoom();
       console.log(`Locations map zoom level: ${currentZoom}`);
@@ -375,18 +383,13 @@ const initLocationsMap = async () => {
     if (legendEl) {
       renderLocationsLegend(legendEl, locations);
     }
-    if (creditEl) {
-      creditEl.textContent = 'Map data © OpenStreetMap contributors | Tiles © Geoapify';
-      creditEl.hidden = false;
-    }
-
     setStatus('');
     section.dataset.mapInitialized = 'true';
   } catch (error) {
     console.error('Locations map initialization failed', error);
     setStatus("We're unable to display the map right now.");
     if (creditEl) {
-      creditEl.textContent = 'Map data © OpenStreetMap contributors & CARTO';
+      creditEl.textContent = 'Map data © OpenStreetMap contributors | Tiles © OpenStreetMap';
       creditEl.hidden = false;
     }
   }
