@@ -4945,6 +4945,7 @@ body .nav_dropdown.w--open {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  max-width: fit-content;
 }
 
 .section-brand__title {
@@ -5111,6 +5112,7 @@ body .nav_dropdown.w--open {
   font-size: clamp(1.9rem, 3.5vw, 2.4rem);
   line-height: 1.2;
   color: #ffffff;
+  max-width: 600px;
 }
 
 .cta-contact__copy {
@@ -5122,11 +5124,12 @@ body .nav_dropdown.w--open {
 }
 
 .cta-contact__list {
-  display: grid;
-  gap: 1rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .cta-contact__item {
@@ -5144,7 +5147,7 @@ body .nav_dropdown.w--open {
 }
 
 .cta-contact__link {
-  color: #60a5fa;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   font-size: 1.05rem;
