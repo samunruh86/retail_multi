@@ -841,10 +841,10 @@ const initLocationsMap = async () => {
     const minValue = values.length ? Math.min(...values) : 0;
     const maxValue = values.length ? Math.max(...values) : 0;
     const radius = (value) => {
-      if (!Number.isFinite(value) || value <= 0) return 6;
-      if (minValue === maxValue) return 10;
+      if (!Number.isFinite(value) || value <= 0) return 4;
+      if (minValue === maxValue) return 9;
       const normalized = (value - minValue) / (maxValue - minValue || 1);
-      return 6 + normalized * 12;
+      return 4 + normalized * 8;
     };
 
     const circleMarkers = locations.map((location) => {
@@ -860,16 +860,17 @@ const initLocationsMap = async () => {
         interactive: true,
       }).addTo(map);
 
-      const cityName = location.county || 'Retailer';
-      const stateName = location.state ? `, ${location.state}` : '';
-      const lines = [`<strong>${cityName}${stateName}</strong>`];
-      if (Number.isFinite(location.count)) {
-        lines.push(`Retailers: ${formatNumber(location.count)}`);
-      }
-      if (Number.isFinite(location.population)) {
-        lines.push(`Population: ${formatNumber(location.population)}`);
-      }
-      marker.bindTooltip(lines.join('<br>'), { direction: 'top' });
+      const countyLabel = location.county || location.city || '—';
+      const stateLabel = location.state || 'Coverage Area';
+      const populationLabel = Number.isFinite(location.population) ? formatNumber(location.population) : '—';
+      const retailerLabel = Number.isFinite(location.count) ? formatNumber(location.count) : '—';
+      const tooltipHtml = [
+        `<strong>${stateLabel}</strong>`,
+        `County: ${countyLabel}`,
+        `Population: ${populationLabel}`,
+        `Retailers: ${retailerLabel}`,
+      ].join('<br>');
+      marker.bindTooltip(tooltipHtml, { direction: 'top', opacity: 0.95, className: 'locations-map__tooltip' });
       return marker;
     });
 
