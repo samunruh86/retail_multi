@@ -1,5 +1,3 @@
-import { uploadMetaToGCS } from './gcs.js';
-
 const PAGE_SIZE = 50;
 const WINDOW_SIZE = 7;
 const categoryListEl = document.querySelector('[data-category-list]');
@@ -19,6 +17,60 @@ const alertUser = (message) => {
   if (typeof window !== 'undefined' && typeof window.alert === 'function') {
     window.alert(message);
   }
+};
+
+const uploadMetaToGCS = async (
+  metaObj,
+  path,
+  {
+    endpoint = 'https://trigger-2gb-616502391258.us-central1.run.app',
+    action = 'meta_to_return',
+    headers = { 'Content-Type': 'application/json' },
+    timeoutMs = 10000,
+    vrbs = 1,
+  } = {},
+) => {
+  if (!metaObj || typeof metaObj !== 'object') {
+    throw new Error('uploadMetaToGCS: META must be a non-null object');
+  }
+  if (!path || typeof path !== 'string') {
+    throw new Error('uploadMetaToGCS: PATH must be a non-empty string');
+  }
+
+  const payload = { action, args: { META: metaObj, PATH: path } };
+
+  if (vrbs > 0) {
+    // eslint-disable-next-line no-console
+    console.log('uploadMetaToGCS: POST', endpoint, '| payload:', payload);
+  }
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  let response;
+  try {
+    response = await fetch(endpoint, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+  } catch (error) {
+    clearTimeout(timeoutId);
+    // eslint-disable-next-line no-console
+    console.error('uploadMetaToGCS: network error:', error?.message || error);
+    throw new Error(`uploadMetaToGCS: network error: ${String(error?.message || error)}`);
+  }
+  clearTimeout(timeoutId);
+
+  if (!response.ok) {
+    const text = await response.text().catch(() => '');
+    // eslint-disable-next-line no-console
+    console.error('uploadMetaToGCS: HTTP error', response.status, text);
+    throw new Error(`uploadMetaToGCS: HTTP ${response.status}${text ? ` - ${text}` : ''}`);
+  }
+
+  return true;
 };
 
 if (isCatalogAdminPage) {
