@@ -144,7 +144,7 @@ const handleLoadError = (error) => {
 };
 
 const loadManualConfig = async () => {
-  const manualPath = '../data/admin/manual.json';
+  const manualPath = '../assets/data/admin/manual.json';
   try {
     const response = await fetch(manualPath, { cache: 'no-store' });
     if (!response.ok) {
@@ -205,7 +205,7 @@ const fetchCategoryData = async (catMainId) => {
     return { products: cachedProducts, meta: cached?.meta ?? state.metaCache.get(catMainId) ?? null };
   }
 
-  const response = await fetch(`../data/products/${catMainId}.json`);
+  const response = await fetch(`../assets/data/products/${catMainId}.json`);
   if (!response.ok) throw new Error('Unable to load products');
   const data = await response.json();
   const fetchedProducts = Array.isArray(data?.products) ? data.products : [];
@@ -860,7 +860,7 @@ const handleSortChange = () => {
 };
 
 const loadCategories = async () => {
-  const response = await fetch('../data/categories/map.json');
+  const response = await fetch('../assets/data/categories/map.json');
   if (!response.ok) throw new Error('Unable to load categories');
   const data = await response.json();
   state.categories = Array.isArray(data) ? data : [];

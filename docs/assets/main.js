@@ -704,7 +704,7 @@ const sanitizeLocationEntry = (entry) => {
 
 const loadLocationsData = async () => {
   if (!locationsDataPromise) {
-    const dataUrl = resolveAssetUrl('../data/locations/all.json');
+    const dataUrl = resolveAssetUrl('../assets/data/locations/all.json');
     locationsDataPromise = fetch(dataUrl)
       .then((response) => {
         if (!response.ok) {
@@ -2041,7 +2041,7 @@ const initCatalogPreview = () => {
     setStatus('Loading preview…');
     grid.classList.add('is-empty');
     try {
-      const previewUrl = resolveAssetUrl('../data/categories/preview.json');
+      const previewUrl = resolveAssetUrl('../assets/data/categories/preview.json');
       const response = await fetch(previewUrl);
       if (!response.ok) {
         throw new Error(`Failed to fetch catalog preview: ${response.status}`);
