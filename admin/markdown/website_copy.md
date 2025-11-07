@@ -146,8 +146,8 @@
 ### **Core Documentation Section**
 - **Section Intro:** “Compliance resources to keep brands protected. Our documentation outlines the standards, agreements, and monitoring systems that uphold authorized distribution inside the Retail Stride network.”
 - **Cards:**
-  - **MAP & Channel Policy:** Defines minimum advertised price standards, channel restrictions, and enforcement procedures across our retailer community. CTA — View PDF → /pdfs/map-policy/
-  - **Retailer Agreement Contract:** Signed by every approved retailer to confirm eligibility, authorized sales channels, and adherence to brand presentation standards. CTA — View PDF → /pdfs/retailer-agreement/
+  - **MAP & Channel Policy:** Defines minimum advertised price standards, channel restrictions, and enforcement procedures across our retailer community. CTA — View PDF → /map-policy/
+  - **Retailer Agreement Contract:** Signed by every approved retailer to confirm eligibility, authorized sales channels, and adherence to brand presentation standards. CTA — View PDF → /retailer-agreement/
   - **Retailer Application:** Access our streamlined application to request verification and join the Retail Stride network of authorized storefronts. CTA — View Application → /apply/
 
 ---
@@ -316,13 +316,13 @@
 
 ---
 
-## MAP & Channel Policy | retailstride.com/pdfs/map-policy/
+## MAP & Channel Policy | retailstride.com/map-policy/
 
 ### **Document Overview**
 - **Title:** Minimum Advertised Price & Channel Policy
 - **Subtitle:** “Standards that preserve brand integrity, protect authorized channels, and ensure a level marketplace for all Retail Stride partners.”
 - **Last Updated:** June 2025
-- **CTA:** Download PDF → /pdfs/map-policy/Retail-Stride-MAP-Policy.pdf (linked via button)
+- **CTA:** Download PDF → /map-policy/Retail-Stride-MAP-Policy.pdf (linked via button)
 
 ### **Section Summaries**
 1. **Purpose:** All Retail Stride partners agree to uphold the MAP & Channel Policy. Retail Stride monitors and enforces compliance through automated and manual reviews to deliver a consistent, trusted experience for every brand represented.
@@ -346,12 +346,12 @@
 
 ---
 
-## Retailer Agreement Contract | retailstride.com/pdfs/retailer-agreement/
+## Retailer Agreement Contract | retailstride.com/retailer-agreement/
 
 ### **Document Overview**
 - **Title:** Retailer Agreement Contract — “Terms governing participation, compliance, and brand-aligned retail operations within the Retail Stride verified network.”
 - **Last Updated:** May 2025
-- **CTA:** Download PDF → /pdfs/retailer-agreement/Retail-Stride-Retailer-Agreement.pdf
+- **CTA:** Download PDF → /retailer-agreement/Retail-Stride-Retailer-Agreement.pdf
 
 ### **Section Summaries**
 1. **Agreement Overview:** Defines the agreement between Retail Stride LLC and each approved retailer, outlining shared responsibilities for compliance, brand protection, and operational standards.

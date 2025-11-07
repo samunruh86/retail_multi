@@ -1,4 +1,4 @@
-## Retailer Agreement | retailstride.com/pdfs/retailer-agreement
+## Retailer Agreement | retailstride.com/retailer-agreement
 
 ### **Hero Section**
 - **Pre Header:** Contract Document

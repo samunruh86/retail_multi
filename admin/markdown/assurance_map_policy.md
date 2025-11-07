@@ -1,4 +1,4 @@
-## Map Policy | retailstride.com/pdfs/map-policy
+## Map Policy | retailstride.com/map-policy
 
 ### **Hero Section**
 - **Pre Header:** Policy Brief

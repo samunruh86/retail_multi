@@ -19,12 +19,12 @@ Includes details on how we vet retailers, monitor MAP, and maintain full brand a
 
 ⬇️ **[MAP & Channel Policy (PDF)](#)**  
 Defines our minimum advertised price (MAP) enforcement standards and outlines marketplace-exclusion requirements for all participants.
-> **ADMIN_NOTE** Link to: "/pdfs/map-policy"
+> **ADMIN_NOTE** Link to: "/map-policy"
 
 ⬇️ **[Retailer Agreement Contract (PDF)](#)**  
 The agreement signed by every approved retailer.  
 Covers eligibility, authorized channels, and adherence to brand presentation and pricing standards.
-> **ADMIN_NOTE** Link to: "/pdfs/retailer-agreement"
+> **ADMIN_NOTE** Link to: "/retailer-agreement"
 
 ---
 
